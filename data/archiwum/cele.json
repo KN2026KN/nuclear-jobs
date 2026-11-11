@@ -1,0 +1,14 @@
+{
+ "westinghouse": {"firma": "Westinghouse Electric Company", "kraj": "US", "url": "careers.westinghousenuclear.com", "match": "domain", "zrodlo": "ręcznie"},
+ "pej": {"firma": "Polskie Elektrownie Jądrowe (PEJ)", "kraj": "PL", "url": "pej.pl/kariera", "match": "prefix", "zrodlo": "ręcznie"},
+ "pgeej1": {"firma": "PGE EJ 1 (poprzednik PEJ)", "kraj": "PL", "url": "pgeej1.pl", "match": "domain", "zrodlo": "ręcznie"},
+ "southern_vogtle": {"firma": "Southern Company (Vogtle 3-4)", "kraj": "US", "url": "southerncompany.jobs", "match": "domain", "zrodlo": "ręcznie"},
+ "edf_energy": {"firma": "EDF Energy (Hinkley Point C)", "kraj": "GB", "url": "edfenergy.com/careers", "match": "prefix", "zrodlo": "ręcznie"},
+ "enec": {"firma": "ENEC (Barakah)", "kraj": "AE", "url": "enec.gov.ae/careers", "match": "prefix", "zrodlo": "ręcznie"},
+ "bechtel": {"firma": "Bechtel", "kraj": "US", "url": "jobs.bechtel.com", "match": "domain", "zrodlo": "ręcznie"},
+ "atomstroyexport": {"firma": "Atomstroyexport (Bushehr, Kudankulam)", "kraj": "RU", "url": "atomstroyexport.ru", "match": "domain", "zrodlo": "ręcznie"},
+ "niaep": {"firma": "NIAEP / ASE", "kraj": "RU", "url": "niaep.ru", "match": "domain", "zrodlo": "ręcznie"},
+ "akkuyu": {"firma": "Akkuyu Nuclear", "kraj": "TR", "url": "akkuyu.com", "match": "domain", "zrodlo": "ręcznie"},
+ "teollisuuden_olkiluoto": {"firma": "TVO (Olkiluoto 3)", "kraj": "FI", "url": "tvo.fi", "match": "domain", "zrodlo": "ręcznie"},
+ "areva_flamanville": {"firma": "Areva (Flamanville 3, Olkiluoto 3)", "kraj": "FR", "url": "areva.com", "match": "domain", "zrodlo": "ręcznie"}
+}

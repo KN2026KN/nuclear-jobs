@@ -66,6 +66,9 @@ except Exception: KONF = {}
 raport = {}
 try: raport = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'raw', DZIEN, 'raport_zbierania.json')))
 except Exception: pass
+# głębokość archiwów (11.11.2026): data/archiwum/glebokosc.json z robota kod/archiwum.py
+try: archiwa = json.load(open('data/archiwum/glebokosc.json', encoding='utf-8'))
+except Exception: archiwa = {}
 # potencjalni pracodawcy (11.11.2026): lista data/pracodawcy/kandydaci.tsv + wynik sondy stron kariery
 PODL = re.compile(r'PEJ|Polskie Elektrownie|NCBJ|Atomistyki|CLOR|Kozloduy NPP$|Nuclearelectrica|Sizewell C|EDF Energy|ITER|IAEA|Fortum|ČEZ|Orano|CEA$|Vattenfall|Ontario Power|Westinghouse', re.I)
 kandydaci = []
@@ -79,6 +82,7 @@ except Exception as ex:
 out = {
     'dzien': DZIEN,
     'kandydaci': kandydaci,
+    'archiwa': archiwa,
     'pokrycie': {k: dict(sorted(((p, {'n': v['n'], 'zrodla': sorted(v['zrodla'])}) for p, v in pr.items()), key=lambda t: -t[1]['n']))
                  for k, pr in sorted(pokrycie.items(), key=lambda t: (t[0] != 'PL', -sum(v['n'] for v in t[1].values())))},
     'zrodla': {k: {'nazwa': ZR.get(k, (KONF.get(k, {}).get('pracodawca', k), ''))[0], 'kraj': ZR.get(k, ('', KONF.get(k, {}).get('kraj', '')))[1], 'ok': v.get('ok'), 'n': v.get('n'), 's': v.get('s'), 'blad': v.get('err')}

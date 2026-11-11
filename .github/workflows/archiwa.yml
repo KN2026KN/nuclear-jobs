@@ -1,0 +1,33 @@
+name: Archiwa - stare oferty z Internet Archive (stopniowo, do dna)
+on:
+  schedule:
+    - cron: '17 9 * * *'   # codziennie, między przebiegami ofert (repo publiczne - minuty bez limitu)
+  workflow_dispatch:
+    inputs:
+      limit: { description: 'Limit sekund pracy', default: '19800' }
+permissions:
+  contents: write
+concurrency:
+  group: archiwa
+  cancel-in-progress: false
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    timeout-minutes: 345
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests beautifulsoup4
+      - name: Archiwa
+        run: |
+          mkdir -p data/log
+          timeout $(( ${{ inputs.limit || '19800' }} + 600 )) python3 -u kod/archiwum.py ${{ inputs.limit || '19800' }} 2>&1 | tail -200 | tee data/log/archiwa-$(date -u +%F).txt
+      - name: Zapis
+        if: always()
+        run: |
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git add raw/archiwum data/archiwum data/log
+          git commit -qm "Archiwa $(date -u +%F)" || echo "brak zmian"
+          for i in 1 2 3 4 5; do git pull --rebase -q && git push -q && break; sleep 10; done
