@@ -1,0 +1,21 @@
+ofert na stronie: 1046 | kraje: {'US': 275, 'GB': 235, 'FR': 221, 'PL': 138, 'RO': 45, 'SE': 40, 'ES': 15, 'AT': 15, 'IT': 14, 'DE': 13, 'FI': 10, 'BG': 8, 'CZ': 5, 'CA': 4, 'CH': 4, 'SK': 2, 'BE': 1, 'CN': 1} | sektory: {'bud': 399, 'dos': 473, 'eks': 100, 'odp': 36, 'nau': 9, 'doz': 29} | pracodawcy: 24 | pominięte: {'tylko_analiza': 0, 'po_terminie': 96, 'duplikat': 9}
+Traceback (most recent call last):
+  File "/home/runner/work/nuclear-jobs/nuclear-jobs/strona/praca_publikuj.py", line 32, in <module>
+    ok = zapisz(STRONA_PL, open(sys.argv[1], encoding='utf-8').read(), 'pl')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nuclear-jobs/nuclear-jobs/strona/praca_publikuj.py", line 19, in zapisz
+    r = requests.post(api, auth=(U, P), headers=UA, json={'content': html}, timeout=120); r.raise_for_status()
+                                                                                          ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://keura.eu/wp-json/wp/v2/pages/7194
+panel: ofert w historii 1490 | otwartych 1142 | z wynagrodzeniem 332
+statystyki: 1151 otwartych, 0 tylko do analizy, 19 okresów
+Traceback (most recent call last):
+  File "/home/runner/work/nuclear-jobs/nuclear-jobs/strona/statystyki_publikuj.py", line 18, in <module>
+    r.raise_for_status(); s = r.json()
+    ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://keura.eu/wp-json/wp/v2/pages?slug=kp-statystyki-dane&status=private%2Cdraft%2Cpublish&context=edit&_fields=id%2Cstatus
+czas do statystyk: 1459 s

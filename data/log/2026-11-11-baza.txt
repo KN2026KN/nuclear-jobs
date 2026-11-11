@@ -1,0 +1,40 @@
+UWAGA 2026-11-10 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 cea: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 cea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 snn: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 snn: 42 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 vattenfall: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 kprm: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_egis: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_nda: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_ukaea: 0 ofert - wczytane bez zamykania ofert
+('bechtel', 'closed', 19)
+('bechtel', 'open', 134)
+('cez', 'open', 4)
+('clor', 'open', 3)
+('edfuk', 'closed', 4)
+('edfuk', 'open', 23)
+('fortum', 'open', 26)
+('hpc', 'open', 166)
+('iaea', 'open', 15)
+('iter', 'open', 5)
+('kprm', 'open', 110)
+('kznpp', 'open', 6)
+('orano', 'open', 179)
+('pej', 'closed', 95)
+('pej', 'open', 7)
+('pr_anav', 'open', 2)
+('pr_axpo', 'open', 1)
+('pr_blykalla', 'open', 20)
+('pr_endel', 'open', 28)
+('pr_gns', 'open', 8)
+('pr_nagra', 'open', 2)
+('pr_psi', 'open', 1)
+('pracuj', 'open', 13)
+('snn', 'open', 45)
+('szc', 'closed', 5)
+('szc', 'open', 30)
+('westinghouse', 'closed', 310)
+('westinghouse', 'open', 323)
+migawki listy PEJ: (18, 3)

@@ -1,1 +1,2543 @@
-{"dzien": "2026-11-11", "otwarte": {"bechtel": 134, "cez": 4, "clor": 3, "edfuk": 25, "fortum": 26, "hpc": 160, "iter": 5, "kprm": 216, "kznpp": 6, "orano": 108, "pej": 7, "pracuj": 13, "snn": 42, "szc": 25, "westinghouse": 326}, "przebiegi": [{"firma": "bechtel", "n": 134, "tryb": "full"}, {"firma": "ncbj", "n": 0, "tryb": "partial"}, {"firma": "pej", "n": 7, "tryb": "full"}, {"firma": "pracuj", "n": 13, "tryb": "full"}, {"firma": "cez", "n": 4, "tryb": "full"}, {"firma": "clor", "n": 3, "tryb": "full"}, {"firma": "edfuk", "n": 25, "tryb": "full"}, {"firma": "fortum", "n": 26, "tryb": "full"}, {"firma": "hpc", "n": 160, "tryb": "full"}, {"firma": "iter", "n": 5, "tryb": "full"}, {"firma": "kprm", "n": 216, "tryb": "full"}, {"firma": "kznpp", "n": 6, "tryb": "full"}, {"firma": "orano", "n": 108, "tryb": "full"}, {"firma": "snn", "n": 42, "tryb": "full"}, {"firma": "szc", "n": 25, "tryb": "full"}, {"firma": "westinghouse", "n": 326, "tryb": "full"}], "zdarzenia": [{"firma": "bechtel", "id": "300403", "stanowisko": "Electrical Senior Engineer", "typ": "zamknięta", "szczegoly": "brak na stronie pracodawcy", "url": "https://jobs.bechtel.com/us/en/job/300403"}, {"firma": "cez", "id": "2001510189", "stanowisko": "Specialista simulace technologie – Simulátory jaderných elektráren", "typ": "nowa", "szczegoly": "employer", "url": "https://kdejinde.jobs.cz/pd/2001510189"}, {"firma": "cez", "id": "2001501176", "stanowisko": "Specialista/ka na strojní systémy primárního okruhu - nový jaderný zdroj", "typ": "nowa", "szczegoly": "employer", "url": "https://kdejinde.jobs.cz/pd/2001501176"}, {"firma": "hpc", "id": "/job/London-European-Pressurised-Reactor-Programme-Manager-Change-Manager-%28Sizewell-C%29/1447097033/", "stanowisko": "European Pressurised Reactor Programme Manager / Change Manager (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/London-European-Pressurised-Reactor-Programme-Manager-Change-Manager-%28Sizewell-C%29/1447097033/"}, {"firma": "hpc", "id": "/job/Bridgwater-Mechanical-Building-Services-Engineer/1446662833/", "stanowisko": "Mechanical Building Services Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Mechanical-Building-Services-Engineer/1446662833/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Construction-Area-Manager/1446662733/", "stanowisko": "Construction Area Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Construction-Area-Manager/1446662733/"}, {"firma": "hpc", "id": "/job/Bridgwater-Data-Analyst-Joint-Design-Office-%28JDO%29/1446662233/", "stanowisko": "Data Analyst Joint Design Office (JDO)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Data-Analyst-Joint-Design-Office-%28JDO%29/1446662233/"}, {"firma": "hpc", "id": "/job/Bridgwater-Health-and-Safety-Advisor/1446662433/", "stanowisko": "Health and Safety Advisor", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Health-and-Safety-Advisor/1446662433/"}, {"firma": "hpc", "id": "/job/Bristol-Nuclear-Project-Quality-Manager/1449438133/", "stanowisko": "Nuclear Project Quality Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bristol-Nuclear-Project-Quality-Manager/1449438133/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Pipefitter-Supervisor/1424772333/", "stanowisko": "Pipefitter Supervisor", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Pipefitter-Supervisor/1424772333/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Welder/1220436301/", "stanowisko": "Welder", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Welder/1220436301/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Coded-Welder/1406963933/", "stanowisko": "Coded Welder", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Coded-Welder/1406963933/"}, {"firma": "hpc", "id": "/job/Bridgwater-SAP-Coordinator/1448415833/", "stanowisko": "SAP Coordinator", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-SAP-Coordinator/1448415833/"}, {"firma": "hpc", "id": "/job/Bridgwater-Senior-Project-Engineer/1448486933/", "stanowisko": "Senior Project Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Senior-Project-Engineer/1448486933/"}, {"firma": "hpc", "id": "/job/Bridgwater-Engineering-Surveyor/1448503233/", "stanowisko": "Engineering Surveyor", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Engineering-Surveyor/1448503233/"}, {"firma": "hpc", "id": "/job/Bridgwater-Site-Engineer/1448495933/", "stanowisko": "Site Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Site-Engineer/1448495933/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Project-Engineer-%28Site-Based%29/1448507133/", "stanowisko": "Project Engineer (Site Based)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Project-Engineer-%28Site-Based%29/1448507133/"}, {"firma": "hpc", "id": "/job/Bridgwater-Project-Manager/1448477133/", "stanowisko": "Project Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Project-Manager/1448477133/"}, {"firma": "hpc", "id": "/job/Bridgwater-Senior-Site-Manager/1437537533/", "stanowisko": "Senior Site Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Senior-Site-Manager/1437537533/"}, {"firma": "hpc", "id": "/job/Engineering-Authority-Data-%28Sizewell-B%29/1230399101/", "stanowisko": "Engineering Authority - Data (Sizewell B)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Engineering-Authority-Data-%28Sizewell-B%29/1230399101/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Welder/1427303333/", "stanowisko": "Welder", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Welder/1427303333/"}, {"firma": "hpc", "id": "/job/Sizewell-Park-&-Ride-Security-Officer-%28Part-Time%29-%28Sizewell-C%29/1427414433/", "stanowisko": "Park & Ride Security Officer (Part Time) (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Park-&-Ride-Security-Officer-%28Part-Time%29-%28Sizewell-C%29/1427414433/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Plater/1427302833/", "stanowisko": "Plater", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Plater/1427302833/"}, {"firma": "hpc", "id": "/job/Sizewell-Site-Engineer-%28Sizewell-C%29/1448174133/", "stanowisko": "Site Engineer (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Site-Engineer-%28Sizewell-C%29/1448174133/"}, {"firma": "hpc", "id": "/job/Sizewell-Section-Engineer-%28Sizewell-C%29/1448174333/", "stanowisko": "Section Engineer (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Section-Engineer-%28Sizewell-C%29/1448174333/"}, {"firma": "hpc", "id": "/job/Bridgwater-HRE60016-ER-Advisor/1447982333/", "stanowisko": "HRE60016 - ER Advisor", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-HRE60016-ER-Advisor/1447982333/"}, {"firma": "hpc", "id": "/job/Other-Health-&-Safety-Manager/1447983633/", "stanowisko": "Health & Safety Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Other-Health-&-Safety-Manager/1447983633/"}, {"firma": "hpc", "id": "/job/Other-HR-Manager-%289-month-FTC%29/1447986533/", "stanowisko": "HR Manager (9-month FTC)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Other-HR-Manager-%289-month-FTC%29/1447986533/"}, {"firma": "hpc", "id": "/job/Other-Shift-Manager/1447985733/", "stanowisko": "Shift Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Other-Shift-Manager/1447985733/"}, {"firma": "hpc", "id": "/job/Other-Shift-Lead/1447985133/", "stanowisko": "Shift Lead", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Other-Shift-Lead/1447985133/"}, {"firma": "hpc", "id": "/job/Other-Operations-Manager/1447984633/", "stanowisko": "Operations Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Other-Operations-Manager/1447984633/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Security-Installation-Engineer/1259465701/", "stanowisko": "Security Installation Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Security-Installation-Engineer/1259465701/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Junior-Systems-Installation-Engineer/1393399433/", "stanowisko": "Junior Systems Installation Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Junior-Systems-Installation-Engineer/1393399433/"}, {"firma": "hpc", "id": "/job/Bridgwater-U2-Engineering-Coordinator/1447549033/", "stanowisko": "U2 Engineering Coordinator", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-U2-Engineering-Coordinator/1447549033/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Planning-Manager-Nuclear/1447595333/", "stanowisko": "Planning Manager - Nuclear", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Planning-Manager-Nuclear/1447595333/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Centralised-Fire-Watch-Black-Hat-%28Non-Working-Supervisor%29/1447540933/", "stanowisko": "Centralised Fire Watch Black Hat (Non-Working Supervisor)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Centralised-Fire-Watch-Black-Hat-%28Non-Working-Supervisor%29/1447540933/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Mechanical-Construction-Manager/1447716833/", "stanowisko": "Mechanical Construction Manager", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Mechanical-Construction-Manager/1447716833/"}, {"firma": "hpc", "id": "/job/Sizewell-Forward-Tipping-Dumper-Driver-%28Sizewell-C%29/1447705633/", "stanowisko": "Forward Tipping Dumper Driver (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Forward-Tipping-Dumper-Driver-%28Sizewell-C%29/1447705633/"}, {"firma": "hpc", "id": "/job/Bridgwater-Project-Controls-Engineer/1447548433/", "stanowisko": "Project Controls Engineer", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Project-Controls-Engineer/1447548433/"}, {"firma": "hpc", "id": "/job/Bridgwater-Fitter-Warehouse-%28MW%29/1447551233/", "stanowisko": "Fitter Warehouse (M/W)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Fitter-Warehouse-%28MW%29/1447551233/"}, {"firma": "hpc", "id": "/job/Sizewell-Preconstruction-Manager-%28Sizewell-C%29/1447690733/", "stanowisko": "Preconstruction Manager (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Preconstruction-Manager-%28Sizewell-C%29/1447690733/"}, {"firma": "hpc", "id": "/job/Sizewell-Groundworker-%28Sizewell-C%29/1447705733/", "stanowisko": "Groundworker (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Groundworker-%28Sizewell-C%29/1447705733/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Material-Controller/1447589333/", "stanowisko": "Material Controller", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Material-Controller/1447589333/"}, {"firma": "hpc", "id": "/job/HPC-Main-Site-Senior-Document-Controller-Nuclear/1447600933/", "stanowisko": "Senior Document Controller - Nuclear", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Senior-Document-Controller-Nuclear/1447600933/"}, {"firma": "hpc", "id": "/job/Sizewell-360-Machine-Driver-%28Sizewell-C%29/1447705833/", "stanowisko": "360 Machine Driver (Sizewell C)", "typ": "nowa", "szczegoly": "employer", "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-360-Machine-Driver-%28Sizewell-C%29/1447705833/"}, {"firma": "kprm", "id": "150229", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,150229,v7"}, {"firma": "kprm", "id": "149802", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,149802,v7"}, {"firma": "kprm", "id": "149801", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,149801,v7"}, {"firma": "kprm", "id": "149474", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,149474,v7"}, {"firma": "kprm", "id": "149442", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,149442,v7"}, {"firma": "kprm", "id": "149312", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,149312,v7"}, {"firma": "kprm", "id": "149304", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,149304,v7"}, {"firma": "kprm", "id": "149261", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,149261,v7"}, {"firma": "kprm", "id": "149185", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,149185,v7"}, {"firma": "kprm", "id": "148893", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,148893,v7"}, {"firma": "kprm", "id": "148804", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,148804,v7"}, {"firma": "kprm", "id": "148795", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,148795,v7"}, {"firma": "kprm", "id": "148768", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,148768,v7"}, {"firma": "kprm", "id": "148762", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,148762,v7"}, {"firma": "kprm", "id": "148754", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,148754,v7"}, {"firma": "kprm", "id": "147522", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,147522,v7"}, {"firma": "kprm", "id": "147475", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,147475,v7"}, {"firma": "kprm", "id": "146939", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146939,v7"}, {"firma": "kprm", "id": "146937", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146937,v7"}, {"firma": "kprm", "id": "146930", "stanowisko": "młodszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/mlodszy-specjalista,146930,v7"}, {"firma": "kprm", "id": "146885", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,146885,v7"}, {"firma": "kprm", "id": "146876", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,146876,v7"}, {"firma": "kprm", "id": "146845", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,146845,v7"}, {"firma": "kprm", "id": "146580", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,146580,v7"}, {"firma": "kprm", "id": "146573", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146573,v7"}, {"firma": "kprm", "id": "146564", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,146564,v7"}, {"firma": "kprm", "id": "146557", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,146557,v7"}, {"firma": "kprm", "id": "146550", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146550,v7"}, {"firma": "kprm", "id": "146526", "stanowisko": "młodszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/mlodszy-specjalista,146526,v7"}, {"firma": "kprm", "id": "146390", "stanowisko": "starszy inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-inspektor,146390,v7"}, {"firma": "kprm", "id": "146387", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146387,v7"}, {"firma": "kprm", "id": "146373", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,146373,v7"}, {"firma": "kprm", "id": "146351", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146351,v7"}, {"firma": "kprm", "id": "146346", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146346,v7"}, {"firma": "kprm", "id": "146340", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,146340,v7"}, {"firma": "kprm", "id": "146256", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,146256,v7"}, {"firma": "kprm", "id": "145415", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,145415,v7"}, {"firma": "kprm", "id": "145347", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,145347,v7"}, {"firma": "kprm", "id": "145341", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,145341,v7"}, {"firma": "kprm", "id": "145337", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,145337,v7"}, {"firma": "kprm", "id": "145333", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,145333,v7"}, {"firma": "kprm", "id": "144645", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,144645,v7"}, {"firma": "kprm", "id": "144638", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,144638,v7"}, {"firma": "kprm", "id": "144244", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,144244,v7"}, {"firma": "kprm", "id": "144110", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,144110,v7"}, {"firma": "kprm", "id": "144108", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,144108,v7"}, {"firma": "kprm", "id": "144102", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,144102,v7"}, {"firma": "kprm", "id": "143843", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,143843,v7"}, {"firma": "kprm", "id": "143787", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,143787,v7"}, {"firma": "kprm", "id": "143781", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,143781,v7"}, {"firma": "kprm", "id": "143365", "stanowisko": "starszy inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-inspektor,143365,v7"}, {"firma": "kprm", "id": "143184", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,143184,v7"}, {"firma": "kprm", "id": "143027", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,143027,v7"}, {"firma": "kprm", "id": "142975", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,142975,v7"}, {"firma": "kprm", "id": "142974", "stanowisko": "młodszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/mlodszy-specjalista,142974,v7"}, {"firma": "kprm", "id": "142965", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,142965,v7"}, {"firma": "kprm", "id": "141455", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,141455,v7"}, {"firma": "kprm", "id": "141447", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,141447,v7"}, {"firma": "kprm", "id": "141438", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,141438,v7"}, {"firma": "kprm", "id": "141405", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,141405,v7"}, {"firma": "kprm", "id": "141403", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,141403,v7"}, {"firma": "kprm", "id": "141340", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,141340,v7"}, {"firma": "kprm", "id": "141339", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,141339,v7"}, {"firma": "kprm", "id": "141251", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,141251,v7"}, {"firma": "kprm", "id": "140878", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,140878,v7"}, {"firma": "kprm", "id": "140872", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,140872,v7"}, {"firma": "kprm", "id": "140639", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,140639,v7"}, {"firma": "kprm", "id": "140363", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,140363,v7"}, {"firma": "kprm", "id": "140315", "stanowisko": "główny księgowy", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-ksiegowy,140315,v7"}, {"firma": "kprm", "id": "140310", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,140310,v7"}, {"firma": "kprm", "id": "140302", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,140302,v7"}, {"firma": "kprm", "id": "140064", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,140064,v7"}, {"firma": "kprm", "id": "139849", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,139849,v7"}, {"firma": "kprm", "id": "139800", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,139800,v7"}, {"firma": "kprm", "id": "139307", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,139307,v7"}, {"firma": "kprm", "id": "139304", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,139304,v7"}, {"firma": "kprm", "id": "139299", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,139299,v7"}, {"firma": "kprm", "id": "139283", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,139283,v7"}, {"firma": "kprm", "id": "139276", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,139276,v7"}, {"firma": "kprm", "id": "139270", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,139270,v7"}, {"firma": "kprm", "id": "137854", "stanowisko": "młodszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/mlodszy-specjalista,137854,v7"}, {"firma": "kprm", "id": "137847", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,137847,v7"}, {"firma": "kprm", "id": "137839", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,137839,v7"}, {"firma": "kprm", "id": "137753", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137753,v7"}, {"firma": "kprm", "id": "137749", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137749,v7"}, {"firma": "kprm", "id": "137736", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137736,v7"}, {"firma": "kprm", "id": "137728", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,137728,v7"}, {"firma": "kprm", "id": "137724", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,137724,v7"}, {"firma": "kprm", "id": "137711", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137711,v7"}, {"firma": "kprm", "id": "137599", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137599,v7"}, {"firma": "kprm", "id": "137188", "stanowisko": "starszy specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/starszy-specjalista,137188,v7"}, {"firma": "kprm", "id": "137167", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,137167,v7"}, {"firma": "kprm", "id": "137161", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,137161,v7"}, {"firma": "kprm", "id": "137134", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,137134,v7"}, {"firma": "kprm", "id": "136152", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,136152,v7"}, {"firma": "kprm", "id": "136149", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,136149,v7"}, {"firma": "kprm", "id": "136077", "stanowisko": "główny specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/glowny-specjalista,136077,v7"}, {"firma": "kprm", "id": "136027", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,136027,v7"}, {"firma": "kprm", "id": "136023", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,136023,v7"}, {"firma": "kprm", "id": "135409", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,135409,v7"}, {"firma": "kprm", "id": "135398", "stanowisko": "naczelnik wydziału", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/naczelnik-wydzialu,135398,v7"}, {"firma": "kprm", "id": "134855", "stanowisko": "referendarz", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/referendarz,134855,v7"}, {"firma": "kprm", "id": "134850", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,134850,v7"}, {"firma": "kprm", "id": "134765", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,134765,v7"}, {"firma": "kprm", "id": "134336", "stanowisko": "specjalista", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/specjalista,134336,v7"}, {"firma": "kprm", "id": "133931", "stanowisko": "inspektor", "typ": "nowa", "szczegoly": "employer", "url": "https://nabory.kprm.gov.pl/mazowieckie/warszawa/inspektor,133931,v7"}, {"firma": "orano", "id": "16860", "stanowisko": "Technicien contrôle-commande et appui chargé d’affaires H/F", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-contr-le-commande-et-appui-charg-d-affaires-H-F/16860?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17119", "stanowisko": "Ingénieur études mesures nucléaires F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Ing-nieur-tudes-mesures-nucl-aires-F-H/17119?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17114", "stanowisko": "Ingénieur Appui Chef d'Installation F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Appui-Chef-d-Installation-H-F/17114?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16895", "stanowisko": "Coordonnateur Sûreté Nucléaire Transverse et Conception ADF F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordonnateur-S-ret-Nucl-aire-Transverse-et-Conception-ADF-F-H/16895?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16831", "stanowisko": "Responsable Opérationnel - Accompagnement à la transformation digitale F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Responsable-Op-rationnel-Accompagnement-la-transformation-digitale-F-H/16831?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16601", "stanowisko": "Technicien réseaux industriels : tests et intégration (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-r-seaux-industriels-tests-et-int-gration-F-H/16601?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "14783", "stanowisko": "Chef de Projet Assistance technique F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-de-Projet-Assistance-technique/14783?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17132", "stanowisko": "Procurement and Supply Chain Intern", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Procurement-and-Supply-Chain-Intern/17132?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17131", "stanowisko": "Assistant Project Manager Intern - Nuclear Materials Transportation Packages", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Assistant-Project-Manager-Intern-Nuclear-Materials-Transportation/17131?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16988", "stanowisko": "Technicien.ne Radioprotection F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-Radioprotection-F-H/16988?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16908", "stanowisko": "Manager de proximité maintenance F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Manager-de-proximit-maintenance-F-H/16908?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16906", "stanowisko": "Technicien.ne de Maintenance Généraliste F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-de-Maintenance-G-n-raliste-F-H/16906?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16827", "stanowisko": "Gestionnaire documentaire au Laboratoire Isotopes Stables H/F", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Gestionnaire-documentaire-au-Laboratoire-Isotopes-Stables-H-F/16827?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16814", "stanowisko": "Fiscaliste F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Fiscaliste-F-H/16814?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16522", "stanowisko": "Team Leader / Lead Technique — Plateau Projet IT (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Team-Leader-Lead-Technique-Plateau-Projet-IT-H-F/16522?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16989", "stanowisko": "Ingénieur recherche opérationnelle : ordonnancement et optimisation (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-recherche-op-rationnelle-ordonnancement-et-optimisation-F-H/16989?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16965", "stanowisko": "Ingénieur Modélisation Scientifique et Industrielle H/F", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Mod-lisation-Scientifique-et-Industrielle-H-F/16965?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16969", "stanowisko": "Coordination des études d'ingénierie - Architecte études F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordination-des-tudes-d-ing-nierie-Architecte-tudes-F-H/16969?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16934", "stanowisko": "Ingénieur Sécurité des Systèmes d’Information – OSSI F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-curit-des-Syst-mes-d-Information-OSSI/16934?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16911", "stanowisko": "Chef d'équipe travaux F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-d-Equipe-travaux/16911?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16879", "stanowisko": "Technicien Maintenance Electromécanique F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Maintenance-Electrom-canique-F-H/16879?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17050", "stanowisko": "Ingénieur Projet MOA ADF DPLC - F18 Préparation terrain F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Projet-MOA-ADF-DPLC-F18-Pr-paration-terrain-F-H/17050?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17025", "stanowisko": "Ingénieur Système - Esquisse Aval du Futur F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Syst-me-Equipe-coeur-Esquisse-Aval-du-Futur-F-H/17025?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17033", "stanowisko": "Stage projeteur en installation générale F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Projeteuse-Projeteur-en-Installation-G-n-rale/17033?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17019", "stanowisko": "Assistant MCES / D3SC F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Assistant-e-MCES-D3SC/17019?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16876", "stanowisko": "Chargé de formation F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Charg-e-de-formation-6-mois/16876?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16665", "stanowisko": "Technicien Contrôle de la Matière Nucléaire F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Contr-le-de-la-Mati-re-Nucl-aire-F-H/16665?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16337", "stanowisko": "Analyste Process & Data Management (P&DM) F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ANALYSTE-Process-Data-Management-P-DM-F-H/16337?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17029", "stanowisko": "Chargé(e) communication corporate et projets F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-e-Communication-Corporate-et-Projets-Orano-Batteries-F-H/17029?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16723", "stanowisko": "Chef de projet IS/IT projet immobilier F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-IS-IT-pour-projet-Immobilier/16723?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16719", "stanowisko": "Chef de projet Business Analysis et Procurement F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-Business-Analysis-et-Procurement/16719?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16717", "stanowisko": "Architecte Solution SI Chantier F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Architecte-Solution-SI-Chantier/16717?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16715", "stanowisko": "Chef de projet Business Analysis et Project control F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-Business-Analysis-et-Project-control/16715?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16705", "stanowisko": "Journeyperson Industrial Mechanic", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Journeyperson-Industrial-Mechanic/16705?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "11676", "stanowisko": "Coordonnateur Excellence Opérationnelle F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordonnateur-Excellence-Op-rationnelle-F-H/11676?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16916", "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire - réexamen de sûreté F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-r-examen-de-s-ret-F-H/16916?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16904", "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire – Projets Romans", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-Projets-Romans/16904?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16897", "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire - projets Tricastin", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-projets-Tricastin/16897?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16892", "stanowisko": "Acheteur Prestations d'ingénierie grands projets et Services Généraux F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Acheteur-Prestations-d-ing-nierie-grands-projets-F-H-et-Services-G-n-raux/16892?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "17002", "stanowisko": "EHS Sustainability Intern", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/EHS-Sustainability-Intern/17002?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16996", "stanowisko": "Technicien de production chimie F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-de-production-chimie-F-H/16996?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16966", "stanowisko": "Ingénieur junior Calculs Sûreté (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-junior-Calculs-S-ret-F-H/16966?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16957", "stanowisko": "Ingénieur(e) expérimenté(e) Calculs Sûreté (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-exp-riment-e-Calculs-S-ret-F-H/16957?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16955", "stanowisko": "Ingénieur PMO Gouvernance & Engagements de la DPLC F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-PMO-Gouvernance-Engagements-de-la-DPLC-F-H/16955?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16936", "stanowisko": "ADF Ingénieur (F/H) pilote groupe d’intervention étude", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Ing-nieur-F-H-pilote-groupe-d-intervention-tude/16936?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16971", "stanowisko": "Ingénieur(e) Assistant(e) Qualité Réception & Performance F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Assistant-e-Qualit-R-ception-Performance-F-H/16971?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16954", "stanowisko": "Ingénieur chargé de projet amélioration continue et performance opérationnelle F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-charg-de-projet-am-lioration-continue-et-performance-op-rationnelle-F-H/16954?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16947", "stanowisko": "Ingénieur Coûts-Délais F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-co-ts-d-lais-MOA-F-H/16947?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16943", "stanowisko": "Ingénieur Politique de Maintenance - Performance et Méthodes F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Politique-de-Maintenance-Performance-et-M-thodes-F-H/16943?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16938", "stanowisko": "Pilote de Projet - Stratégie de Sous-Traitance et Maîtrise des Compétences Maintenance (F/H)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Pilote-de-Projet-Strat-gie-de-Sous-Traitance-et-Ma-trise-des-Comp-tences-Maintenance-F-H/16938?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16921", "stanowisko": "Technicien Essais ECC F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Essais-ECC-F-H/16921?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16866", "stanowisko": "Conducteur Routier Lourds - Convois Exceptionnels H/F", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Conducteur-Routier-Lourds-Convois-Exceptionnels-H-F/16866?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16859", "stanowisko": "Ingénieur(e) Calculs Génie Civil F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Calculs-G-nie-Civil-F-H/16859?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16855", "stanowisko": "Ingénieur-e Spécialité Sûreté Nucléaire - GOMOX - F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Sp-cialit-S-ret-Nucl-aire-GOMOX-F-H/16855?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16769", "stanowisko": "Consolideur financier F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Consolideur-Financier-F-H/16769?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16751", "stanowisko": "Fraiseur sur machine à commande numérique F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Fraiseur-sur-machine-commande-num-rique-F-H/16751?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16749", "stanowisko": "Projeteur(se) chaudronnerie/mécanique H/F", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/041-CEC-16749-Projeteur-se-chaudronnerie-m-canique-F-H/16749?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16931", "stanowisko": "Ingénieur Environnement & ISO 14001 - Pilotage du Système de Management Environnemental (H/F)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Environnement-ISO-14001-Pilotage-du-Syst-me-de-Management-Environnemental-H-F/16931?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16788", "stanowisko": "16788 - Ingénieur Etudes Ventilation (HVAC / CVC)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/47-BSC-ADF-Ing-nieur-Etudes-Ventilation-HVAC-CVC-F-H/16788?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16703", "stanowisko": "Chargé de Projets Environnement F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-de-Projets-Environnement-F-H/16703?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16690", "stanowisko": "Chargé de missions stratégie F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-6-mois-Direction-de-la-Strat-gie-Corporate-F-H/16690?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16634", "stanowisko": "Magasinier F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Magasinier-F-H/16634?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16597", "stanowisko": "Technicien.ne échafaudeur F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-chafaudeur-F-H/16597?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16951", "stanowisko": "Training Advisor (Permanent)", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Training-Advisor-Permanent/16951?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16946", "stanowisko": "Gestionnaire paie F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Gestionnaire-paie-F-H/16946?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16927", "stanowisko": "Ingénieur sûreté opérationnelle pérénité résilience F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-ret-Op-rationnelle-P-rennit-R-silience-F-H/16927?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16836", "stanowisko": "Ingénieur(e) d'études électricité confirmé(e) HTB/HTA/BT F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-d-tudes-lectricit-confirm-e-HTB-HTA-BT/16836?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16797", "stanowisko": "Ingénieur mécanique F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stagiaire-Ing-nieur-e-m-canique/16797?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16795", "stanowisko": "Projeteur(se) chaudronnerie/mécanique F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/041-SQY-16795-Projeteur-se-chaudronnerie-m-canique-F-H/16795?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16759", "stanowisko": "Ingénieur Data Science & Simulation Industrielle F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Data-Science-Simulation-Industrielle-F-H/16759?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16757", "stanowisko": "Data Scientist F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/DATA-SCIENTIST-F-H-Extraction-massive-de-donn-es-techniques-depuis-un-corpus-documentaire/16757?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16682", "stanowisko": "Technicien Laboratoire Dosimétrie F/H", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Laboratoire-dosim-trie-F-H/16682?source=External%2BCareers%2BMarketplace"}, {"firma": "orano", "id": "16919", "stanowisko": "Production Operation II", "typ": "nowa", "szczegoly": "employer", "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Production-Operator-II/16919?source=External%2BCareers%2BMarketplace"}, {"firma": "szc", "id": "/job/London-Sizewell-C-Science-and-Engineering-Graduate-EC2R-7BP/1449754233/", "stanowisko": "Sizewell C Science and Engineering Graduate", "typ": "zamknięta", "szczegoly": "brak na stronie pracodawcy", "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Science-and-Engineering-Graduate-EC2R-7BP/1449754233/"}, {"firma": "szc", "id": "/job/Gloucester-Sizewell-C-Science-and-Engineering-Graduate-GL3-4AE/1449755033/", "stanowisko": "Sizewell C Science and Engineering Graduate", "typ": "zamknięta", "szczegoly": "brak na stronie pracodawcy", "url": "https://jobs.sizewellc.com/job/Gloucester-Sizewell-C-Science-and-Engineering-Graduate-GL3-4AE/1449755033/"}, {"firma": "szc", "id": "/job/London-Sizewell-C-Project-Controls-Graduate-EC2R-7BP/1449759233/", "stanowisko": "Sizewell C Project Controls Graduate", "typ": "zamknięta", "szczegoly": "brak na stronie pracodawcy", "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Project-Controls-Graduate-EC2R-7BP/1449759233/"}, {"firma": "szc", "id": "/job/London-Sizewell-C-Supply-Chain-Graduate-EC2R-7BP/1449761433/", "stanowisko": "Sizewell C Supply Chain Graduate", "typ": "zamknięta", "szczegoly": "brak na stronie pracodawcy", "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Supply-Chain-Graduate-EC2R-7BP/1449761433/"}]}
+{
+ "dzien": "2026-11-11",
+ "otwarte": {
+  "bechtel": 134,
+  "cez": 4,
+  "clor": 3,
+  "edfuk": 23,
+  "fortum": 26,
+  "hpc": 166,
+  "iaea": 15,
+  "iter": 5,
+  "kprm": 110,
+  "kznpp": 6,
+  "orano": 179,
+  "pej": 7,
+  "pr_anav": 2,
+  "pr_axpo": 1,
+  "pr_blykalla": 20,
+  "pr_endel": 28,
+  "pr_gns": 8,
+  "pr_nagra": 2,
+  "pr_psi": 1,
+  "pracuj": 13,
+  "snn": 45,
+  "szc": 30,
+  "westinghouse": 323
+ },
+ "przebiegi": [
+  {
+   "firma": "bechtel",
+   "n": 134,
+   "tryb": "full"
+  },
+  {
+   "firma": "ncbj",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "pej",
+   "n": 7,
+   "tryb": "full"
+  },
+  {
+   "firma": "pracuj",
+   "n": 13,
+   "tryb": "full"
+  },
+  {
+   "firma": "cez",
+   "n": 4,
+   "tryb": "full"
+  },
+  {
+   "firma": "clor",
+   "n": 3,
+   "tryb": "full"
+  },
+  {
+   "firma": "edfuk",
+   "n": 23,
+   "tryb": "full"
+  },
+  {
+   "firma": "fortum",
+   "n": 26,
+   "tryb": "full"
+  },
+  {
+   "firma": "hpc",
+   "n": 166,
+   "tryb": "full"
+  },
+  {
+   "firma": "iaea",
+   "n": 15,
+   "tryb": "full"
+  },
+  {
+   "firma": "iter",
+   "n": 5,
+   "tryb": "full"
+  },
+  {
+   "firma": "kprm",
+   "n": 14,
+   "tryb": "partial"
+  },
+  {
+   "firma": "kznpp",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "firma": "orano",
+   "n": 179,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_anav",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_axpo",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_blykalla",
+   "n": 20,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_egis",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "pr_endel",
+   "n": 28,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_gns",
+   "n": 8,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_nagra",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_nda",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "pr_psi",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_ukaea",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "snn",
+   "n": 45,
+   "tryb": "full"
+  },
+  {
+   "firma": "szc",
+   "n": 30,
+   "tryb": "full"
+  },
+  {
+   "firma": "westinghouse",
+   "n": 323,
+   "tryb": "full"
+  }
+ ],
+ "zdarzenia": [
+  {
+   "firma": "bechtel",
+   "id": "300358",
+   "stanowisko": "Senior Rigging Engineer",
+   "typ": "wznowiona",
+   "szczegoly": "employer",
+   "url": "https://jobs.bechtel.com/us/en/job/300358"
+  },
+  {
+   "firma": "bechtel",
+   "id": "300909",
+   "stanowisko": "ECMS/Records Sys Integration and AI Supp",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.bechtel.com/us/en/job/300909"
+  },
+  {
+   "firma": "bechtel",
+   "id": "300403",
+   "stanowisko": "Electrical Senior Engineer",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.bechtel.com/us/en/job/300403"
+  },
+  {
+   "firma": "cez",
+   "id": "2001510189",
+   "stanowisko": "Specialista simulace technologie – Simulátory jaderných elektráren",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://kdejinde.jobs.cz/pd/2001510189"
+  },
+  {
+   "firma": "cez",
+   "id": "2001501176",
+   "stanowisko": "Specialista/ka na strojní systémy primárního okruhu - nový jaderný zdroj",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://kdejinde.jobs.cz/pd/2001501176"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2478",
+   "stanowisko": "Health Physics Technician",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.edfenergy.com/job/health-physics-technician-in-dunbar-jid-2478"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2477",
+   "stanowisko": "Security Guard",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.edfenergy.com/job/security-guard-in-dunbar-jid-2477"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2476",
+   "stanowisko": "Senior Commissioning Engineer - I&C",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.edfenergy.com/job/senior-commissioning-engineer-i-and-c-in-bridgwater-jid-2476"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2356",
+   "stanowisko": "Business Improvement and Data Analysis Industrial Placement",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.edfenergy.com/job/business-improvement-and-data-analysis-industrial-placement-in-morecambe-jid-2356"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2448",
+   "stanowisko": "Nuclear Technical Engineering Services Industrial Placement",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.edfenergy.com/job/nuclear-technical-engineering-services-industrial-placement-in-morecambe-jid-2448"
+  },
+  {
+   "firma": "edfuk",
+   "id": "2354",
+   "stanowisko": "Project Planning Industrial Placement",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.edfenergy.com/job/project-planning-industrial-placement-in-morecambe-jid-2354"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/London-European-Pressurised-Reactor-Programme-Manager-Change-Manager-%28Sizewell-C%29/1447097033/",
+   "stanowisko": "European Pressurised Reactor Programme Manager / Change Manager (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/London-European-Pressurised-Reactor-Programme-Manager-Change-Manager-%28Sizewell-C%29/1447097033/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Mechanical-Building-Services-Engineer/1446662833/",
+   "stanowisko": "Mechanical Building Services Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Mechanical-Building-Services-Engineer/1446662833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Construction-Area-Manager/1446662733/",
+   "stanowisko": "Construction Area Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Construction-Area-Manager/1446662733/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Data-Analyst-Joint-Design-Office-%28JDO%29/1446662233/",
+   "stanowisko": "Data Analyst Joint Design Office (JDO)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Data-Analyst-Joint-Design-Office-%28JDO%29/1446662233/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Health-and-Safety-Advisor/1446662433/",
+   "stanowisko": "Health and Safety Advisor",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Health-and-Safety-Advisor/1446662433/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Site-Building-Manager-%28Sizewell-C%29/1456503033/",
+   "stanowisko": "Site Building Manager (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Site-Building-Manager-%28Sizewell-C%29/1456503033/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Lead-Electrical-Engineer-%28Sizewell-C%29/1456502833/",
+   "stanowisko": "Lead Electrical Engineer (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Lead-Electrical-Engineer-%28Sizewell-C%29/1456502833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bristol-Electrical-Plant-Manager-%28Sizewell-C%29/1456499433/",
+   "stanowisko": "Electrical Plant Manager (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bristol-Electrical-Plant-Manager-%28Sizewell-C%29/1456499433/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Civils-Target-Cost-Director-%28TOC-Director%29-%28Sizewell-C%29/1456502733/",
+   "stanowisko": "Civils Target Cost Director - (TOC Director) (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Civils-Target-Cost-Director-%28TOC-Director%29-%28Sizewell-C%29/1456502733/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bristol-Nuclear-Project-Quality-Manager/1449438133/",
+   "stanowisko": "Nuclear Project Quality Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bristol-Nuclear-Project-Quality-Manager/1449438133/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Pipefitter-Supervisor/1424772333/",
+   "stanowisko": "Pipefitter Supervisor",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Pipefitter-Supervisor/1424772333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Welder/1220436301/",
+   "stanowisko": "Welder",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Welder/1220436301/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Coded-Welder/1406963933/",
+   "stanowisko": "Coded Welder",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Coded-Welder/1406963933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-SAP-Coordinator/1448415833/",
+   "stanowisko": "SAP Coordinator",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-SAP-Coordinator/1448415833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Senior-Project-Engineer/1448486933/",
+   "stanowisko": "Senior Project Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Senior-Project-Engineer/1448486933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Engineering-Surveyor/1448503233/",
+   "stanowisko": "Engineering Surveyor",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Engineering-Surveyor/1448503233/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Site-Engineer/1448495933/",
+   "stanowisko": "Site Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Site-Engineer/1448495933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Project-Engineer-%28Site-Based%29/1448507133/",
+   "stanowisko": "Project Engineer (Site Based)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Project-Engineer-%28Site-Based%29/1448507133/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Project-Manager/1448477133/",
+   "stanowisko": "Project Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Project-Manager/1448477133/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Senior-Site-Manager/1437537533/",
+   "stanowisko": "Senior Site Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Senior-Site-Manager/1437537533/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Engineering-Authority-Data-%28Sizewell-B%29/1230399101/",
+   "stanowisko": "Engineering Authority - Data (Sizewell B)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Engineering-Authority-Data-%28Sizewell-B%29/1230399101/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Welder/1427303333/",
+   "stanowisko": "Welder",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Welder/1427303333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Park-&-Ride-Security-Officer-%28Part-Time%29-%28Sizewell-C%29/1427414433/",
+   "stanowisko": "Park & Ride Security Officer (Part Time) (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Park-&-Ride-Security-Officer-%28Part-Time%29-%28Sizewell-C%29/1427414433/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Plater/1427302833/",
+   "stanowisko": "Plater",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Plater/1427302833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Site-Engineer-%28Sizewell-C%29/1448174133/",
+   "stanowisko": "Site Engineer (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Site-Engineer-%28Sizewell-C%29/1448174133/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Section-Engineer-%28Sizewell-C%29/1448174333/",
+   "stanowisko": "Section Engineer (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Section-Engineer-%28Sizewell-C%29/1448174333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-HRE60016-ER-Advisor/1447982333/",
+   "stanowisko": "HRE60016 - ER Advisor",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-HRE60016-ER-Advisor/1447982333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Other-Health-&-Safety-Manager/1447983633/",
+   "stanowisko": "Health & Safety Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Other-Health-&-Safety-Manager/1447983633/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Other-HR-Manager-%289-month-FTC%29/1447986533/",
+   "stanowisko": "HR Manager (9-month FTC)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Other-HR-Manager-%289-month-FTC%29/1447986533/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Other-Shift-Manager/1447985733/",
+   "stanowisko": "Shift Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Other-Shift-Manager/1447985733/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Other-Shift-Lead/1447985133/",
+   "stanowisko": "Shift Lead",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Other-Shift-Lead/1447985133/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Other-Operations-Manager/1447984633/",
+   "stanowisko": "Operations Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Other-Operations-Manager/1447984633/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Security-Installation-Engineer/1259465701/",
+   "stanowisko": "Security Installation Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Security-Installation-Engineer/1259465701/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Junior-Systems-Installation-Engineer/1393399433/",
+   "stanowisko": "Junior Systems Installation Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Junior-Systems-Installation-Engineer/1393399433/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-U2-Engineering-Coordinator/1447549033/",
+   "stanowisko": "U2 Engineering Coordinator",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-U2-Engineering-Coordinator/1447549033/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Planning-Manager-Nuclear/1447595333/",
+   "stanowisko": "Planning Manager - Nuclear",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Planning-Manager-Nuclear/1447595333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Centralised-Fire-Watch-Black-Hat-%28Non-Working-Supervisor%29/1447540933/",
+   "stanowisko": "Centralised Fire Watch Black Hat (Non-Working Supervisor)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Centralised-Fire-Watch-Black-Hat-%28Non-Working-Supervisor%29/1447540933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Mechanical-Construction-Manager/1447716833/",
+   "stanowisko": "Mechanical Construction Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Mechanical-Construction-Manager/1447716833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Forward-Tipping-Dumper-Driver-%28Sizewell-C%29/1447705633/",
+   "stanowisko": "Forward Tipping Dumper Driver (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Forward-Tipping-Dumper-Driver-%28Sizewell-C%29/1447705633/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Project-Controls-Engineer/1447548433/",
+   "stanowisko": "Project Controls Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Project-Controls-Engineer/1447548433/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Bridgwater-Fitter-Warehouse-%28MW%29/1447551233/",
+   "stanowisko": "Fitter Warehouse (M/W)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Bridgwater-Fitter-Warehouse-%28MW%29/1447551233/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Preconstruction-Manager-%28Sizewell-C%29/1447690733/",
+   "stanowisko": "Preconstruction Manager (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Preconstruction-Manager-%28Sizewell-C%29/1447690733/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Groundworker-%28Sizewell-C%29/1447705733/",
+   "stanowisko": "Groundworker (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Groundworker-%28Sizewell-C%29/1447705733/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Material-Controller/1447589333/",
+   "stanowisko": "Material Controller",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Material-Controller/1447589333/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Senior-Document-Controller-Nuclear/1447600933/",
+   "stanowisko": "Senior Document Controller - Nuclear",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Senior-Document-Controller-Nuclear/1447600933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-360-Machine-Driver-%28Sizewell-C%29/1447705833/",
+   "stanowisko": "360 Machine Driver (Sizewell C)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-360-Machine-Driver-%28Sizewell-C%29/1447705833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Construction-Engineer/1443786633/",
+   "stanowisko": "Construction Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Construction-Engineer/1443786633/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Hinkley-Point-B-EHS-Monitoring-Technician/1426213233/",
+   "stanowisko": "EHS Monitoring Technician",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Hinkley-Point-B-EHS-Monitoring-Technician/1426213233/"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NSNI20261110-001",
+   "stanowisko": "Internship - Supporting the IRRS Strategic Plan Implementation and activities related to SMRs",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NSNI20261110-001&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0494 (268920)",
+   "stanowisko": "Associate Programme Officer (NE)(P2)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0494%20%28268920%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0486 (018131)",
+   "stanowisko": "Senior Coordination Officer (SGCP)(P5)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0486%20%28018131%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0427 (080625)",
+   "stanowisko": "Laboratory Technician (Phytosanitary)(G3)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0427%20%28080625%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NAFA20261015-001",
+   "stanowisko": "Consultant - Toxic Element Species measurement in Food",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NAFA20261015-001&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "PIP-TC-002",
+   "stanowisko": "Expert/Lecturer Technical Cooperation Programme",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=PIP-TC-002&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0439 (010111)",
+   "stanowisko": "Senior Radiation Monitoring Technician (G6)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0439%20%28010111%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NAFA20261020-001",
+   "stanowisko": "Internship - Diagnostics Development",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NAFA20261020-001&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0460 (018673)",
+   "stanowisko": "Team Leader (SGTS-Attended Systems)(P5)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0460%20%28018673%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0469 (009230)",
+   "stanowisko": "Equipment and Logistics Associate (G6)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0469%20%28009230%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0464 (015189)",
+   "stanowisko": "Instrumentation Technician (G4)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0464%20%28015189%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NENP20260908-003",
+   "stanowisko": "Internship – INPRO Support for Sustainable Nuclear Energy Systems and Advanced Reactor Deployment",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NENP20260908-003&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0462 (020219)",
+   "stanowisko": "Mechanical Technician (Seals) (G2)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0462%20%28020219%29&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "PIP-NTL-OLA-SSA-001",
+   "stanowisko": "Pipeline for short assignments - Consultant (Legal) - Nuclear Law",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=PIP-NTL-OLA-SSA-001&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "PIP-NE-008",
+   "stanowisko": "Pipeline for Nuclear Fuel Cycle and Materials Professionals and Experts-Short-Term Consultancy",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=PIP-NE-008&lang=en"
+  },
+  {
+   "firma": "orano",
+   "id": "16860",
+   "stanowisko": "Technicien contrôle-commande et appui chargé d’affaires H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-contr-le-commande-et-appui-charg-d-affaires-H-F/16860?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17119",
+   "stanowisko": "Ingénieur études mesures nucléaires F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Ing-nieur-tudes-mesures-nucl-aires-F-H/17119?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17114",
+   "stanowisko": "Ingénieur Appui Chef d'Installation F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Appui-Chef-d-Installation-H-F/17114?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16895",
+   "stanowisko": "Coordonnateur Sûreté Nucléaire Transverse et Conception ADF F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordonnateur-S-ret-Nucl-aire-Transverse-et-Conception-ADF-F-H/16895?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16831",
+   "stanowisko": "Responsable Opérationnel - Accompagnement à la transformation digitale F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Responsable-Op-rationnel-Accompagnement-la-transformation-digitale-F-H/16831?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16601",
+   "stanowisko": "Technicien réseaux industriels : tests et intégration (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-r-seaux-industriels-tests-et-int-gration-F-H/16601?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "14783",
+   "stanowisko": "Chef de Projet Assistance technique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-de-Projet-Assistance-technique/14783?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17132",
+   "stanowisko": "Procurement and Supply Chain Intern",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Procurement-and-Supply-Chain-Intern/17132?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17131",
+   "stanowisko": "Assistant Project Manager Intern - Nuclear Materials Transportation Packages",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Assistant-Project-Manager-Intern-Nuclear-Materials-Transportation/17131?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16988",
+   "stanowisko": "Technicien.ne Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-Radioprotection-F-H/16988?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16908",
+   "stanowisko": "Manager de proximité maintenance F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Manager-de-proximit-maintenance-F-H/16908?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16906",
+   "stanowisko": "Technicien.ne de Maintenance Généraliste F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-de-Maintenance-G-n-raliste-F-H/16906?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16827",
+   "stanowisko": "Gestionnaire documentaire au Laboratoire Isotopes Stables H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Gestionnaire-documentaire-au-Laboratoire-Isotopes-Stables-H-F/16827?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16814",
+   "stanowisko": "Fiscaliste F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Fiscaliste-F-H/16814?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16522",
+   "stanowisko": "Team Leader / Lead Technique — Plateau Projet IT (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Team-Leader-Lead-Technique-Plateau-Projet-IT-H-F/16522?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16989",
+   "stanowisko": "Ingénieur recherche opérationnelle : ordonnancement et optimisation (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-recherche-op-rationnelle-ordonnancement-et-optimisation-F-H/16989?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16965",
+   "stanowisko": "Ingénieur Modélisation Scientifique et Industrielle H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Mod-lisation-Scientifique-et-Industrielle-H-F/16965?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16969",
+   "stanowisko": "Coordination des études d'ingénierie - Architecte études F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordination-des-tudes-d-ing-nierie-Architecte-tudes-F-H/16969?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16934",
+   "stanowisko": "Ingénieur Sécurité des Systèmes d’Information – OSSI F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-curit-des-Syst-mes-d-Information-OSSI/16934?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16911",
+   "stanowisko": "Chef d'équipe travaux F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-d-Equipe-travaux/16911?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16879",
+   "stanowisko": "Technicien Maintenance Electromécanique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Maintenance-Electrom-canique-F-H/16879?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17050",
+   "stanowisko": "Ingénieur Projet MOA ADF DPLC - F18 Préparation terrain F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Projet-MOA-ADF-DPLC-F18-Pr-paration-terrain-F-H/17050?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17025",
+   "stanowisko": "Ingénieur Système - Esquisse Aval du Futur F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Syst-me-Equipe-coeur-Esquisse-Aval-du-Futur-F-H/17025?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17033",
+   "stanowisko": "Stage projeteur en installation générale F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Projeteuse-Projeteur-en-Installation-G-n-rale/17033?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17019",
+   "stanowisko": "Assistant MCES / D3SC F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Assistant-e-MCES-D3SC/17019?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16876",
+   "stanowisko": "Chargé de formation F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Charg-e-de-formation-6-mois/16876?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16665",
+   "stanowisko": "Technicien Contrôle de la Matière Nucléaire F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Contr-le-de-la-Mati-re-Nucl-aire-F-H/16665?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16337",
+   "stanowisko": "Analyste Process & Data Management (P&DM) F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ANALYSTE-Process-Data-Management-P-DM-F-H/16337?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17029",
+   "stanowisko": "Chargé(e) communication corporate et projets F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-e-Communication-Corporate-et-Projets-Orano-Batteries-F-H/17029?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16723",
+   "stanowisko": "Chef de projet IS/IT projet immobilier F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-IS-IT-pour-projet-Immobilier/16723?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16719",
+   "stanowisko": "Chef de projet Business Analysis et Procurement F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-Business-Analysis-et-Procurement/16719?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16717",
+   "stanowisko": "Architecte Solution SI Chantier F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Architecte-Solution-SI-Chantier/16717?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16715",
+   "stanowisko": "Chef de projet Business Analysis et Project control F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Chef-de-projet-Business-Analysis-et-Project-control/16715?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16705",
+   "stanowisko": "Journeyperson Industrial Mechanic",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Journeyperson-Industrial-Mechanic/16705?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "11676",
+   "stanowisko": "Coordonnateur Excellence Opérationnelle F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordonnateur-Excellence-Op-rationnelle-F-H/11676?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16916",
+   "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire - réexamen de sûreté F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-r-examen-de-s-ret-F-H/16916?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16904",
+   "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire – Projets Romans",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-Projets-Romans/16904?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16897",
+   "stanowisko": "Ingénieur(e) spécialité Sûreté nucléaire - projets Tricastin",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-sp-cialit-S-ret-nucl-aire-projets-Tricastin/16897?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16892",
+   "stanowisko": "Acheteur Prestations d'ingénierie grands projets et Services Généraux F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Acheteur-Prestations-d-ing-nierie-grands-projets-F-H-et-Services-G-n-raux/16892?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "17002",
+   "stanowisko": "EHS Sustainability Intern",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/EHS-Sustainability-Intern/17002?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16996",
+   "stanowisko": "Technicien de production chimie F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-de-production-chimie-F-H/16996?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16966",
+   "stanowisko": "Ingénieur junior Calculs Sûreté (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-junior-Calculs-S-ret-F-H/16966?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16957",
+   "stanowisko": "Ingénieur(e) expérimenté(e) Calculs Sûreté (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-exp-riment-e-Calculs-S-ret-F-H/16957?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16955",
+   "stanowisko": "Ingénieur PMO Gouvernance & Engagements de la DPLC F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-PMO-Gouvernance-Engagements-de-la-DPLC-F-H/16955?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16936",
+   "stanowisko": "ADF Ingénieur (F/H) pilote groupe d’intervention étude",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/ADF-Ing-nieur-F-H-pilote-groupe-d-intervention-tude/16936?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16971",
+   "stanowisko": "Ingénieur(e) Assistant(e) Qualité Réception & Performance F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Assistant-e-Qualit-R-ception-Performance-F-H/16971?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16954",
+   "stanowisko": "Ingénieur chargé de projet amélioration continue et performance opérationnelle F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-charg-de-projet-am-lioration-continue-et-performance-op-rationnelle-F-H/16954?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16947",
+   "stanowisko": "Ingénieur Coûts-Délais F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-co-ts-d-lais-MOA-F-H/16947?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16943",
+   "stanowisko": "Ingénieur Politique de Maintenance - Performance et Méthodes F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Politique-de-Maintenance-Performance-et-M-thodes-F-H/16943?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16938",
+   "stanowisko": "Pilote de Projet - Stratégie de Sous-Traitance et Maîtrise des Compétences Maintenance (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Pilote-de-Projet-Strat-gie-de-Sous-Traitance-et-Ma-trise-des-Comp-tences-Maintenance-F-H/16938?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16921",
+   "stanowisko": "Technicien Essais ECC F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Essais-ECC-F-H/16921?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16866",
+   "stanowisko": "Conducteur Routier Lourds - Convois Exceptionnels H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Conducteur-Routier-Lourds-Convois-Exceptionnels-H-F/16866?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16859",
+   "stanowisko": "Ingénieur(e) Calculs Génie Civil F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Calculs-G-nie-Civil-F-H/16859?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16855",
+   "stanowisko": "Ingénieur-e Spécialité Sûreté Nucléaire - GOMOX - F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Sp-cialit-S-ret-Nucl-aire-GOMOX-F-H/16855?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16769",
+   "stanowisko": "Consolideur financier F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Consolideur-Financier-F-H/16769?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16751",
+   "stanowisko": "Fraiseur sur machine à commande numérique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Fraiseur-sur-machine-commande-num-rique-F-H/16751?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16749",
+   "stanowisko": "Projeteur(se) chaudronnerie/mécanique H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/041-CEC-16749-Projeteur-se-chaudronnerie-m-canique-F-H/16749?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16931",
+   "stanowisko": "Ingénieur Environnement & ISO 14001 - Pilotage du Système de Management Environnemental (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Environnement-ISO-14001-Pilotage-du-Syst-me-de-Management-Environnemental-H-F/16931?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16788",
+   "stanowisko": "16788 - Ingénieur Etudes Ventilation (HVAC / CVC)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/47-BSC-ADF-Ing-nieur-Etudes-Ventilation-HVAC-CVC-F-H/16788?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16703",
+   "stanowisko": "Chargé de Projets Environnement F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-de-Projets-Environnement-F-H/16703?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16690",
+   "stanowisko": "Chargé de missions stratégie F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-6-mois-Direction-de-la-Strat-gie-Corporate-F-H/16690?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16634",
+   "stanowisko": "Magasinier F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Magasinier-F-H/16634?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16597",
+   "stanowisko": "Technicien.ne échafaudeur F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-chafaudeur-F-H/16597?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16951",
+   "stanowisko": "Training Advisor (Permanent)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Training-Advisor-Permanent/16951?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16946",
+   "stanowisko": "Gestionnaire paie F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Gestionnaire-paie-F-H/16946?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16927",
+   "stanowisko": "Ingénieur sûreté opérationnelle pérénité résilience F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-ret-Op-rationnelle-P-rennit-R-silience-F-H/16927?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16836",
+   "stanowisko": "Ingénieur(e) d'études électricité confirmé(e) HTB/HTA/BT F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-d-tudes-lectricit-confirm-e-HTB-HTA-BT/16836?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16797",
+   "stanowisko": "Ingénieur mécanique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stagiaire-Ing-nieur-e-m-canique/16797?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16795",
+   "stanowisko": "Projeteur(se) chaudronnerie/mécanique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/041-SQY-16795-Projeteur-se-chaudronnerie-m-canique-F-H/16795?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16759",
+   "stanowisko": "Ingénieur Data Science & Simulation Industrielle F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Data-Science-Simulation-Industrielle-F-H/16759?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16757",
+   "stanowisko": "Data Scientist F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/DATA-SCIENTIST-F-H-Extraction-massive-de-donn-es-techniques-depuis-un-corpus-documentaire/16757?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16682",
+   "stanowisko": "Technicien Laboratoire Dosimétrie F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Laboratoire-dosim-trie-F-H/16682?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16919",
+   "stanowisko": "Production Operation II",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Production-Operator-II/16919?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16868",
+   "stanowisko": "Coordination des études d'ingénierie - Architecte études expérimenté·e F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Coordination-des-tudes-d-ing-nierie-Architecte-tudes-exp-riment-e-F-H/16868?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16863",
+   "stanowisko": "Acheteur prestations d'ingénierie grands projets",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/051-CEC-Acheteur-Prestations-d-ing-nierie-grands-projets-F-H/16863?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16738",
+   "stanowisko": "Technicien.ne Caractérisations matériaux - F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-Caract-risations-mat-riaux-F-H/16738?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16733",
+   "stanowisko": "Ingénieur études contrôle-commande confirmé F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-tudes-contr-le-commande-confirm-OP-F-H/16733?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16543",
+   "stanowisko": "Ingénieur(e) Pilote d'Études Mécaniques - ADF F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-Pilote-d-tudes-M-caniques-ADF-F-H/16543?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16480",
+   "stanowisko": "Ingénieur Etudes Procédé Junior H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Etudes-Proc-d-Junior-ADF-H-F/16480?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16474",
+   "stanowisko": "Ingénieur(e) Etudes Santé Environnement Ecoconception F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/76-OP-BSC-Ing-nieur-e-Etudes-Sant-Environnement-Ecoconception-F-H/16474?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "14114",
+   "stanowisko": "Chargé de projets industriels F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-de-projets-industriels-F-H/14114?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16706",
+   "stanowisko": "Responsable laboratoire F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Responsable-d-chelon-laboratoire-F-H/16706?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16700",
+   "stanowisko": "Géologue d'estimation F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/G-ologue-d-estimation-F-H/16700?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16694",
+   "stanowisko": "Chargé de Surveillance Environnementale F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Charg-de-Surveillance-Environnementale-F-H/16694?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16420",
+   "stanowisko": "Ingénieur Projet MOA - Nouvelle Usine de MOX (F08)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Projet-MOA-Nouvelle-Usine-de-MOX-F08-F-H/16420?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16392",
+   "stanowisko": "Technicien(ne) Supérieur(e) en Informatique Industrielle F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-Sup-rieur-e-en-Informatique-Industrielle/16392?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "15386",
+   "stanowisko": "Ingénieur en estimation des coûts - junior F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-en-estimation-des-co-ts-junior-F-H/15386?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16747",
+   "stanowisko": "Acheteur Services Généraux F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Acheteur-Services-G-n-raux/16747?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16730",
+   "stanowisko": "Ingénieur études contrôle-commande confirmé F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-tudes-contr-le-commande-confirm-F-H/16730?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16701",
+   "stanowisko": "Chef de projet Suivi & Déploiement Solutions Applicatives Projets internationaux F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-de-projet-Suivi-D-ploiement-Solutions-Applicatives-Projets-internationaux-F-H/16701?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16687",
+   "stanowisko": "Analyste laboratoire F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-ouvrier-au-sein-des-laboratoires-d-analyses-du-P-le-Radioprotection-Evaluation-F-H/16687?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16335",
+   "stanowisko": "Ingénieur(e) en Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-en-Radioprotection-F-H/16335?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16844",
+   "stanowisko": "Are you Interested in Project IKE",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Are-You-Interested-in-Joining-Project-IKE/16844?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16826",
+   "stanowisko": "Ingénieur Fiabiliste F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Ing-nieur-Fiabiliste/16826?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16824",
+   "stanowisko": "Stage - Matériaux – Modélisation propriétés mécaniques polymère F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-fin-d-tudes-Mat-riaux-Mod-lisation-propri-t-s-m-caniques-polym-re-F-H/16824?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16778",
+   "stanowisko": "Ingénieur R&D - Méthodes et Caractérisation Rhéologique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-R-D-M-thodes-et-Caract-risation-Rh-ologique-F-H/16778?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16761",
+   "stanowisko": "AI Plateform Owner Dataiku et Solutions IA Gen F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/AI-plateform-owner-Dataiku-et-Solutions-IA-Gen/16761?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16702",
+   "stanowisko": "Ingénieur R&D – Développement d'électrodéposition pour applications médicales F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-R-D-D-veloppement-d-lectrod-position-pour-applications-m-dicales-F-H/16702?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16698",
+   "stanowisko": "Ingénieur Méthodes en Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-M-thodes-en-Radioprotection-F-H/16698?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16671",
+   "stanowisko": "Technicien analyste au laboratoire environnement H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-analyste-au-laboratoire-environnement-H-F/16671?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16618",
+   "stanowisko": "Ingénieur sûreté d'installation F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-ret-d-Installation-F-H/16618?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16606",
+   "stanowisko": "Ingénieur Spécialiste Mécanique des Fluides – Analyse des phénomènes d'électrolyse F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Sp-cialiste-M-canique-des-Fluides-Analyse-des-ph-nom-nes-d-lectrolyse-F-H/16606?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16581",
+   "stanowisko": "Technicien de maintenance levage F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-de-Maintenance-Levage-F-H/16581?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16737",
+   "stanowisko": "Qualification d'un code de calcul de criticité par assimilation et transposition de données expérimentales (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Qualification-d-un-code-de-calcul-de-criticit-par-assimilation-et-transposition-de-donn-es-exp-rimentales-F-H/16737?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16734",
+   "stanowisko": "Stage Simulation sans maillage d'un tir missile (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Simulation-sans-maillage-d-un-tir-missile-F-H/16734?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16729",
+   "stanowisko": "Développement et industrialisation d'une plateforme IHM (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/D-veloppement-et-industrialisation-d-une-plateforme-IHM-F-H/16729?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16727",
+   "stanowisko": "Simplification des modèles d'emballages en crash (F/H)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Simplification-des-mod-les-d-emballages-en-crash-F-H/16727?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16675",
+   "stanowisko": "Impact de l'utilisation du formulaire de criticité CRISTAL V2.1 F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Impact-de-l-utilisation-du-formulaire-de-criticit-CRISTAL-V2-1-F-H/16675?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16672",
+   "stanowisko": "Modélisation thermique des assemblages combustible F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Mod-lisation-thermique-des-assemblages-combustible-F-H/16672?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16743",
+   "stanowisko": "Ingénieur Etudes Contrôle Commande Radio Protection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Etudes-Contr-le-Commande-Radio-Protection-F-H/16743?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16726",
+   "stanowisko": "Directeur Qualité Groupe F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Directeur-Qualit-Groupe-F-H/16726?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16663",
+   "stanowisko": "Stage Développement outils Unreal Engine 5 F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-D-veloppement-outils-Unreal-Engine-5-F-H/16663?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16746",
+   "stanowisko": "Laboratory Technician (Permanent)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Laboratory-Technician-Permanent/16746?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16683",
+   "stanowisko": "Ingénieur estimation des coûts F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Stage-Ing-nieur-e-Estimation-des-Couts/16683?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16642",
+   "stanowisko": "Ingénieur Qualité Projet Confirmé F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/019-CEC-OP-Ing-nieur-Qualit-Projet-pour-ADF/16642?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16569",
+   "stanowisko": "Ingénieur(e) Facteurs Organisationnel et Humain F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/040-SQY-OP-Ing-nieur-e-Facteurs-Organisationnel-et-Humain-F-H/16569?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16696",
+   "stanowisko": "Contracts & Procurement Administrator",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Contracts-Procurement-Administrator/16696?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16441",
+   "stanowisko": "Ingénieur chargé de l'optimisation du procédé chimique de La Hague F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-charg-de-l-optimisation-du-proc-d-chimique-de-La-Hague-F-H/16441?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "15864",
+   "stanowisko": "Technicien(ne) Études Électricité / Électrotechnique / Contrôle-Commande – Pied d'Ouvrage F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-tudes-lectricit-lectrotechnique-Contr-le-Commande-Pied-d-Ouvrage-F-H/15864?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16688",
+   "stanowisko": "Administrative & Project Support, SHER (Permanent)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Administrative-Project-Support-SHER-Permanent/16688?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16659",
+   "stanowisko": "Technicien Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Radioprotection-F-H-POLE-CD-2X8/16659?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16658",
+   "stanowisko": "Technicien Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Radioprotection-F-H-HN-TE/16658?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16657",
+   "stanowisko": "Technicien Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-Radioprotection-F-H-2X8-POLE-CD/16657?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16630",
+   "stanowisko": "Adjoint(e) Responsable Fonctionnel d'Application F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Adjoint-e-Responsable-Fonctionnel-d-Application-F-H/16630?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16626",
+   "stanowisko": "Ingénieur d'Etudes Installation générale Expérimenté - Brest F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/043-SQY-OP-Ing-nieur-d-Etudes-Installation-g-n-rale-Exp-riment-Localisation-BREST-29/16626?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16602",
+   "stanowisko": "Ingénieur Calculs de Radioprotection F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Calculs-de-Radioprotection-F-H/16602?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16544",
+   "stanowisko": "Ingénieur Sûreté - Retour d'Expérience F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-S-ret-Retour-d-Exp-rience-F-H/16544?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16517",
+   "stanowisko": "Ingénieur(e) Sûreté Nucléaire de Conception H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-e-S-ret-Nucl-aire-de-Conception-Orano-Projets-F-H/16517?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16495",
+   "stanowisko": "Ingénieur études procédé chimique confirmé F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-tudes-proc-d-chimique-confirm-F-H/16495?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16516",
+   "stanowisko": "Responsable d’équipe Sûreté Nucléaire H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Responsable-d-quipe-S-ret-Nucl-aire-Orano-Aval-du-Futur-F-H/16516?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16514",
+   "stanowisko": "Ingénieur(e) Calcul & Simulation – Qualification code_aster H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/STAGE-Ing-nieur-e-Calcul-Simulation-Qualification-code-aster-H-F/16514?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "15336",
+   "stanowisko": "Ingénieur Etudes Procédé Expérimenté F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Ing-nieur-Etudes-Proc-d-Confirm-F-H/15336?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16560",
+   "stanowisko": "Ingénieur d'Etudes Sûreté Nucléaire | Protection physique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-ADF-Ing-nieur-d-Etudes-S-ret-Nucl-aire-Protection-physique-F-H/16560?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16559",
+   "stanowisko": "Ingénieur Sûreté Nucléaire - Méthodes et Conception F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-Ing-nieur-S-ret-Nucl-aire-M-thodes-et-Conception-F-H/16559?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16554",
+   "stanowisko": "Responsable d'équipe Sûreté Nucléaire F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-ADF-Responsable-d-quipe-S-ret-Nucl-aire-F-H/16554?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16537",
+   "stanowisko": "Ingénieur d’étude en Sécurité Nucléaire F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-Ing-nieur-d-tude-en-S-curit-Nucl-aire-F-H/16537?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16534",
+   "stanowisko": "Ingénieur d’Etude Nucléaire | Protection physique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-ADF-Ing-nieur-d-tude-en-S-curit-Nucl-aire-F-H/16534?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16525",
+   "stanowisko": "Ingénieur Sûreté Nucléaire de Conception F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/026-CEC-Ing-nieur-S-ret-Nucl-aire-de-Conception-F-H/16525?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16507",
+   "stanowisko": "Chef de Projet Confirmé F/H – Orano Projets",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Chef-de-Projet-Confirm-F-H-Orano-Projets/16507?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16473",
+   "stanowisko": "Responsable d’Equipe Opérationnelle Démantèlement Installations Nucléaires F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/068-CEC-BOP-Responsable-d-Equipe-Op-rationnelle-exp-riment-D-mant-lement-F-H/16473?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16456",
+   "stanowisko": "Technicien(ne) Préparateur Méthodes Montage",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-ne-Pr-parateur-M-thodes-Montage/16456?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16520",
+   "stanowisko": "Pre-Clinical Research Associate",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Pre-Clinical-Research-Associate/16520?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16462",
+   "stanowisko": "Technicien Soutien Technique F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Technicien-soutien-technique-F-H/16462?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "orano",
+   "id": "16460",
+   "stanowisko": "Opérateur de fabrication F/H",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.orano.group/en_US/jobs/JobDetail/Op-rateur-de-fabrication-F-H/16460?source=External%2BCareers%2BMarketplace"
+  },
+  {
+   "firma": "pr_anav",
+   "id": "operador-a-de-sala-de-control-h-m-x",
+   "stanowisko": "Operador/a de Sala de Control (h/m/x)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.anav.es/es/offer/operador-a-de-sala-de-control-h-m-x/"
+  },
+  {
+   "firma": "pr_anav",
+   "id": "operador-de-sala-sector-nuclear-h-m-x",
+   "stanowisko": "Operador de Sala – Sector Nuclear (h/m/x)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.anav.es/es/offer/operador-de-sala-sector-nuclear-h-m-x/"
+  },
+  {
+   "firma": "pr_axpo",
+   "id": "8700522",
+   "stanowisko": "Jira Administrator (f/m/d)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.axpo.com/jobs/8700522-jira-administrator-f-m-d"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8687698",
+   "stanowisko": "Operational Excellence Lead",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8687698-operational-excellence-lead"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8687001",
+   "stanowisko": "Materials Specialist, Fuel Cladding and Irradiation Effects",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8687001-materials-specialist-fuel-cladding-and-irradiation-effects"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8670430",
+   "stanowisko": "Supply Chain Specialist",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8670430-supply-chain-specialist"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8638110",
+   "stanowisko": "Senior NDT Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8638110-senior-ndt-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8625852",
+   "stanowisko": "Test & Validation Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8625852-test-validation-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8611141",
+   "stanowisko": "Nuclear Operations Manager - US",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8611141-nuclear-operations-manager-us"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8571653",
+   "stanowisko": "Export Control Manager -US",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8571653-export-control-manager-us"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8543173",
+   "stanowisko": "Code Validation Engineer - Thermal Hydraulics",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8543173-code-validation-engineer-thermal-hydraulics"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8517455",
+   "stanowisko": "Modularization Lead",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8517455-modularization-lead"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8481864",
+   "stanowisko": "Nuclear Design Quality Engineer - US",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8481864-nuclear-design-quality-engineer-us"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8454951",
+   "stanowisko": "Financial controller",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8454951-financial-controller"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8449469",
+   "stanowisko": "Nuclear Supplier Quality Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8449469-nuclear-supplier-quality-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8449390",
+   "stanowisko": "Nuclear Waste System Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8449390-nuclear-waste-system-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8448998",
+   "stanowisko": "Fluid System Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8448998-fluid-system-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8448702",
+   "stanowisko": "Manager Fluid System Engineering",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8448702-manager-fluid-system-engineering"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8428847",
+   "stanowisko": "Nuclear Chemistry System Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8428847-nuclear-chemistry-system-engineer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8428493",
+   "stanowisko": "Senior Thermohydraulic Analyst",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8428493-senior-thermohydraulic-analyst"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8412081",
+   "stanowisko": "Core Designer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8412081-core-designer"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8399884",
+   "stanowisko": "Project Planning Lead",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8399884-project-planning-lead"
+  },
+  {
+   "firma": "pr_blykalla",
+   "id": "8372395",
+   "stanowisko": "Nuclear Fuel & Materials Transport Lead - US Based",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.blykalla.com/jobs/8372395-nuclear-fuel-materials-transport-lead-us-based"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8515967",
+   "stanowisko": "Chef de Chantier Capacités et Supportage (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8515967-chef-de-chantier-capacites-et-supportage-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8434648",
+   "stanowisko": "Chef de Chantier Soudage et Tuyauterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8434648-chef-de-chantier-soudage-et-tuyauterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8434639",
+   "stanowisko": "Chef d'Équipe Mécanique Machines Tournantes (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8434639-chef-d-equipe-mecanique-machines-tournantes-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8161058",
+   "stanowisko": "Chef d'équipe Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8161058-chef-d-equipe-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160964",
+   "stanowisko": "Chef d'équipe Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160964-chef-d-equipe-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160902",
+   "stanowisko": "Chef d'équipe Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160902-chef-d-equipe-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160846",
+   "stanowisko": "Préparateur Maintenance Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160846-preparateur-maintenance-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160767",
+   "stanowisko": "Robinetier (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160767-robinetier-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160719",
+   "stanowisko": "Robinetier (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160719-robinetier-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160687",
+   "stanowisko": "Robinetier (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160687-robinetier-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160680",
+   "stanowisko": "Electromécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160680-electromecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160678",
+   "stanowisko": "Electromécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160678-electromecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8160677",
+   "stanowisko": "Electromécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8160677-electromecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8142596",
+   "stanowisko": "Electromécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8142596-electromecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8139242",
+   "stanowisko": "Robinetier (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8139242-robinetier-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8139176",
+   "stanowisko": "Préparateur Maintenance Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8139176-preparateur-maintenance-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8138572",
+   "stanowisko": "Chef d'équipe Robinetterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8138572-chef-d-equipe-robinetterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8699859",
+   "stanowisko": "Responsable Ressources Humaines (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8699859-responsable-ressources-humaines-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8691453",
+   "stanowisko": "Technicien Démantèlement Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8691453-technicien-demantelement-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8688276",
+   "stanowisko": "Mécanicien dieseliste (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8688276-mecanicien-dieseliste-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8670161",
+   "stanowisko": "Responsable des Appels d'Offres - Tuyauterie / Soudage (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8670161-responsable-des-appels-d-offres-tuyauterie-soudage-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8642133",
+   "stanowisko": "Responsable Contrat Soudage (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8642133-responsable-contrat-soudage-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8639536",
+   "stanowisko": "Tuyauteur Activité Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8639536-tuyauteur-activite-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8639533",
+   "stanowisko": "Tuyauteur Activité Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8639533-tuyauteur-activite-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8639531",
+   "stanowisko": "Tuyauteur Activité Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8639531-tuyauteur-activite-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8639529",
+   "stanowisko": "Tuyauteur Activité Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8639529-tuyauteur-activite-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8639522",
+   "stanowisko": "Tuyauteur Activité Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8639522-tuyauteur-activite-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8625843",
+   "stanowisko": "Assistant Administratif (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8625843-assistant-administratif-h-f"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "564",
+   "stanowisko": "Initiativbewerbung Werkstudent (m/w/d) – Bereich Controlling, Entwicklung, Dokumentation, IT, Konstruktion, Projektmanagement, Verwaltung",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/564-initiativbewerbung-werkstudent-m-w-d-bereich-controlling-entwicklung-dokumentation-it-konstruktion-projektmanagement-verwaltung/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "672",
+   "stanowisko": "Ausbildung zum/zur Industriekaufmann/-frau (m/w/d) ab 01.09.2027",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/672-ausbildung-zum-zur-industriekaufmann-frau-m-w-d-ab-01-09-2027/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "674",
+   "stanowisko": "Ausbildung zum/zur Kaufmann/-frau für Büromanagement (m/w/d) ab 01.09.2027",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/674-ausbildung-zum-zur-kaufmann-frau-fuer-bueromanagement-m-w-d-ab-01-09-2027/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "677",
+   "stanowisko": "Mitarbeiter (m/w/d) Contract & Claim Management",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/677-mitarbeiter-m-w-d-contract-claim-management/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "679",
+   "stanowisko": "Projektleiter (m/w/d) Anlagen- und Systemtechnik",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/679-projektleiter-m-w-d-anlagen-und-systemtechnik/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "681",
+   "stanowisko": "Initiativbewerbung",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/681-initiativbewerbung/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "682",
+   "stanowisko": "Projektleiter (m/w/d) - Project Management (Waste Casks)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/682-projektleiter-m-w-d-project-management-waste-casks/job.html"
+  },
+  {
+   "firma": "pr_gns",
+   "id": "687",
+   "stanowisko": "Team Lead (m/w/d) Treasury",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://gns.mhm.jobs/687-team-lead-m-w-d-treasury/job.html"
+  },
+  {
+   "firma": "pr_nagra",
+   "id": "fachspezialist-geotechnische-modellierung-im-untertagbau-m-w-d",
+   "stanowisko": "Bewirb dich jetzt",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.nagra.ch/jobs/fachspezialist-geotechnische-modellierung-im-untertagbau-m-w-d"
+  },
+  {
+   "firma": "pr_nagra",
+   "id": "teamleiter-hoch--industriebau-mind-80",
+   "stanowisko": "Bewirb dich jetzt",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.nagra.ch/jobs/teamleiter-hoch--industriebau-mind-80"
+  },
+  {
+   "firma": "pr_psi",
+   "id": "75437",
+   "stanowisko": "Strahlenschutzfachkraft",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.psi.ch/de/hr/stellenangebote/75437-strahlenschutzfachkraft"
+  },
+  {
+   "firma": "snn",
+   "id": "2026/11/11/specialist-mid-smc-instalatii-in-pregatire-7-posturi-in-cadrul-grupului-specialisti-mid-smc-sectia-mid-smc-sucursala-cne-cernavoda",
+   "stanowisko": "Specialist MID-SMC Instalatii in Pregatire – 7 posturi în cadrul Grupului Specialisti MID-SMC – Sectia MID-SMC – Sucursala CNE Cernavoda",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://nuclearelectrica.ro/snn/2026/11/11/specialist-mid-smc-instalatii-in-pregatire-7-posturi-in-cadrul-grupului-specialisti-mid-smc-sectia-mid-smc-sucursala-cne-cernavoda/"
+  },
+  {
+   "firma": "snn",
+   "id": "2026/11/11/inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-biroului-pregatire-initiala-si-autorizari-sucursala-cne-cernavoda",
+   "stanowisko": "Inginer Operare CNE în Pregătire/ Inginer Operare CNE în cadrul Biroului Pregatire Initiala si Autorizari – Sucursala CNE Cernavoda",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://nuclearelectrica.ro/snn/2026/11/11/inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-biroului-pregatire-initiala-si-autorizari-sucursala-cne-cernavoda/"
+  },
+  {
+   "firma": "snn",
+   "id": "2026/11/11/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-cu-atributiuni-de-coordonator-proiect-de-investitii-in-cadrul-serviciului-coordonare-program-de-investitii-sucuresala-cn",
+   "stanowisko": "Inginer in Pregatire/ Inginer Operare CNE in Pregatire/ Inginer Operare CNE (cu atributiuni de Coordonator proiect de investitii) in cadrul Serviciului Coordonare Program de Investitii – Sucuresala CN",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://nuclearelectrica.ro/snn/2026/11/11/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-cu-atributiuni-de-coordonator-proiect-de-investitii-in-cadrul-serviciului-coordonare-program-de-investitii-sucuresala-cn/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Lead-Electrical-Engineer-EC2R-7BP/1456461433/",
+   "stanowisko": "Lead Electrical Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Lead-Electrical-Engineer-EC2R-7BP/1456461433/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Site-Buildings-Manager-EC2R-7BP/1456470533/",
+   "stanowisko": "Site Buildings Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Site-Buildings-Manager-EC2R-7BP/1456470533/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Security-&-Access-Control-Systems-Lead-EC2R-7BP/1456481833/",
+   "stanowisko": "Security & Access Control Systems Lead",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Security-&-Access-Control-Systems-Lead-EC2R-7BP/1456481833/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Specialist-Controls-Manager-EC2R-7BP/1456539033/",
+   "stanowisko": "Specialist Controls Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Specialist-Controls-Manager-EC2R-7BP/1456539033/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Risk-Integration-Manager-EC2R-7BP/1456537533/",
+   "stanowisko": "Risk Integration Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Risk-Integration-Manager-EC2R-7BP/1456537533/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Senior-Commercial-Manager-EC2R-7BP/1455926833/",
+   "stanowisko": "Senior Commercial Manager",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.sizewellc.com/job/London-Senior-Commercial-Manager-EC2R-7BP/1455926833/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-TEMP-Senior-Commercial-Manager-EC2R-7BP/1455926833/",
+   "stanowisko": "[TEMP] Senior Commercial Manager",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/London-TEMP-Senior-Commercial-Manager-EC2R-7BP/1455926833/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Sizewell-C-Science-and-Engineering-Graduate-EC2R-7BP/1449754233/",
+   "stanowisko": "Sizewell C Science and Engineering Graduate",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Science-and-Engineering-Graduate-EC2R-7BP/1449754233/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/Gloucester-Sizewell-C-Science-and-Engineering-Graduate-GL3-4AE/1449755033/",
+   "stanowisko": "Sizewell C Science and Engineering Graduate",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/Gloucester-Sizewell-C-Science-and-Engineering-Graduate-GL3-4AE/1449755033/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Sizewell-C-Project-Controls-Graduate-EC2R-7BP/1449759233/",
+   "stanowisko": "Sizewell C Project Controls Graduate",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Project-Controls-Graduate-EC2R-7BP/1449759233/"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Sizewell-C-Supply-Chain-Graduate-EC2R-7BP/1449761433/",
+   "stanowisko": "Sizewell C Supply Chain Graduate",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/London-Sizewell-C-Supply-Chain-Graduate-EC2R-7BP/1449761433/"
+  },
+  {
+   "firma": "westinghouse",
+   "id": "1428212900",
+   "stanowisko": "Energy Storage Engineer",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.westinghousenuclear.com/WECTEC_Staffing/job/OTHER-Energy-Storage-Engineer-MA-0/1428212900/"
+  },
+  {
+   "firma": "westinghouse",
+   "id": "1448059100",
+   "stanowisko": "Kaizen Technician",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.westinghousenuclear.com/job/Ogden-Kaizen-Technician-UT-84404/1448059100/"
+  },
+  {
+   "firma": "westinghouse",
+   "id": "1437293400",
+   "stanowisko": "Principal Solutions Engineer - Nuclear Fuel Technology",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.westinghousenuclear.com/job/Cranberry-Township-Principal-Solutions-Engineer-Nuclear-Fuel-Technology-NC/1437293400/"
+  }
+ ]
+}

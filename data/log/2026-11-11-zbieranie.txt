@@ -1,0 +1,78 @@
+pej {'ok': True, 'n': (7, 7), 's': 34, 'od_startu': 34}
+pracuj {'ok': True, 'n': 13, 's': 27, 'od_startu': 61}
+ncbj {'ok': True, 'n': 7, 's': 13, 'od_startu': 74}
+kprm: 293 na liście, 17 w terminie
+kprm {'ok': True, 'n': (17, 108), 's': 125, 'od_startu': 199}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 199}
+lista kznpp: 6 ofert, stron 2, 3 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 3, 'od_startu': 202}
+lista https://nuclearelectrica.ro/snn/category/joburi/page/6/ https://nuclearelectrica.ro/snn/category/joburi/page/6/: HTTP 404
+lista snn: 45 ofert, stron 6, 11 s, pełna: True
+snn {'ok': True, 'n': (45, 3), 's': 17, 'od_startu': 219}
+szc {'ok': True, 'n': (30, 6), 's': 11, 'od_startu': 230}
+hpc {'ok': True, 'n': (166, 48), 's': 21, 'od_startu': 251}
+iter {'ok': True, 'n': (5, 0), 's': 2, 'od_startu': 253}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1380446", "contestNo": "TAL-NSNI20261110-001", "column": ["Internship - Supporting the IRRS Strategic Plan Implementation and activities related to SMRs", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-11-18, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 16}
+iaea {'ok': True, 'n': (15, 15), 's': 22, 'od_startu': 275}
+lista edfuk: 32 ofert, stron 4, 5 s, pełna: True
+edfuk {'ok': True, 'n': (32, 2), 's': 8, 'od_startu': 284}
+fortum {'ok': True, 'n': (29, 0), 's': 4, 'od_startu': 288}
+lista cez: 188 ofert, stron 10, 14 s, pełna: True
+cez 2001487236 https://kdejinde.jobs.cz/pd/2001487236: HTTP 403
+cez 2001487057 https://kdejinde.jobs.cz/pd/2001487057: HTTP 403
+cez 2001486829 https://kdejinde.jobs.cz/pd/2001486829: HTTP 403
+cez 2001165326 https://kdejinde.jobs.cz/pd/2001165326: HTTP 403
+cez 2000521555 https://kdejinde.jobs.cz/pd/2000521555: HTTP 403
+cez 2000921475 https://kdejinde.jobs.cz/pd/2000921475: HTTP 403
+cez 2001262883 https://kdejinde.jobs.cz/pd/2001262883: HTTP 403
+cez 2001310952 https://kdejinde.jobs.cz/pd/2001310952: HTTP 403
+cez 2001483795 https://kdejinde.jobs.cz/pd/2001483795: HTTP 403
+cez 2001483148 https://kdejinde.jobs.cz/pd/2001483148: HTTP 403
+cez 2001483145 https://kdejinde.jobs.cz/pd/2001483145: HTTP 403
+cez 2001426589 https://kdejinde.jobs.cz/pd/2001426589: HTTP 403
+cez 2001426424 https://kdejinde.jobs.cz/pd/2001426424: HTTP 403
+cez 2001481948 https://kdejinde.jobs.cz/pd/2001481948: HTTP 403
+cez 2001481521 https://kdejinde.jobs.cz/pd/2001481521: HTTP 403
+cez 2001481505 https://kdejinde.jobs.cz/pd/2001481505: HTTP 403
+cez 2001481163 https://kdejinde.jobs.cz/pd/2001481163: HTTP 403
+cez 2001480905 https://kdejinde.jobs.cz/pd/2001480905: HTTP 403
+cez 2001425516 https://kdejinde.jobs.cz/pd/2001425516: HTTP 403
+cez 2001480941 https://kdejinde.jobs.cz/pd/2001480941: HTTP 403
+cez 2001480909 https://kdejinde.jobs.cz/pd/2001480909: HTTP 403
+cez 2001424242 https://kdejinde.jobs.cz/pd/2001424242: HTTP 403
+cez 2001424773 https://kdejinde.jobs.cz/pd/2001424773: HTTP 403
+cez 2001203501 https://kdejinde.jobs.cz/pd/2001203501: HTTP 403
+cez 2000880972 https://kdejinde.jobs.cz/pd/2000880972: HTTP 403
+cez 2001356102 https://kdejinde.jobs.cz/pd/2001356102: HTTP 403
+cez 2001479909 https://kdejinde.jobs.cz/pd/2001479909: HTTP 403
+cez 2001479726 https://kdejinde.jobs.cz/pd/2001479726: HTTP 403
+cez 2001479780 https://kdejinde.jobs.cz/pd/2001479780: HTTP 403
+cez 2001479777 https://kdejinde.jobs.cz/pd/2001479777: HTTP 403
+cez 2001479105 https://kdejinde.jobs.cz/pd/2001479105: HTTP 403
+cez 2001479081 https://kdejinde.jobs.cz/pd/2001479081: HTTP 403
+cez {'ok': True, 'n': (188, 98), 's': 165, 'od_startu': 452}
+lista orano: 396 ofert, stron 67, 181 s, pełna: True
+orano {'ok': True, 'n': (396, 144), 's': 362, 'od_startu': 814}
+lista pr_anav: 2 ofert, stron 1, 4 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 2), 's': 10, 'od_startu': 824}
+lista pr_gns: 8 ofert, stron 1, 0 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 8), 's': 12, 'od_startu': 836}
+lista pr_nagra: 2 ofert, stron 1, 0 s, pełna: True
+pr_nagra {'ok': True, 'n': (2, 2), 's': 3, 'od_startu': 839}
+lista pr_blykalla: 20 ofert, stron 1, 1 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 20), 's': 29, 'od_startu': 868}
+lista pr_endel: 189 ofert, stron 11, 21 s, pełna: True
+pr_endel {'ok': True, 'n': (189, 40), 's': 82, 'od_startu': 950}
+lista pr_axpo: 86 ofert, stron 14, 28 s, pełna: True
+pr_axpo {'ok': True, 'n': (86, 43), 's': 89, 'od_startu': 1039}
+lista pr_psi: 17 ofert, stron 1, 1 s, pełna: True
+pr_psi {'ok': True, 'n': (17, 17), 's': 26, 'od_startu': 1065}
+lista pr_egis: 300 ofert, stron 26, 43 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 0), 's': 43, 'od_startu': 1107}
+lista pr_nda: 4 ofert, stron 2, 3 s, pełna: True
+pr_nda {'ok': True, 'n': (4, 0), 's': 3, 'od_startu': 1110}
+lista pr_ukaea: 10 ofert, stron 1, 3 s, pełna: True
+pr_ukaea {'ok': True, 'n': (10, 0), 's': 3, 'od_startu': 1113}
+bechtel {'ok': True, 'n': (1133, 135, 0), 's': 178, 'od_startu': 1291}
+wec {'ok': True, 'n': (1118, 0), 's': 60, 'od_startu': 1351}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 0, 'od_startu': 1351}
