@@ -1,0 +1,21 @@
+{
+ "westinghouse": {
+  "firma": "Westinghouse Electric Company",
+  "gleboko_do": "2027",
+  "jadrowych_razem": 227,
+  "kraj": "US",
+  "lata": {
+   "2026": {
+    "adresow": 3441,
+    "jadrowe": 227,
+    "pobrane": 227,
+    "szczegolow": 2931
+   }
+  },
+  "najstarszy": "20201001",
+  "ofert_razem": 227,
+  "ostatnio": "2026-11-11",
+  "status": "w toku",
+  "url": "careers.westinghousenuclear.com"
+ }
+}
