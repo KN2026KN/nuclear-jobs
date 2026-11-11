@@ -1,5 +1,5 @@
 (function(){
-// Tablica ofert pracy keura.eu/praca i /en/ (10.11.2026, rozbudowa świat 11.2026). Dane: robot nocny (keura-praca) -> JSON w <script id="kp-dane">.
+// Tablica ofert pracy keura.eu/praca i /en/ (10.11.2026, rozbudowa świat 11.2026). Dane: robot nocny (repozytorium nuclear-jobs) -> JSON w <script id="kp-dane">.
 // Uwaga: skrypt trafia na stronę jako base64 (WordPress psuje „&&” w treści) - pisać normalnie, generator koduje.
 var D=JSON.parse(document.getElementById('kp-dane').textContent);
 var J=D.oferty, EN=D.jez==='en', LOC=EN?'en-GB':'pl-PL';

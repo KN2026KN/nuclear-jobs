@@ -11,7 +11,7 @@ var rows=K.map(function(k){var em=P[k],t=0;Object.keys(em).forEach(function(e){t
 $('tP').innerHTML=rows.join('');
 var Z=D.zrodla||{},zk=Object.keys(Z),zok=zk.filter(function(k){return Z[k].ok}).length;
 $('kN').textContent=N;$('kK').textContent=K.length;$('kE').textContent=Object.keys(E).length;$('kZ').textContent=zok+' / '+zk.length;$('kA').textContent=D.tylko_analiza_otwarte||0;
-$('sub').textContent='Stan na '+dd(D.dzien)+' · dane robota nocnego keura-praca · strona widoczna tylko dla administratora';
+$('sub').textContent='Stan na '+dd(D.dzien)+' · dane robota nocnego nuclear-jobs · strona widoczna tylko dla administratora';
 var nn=function(n){return Array.isArray(n)?n.join(' / '):(n==null?'-':n)};
 $('tZ').innerHTML=zk.map(function(k){var z=Z[k];return '<tr><td><b>'+esc(z.nazwa)+'</b> <span class="mut">'+k+'</span></td><td>'+esc(z.kraj)+'</td><td class="'+(z.ok?'ok':'bad')+'">'+(z.ok?'działa':'błąd')+'</td><td>'+(z.ok?nn(z.n):'<span class="bad">'+esc(z.blad||'')+'</span>')+'</td><td class="n">'+(z.s||0)+' s</td></tr>'}).join('');
 var R=D.rotacja||{};$('rot').textContent=(R.pominiete||[]).length?'Tej nocy w rotacji pominięte: '+R.pominiete.join(', ')+' (zbierane co 2. noc).':'';
