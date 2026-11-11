@@ -1,0 +1,30 @@
+name: Publikacja teraz (baza z raw, strona /praca i statystyki, bez zbierania)
+on: workflow_dispatch
+permissions:
+  contents: write
+concurrency:
+  group: nocny
+  cancel-in-progress: false
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install --quiet requests beautifulsoup4 openpyxl langdetect
+      - name: Baza, strona i statystyki
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          set -o pipefail
+          DAY=$(ls data/dzien | grep -E '^[0-9-]{10}\.json$' | tail -1 | cut -c1-10)
+          mkdir -p data/log data/statystyki
+          python3 kod/rebuild_all.py raw /tmp/kp.sqlite > /dev/null
+          python3 kod/strona_praca.py /tmp/kp.sqlite $DAY /tmp/praca.html /tmp/praca_en.html
+          python3 strona/praca_publikuj.py /tmp/praca.html /tmp/praca_en.html
+          python3 kod/statystyki.py /tmp/kp.sqlite $DAY data/statystyki/$DAY.json
+          python3 strona/statystyki_publikuj.py data/statystyki/$DAY.json
