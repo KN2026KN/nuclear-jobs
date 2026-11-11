@@ -26,6 +26,9 @@ jobs:
           print('WP_USER: dl.', len(u), '| @' if '@' in u else '| bez @', '| biale znaki na brzegach' if u != u.strip() else '')
           q = p.replace(' ', '')
           print('WP_APP_PASSWORD: dl. bez spacji', len(q), '(powinno byc 24)', '| biale znaki na brzegach' if p != p.strip() else '', '| tylko litery i cyfry' if q.isalnum() else '| inne znaki')
+          for nazwa, au in (('falszywe', ('nieistnieje', 'aaaa bbbb cccc dddd eeee ffff')), ('sekret', (u.strip(), p.strip()))):
+              r = requests.get('https://keura.eu/wp-json/wp/v2/pages/7194?context=edit&_fields=id', auth=au, headers={'User-Agent': 'keura-robot/1.0 (+https://keura.eu)'}, timeout=60)
+              print('TEST', nazwa, r.status_code, r.text[:160].replace(chr(10), ' '))
           for url in ('https://keura.eu/wp-json/wp/v2/users/me?context=edit', 'https://keura.eu/wp-json/wp/v2/pages/7194?context=edit&_fields=id,status'):
               for ua in ({'User-Agent': 'keura-robot'}, {'User-Agent': 'Mozilla/5.0 (keura-robot)'}):
                   r = requests.get(url, auth=(u.strip(), p.strip()), headers=ua, timeout=60)
