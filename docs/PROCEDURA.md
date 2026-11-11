@@ -34,3 +34,5 @@ Folder: `Pobrane\Keura praca baza\`
 - Pomijamy nazwiska rekruterów i przełożonych (są w surowych danych Bechtel, nie trafiają do bazy).
 - Pełne teksty tylko do analizy wewnętrznej, publikujemy statystykę.
 - Słownik wymagań: `kod\kp_tags.py`, zmiany po akceptacji.
+
+> 11.11.2026 - wynagrodzenia: oprócz zakresów parser bierze też pojedynczą kwotę z okresem albo etykietą (np. HPC „Basic PAYE: £29.34/hr”, „Projected annual earnings: £91,854”); dodatki (allowance, bonus, zakwaterowanie) pomijane; kwota „miesięczna” > 25 000 EUR/GBP/USD/CHF/CAD liczona jako roczna. Ofert z płacą: 255 -> 526. Poprzednia wersja: kod/Archiwum/kp_parse_11-11-2026.py.

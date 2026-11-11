@@ -287,6 +287,12 @@ def parse_ncbj(path, pam=None):
 WAL = [('GBP', r'£|GBP'), ('EUR', r'€|EUR|euro'), ('USD', r'US\$|USD|\$'), ('CZK', r'Kč|CZK'), ('BGN', r'лв\.?|BGN'), ('RON', r'\bRON\b|\blei\b'),
        ('SEK', r'\bSEK\b|\bkr\b'), ('AED', r'AED'), ('CAD', r'CAD'), ('CHF', r'CHF'), ('PLN', r'PLN|zł')]
 def placa(text):
+    """(min, max, okres, waluta); 11.11.2026: kwota „miesięczna” powyżej 25 000 EUR/GBP/USD/CHF/CAD to w praktyce roczna (np. Westinghouse Włochy: „€29.100 to €37.000 per month”)."""
+    lo, hi, per, kod = _placa(text)
+    if per == 'mies' and kod in ('EUR', 'GBP', 'USD', 'CHF', 'CAD') and lo and lo > 25000: per = 'rok'
+    return lo, hi, per, kod
+
+def _placa(text):
     """(min, max, okres, waluta) z treści; None gdy brak. Szuka zakresu z walutą i okresem."""
     t = (text or '').replace('\xa0', ' ')
     for kod, w in WAL:
@@ -300,12 +306,42 @@ def placa(text):
         lo, hi = num(a), num(b)
         if ak: lo *= 1000
         if bk or ak: hi = hi * 1000 if hi < 1000 else hi
-        if not lo or not hi or hi < lo or lo < 100: continue
-        if 1990 <= lo <= 2100 and 1990 <= hi <= 2100: continue          # lata, nie kwoty
         okr = (m.group(9) or '').lower()
+        if not lo or not hi or hi < lo or lo < (5 if re.search(r'hour|/h', okr) else 100): continue
+        if 1990 <= lo <= 2100 and 1990 <= hi <= 2100: continue          # lata, nie kwoty
         per = 'godz' if re.search(r'hour|/h', okr) else ('mies' if re.search(r'month|mois|/m|měsíč|месеч|lunar', okr) else ('rok' if okr or lo > 15000 else 'mies'))
         if kod in ('PLN', 'CZK', 'BGN', 'RON', 'SEK') and not okr: per = 'mies' if lo < 200000 else 'rok'
         return lo, hi, per, kod
+    return placa_jedna(t)
+
+# 11.11.2026: pojedyncza kwota z okresem albo z etykietą (np. HPC: „Basic PAYE: £29.34/hr”, „Projected annual earnings: £91,854”)
+OKRES_RX = (r'(?P<o>/\s?(?:hr|hour|h)\b|per hour|an hour|hourly|p/?h\b|/\s?godz|za godzin\w*|/\s?(?:year|yr|annum|rok)\b|per (?:annum|year)|p\.\s?a\.?|\bpa\b|annual(?:ly)?|a year|'
+            r'/\s?(?:month|mo|m-c|mies)\.?|per month|monthly|miesięcznie|mies\.|par an|par mois|/mois|pro (?:Jahr|Monat|Stunde)|jährlich|monatlich|в месяц|/мес|měsíčně)')
+ETYKIETA_RX = re.compile(r'salary|\bpay\b|rate|earnings|wynagrodzeni|stawk|zarob|pensj|salaire|rémunération|gehalt|vergütung|lohn|mzda|plat\b|зарплат|оклад|доход|compensation|remuneration|basic', re.I)
+def _kwota(a, d):
+    a = re.sub(r'[ ,.](?=\d{3}(\D|$))', '', a)
+    try: return float(a + ('.' + d[1:] if d else ''))
+    except ValueError: return None
+def placa_jedna(t):
+    for kod, w in WAL:
+        kw = r'(?P<a>\d{1,3}(?:[ ,.]\d{3})+|\d{1,7})(?P<d>[.,]\d{1,2})?(?P<k>\s?k\b)?'
+        for rx in (rf'(?:{w})\s?{kw}\s*{OKRES_RX}?', rf'{kw}\s?(?:{w})\s*{OKRES_RX}?'):
+            for m in re.finditer(rx, t, re.I):
+                v = _kwota(m.group('a'), m.group('d'))
+                if not v: continue
+                if m.group('k'): v *= 1000
+                okr = (m.group('o') or '').lower()
+                przed = t[max(0, m.start() - 70):m.start()]
+                if not okr and not ETYKIETA_RX.search(przed): continue
+                if not okr and re.search(r'annual|year|annum|rok|jahr|an\b', przed, re.I): okr = 'year'
+                if not okr and re.search(r'hour|godzin|stund', przed, re.I): okr = 'hour'
+                if re.search(r'hr|hour|/h|godz|stunde|p/?h', okr): per, ok = 'godz', 5 <= v <= 600
+                elif re.search(r'month|mo\b|mies|m-c|mois|monat|мес|měsíč', okr): per, ok = 'mies', 300 <= v <= 150000
+                elif okr: per, ok = 'rok', 5000 <= v <= 3000000
+                else: per = 'rok' if v > 15000 else ('mies' if v >= 300 else 'godz'); ok = 5 <= v <= 3000000
+                if 1990 <= v <= 2100 and not okr: continue
+                if 'allowance' in przed.lower() or 'bonus' in przed[-25:].lower() or 'accommodation' in przed.lower(): continue
+                if ok: return v, v, per, kod
     return None, None, None, None
 
 
