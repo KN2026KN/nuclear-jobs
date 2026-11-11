@@ -1,0 +1,6 @@
+// Uruchomić na karcie https://jobs.bechtel.com/us/en/search-results?qcountry=Poland (nowa karta). Pobiera pełne dane wszystkich ofert z Polski i zapisuje plik kp_bechtel_RRRRMMDD.json.
+(async()=>{const day=new Date().toISOString().slice(0,10).replace(/-/g,'');
+const pd=h=>{const i=h.indexOf('phApp.ddo = ');const s=h.slice(i+12);const k=s.indexOf('; phApp.experimentData');return JSON.parse(s.slice(0,k))};
+let ids=[];for(let from=0;from<500;from+=10){const d=pd(await (await fetch('/us/en/search-results?qcountry=Poland&from='+from+'&s=1')).text());const e=d.eagerLoadRefineSearch;const js=(e&&e.data&&e.data.jobs)||[];const pl=js.filter(j=>j.country==='Poland');ids=ids.concat(pl.map(j=>j.jobId));if(!js.length||pl.length<js.length)break}
+ids=[...new Set(ids)];const J={};for(const id of ids){try{J[id]=pd(await (await fetch('/us/en/job/'+id)).text()).jobDetail.data.job}catch(e){}}
+window.KP={n:ids.length,ok:Object.keys(J).length};const b=new Blob([JSON.stringify({fetched:new Date().toISOString(),ids,jobs:J})],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='kp_bechtel_'+day+'.json';document.body.appendChild(a);a.click();window.KP.saved=1})();

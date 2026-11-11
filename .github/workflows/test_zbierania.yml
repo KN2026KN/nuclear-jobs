@@ -1,0 +1,35 @@
+name: Test zbierania (wybrane źródła, bez bazy i strony)
+on:
+  workflow_dispatch:
+    inputs:
+      zrodla:
+        description: 'źródła oddzielone spacją (puste = wszystkie)'
+        default: ''
+      limit:
+        description: 'limit czasu nocy w sekundach'
+        default: '900'
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install --quiet requests beautifulsoup4 langdetect
+      - name: Zbieranie testowe
+        env:
+          KP_LIMIT_NOCY: ${{ inputs.limit }}
+        run: |
+          D=data/log/test_zbierania/$(date -u +%Y%m%d-%H%M)
+          mkdir -p $D
+          timeout 1380 python3 -u collect/collect.py $D ${{ inputs.zrodla }} > $D/log.txt 2>&1 || echo "przerwane/blad: $?" >> $D/log.txt
+          gzip -f $D/kp_* || true
+      - name: Zapis
+        run: |
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git add data/log/test_zbierania; git commit -qm "Test zbierania" || true
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

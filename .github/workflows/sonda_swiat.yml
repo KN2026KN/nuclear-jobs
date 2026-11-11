@@ -1,0 +1,26 @@
+name: Sonda stron kariery (świat)
+on:
+  workflow_dispatch:
+    inputs:
+      lista:
+        description: 'plik listy w narzedzia/sonda/'
+        default: 'lista1.json'
+permissions:
+  contents: write
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - run: pip install -q requests beautifulsoup4
+      - name: Sonda
+        run: |
+          N=$(basename "${{ inputs.lista }}" .json)
+          python3 narzedzia/sonda_swiat.py narzedzia/sonda/${{ inputs.lista }} data/log/sonda/$N
+      - name: Zapis
+        run: |
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git add data/log/sonda; git commit -qm "Sonda stron kariery ${{ inputs.lista }}" || true
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

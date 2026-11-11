@@ -1,0 +1,31 @@
+<!-- wp:html -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap&subset=latin-ext,cyrillic" rel="stylesheet">
+<style>{{STYL}}</style>
+<div id="kpraca" lang="{{LANG}}"><section class="hero">
+<div class="wrap hero-in">
+<h1>{{h1}}</h1>
+<form class="searchbar" onsubmit="return false"><input type="search" id="q" placeholder="{{ph}}" aria-label="{{szukaj}}"><button type="button" id="qbtn">{{szukaj}}</button></form>
+<div class="topf" id="topf"></div>
+<div class="facts"><div>{{oferty}}<b id="fN">0</b></div><div>{{prac}}<b id="fE">0</b></div><div>{{kraje}}<b id="fK">0</b></div><div>{{zwyn}}<b id="fS">0</b></div><div>{{aktual}}<b>{{codz}}</b></div><div>{{stan}}<b id="fD"></b></div></div>
+</div>
+</section>
+<div class="kp-main wrap">
+<div class="sectors" id="sectors"></div>
+<div class="grid">
+<aside class="panel" id="panel">
+<div class="panel-h"><b>{{filtry}}</b><button class="linkbtn" id="reset">{{wyczysc}}</button></div>
+<div id="facets"></div>
+<div class="sheet-foot"><button class="btn" id="apply">{{pokaz}}</button></div>
+</aside>
+<div>
+<div class="mfab"><button id="openF">{{filtry}}</button><select class="sort" id="sortM" aria-label="Sort"><option value="sal">{{sort_sal}}</option><option value="new">{{sort_new}}</option><option value="dl">{{sort_dl}}</option></select></div>
+<div class="bar"><div class="count" id="count"></div><select class="sort" id="sort" aria-label="Sort"><option value="sal">{{sort_sal}}</option><option value="new">{{sort_new}}</option><option value="dl">{{sort_dl}}</option></select></div>
+<div class="active" id="active"></div>
+<div id="list"></div>
+<div class="promo"><p>{{promo}}</p><a class="btn" href="{{promo_url}}">{{promo_btn}}</a></div>
+</div>
+</div>
+</div></div>
+<script type="application/json" id="kp-dane">{{DANE}}</script>
+<script>{{SKRYPT}}</script>
+<!-- /wp:html -->

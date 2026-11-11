@@ -1,0 +1,18 @@
+{
+"indeed_pl": "https://pl.indeed.com/jobs?q=j%C4%85drowa",
+"indeed_uk": "https://uk.indeed.com/jobs?q=nuclear",
+"indeed_fr": "https://fr.indeed.com/jobs?q=nucl%C3%A9aire",
+"indeed_de": "https://de.indeed.com/jobs?q=kerntechnik",
+"indeed_us": "https://www.indeed.com/jobs?q=nuclear",
+"indeed_rss": "https://www.indeed.com/rss?q=nuclear",
+"glassdoor_com": "https://www.glassdoor.com/Job/nuclear-jobs-SRCH_KO0,7.htm",
+"glassdoor_uk": "https://www.glassdoor.co.uk/Job/nuclear-jobs-SRCH_KO0,7.htm",
+"glassdoor_pl": "https://www.glassdoor.com/Job/poland-nuclear-jobs-SRCH_IL.0,6_IN193_KO7,14.htm",
+"monster_com": "https://www.monster.com/jobs/search?q=nuclear&where=",
+"monster_uk": "https://www.monster.co.uk/jobs/search?q=nuclear",
+"monster_fr": "https://www.monster.fr/emploi/recherche?q=nucleaire",
+"monster_de": "https://www.monster.de/jobs/suche?q=kerntechnik",
+"robots_indeed": "https://www.indeed.com/robots.txt",
+"robots_glassdoor": "https://www.glassdoor.com/robots.txt",
+"robots_monster": "https://www.monster.com/robots.txt"
+}

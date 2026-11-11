@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Panel ofert pracy</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap&subset=latin-ext" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--bg:#f4f7f8;--card:#fff;--ink:#0b2a3c;--mut:#5f7079;--line:#dfe7ea;--teal:#1a6c7a;--teal-l:#e6f3f5;--ok:#1f7a4d}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1a21;--card:#13252e;--ink:#e6eef1;--mut:#9fb2ba;--line:#24404b;--teal:#5fb9c6;--teal-l:#173843;--ok:#6fcf9b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Manrope,system-ui,sans-serif}
+.w{max-width:1200px;margin:0 auto;padding:20px 16px 60px}h1{font-size:26px;margin:0 0 2px;font-weight:800}.sub{color:var(--mut);font-size:13px;margin-bottom:18px}
+.f{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}.f select,.f input{font:inherit;font-size:14px;padding:9px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);min-width:0}
+.f input{flex:1 1 220px}
+.k{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:16px}.k div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.k b{display:block;font-size:24px;font-weight:800}.k span{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:1px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}.c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
+.c h2{font-size:15px;margin:0 0 2px}.c p{margin:0 0 10px;font-size:12px;color:var(--mut)}.full{grid-column:1/-1}.cv{position:relative;height:300px}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--mut);cursor:pointer;white-space:nowrap}td a{color:var(--teal);text-decoration:none}
+.tw{overflow-x:auto}.o{color:var(--ok);font-weight:700}.z{color:var(--mut)}.n{white-space:nowrap;text-align:right}
+@media (max-width:800px){.k{grid-template-columns:1fr 1fr}.g{grid-template-columns:1fr}.cv{height:260px}.hide{display:none}}
+</style></head><body><div class="w">
+<h1>Oferty pracy - sektor jądrowy w Polsce</h1><div class="sub" id="sub"></div>
+<div class="f"><select id="fF"><option value="">Wszyscy pracodawcy</option></select><select id="fO"><option value="">Wszystkie obszary</option></select>
+<select id="fS"><option value="o">Otwarte teraz</option><option value="">Wszystkie (historia)</option></select><input id="fQ" type="search" placeholder="Szukaj stanowiska"></div>
+<div class="k"><div><span>Ofert</span><b id="kN"></b></div><div><span>Z wynagrodzeniem</span><b id="kS"></b></div><div><span>Mediana / mies.</span><b id="kM"></b></div><div><span>Pracodawców</span><b id="kE"></b></div></div>
+<div class="g"><div class="c full"><h2>Otwarte oferty w czasie</h2><p>średnia liczba otwartych ofert w miesiącu, wg pracodawcy</p><div class="cv"><canvas id="cH"></canvas></div></div>
+<div class="c"><h2>Wynagrodzenie wg obszaru</h2><p>zł brutto / mies.: pasek od najniższego do najwyższego, kreska = mediana</p><div class="cv"><canvas id="cO"></canvas></div></div>
+<div class="c"><h2>Wynagrodzenie wg pracodawcy</h2><p>zł brutto / mies.: pasek od najniższego do najwyższego, kreska = mediana</p><div class="cv"><canvas id="cE"></canvas></div></div></div>
+<div class="c"><h2>Oferty</h2><p id="tp"></p><div class="tw"><table><thead><tr><th data-s="t">Stanowisko</th><th data-s="f">Pracodawca</th><th data-s="fn" class="hide">Obszar</th><th data-s="c" class="hide">Miasto</th><th data-s="mn" class="n">Zł / mies.</th><th data-s="a" class="hide">Od</th><th data-s="b">Do</th></tr></thead><tbody id="tb"></tbody></table></div></div>
+</div>
+<script type="application/json" id="d">{{DANE}}</script>
+<script>
+var D=JSON.parse(document.getElementById('d').textContent),J=D.oferty,$=function(i){return document.getElementById(i)};
+var fmt=function(n){return n==null?'':Math.round(n).toLocaleString('pl-PL').replace(/ | /g,' ')},dd=function(s){return s?s.slice(8,10)+'.'+s.slice(5,7)+'.'+s.slice(2,4):''};
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var css=function(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()};
+var PAL=['#1a6c7a','#d08a2c','#4f6bd8','#2f9e6a','#b0526c','#7a7f88','#8c5ac8'];
+$('sub').textContent='Stan na '+D.dzien.split('-').reverse().join('.')+' · źródła: strony pracodawców i pracuj.pl · tylko dla Ciebie';
+function opts(id,vals){var s=$(id);vals.forEach(function(v){var o=document.createElement('option');o.value=o.textContent=v;s.appendChild(o)})}
+var licz=function(k){var m={};J.forEach(function(j){m[j[k]]=(m[j[k]]||0)+1});return Object.keys(m).sort(function(a,b){return m[b]-m[a]})};
+opts('fF',licz('f'));opts('fO',licz('fn'));
+var srt='mn',dir=-1,ch={};
+function med(a){a=a.slice().sort(function(x,y){return x-y});var n=a.length;return n?(n%2?a[(n-1)/2]:(a[n/2-1]+a[n/2])/2):null}
+function zbior(){var f=$('fF').value,o=$('fO').value,s=$('fS').value,q=$('fQ').value.trim().toLowerCase();
+ return J.filter(function(j){return(!f||j.f===f)&&(!o||j.fn===o)&&(!s||j.o)&&(!q||j.t.toLowerCase().indexOf(q)>=0)})}
+function zakresy(L,k){var m={};L.forEach(function(j){if(!j.mn)return;(m[j[k]]=m[j[k]]||[]).push(j)});
+ var ks=Object.keys(m).sort(function(a,b){return med(m[b].map(function(j){return(j.mn+j.mx)/2}))-med(m[a].map(function(j){return(j.mn+j.mx)/2}))}).slice(0,12);
+ return{l:ks.map(function(k){return k+' ('+m[k].length+')'}),r:ks.map(function(k){return[Math.min.apply(0,m[k].map(function(j){return j.mn})),Math.max.apply(0,m[k].map(function(j){return j.mx}))]}),m:ks.map(function(k){return med(m[k].map(function(j){return(j.mn+j.mx)/2}))})}}
+function wykres(id,cfg){if(ch[id])ch[id].destroy();Chart.defaults.font.family='Manrope';Chart.defaults.color=css('--mut');Chart.defaults.borderColor=css('--line');ch[id]=new Chart($(id),cfg)}
+function slupki(id,z){wykres(id,{type:'bar',data:{labels:z.l,datasets:[{label:'zakres',grouped:false,order:1,data:z.r,backgroundColor:css('--teal-l'),borderColor:css('--teal'),borderWidth:1,borderRadius:6,borderSkipped:false},
+ {label:'mediana',order:0,data:z.m.map(function(v){return[v-350,v+350]}),backgroundColor:css('--ink'),borderWidth:0,borderRadius:2,borderSkipped:false,grouped:false,barPercentage:.9}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){return c.datasetIndex?'mediana '+fmt((c.raw[0]+c.raw[1])/2)+' zł':fmt(c.raw[0])+' - '+fmt(c.raw[1])+' zł'}}}},
+ scales:{x:{ticks:{callback:function(v){return fmt(v/1000)+' tys.'}}},y:{type:'category',grid:{display:false},ticks:{autoSkip:false,font:{size:11}}}}}})}
+function rysuj(){var L=zbior(),S=L.filter(function(j){return j.mn});
+ $('kN').textContent=L.length;$('kS').textContent=S.length+(L.length?' ('+Math.round(100*S.length/L.length)+'%)':'');$('kM').textContent=S.length?fmt(med(S.map(function(j){return(j.mn+j.mx)/2})))+' zł':'-';$('kE').textContent=new Set(L.map(function(j){return j.f})).size;
+ slupki('cO',zakresy(L,'fn'));slupki('cE',zakresy(L,'f'));
+ L.sort(function(a,b){var x=a[srt],y=b[srt];if(x==null)return 1;if(y==null)return -1;return(x>y?1:x<y?-1:0)*dir});
+ $('tp').textContent=L.length+' ofert'+(L.length>300?', pokazane pierwsze 300':'');
+ $('tb').innerHTML=L.slice(0,300).map(function(j){return '<tr><td><a href="'+esc(j.u)+'" target="_blank" rel="noopener">'+esc(j.t)+'</a>'+(j.ek&&j.ek!=='nie'?' <span class="z">· EC: '+esc(j.ek)+'</span>':'')+'</td><td>'+esc(j.f)+'</td><td class="hide">'+esc(j.fn)+'</td><td class="hide">'+esc(j.c)+'</td><td class="n">'+(j.mn?fmt(j.mn)+(j.mx!==j.mn?' - '+fmt(j.mx):''):'')+'</td><td class="hide">'+dd(j.a)+'</td><td class="'+(j.o?'o':'z')+'">'+(j.o?'otwarta':dd(j.b))+'</td></tr>'}).join('')}
+function hist(){var M=Object.keys(D.hist),F={};M.forEach(function(m){Object.keys(D.hist[m]).forEach(function(f){F[f]=(F[f]||0)+D.hist[m][f]})});
+ var top=Object.keys(F).sort(function(a,b){return F[b]-F[a]}).slice(0,6);
+ wykres('cH',{type:'line',data:{labels:M,datasets:top.map(function(f,i){return{label:f,data:M.map(function(m){return D.hist[m][f]||0}),borderColor:PAL[i],backgroundColor:PAL[i],tension:.35,pointRadius:0,borderWidth:2.5}})},
+ options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{boxWidth:12}}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:10}},y:{beginAtZero:true}}}})}
+['fF','fO','fS'].forEach(function(i){$(i).onchange=rysuj});$('fQ').oninput=rysuj;
+document.querySelectorAll('th[data-s]').forEach(function(t){t.onclick=function(){var s=t.dataset.s;dir=srt===s?-dir:(s==='mn'||s==='a'||s==='b'?-1:1);srt=s;rysuj()}});
+hist();rysuj();
+</script></body></html>

@@ -1,0 +1,8 @@
+name: Sonda portali
+on: { workflow_dispatch: {} }
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests beautifulsoup4 && python3 narzedzia/sonda_portale.py

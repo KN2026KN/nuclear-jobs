@@ -1,0 +1,6 @@
+// Uruchomić na karcie https://pej.pl/o-nas/kariera/oferty-pracy/ (nowa karta, poczekać 3 s na listę). Zapisuje kp_pej_RRRRMMDD.txt.
+(async()=>{const day=new Date().toISOString().slice(0,10).replace(/-/g,'');await new Promise(r=>setTimeout(r,3000));
+const L=[...new Set([...document.querySelectorAll('a[href*="/oferty-pracy/"]')].map(a=>a.href).filter(h=>!/oferty-pracy\/?$/.test(h)))];const P=new DOMParser();let out='=====LIST\n'+[...document.querySelectorAll('tr')].slice(1).map(tr=>[...tr.querySelectorAll('td')].map(td=>td.innerText.trim()).join('|')+'|'+((tr.querySelector('a')||{}).href||'').split('/oferty-pracy/')[1]).join('\n')+'\n';
+for(const u of L){const h=await (await fetch(u)).text();const d=P.parseFromString(h,'text/html');const pid=(h.match(/postid-(\d+)/)||[])[1]||'';d.querySelectorAll('script,style,noscript').forEach(x=>x.remove());const m=d.querySelector('.elementor-location-single')||d.body;
+out+='=====JOB '+u.split('/oferty-pracy/')[1].replace(/\/$/,'')+'\n@pid '+pid+'\n'+(m.innerText||m.textContent).replace(/[ \t]+/g,' ').replace(/\s*\n\s*/g,'\n').trim()+'\n'}
+window.KP={n:L.length};const b=new Blob([out],{type:'text/plain;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='kp_pej_'+day+'.txt';document.body.appendChild(a);a.click();window.KP.saved=1})();

@@ -1,0 +1,33 @@
+<!-- wp:html -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap&subset=latin-ext" rel="stylesheet">
+<style>
+#kps{--navy:#0d2836;--teal:#0f7c78;--teal-l:#d7efed;--line:#e3e8ec;--mut:#5d7280;--red:#b42318;font-family:Manrope,system-ui,sans-serif;color:var(--navy);max-width:1200px;margin:0 auto;padding:8px 0 40px}
+#kps h1{font-size:26px;font-weight:800;letter-spacing:-.4px;margin:0 0 4px}#kps .sub{color:var(--mut);font-size:14px;margin-bottom:18px}
+#kps h2{font-size:17px;font-weight:800;margin:0 0 4px}#kps p.o{color:var(--mut);font-size:13px;margin:0 0 12px}
+#kps .k{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:16px}#kps .k div{background:var(--navy);color:#fff;border-radius:12px;padding:14px 16px}
+#kps .k span{display:block;font-size:12px;opacity:.75;text-transform:uppercase;letter-spacing:1px}#kps .k b{font-size:28px;font-weight:800}
+#kps .c{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+#kps .g{display:grid;grid-template-columns:1fr 1fr;gap:16px}#kps .g .c{margin:0}
+#kps table{width:100%;border-collapse:collapse;font-size:14px}#kps th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--mut);border-bottom:2px solid var(--line);padding:8px}
+#kps td{border-bottom:1px solid var(--line);padding:9px 8px;vertical-align:top}#kps td.n{text-align:right;font-weight:800;white-space:nowrap}
+#kps .fl{display:inline-flex;align-items:center;gap:8px;font-weight:700;white-space:nowrap}#kps .fl img{width:22px;height:16px;border-radius:2px;box-shadow:0 0 0 1px var(--line)}
+#kps .em{display:inline-flex;align-items:center;gap:6px;margin:2px 6px 2px 0;padding:3px 10px;border-radius:999px;background:var(--teal-l);font-size:13px;font-weight:600}
+#kps .em i{font-style:normal;font-weight:800;color:var(--teal)}#kps .ok{color:var(--teal);font-weight:800}#kps .bad{color:var(--red);font-weight:800}#kps .mut{color:var(--mut)}
+#kps .cv{position:relative;height:300px}
+@media(max-width:900px){#kps .k{grid-template-columns:1fr 1fr}#kps .g{grid-template-columns:1fr}#kps td,#kps th{padding:7px 4px;font-size:13px}}
+</style>
+<div id="kps">
+<h1>Oferty pracy - pokrycie i statystyki</h1><div class="sub" id="sub"></div>
+<div class="k"><div><span>Ofert</span><b id="kN"></b></div><div><span>Krajów</span><b id="kK"></b></div><div><span>Pracodawców</span><b id="kE"></b></div><div><span>Źródła działają</span><b id="kZ"></b></div><div><span>Tylko analiza</span><b id="kA"></b></div></div>
+<div class="c"><h2>Kraje i pracodawcy</h2><p class="o">otwarte oferty w terminie, bez „tylko analiza” (to, co może trafić na stronę /praca)</p><div style="overflow-x:auto"><table><thead><tr><th>Kraj</th><th>Ofert</th><th>Pracodawcy (liczba ofert)</th></tr></thead><tbody id="tP"></tbody></table></div></div>
+<div class="g"><div class="c"><h2>Oferty wg kraju</h2><div class="cv"><canvas id="cK"></canvas></div></div>
+<div class="c"><h2>Nowe i zamknięte - 60 dni</h2><div class="cv"><canvas id="cT"></canvas></div></div></div>
+<div class="c" style="margin-top:16px"><h2>Źródła - ostatnia noc</h2><p class="o" id="rot"></p><div style="overflow-x:auto"><table><thead><tr><th>Źródło</th><th>Kraj</th><th>Stan</th><th>Lista / nowe treści</th><th>Czas</th></tr></thead><tbody id="tZ"></tbody></table></div></div>
+<div class="c"><h2>Sprawdzone, jeszcze niepodłączone</h2><div style="overflow-x:auto"><table><thead><tr><th>Pracodawca</th><th>Kraj</th><th>Powód</th></tr></thead><tbody id="tX"></tbody></table></div></div>
+<div class="c"><h2>Potencjalni pracodawcy</h2><p class="o" id="kpo"></p><div style="overflow-x:auto"><table><thead><tr><th>Kraj</th><th>Pracodawca</th><th>Rodzaj</th><th>Stan</th><th>Strona kariery</th></tr></thead><tbody id="tC"></tbody></table></div></div>
+<div class="c"><h2>Wynagrodzenia wg kraju</h2><p class="o">środek widełek, waluta oryginalna, cała historia</p><div style="overflow-x:auto"><table><thead><tr><th>Kraj</th><th>Waluta / okres</th><th>Ofert</th><th>Mediana</th><th>Od - do</th></tr></thead><tbody id="tW"></tbody></table></div></div>
+</div>
+<script type="application/json" id="kp-stat">{{DANE}}</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>{{SKRYPT}}</script>
+<!-- /wp:html -->

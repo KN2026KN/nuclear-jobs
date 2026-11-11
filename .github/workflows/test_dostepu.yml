@@ -1,0 +1,19 @@
+name: Test dostępu do źródeł
+on:
+  workflow_dispatch:
+  push:
+    paths: ['narzedzia/test_dostepu.py', '.github/workflows/test_dostepu.yml']
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install --quiet requests && mkdir -p data/log && python3 narzedzia/test_dostepu.py
+      - name: Zapis
+        if: always()
+        run: |
+          git config user.name keura-robot; git config user.email keura-robot@users.noreply.github.com
+          git add data/log/test_dostepu.json; git commit -m "Test dostępu" || true; git pull --rebase -q; git push

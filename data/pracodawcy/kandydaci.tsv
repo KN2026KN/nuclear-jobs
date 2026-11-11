@@ -1,0 +1,298 @@
+kraj	kategoria	nazwa	www
+PL	regulator	Państwowa Agencja Atomistyki (PAA)	https://www.gov.pl/web/paa
+PL	regulator	Urząd Dozoru Technicznego (UDT)	https://www.udt.gov.pl/
+PL	regulator	Ministerstwo Energii	https://www.gov.pl/web/energia
+PL	regulator	Transportowy Dozór Techniczny (TDT)	https://www.tdt.gov.pl/
+PL	operator	Polskie Elektrownie Jądrowe (PEJ)	https://ppej.pl/
+PL	operator	Orlen Synthos Green Energy (OSGE)	https://www.osge.com/
+PL	operator	PGE (PAK-PCE, SMR)	https://www.gkpge.pl/
+PL	operator	KGHM Polska Miedź (SMR)	https://kghm.com/
+PL	badania	Narodowe Centrum Badań Jądrowych (NCBJ, POLATOM)	https://www.ncbj.gov.pl/
+PL	badania	Instytut Chemii i Techniki Jądrowej (IChTJ)	https://www.ichtj.waw.pl/
+PL	badania	Instytut Fizyki Jądrowej PAN (IFJ PAN)	https://www.ifj.edu.pl/
+PL	badania	Centralne Laboratorium Ochrony Radiologicznej (CLOR)	https://clor.waw.pl/
+PL	odpady	Zakład Unieszkodliwiania Odpadów Promieniotwórczych (ZUOP)	https://www.zuop.pl/
+PL	dostawca	Polimex Mostostal	https://www.polimex-mostostal.pl/
+PL	dostawca	Mostostal Warszawa	https://www.mostostal.waw.pl/
+PL	dostawca	Budimex	https://www.budimex.pl/
+PL	dostawca	Famet	https://www.famet.com.pl/
+PL	dostawca	Energomontaż-Północ Gdynia	https://www.emp-gdynia.com.pl/
+PL	dostawca	ZRE Katowice	https://www.zre.com.pl/
+PL	dostawca	Tele-Fonika Kable	https://www.tfkable.com/
+PL	dostawca	Technokabel	https://www.technokabel.com.pl/
+PL	dostawca	Doraco	https://www.doraco.pl/
+PL	inzynieria	Energoprojekt-Katowice	https://www.energoprojekt.pl/
+PL	inzynieria	Jacobs Polska / AtkinsRéalis Polska	https://www.atkinsrealis.com/
+PL	medycyna	Synektik (radiofarmaceutyki)	https://www.synektik.com.pl/
+CZ	regulator	Státní úřad pro jadernou bezpečnost (SÚJB)	https://www.sujb.cz/
+CZ	operator	Elektrárna Dukovany II (EDU II)	https://www.edu2.cz/
+CZ	badania	ÚJV Řež	https://www.ujv.cz/
+CZ	badania	Centrum výzkumu Řež (CVŘ)	https://www.cvrez.cz/
+CZ	dostawca	Škoda JS	https://www.skoda-js.cz/
+CZ	dostawca	Doosan Škoda Power	https://www.doosanskoda.com/
+CZ	dostawca	Vítkovice	https://www.vitkovice.cz/
+CZ	dostawca	I&C Energo	https://www.ic-energo.eu/
+CZ	odpady	Správa úložišť radioaktivních odpadů (SÚRAO)	https://www.surao.cz/
+SK	regulator	Úrad jadrového dozoru SR (ÚJD SR)	https://www.ujd.gov.sk/
+SK	operator	Slovenské elektrárne	https://www.seas.sk/
+SK	odpady	JAVYS	https://www.javys.sk/
+SK	inzynieria	VUJE	https://www.vuje.sk/
+SK	operator	Jadrová energetická spoločnosť Slovenska (JESS)	https://www.jess.sk/
+BG	regulator	Nuclear Regulatory Agency (АЯР)	https://www.bnra.bg/
+BG	operator	Kozloduy NPP	https://www.kznpp.org/
+BG	operator	Kozloduy NPP-Newbuild	https://www.kznpp-newbuild.bg/
+BG	odpady	Държавно предприятие РАО (SE RAW)	https://www.dprao.bg/
+BG	inzynieria	Risk Engineering	https://www.riskeng.bg/
+RO	regulator	CNCAN	https://www.cncan.ro/
+RO	operator	Nuclearelectrica (SNN)	https://www.nuclearelectrica.ro/
+RO	operator	EnergoNuclear	https://www.energonuclear.ro/
+RO	operator	RoPower Nuclear	https://www.ropowernuclear.ro/
+RO	badania	RATEN ICN Pitești	https://www.nuclear.ro/
+RO	badania	IFIN-HH (ELI-NP)	https://www.nipne.ro/
+RO	dostawca	Nuclear Fuel Plant Pitești (FCN)	https://www.nuclearelectrica.ro/fcn/
+RO	odpady	ANDR	https://www.andr.ro/
+SI	regulator	URSJV (SNSA)	https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-jedrsko-varnost/
+SI	operator	Nuklearna elektrarna Krško (NEK)	https://www.nek.si/
+SI	operator	GEN energija (JEK2)	https://www.gen-energija.si/
+SI	badania	Institut Jožef Stefan	https://www.ijs.si/
+SI	odpady	ARAO	https://www.arao.si/
+FR	regulator	ASNR (Autorité de sûreté nucléaire et de radioprotection)	https://www.asnr.fr/
+FR	operator	EDF	https://www.edf.fr/
+FR	dostawca	Framatome	https://www.framatome.com/
+FR	dostawca	Orano	https://www.orano.group/
+FR	badania	CEA	https://www.cea.fr/
+FR	odpady	Andra	https://www.andra.fr/
+FR	fuzja	ITER Organization	https://www.iter.org/
+FR	inzynieria	Assystem	https://www.assystem.com/
+FR	inzynieria	Egis	https://www.egis-group.com/
+FR	dostawca	Onet Technologies	https://www.onet-technologies.com/
+FR	dostawca	Endel (Equans)	https://www.endel.fr/
+FR	dostawca	Ponticelli Frères	https://www.ponticelli.com/
+FR	dostawca	Bouygues Construction (nucléaire)	https://www.bouygues-construction.com/
+FR	dostawca	Vinci Construction (nucléaire)	https://www.vinci-construction.com/
+FR	dostawca	Naval Group (propulsion)	https://www.naval-group.com/
+FR	dostawca	TechnicAtome	https://www.technicatome.com/
+FR	dostawca	Nuward (SMR EDF)	https://www.nuward.com/
+FR	dostawca	Jimmy Energy / Newcleo France	https://www.newcleo.com/
+FR	medycyna	Curium	https://www.curiumpharma.com/
+FR	instytucja	OECD Nuclear Energy Agency (NEA)	https://www.oecd-nea.org/
+GB	regulator	Office for Nuclear Regulation (ONR)	https://www.onr.org.uk/
+GB	regulator	Environment Agency (nuclear)	https://www.gov.uk/government/organisations/environment-agency
+GB	operator	EDF Energy	https://www.edfenergy.com/
+GB	operator	Sizewell C	https://www.sizewellc.com/
+GB	operator	Great British Energy - Nuclear	https://www.gbe-n.gov.uk/
+GB	odpady	Nuclear Decommissioning Authority (NDA)	https://www.gov.uk/government/organisations/nuclear-decommissioning-authority
+GB	odpady	Sellafield Ltd	https://www.gov.uk/government/organisations/sellafield-ltd
+GB	odpady	Nuclear Restoration Services	https://www.nuclearrestorationservices.uk/
+GB	odpady	Nuclear Waste Services	https://www.nuclearwasteservices.uk/
+GB	badania	National Nuclear Laboratory (NNL)	https://www.nnl.co.uk/
+GB	fuzja	UK Atomic Energy Authority (UKAEA)	https://www.gov.uk/government/organisations/uk-atomic-energy-authority
+GB	dostawca	Rolls-Royce SMR	https://www.rolls-royce-smr.com/
+GB	dostawca	Rolls-Royce Submarines	https://www.rolls-royce.com/
+GB	dostawca	Urenco	https://www.urenco.com/
+GB	dostawca	Doosan Babcock	https://www.doosanbabcock.com/
+GB	dostawca	Babcock International	https://www.babcockinternational.com/
+GB	dostawca	Cavendish Nuclear	https://www.cavendishnuclear.com/
+GB	dostawca	Amentum	https://www.amentum.com/
+GB	dostawca	Mammoet	https://www.mammoet.com/
+GB	dostawca	BAE Systems (submarines)	https://www.baesystems.com/
+GB	dostawca	AWE	https://www.awe.co.uk/
+GB	inzynieria	AtkinsRéalis	https://www.atkinsrealis.com/
+GB	inzynieria	Jacobs	https://www.jacobs.com/
+GB	inzynieria	Frazer-Nash Consultancy	https://www.fnc.co.uk/
+GB	inzynieria	Assystem UK	https://www.assystem.com/
+DE	regulator	BASE (Bundesamt für die Sicherheit der nuklearen Entsorgung)	https://www.base.bund.de/
+DE	regulator	GRS	https://www.grs.de/
+DE	operator	PreussenElektra	https://www.preussenelektra.de/
+DE	operator	RWE Nuclear	https://www.rwe.com/
+DE	operator	EnBW Kernkraft	https://www.enbw.com/
+DE	odpady	BGZ Gesellschaft für Zwischenlagerung	https://bgz.de/
+DE	odpady	BGE Bundesgesellschaft für Endlagerung	https://www.bge.de/
+DE	dostawca	Framatome GmbH	https://www.framatome.com/
+DE	dostawca	Urenco Deutschland	https://www.urenco.com/
+DE	dostawca	GNS Gesellschaft für Nuklear-Service	https://www.gns.de/
+DE	dostawca	NUKEM Technologies	https://www.nukemtechnologies.de/
+DE	dostawca	Siempelkamp	https://www.siempelkamp.com/
+DE	badania	Karlsruher Institut für Technologie (KIT)	https://www.kit.edu/
+DE	badania	Forschungszentrum Jülich	https://www.fz-juelich.de/
+DE	fuzja	Max-Planck-Institut für Plasmaphysik (IPP)	https://www.ipp.mpg.de/
+DE	badania	EU JRC Karlsruhe	https://joint-research-centre.ec.europa.eu/
+FI	regulator	STUK	https://www.stuk.fi/
+FI	operator	Teollisuuden Voima (TVO)	https://www.tvo.fi/
+FI	operator	Fortum	https://www.fortum.com/
+FI	odpady	Posiva	https://www.posiva.fi/
+FI	badania	VTT	https://www.vttresearch.com/
+FI	dostawca	Steady Energy (SMR)	https://www.steadyenergy.com/
+FI	inzynieria	AFRY	https://afry.com/
+SE	regulator	Strålsäkerhetsmyndigheten (SSM)	https://www.stralsakerhetsmyndigheten.se/
+SE	operator	Vattenfall	https://group.vattenfall.com/
+SE	operator	OKG	https://www.okg.se/
+SE	operator	Forsmarks Kraftgrupp	https://group.vattenfall.com/se/var-verksamhet/forsmark
+SE	odpady	SKB	https://www.skb.se/
+SE	dostawca	Westinghouse Electric Sweden	https://www.westinghousenuclear.com/
+SE	dostawca	Kärnfull Next (SMR)	https://www.karnfull.se/
+SE	dostawca	Blykalla (SMR)	https://www.blykalla.com/
+SE	dostawca	Studsvik	https://www.studsvik.com/
+SE	inzynieria	Sweco	https://www.sweco.se/
+NL	regulator	ANVS	https://www.autoriteitnvs.nl/
+NL	operator	EPZ	https://www.epz.nl/
+NL	operator	NVI Nucleair (nowe bloki)	https://www.nvinucleair.nl/
+NL	badania	NRG / PALLAS	https://www.nrg.eu/
+NL	odpady	COVRA	https://www.covra.nl/
+NL	dostawca	Urenco Nederland	https://www.urenco.com/
+NL	badania	EU JRC Petten	https://joint-research-centre.ec.europa.eu/
+BE	regulator	FANC / AFCN	https://fanc.fgov.be/
+BE	regulator	Bel V	https://belv.be/
+BE	operator	Engie Electrabel	https://www.engie.be/
+BE	badania	SCK CEN	https://www.sckcen.be/
+BE	odpady	ONDRAF/NIRAS	https://www.ondraf.be/
+BE	medycyna	IRE (Institut des Radioéléments)	https://www.ire.eu/
+BE	inzynieria	Tractebel	https://tractebel-engie.com/
+BE	badania	EU JRC Geel	https://joint-research-centre.ec.europa.eu/
+ES	regulator	Consejo de Seguridad Nuclear (CSN)	https://www.csn.es/
+ES	operator	Centrales Nucleares Almaraz-Trillo (CNAT)	https://www.cnat.es/
+ES	operator	ANAV (Ascó, Vandellós)	https://www.anav.es/
+ES	odpady	Enresa	https://www.enresa.es/
+ES	dostawca	ENUSA	https://www.enusa.es/
+ES	dostawca	ENSA Equipos Nucleares	https://www.ensa.es/
+ES	dostawca	Tecnatom	https://www.tecnatom.es/
+ES	inzynieria	Empresarios Agrupados / Ghesa	https://www.empresariosagrupados.es/
+ES	fuzja	Fusion for Energy (F4E)	https://fusionforenergy.europa.eu/
+IT	regulator	ISIN	https://www.isinucleare.it/
+IT	odpady	Sogin	https://www.sogin.it/
+IT	dostawca	Ansaldo Nucleare	https://www.ansaldoenergia.com/
+IT	dostawca	newcleo	https://www.newcleo.com/
+IT	dostawca	Nuclitalia	https://www.nuclitalia.it/
+IT	badania	ENEA	https://www.enea.it/
+IT	fuzja	Eni / CFS (fusione)	https://www.eni.com/
+IT	badania	EU JRC Ispra	https://joint-research-centre.ec.europa.eu/
+IT	dostawca	Mangiarotti	https://www.mangiarotti.it/
+CH	regulator	ENSI	https://www.ensi.ch/
+CH	operator	Axpo (Beznau, Leibstadt)	https://www.axpo.com/
+CH	operator	Kernkraftwerk Gösgen	https://www.kkg.ch/
+CH	badania	Paul Scherrer Institut (PSI)	https://www.psi.ch/
+CH	odpady	Nagra	https://www.nagra.ch/
+CH	badania	CERN	https://careers.cern/
+AT	instytucja	IAEA	https://www.iaea.org/
+AT	instytucja	CTBTO	https://www.ctbto.org/
+AT	badania	Seibersdorf Laboratories	https://www.seibersdorf-laboratories.at/
+LT	operator	Ignalina NPP (INPP)	https://www.iae.lt/
+LT	regulator	VATESI	https://www.vatesi.lt/
+EE	operator	Fermi Energia	https://fermi.ee/
+UA	operator	Energoatom	https://www.energoatom.com.ua/
+US	regulator	Nuclear Regulatory Commission (NRC)	https://www.nrc.gov/
+US	regulator	Department of Energy (DOE)	https://www.energy.gov/
+US	operator	Southern Nuclear	https://www.southerncompany.com/
+US	operator	Constellation Energy	https://www.constellationenergy.com/
+US	operator	Duke Energy	https://www.duke-energy.com/
+US	operator	Tennessee Valley Authority (TVA)	https://www.tva.com/
+US	operator	Dominion Energy	https://www.dominionenergy.com/
+US	operator	Holtec International	https://holtecinternational.com/
+US	dostawca	TerraPower	https://www.terrapower.com/
+US	dostawca	X-energy	https://x-energy.com/
+US	dostawca	NuScale Power	https://www.nuscalepower.com/
+US	dostawca	GE Vernova Hitachi Nuclear Energy	https://www.gevernova.com/
+US	dostawca	BWX Technologies	https://www.bwxt.com/
+US	dostawca	Curtiss-Wright Nuclear	https://www.curtisswright.com/
+US	dostawca	Kairos Power	https://kairospower.com/
+US	dostawca	Oklo	https://oklo.com/
+US	dostawca	Centrus Energy	https://www.centrusenergy.com/
+US	dostawca	Framatome Inc.	https://www.framatome.com/
+US	inzynieria	Sargent & Lundy	https://www.sargentlundy.com/
+US	inzynieria	Burns & McDonnell	https://www.burnsmcd.com/
+US	inzynieria	Fluor	https://www.fluor.com/
+US	badania	Idaho National Laboratory	https://inl.gov/
+US	badania	Oak Ridge National Laboratory	https://www.ornl.gov/
+US	badania	Los Alamos National Laboratory	https://www.lanl.gov/
+US	badania	Savannah River (SRNS)	https://www.srs.gov/
+US	instytucja	INPO	https://www.inpo.info/
+US	instytucja	EPRI	https://www.epri.com/
+CA	regulator	Canadian Nuclear Safety Commission (CNSC)	https://www.cnsc-ccsn.gc.ca/
+CA	operator	Ontario Power Generation (OPG)	https://www.opg.com/
+CA	operator	Bruce Power	https://www.brucepower.com/
+CA	operator	NB Power	https://www.nbpower.com/
+CA	badania	Canadian Nuclear Laboratories (CNL)	https://www.cnl.ca/
+CA	odpady	NWMO	https://www.nwmo.ca/
+CA	dostawca	AtkinsRéalis (Candu)	https://www.atkinsrealis.com/
+CA	dostawca	BWXT Canada	https://www.bwxt.com/
+CA	dostawca	Cameco	https://www.cameco.com/
+CA	dostawca	Laker Energy Products	https://www.lakerenergy.com/
+CA	inzynieria	Kinectrics	https://www.kinectrics.com/
+CA	medycyna	Nordion	https://www.nordion.com/
+CA	badania	TRIUMF	https://www.triumf.ca/
+AE	regulator	FANR	https://www.fanr.gov.ae/
+AE	operator	ENEC	https://www.enec.gov.ae/
+AE	operator	Nawah Energy	https://www.nawah.ae/
+AE	inzynieria	KEPCO / KHNP (Barakah)	https://www.khnp.co.kr/
+CN	operator	CGN	https://en.cgnpc.com.cn/
+CN	operator	CNNC	https://en.cnnc.com.cn/
+GB	odpady	Dounreay (NRS)	https://www.gov.uk/government/organisations/nuclear-restoration-services/about/recruitment
+GB	dostawca	Mactech Energy Group	https://www.mactechenergy.co.uk/
+GB	dostawca	Boccard UK	https://www.boccard.com/
+GB	inzynieria	AECOM	https://aecom.com/careers/
+GB	fuzja	Tokamak Energy	https://tokamakenergy.com/careers/
+GB	fuzja	First Light Fusion	https://firstlightfusion.com/careers
+GB	fuzja	UK Industrial Fusion Solutions (STEP)	https://ukifs.uk/
+CH	operator	Alpiq	https://www.alpiq.com/career/your-future-at-alpiq/
+CH	dostawca	Deep Atomic	https://deepatomic.com/
+FR	dostawca	Bertin Technologies	https://bertin-technologies.com/careers
+FR	dostawca	Stellaria	https://www.stellaria-energy.com/
+FR	dostawca	Blue Capsule	https://www.blue-capsule.com/
+FR	dostawca	Hexana	https://www.hexana.fr/
+FR	dostawca	Calogena	https://www.calogena.com/
+SI	badania	Elektroinštitut Milan Vidmar (EIMV)	https://www.eimv.si/
+DK	dostawca	Seaborg	https://www.seaborg.com/careers
+DK	dostawca	Copenhagen Atomics	https://www.copenhagenatomics.com/
+US	dostawca	The Nuclear Company	https://job-boards.greenhouse.io/thenuclearcompany
+US	dostawca	Radiant Industries	https://www.radiantnuclear.com/careers
+US	dostawca	Last Energy	https://www.lastenergy.com/careers
+US	dostawca	Aalo Atomics	https://www.aalo.com/careers
+US	fuzja	Commonwealth Fusion Systems	https://cfs.energy/careers
+US	fuzja	Helion Energy	https://www.helionenergy.com/careers
+US	operator	Vistra	https://www.vistracorp.com/careers/
+US	operator	Energy Northwest	https://www.energy-northwest.com/careers/
+CA	dostawca	Aecon	https://www.aecon.com/careers
+CA	inzynieria	Laurentis Energy Partners	https://www.laurentisenergy.com/careers
+JP	dostawca	Mitsubishi Heavy Industries	https://www.mhi.com/careers
+IN	operator	NPCIL	https://www.npcil.nic.in/
+BR	operator	Eletronuclear	https://www.eletronuclear.gov.br/
+AR	operator	Nucleoeléctrica Argentina (NA-SA)	https://www.na-sa.com.ar/
+ZA	operator	Eskom (Koeberg)	https://www.eskom.co.za/careers/
+KR	dostawca	Hyundai E&C	https://www.hdec.kr/
+FR	dostawca	Arabelle Solutions	https://www.arabellesolutions.com/
+FR	dostawca	Ardatem	https://www.ardatem.com/
+GB	dostawca	Hayward Tyler	https://www.haywardtyler.com/
+GB	inzynieria	Mott MacDonald	https://www.mottmac.com/
+GB	inzynieria	Turner & Townsend	https://www.turnerandtownsend.com/
+GB	dostawca	IMI plc	https://www.imiplc.com/
+GB	inzynieria	LRQA	https://www.lrqa.com/
+DE	dostawca	Bilfinger	https://www.bilfinger.com/
+DE	dostawca	Siemens Energy	https://www.siemens-energy.com/
+DE	inzynieria	TÜV Rheinland	https://www.tuv.com/
+FR	dostawca	Altrad	https://www.altrad.com/
+FR	dostawca	Gérard Perrier Industrie	https://www.gerard-perrier.com/
+FR	inzynieria	Capgemini Engineering	https://www.capgemini.com/
+ES	odpady	Tradebe	https://www.tradebe.com/
+CA	inzynieria	Hatch	https://www.hatch.com/
+US	dostawca	Zachry Group	https://www.zachrygroup.com/
+US	inzynieria	Pro2Serve	https://www.p2s.com/
+US	dostawca	NANO Nuclear Energy	https://nanonuclearenergy.com/
+US	dostawca	Greenberry	https://www.greenberry.com/
+US	dostawca	Kiewit	https://www.kiewit.com/
+US	inzynieria	Black & Veatch	https://www.bv.com/
+US	inzynieria	Enercon Services	https://www.enercon.com/
+US	odpady	APTIM	https://www.aptim.com/
+US	inzynieria	Leidos	https://www.leidos.com/
+US	operator	NextEra Energy	https://www.nexteraenergy.com/
+US	operator	DTE Energy	https://www.dteenergy.com/
+US	operator	Oglethorpe Power	https://opc.com/
+US	badania	Battelle	https://www.battelle.org/
+US	medycyna	SHINE Technologies	https://www.shinefusion.com/
+US	dostawca	Zeno Power	https://www.zenopower.com/
+US	dostawca	General Matter	https://www.generalmatter.com/
+US	dostawca	PaR Systems	https://www.par.com/
+US	dostawca	CB&I	https://www.cbi.com/
+US	dostawca	Joseph Jingoli & Son	https://www.jingoli.com/
+US	dostawca	Integrated Power Services	https://www.ips.us/
+US	instytucja	Mission Support and Test Services (NNSS)	https://www.nnss.gov/
+US	instytucja	Pantex Plant	https://pantex.energy.gov/
