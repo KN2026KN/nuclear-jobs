@@ -26,8 +26,11 @@ jobs:
           print('WP_USER: dl.', len(u), '| @' if '@' in u else '| bez @', '| biale znaki na brzegach' if u != u.strip() else '')
           q = p.replace(' ', '')
           print('WP_APP_PASSWORD: dl. bez spacji', len(q), '(powinno byc 24)', '| biale znaki na brzegach' if p != p.strip() else '', '| tylko litery i cyfry' if q.isalnum() else '| inne znaki')
-          r = requests.get('https://keura.eu/wp-json/wp/v2/users/me?context=edit', auth=(u.strip(), p.strip()), headers={'User-Agent': 'keura-robot'}, timeout=60)
-          print('users/me:', r.status_code, (r.json().get('code') if 'json' in r.headers.get('content-type','') else r.text[:80]))
+          for url in ('https://keura.eu/wp-json/wp/v2/users/me?context=edit', 'https://keura.eu/wp-json/wp/v2/pages/7194?context=edit&_fields=id,status'):
+              for ua in ({'User-Agent': 'keura-robot'}, {'User-Agent': 'Mozilla/5.0 (keura-robot)'}):
+                  r = requests.get(url, auth=(u.strip(), p.strip()), headers=ua, timeout=60)
+                  ct = r.headers.get('content-type','')
+                  print(url.split('/v2/')[1][:20], ua['User-Agent'][:12], r.status_code, (r.json().get('code') if 'json' in ct and isinstance(r.json(), dict) else r.text[:60].replace(chr(10),' ')))
           PY
       - name: Baza, strona i statystyki
         env:
