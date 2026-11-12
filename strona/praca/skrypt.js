@@ -23,7 +23,7 @@ var T=EN?{
  n:function(n){return n===1?'oferta':(n%10>=2 && n%10<=4 && (n%100<12 || n%100>14)?'oferty':'ofert')},allC:'Wszystkie kraje',allL:'Wszystkie języki',labC:'Kraj',labL:'Język ogłoszenia'
 };
 var LV_EN={'Praktyka lub staż':'Internship','Kierownik':'Manager','Senior lub ekspert':'Senior or expert','Junior / wykonawczy':'Junior / operative','Specjalista':'Specialist'};
-var FN_EN={'Zarządzanie projektem i planowanie':'Project management and planning','Zakupy i kontrakty':'Procurement and contracts','Administracja, HR i finanse':'Administration, HR and finance','BHP i ochrona środowiska (EHS)':'Health, safety and environment (EHS)','Budowa i montaż':'Construction and installation','Inżynieria i projektowanie':'Engineering and design','Jakość i kontrola (QA/QC)':'Quality (QA/QC)','IT i systemy':'IT and systems','Dozór i licencjonowanie':'Regulation and licensing','Bezpieczeństwo jądrowe i ochrona radiologiczna':'Nuclear safety and radiation protection','Szkolenie personelu eksploatacji':'Operator training','Produkcja i spawalnictwo':'Manufacturing and welding'};
+var FN_EN={'Inżynieria i projektowanie': 'Engineering and design', 'Budowa i montaż': 'Construction and installation', 'Eksploatacja i utrzymanie ruchu': 'Operations and maintenance', 'Bezpieczeństwo jądrowe i ochrona radiologiczna': 'Nuclear safety and radiation protection', 'Jakość (QA/QC)': 'Quality (QA/QC)', 'BHP i środowisko': 'Health, safety and environment', 'Zarządzanie projektem': 'Project management', 'Zakupy i łańcuch dostaw': 'Procurement and supply chain', 'IT i cyberbezpieczeństwo': 'IT and cybersecurity', 'Finanse i administracja': 'Finance and administration', 'HR i szkolenia': 'HR and training', 'Prawo i regulacje': 'Legal and regulatory', 'Ochrona fizyczna': 'Physical security', 'Badania i rozwój': 'Research and development', 'Staże i praktyki': 'Internships and graduates', 'Inne': 'Other'};
 var tr=function(m,v){return EN?(m[v]||v):v};
 var NA_MIES={mies:1,rok:1/12,godz:168};
 var K=D.kursy||{PLN:1};
@@ -51,8 +51,8 @@ var FACETS=[
 var TOP=[{id:'k',v:function(j){return j.k},lab:function(v){return flag(v)+esc(kraj(v))},all:T.allC,first:'PL',name:T.labC},
  {id:'l',v:function(j){return j.l},lab:function(v){return esc(v)},all:T.allL,first:EN?'EN':'PL',name:T.labL}];
 var sel={},more={};FACETS.concat(TOP).forEach(function(f){sel[f.id]=new Set()});
-var q='',sort='sal';
-function pasuje(j,pomin){if(q && (j.t+' '+j.e+' '+j.c+' '+j.fn+' '+j.p+' '+kraj(j.k)).toLowerCase().indexOf(q)<0)return false;
+var q='',sort='sal',tylkoJ=false;
+function pasuje(j,pomin){if(tylkoJ && !j.nj)return false;if(q && (j.t+' '+j.e+' '+j.c+' '+j.fn+' '+j.p+' '+kraj(j.k)).toLowerCase().indexOf(q)<0)return false;
  return FACETS.concat(TOP).every(function(f){return f.id===pomin || !sel[f.id].size || sel[f.id].has(f.v(j))})}
 function wartosci(f){var m={};J.forEach(function(j){var v=f.v(j);if(v)m[v]=(m[v]||0)+1});return m}
 function renderTop(){$('topf').innerHTML=TOP.map(function(f){var w=wartosci(f),vs=Object.keys(w);if(vs.length<2)return '';
@@ -88,6 +88,7 @@ function render(){var L=J.filter(function(j){return pasuje(j)});
  renderTop();renderSectors();renderFacets()}
 $('fN').textContent=J.length;$('fE').textContent=new Set(J.map(function(j){return j.e})).size;$('fK').textContent=new Set(J.map(function(j){return j.k})).size;$('fS').textContent=J.filter(function(j){return j.sal}).length;$('fD').textContent=dd(D.stan);
 $('q').oninput=function(){q=this.value.trim().toLowerCase();render()};$('qbtn').onclick=function(){q=$('q').value.trim().toLowerCase();render()};
+(function(){var b=$('tylkoJ');if(b)b.onchange=function(){tylkoJ=this.checked;render()}})();
 ['sort','sortM'].forEach(function(id){$(id).onchange=function(){sort=this.value;$('sort').value=$('sortM').value=sort;render()}});
 $('reset').onclick=function(){FACETS.concat(TOP).forEach(function(f){sel[f.id].clear()});q='';$('q').value='';render()};
 $('openF').onclick=function(){$('panel').classList.add('open')};$('apply').onclick=function(){$('panel').classList.remove('open')};

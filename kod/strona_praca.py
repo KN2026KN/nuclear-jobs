@@ -9,7 +9,7 @@
 import base64, json, os, re, sqlite3, sys, unicodedata, datetime
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kp_db import func, lvl
-from kp_jadro import sektor
+from kp_jadro import sektor, stanowisko_jadrowe
 from kp_projekty import NAZWA_PL, NAZWA_EN, PROJEKT_TYP
 
 db = sqlite3.connect(sys.argv[1]); DZIEN = sys.argv[2]
@@ -23,14 +23,14 @@ SEKTOR_TYP = {'bud': 'bud', 'smr': 'bud', 'eks': 'eks', 'odp': 'odp', 'bad': 'na
 
 def norm(t): return re.sub(r'[^a-z0-9]+', ' ', unicodedata.normalize('NFKD', (t or '').lower()).encode('ascii', 'ignore').decode()).strip()
 
-rows = db.execute('''SELECT j.job_key, j.firm, j.ext_id, j.url, j.title, j.city, j.posted, v.mode, v.sal_min, v.sal_max, v.sal_period, v.employer, v.category, v.locations, v.currency
+rows = db.execute('''SELECT j.job_key, j.firm, j.ext_id, j.url, j.title, j.city, j.posted, v.mode, v.sal_min, v.sal_max, v.sal_period, v.employer, v.category, v.locations, v.currency, v.text
   FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1) WHERE j.status='open' ''').fetchall()
 oficjalne = {f: set() for f in NAZWY}; ofref = set()
 for r in rows:
     if r[1] in NAZWY: oficjalne[r[1]].add(norm(r[4])); ofref.add((r[1], str(r[2])))
 
 out = []; pominiete = {'tylko_analiza': 0, 'po_terminie': 0, 'duplikat': 0}
-for key, firm, ext, url, title, city, posted, mode, smin, smax, per, emp, cat, locs, cur in rows:
+for key, firm, ext, url, title, city, posted, mode, smin, smax, per, emp, cat, locs, cur, txt in rows:
     emp = json.loads(emp or '{}')
     if emp.get('tylko_analiza'): pominiete['tylko_analiza'] += 1; continue
     k = emp.get('kraj') or 'PL'
@@ -57,7 +57,7 @@ for key, firm, ext, url, title, city, posted, mode, smin, smax, per, emp, cat, l
         sal = {'min': smin, 'max': smax or smin, 'per': per, 'cur': cur or 'PLN'}
         if firm == 'pracuj': sal['typ'] = emp.get('brutto_netto')
     out.append({'t': title, 'e': e, 's': s, 'p': pr or '', 'k': k, 'l': emp.get('jezyk') or '', 'c': c, 'm': TRYB.get(mode, 'np'),
-                'fn': func(firm, title, cat), 'lv': lvl(title), 'sal': sal, 'u': url, 'pub': (posted or '')[:10] if re.match(r'\d{4}-\d{2}-\d{2}', posted or '') else None, 'dl': dl})
+                'fn': (fn := func(firm, title, cat, txt)), 'nj': 1 if stanowisko_jadrowe(title, fn) else 0, 'lv': lvl(title), 'sal': sal, 'u': url, 'pub': (posted or '')[:10] if re.match(r'\d{4}-\d{2}-\d{2}', posted or '') else None, 'dl': dl})
 
 # kursy walut NBP (tabela A, dzień roboczy) - tylko do sortowania po wynagrodzeniu między walutami
 KURSY = {'PLN': 1.0}
@@ -72,11 +72,11 @@ B = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 's
 TEKST = {
  'pl': {'h1': 'Praca w sektorze jądrowym', 'ph': 'np. spawacz, inżynier jakości, ochrona radiologiczna', 'szukaj': 'Szukaj', 'oferty': 'Oferty', 'prac': 'Pracodawcy',
         'kraje': 'Kraje', 'zwyn': 'Z wynagrodzeniem', 'stan': 'Stan na', 'promo': 'Zespoły w projektach jądrowych pracują według ISO 19443 i ASME NQA-1. Szkolenia z tych wymagań prowadzę dla firm z łańcucha dostaw.',
-        'promo_btn': 'Zobacz szkolenia', 'promo_url': 'https://keura.eu/szkolenia/', 'filtry': 'Filtry', 'wyczysc': 'Wyczyść wszystko', 'pokaz': 'Pokaż oferty',
+        'tylko_j': 'Tylko stanowiska jądrowe', 'promo_btn': 'Zobacz szkolenia', 'promo_url': 'https://keura.eu/szkolenia/', 'filtry': 'Filtry', 'wyczysc': 'Wyczyść wszystko', 'pokaz': 'Pokaż oferty',
         'sort_sal': 'Najwyższe wynagrodzenie', 'sort_new': 'Najnowsze', 'sort_dl': 'Kończą się wkrótce', 'aktual': 'Aktualizacja', 'codz': 'codziennie'},
  'en': {'h1': 'Jobs in the nuclear sector', 'ph': 'e.g. welder, quality engineer, radiation protection', 'szukaj': 'Search', 'oferty': 'Jobs', 'prac': 'Employers',
         'kraje': 'Countries', 'zwyn': 'With salary', 'stan': 'As of', 'promo': 'Teams on nuclear projects work to ISO 19443 and ASME NQA-1. I run training on these requirements for supply chain companies.',
-        'promo_btn': 'See training', 'promo_url': 'https://keura.eu/en/training/', 'filtry': 'Filters', 'wyczysc': 'Clear all', 'pokaz': 'Show jobs',
+        'tylko_j': 'Nuclear roles only', 'promo_btn': 'See training', 'promo_url': 'https://keura.eu/en/training/', 'filtry': 'Filters', 'wyczysc': 'Clear all', 'pokaz': 'Show jobs',
         'sort_sal': 'Highest salary', 'sort_new': 'Newest', 'sort_dl': 'Closing soon', 'aktual': 'Updated', 'codz': 'daily'},
 }
 

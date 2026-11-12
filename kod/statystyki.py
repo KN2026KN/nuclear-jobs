@@ -1,12 +1,15 @@
 # Statystyki ofert dla właściciela (11.2026) - bez treści ofert. Format: docs/STATYSTYKI.md.
 # Użycie: python3 kod/statystyki.py <baza.sqlite> <dzień> <wyjście.json>
-import json, sqlite3, sys, statistics, datetime, re
+import json, sqlite3, sys, statistics, datetime, re, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from kp_obszar import obszar
+from kp_jadro import klasa, stanowisko_jadrowe
 from collections import Counter, defaultdict
 
 db = sqlite3.connect(sys.argv[1]); DZIEN = sys.argv[2]
 d0 = datetime.date.fromisoformat(DZIEN)
 rows = db.execute('''SELECT j.job_key, j.firm, j.status, j.first_seen, j.last_seen, j.closed_on, j.func, j.level,
-  v.sal_min, v.sal_max, v.sal_period, v.currency, v.employer
+  v.sal_min, v.sal_max, v.sal_period, v.currency, v.employer, j.title, v.category
   FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1)''').fetchall()
 
 def okres(dzien):
@@ -28,7 +31,8 @@ pokrycie = defaultdict(lambda: defaultdict(lambda: {'n': 0, 'zrodla': set()}))
 nowe = Counter(); zamk = Counter(); nowe_a = Counter(); zamk_a = Counter()
 place = defaultdict(list)   # (wymiar, wartość, waluta, okres) -> wartości środka widełek
 zycie = []
-for key, firm, st, fs, ls, co, fn, lv, smin, smax, per, cur, emp in rows:
+obszary = defaultdict(lambda: {'j': 0, 'w': 0}); klasy = Counter()   # 12.11.2026
+for key, firm, st, fs, ls, co, fn, lv, smin, smax, per, cur, emp, tytul, kat in rows:
     e = json.loads(emp or '{}'); a = bool(e.get('tylko_analiza'))
     wym = {'kraj': e.get('kraj') or '?', 'projekt': e.get('projekt') or '-', 'typ_obiektu': e.get('typ_obiektu') or '-',
            'pracodawca': e.get('name') or firm, 'zrodlo': firm, 'funkcja': fn or '-', 'poziom': lv or '-', 'jezyk': e.get('jezyk') or '?'}
@@ -41,6 +45,8 @@ for key, firm, st, fs, ls, co, fn, lv, smin, smax, per, cur, emp in rows:
                 for k2, v2 in (('Bechtel', 'Bechtel'), ('Westinghouse', 'Westinghouse'), ('Polskie Elektrownie J', 'Polskie Elektrownie Jądrowe (PEJ)')):
                     if k2.lower() in nz.lower(): nz = v2
             x = pokrycie[e.get('kraj') or '?'][nz[:80]]; x['n'] += 1; x['zrodla'].add(firm)
+            ob = obszar(tytul, kat or ''); obszary[ob]['j' if stanowisko_jadrowe(tytul, ob) else 'w'] += 1
+            klasy[klasa(nz if firm != 'pracuj' else (e.get('name') or ''))[0]] += 1
     (nowe_a if a else nowe)[okres(fs)] += 1
     if st == 'closed':
         (zamk_a if a else zamk)[okres(co or ls)] += 1
@@ -83,6 +89,8 @@ out = {
     'dzien': DZIEN,
     'kandydaci': kandydaci,
     'archiwa': archiwa,
+    'obszary': dict(sorted(obszary.items(), key=lambda t: -(t[1]['j'] + t[1]['w']))),
+    'klasy': dict(klasy),
     'pokrycie': {k: dict(sorted(((p, {'n': v['n'], 'zrodla': sorted(v['zrodla'])}) for p, v in pr.items()), key=lambda t: -t[1]['n']))
                  for k, pr in sorted(pokrycie.items(), key=lambda t: (t[0] != 'PL', -sum(v['n'] for v in t[1].values())))},
     'zrodla': {k: {'nazwa': ZR.get(k, (KONF.get(k, {}).get('pracodawca', k), ''))[0], 'kraj': ZR.get(k, ('', KONF.get(k, {}).get('kraj', '')))[1], 'ok': v.get('ok'), 'n': v.get('n'), 's': v.get('s'), 'blad': v.get('err')}

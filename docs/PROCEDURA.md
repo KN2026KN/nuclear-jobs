@@ -47,3 +47,11 @@ Reaktory badawcze, fuzja i instytucje (NCBJ, IAEA) - bez tego wyjątku: tam nada
 Zapytania CDX stronicowane (resumeKey, paczki po 5000), czas 180 s, do 5 prób z przerwami 30 - 240 s. Gdy cały rok się nie uda,
 robot pyta miesiąc po miesiącu. Powód błędu i liczba kolejnych błędów: `blad`, `bledow` w data/archiwum/glebokosc.json.
 Nieudane strony ofert - do 3 prób w kolejne noce. Liczba ofert jądrowych przeliczana na końcu każdego przebiegu wg bieżącej reguły.
+
+## Klasy pracodawców i obszary (12.11.2026, decyzje właściciela 1a 2a 3a 4a)
+- `data/pracodawcy/klasy.json`: A - firma jądrowa (operator obiektu, właściciel technologii, paliwo, odpady) - każda oferta, także administracja i IT;
+  B - energetyka mieszana (EDF, ČEZ, Vattenfall, Fortum, Southern...) - tylko obiekty jądrowe lub treść jądrowa; jądrowe spółki i działy B (NNB, Sizewell C, Edvance) wpisane jako A;
+  C - reszta (dostawcy, wykonawcy) - tylko treść jądrowa. Reaktory badawcze, fuzja i instytucje - bez wyjątku.
+- Obszar: 16 obszarów, `kod/kp_obszar.py` (tytuł w wielu językach, potem kategoria źródła, przy tytułach ogólnych - początek treści).
+- Stanowisko jądrowe / wspierające: `kp_jadro.stanowisko_jadrowe` - wspierające = obszar administracyjny (IT, finanse, HR, prawo, ochrona, zakupy, inne) bez słów jądrowych w tytule;
+  staż oceniany po kierunku. Na /praca przełącznik „Tylko stanowiska jądrowe” (domyślnie wyłączony); w statystyce tabela „Obszary i rodzaj stanowiska”.

@@ -40,12 +40,10 @@ RULES = [('licens', 'Dozór i licencjonowanie'), ('radiation', 'Bezpieczeństwo 
          ('market strategy', 'Administracja, HR i finanse'), ('product manager', 'Administracja, HR i finanse'), ('sustainability', 'Administracja, HR i finanse'),
          ('spaw', 'Produkcja i spawalnictwo'), ('ślusar', 'Produkcja i spawalnictwo'), ('weld', 'Produkcja i spawalnictwo')]
 
-def func(firm, title, category):
-    tl = (title or '').lower() + ' '
-    for k, v in RULES:
-        if k in tl: return v
-    if firm == 'bechtel' and category in BMAP: return BMAP[category]
-    return 'Inżynieria i projektowanie'
+def func(firm, title, category, tekst=''):
+    """Obszar oferty - 16 obszarów (12.11.2026, kod/kp_obszar.py). Stara wersja: kod/Archiwum/kp_db_12-11-2026.py."""
+    from kp_obszar import obszar
+    return obszar(title, category or '', tekst or '')
 
 def monthly(v, per):
     if v is None: return None

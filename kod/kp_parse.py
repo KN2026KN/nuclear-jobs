@@ -365,7 +365,7 @@ def parse_swiat(path, pam=None):
         tytul = re.sub(r'\s+', ' ', tytul).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
-            ok, hit = jadrowa('', tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', text)])   # 12.11: praca na obiekcie jądrowym
+            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', text)])   # 12.11: praca na obiekcie jądrowym
             if not ok: continue
         meta = tr.get('meta') or {}
         lok = it.get('miasto') or it.get('lokalizacja') or meta.get('jobLocation') or meta.get('addressLocality') or ''
