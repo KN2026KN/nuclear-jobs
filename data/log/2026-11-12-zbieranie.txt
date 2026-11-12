@@ -1,0 +1,48 @@
+pej {'ok': True, 'n': (6, 6), 's': 29, 'od_startu': 29}
+pracuj {'ok': True, 'n': 12, 's': 28, 'od_startu': 57}
+ncbj {'ok': True, 'n': 7, 's': 13, 'od_startu': 70}
+kprm: 293 na liście, 17 w terminie
+kprm {'ok': True, 'n': (17, 0), 's': 118, 'od_startu': 187}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 188}
+lista kznpp: 6 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 2, 'od_startu': 190}
+lista https://nuclearelectrica.ro/snn/category/joburi/page/6/ https://nuclearelectrica.ro/snn/category/joburi/page/6/: HTTP 404
+lista snn: 45 ofert, stron 6, 11 s, pełna: True
+snn {'ok': True, 'n': (45, 0), 's': 11, 'od_startu': 201}
+szc {'ok': True, 'n': (29, 0), 's': 3, 'od_startu': 204}
+hpc {'ok': True, 'n': (163, 0), 's': 13, 'od_startu': 217}
+iter {'ok': True, 'n': (4, 0), 's': 3, 'od_startu': 219}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1380446", "contestNo": "TAL-NSNI20261110-001", "column": ["Internship - Supporting the IRRS Strategic Plan Implementation and activities related to SMRs", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-11-18, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 13}
+iaea {'ok': True, 'n': (12, 0), 's': 2, 'od_startu': 221}
+lista edfuk: 31 ofert, stron 4, 5 s, pełna: True
+edfuk {'ok': True, 'n': (31, 0), 's': 5, 'od_startu': 226}
+fortum {'ok': True, 'n': (29, 0), 's': 5, 'od_startu': 231}
+lista cez: 181 ofert, stron 9, 15 s, pełna: True
+cez {'ok': True, 'n': (181, 37), 's': 98, 'od_startu': 329}
+lista cea: 836 ofert, stron 85, 135 s, pełna: True
+cea {'ok': True, 'n': (836, 109), 's': 315, 'od_startu': 644}
+lista vattenfall: 258 ofert, stron 23, 35 s, pełna: True
+vattenfall {'ok': True, 'n': (258, 100), 's': 186, 'od_startu': 830}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 833}
+lista pr_gns: 8 ofert, stron 1, 1 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 0), 's': 1, 'od_startu': 833}
+lista pr_nagra: 2 ofert, stron 1, 0 s, pełna: True
+pr_nagra {'ok': True, 'n': (2, 0), 's': 0, 'od_startu': 833}
+lista pr_blykalla: 20 ofert, stron 1, 1 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 1, 'od_startu': 834}
+lista pr_endel: 189 ofert, stron 11, 21 s, pełna: True
+pr_endel {'ok': True, 'n': (189, 35), 's': 82, 'od_startu': 916}
+lista pr_axpo: 86 ofert, stron 14, 18 s, pełna: True
+pr_axpo {'ok': True, 'n': (86, 43), 's': 74, 'od_startu': 990}
+lista pr_psi: 17 ofert, stron 1, 1 s, pełna: True
+pr_psi {'ok': True, 'n': (17, 0), 's': 1, 'od_startu': 991}
+lista pr_egis: 300 ofert, stron 26, 44 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 29), 's': 89, 'od_startu': 1081}
+lista pr_nda: 4 ofert, stron 2, 3 s, pełna: True
+pr_nda {'ok': True, 'n': (4, 0), 's': 3, 'od_startu': 1083}
+lista pr_ukaea: 10 ofert, stron 1, 2 s, pełna: True
+pr_ukaea {'ok': True, 'n': (10, 0), 's': 2, 'od_startu': 1086}
+bechtel {'ok': True, 'n': (1163, 135, 0), 's': 177, 'od_startu': 1263}
+wec {'ok': True, 'n': (1126, 0), 's': 63, 'od_startu': 1327}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 0, 'od_startu': 1327}

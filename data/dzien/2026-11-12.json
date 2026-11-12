@@ -1,0 +1,1127 @@
+{
+ "dzien": "2026-11-12",
+ "otwarte": {
+  "bechtel": 133,
+  "cea": 11,
+  "cez": 6,
+  "clor": 3,
+  "edfuk": 23,
+  "fortum": 26,
+  "hpc": 163,
+  "iaea": 12,
+  "iter": 4,
+  "kprm": 110,
+  "kznpp": 6,
+  "orano": 179,
+  "pej": 6,
+  "pr_anav": 2,
+  "pr_axpo": 1,
+  "pr_blykalla": 20,
+  "pr_egis": 2,
+  "pr_endel": 48,
+  "pr_gns": 8,
+  "pr_nagra": 2,
+  "pr_psi": 1,
+  "pracuj": 12,
+  "snn": 45,
+  "szc": 29,
+  "vattenfall": 72,
+  "westinghouse": 322
+ },
+ "przebiegi": [
+  {
+   "firma": "bechtel",
+   "n": 133,
+   "tryb": "full"
+  },
+  {
+   "firma": "ncbj",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "pej",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "firma": "pracuj",
+   "n": 12,
+   "tryb": "full"
+  },
+  {
+   "firma": "cea",
+   "n": 11,
+   "tryb": "full"
+  },
+  {
+   "firma": "cez",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "firma": "clor",
+   "n": 3,
+   "tryb": "full"
+  },
+  {
+   "firma": "edfuk",
+   "n": 23,
+   "tryb": "full"
+  },
+  {
+   "firma": "fortum",
+   "n": 26,
+   "tryb": "full"
+  },
+  {
+   "firma": "hpc",
+   "n": 163,
+   "tryb": "full"
+  },
+  {
+   "firma": "iaea",
+   "n": 12,
+   "tryb": "full"
+  },
+  {
+   "firma": "iter",
+   "n": 4,
+   "tryb": "full"
+  },
+  {
+   "firma": "kprm",
+   "n": 14,
+   "tryb": "partial"
+  },
+  {
+   "firma": "kznpp",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_anav",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_axpo",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_blykalla",
+   "n": 20,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_egis",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_endel",
+   "n": 48,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_gns",
+   "n": 8,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_nagra",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_nda",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "pr_psi",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "firma": "pr_ukaea",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "firma": "snn",
+   "n": 45,
+   "tryb": "full"
+  },
+  {
+   "firma": "szc",
+   "n": 29,
+   "tryb": "full"
+  },
+  {
+   "firma": "vattenfall",
+   "n": 72,
+   "tryb": "full"
+  },
+  {
+   "firma": "westinghouse",
+   "n": 322,
+   "tryb": "full"
+  }
+ ],
+ "zdarzenia": [
+  {
+   "firma": "bechtel",
+   "id": "291621",
+   "stanowisko": "Subcontracts Management Specialist",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.bechtel.com/us/en/job/291621"
+  },
+  {
+   "firma": "cea",
+   "id": "42432",
+   "stanowisko": "STAGE - Qualification d'un système de mesure nucléaire pour le réacteur CABRI H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-qualification-d-un-systeme-de-mesure-nucleaire-pour-le-reacteur-cabri-h-f_42432.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42431",
+   "stanowisko": "STAGE - Étude neutronique du réacteur nucléaire CABRI H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-etude-neutronique-du-reacteur-nucleaire-cabri-h-f_42431.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42300",
+   "stanowisko": "Stage - Ingénieur Gestion des matières et déchets nucléaires H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-ingenieur-gestion-des-matieres-et-dechets-nucleaires-h-f_42300.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42237",
+   "stanowisko": "Simulation de plasmas nucléaires pour l'instrumentation de RNR-Na H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-simulation-de-plasmas-nucleaires-pour-l-instrumentation-de-rnr-na-h-f_42237.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42206",
+   "stanowisko": "Détermination de la fiabilité d'un système passif de SMR H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-determination-de-la-fiabilite-d-un-systeme-passif-de-smr-h-f_42206.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "39960",
+   "stanowisko": "CDI Technicien électrotechnique en Installation nucléaire H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-cdi-technicien-electrotechnique-en-installation-nucleaire-h-f_39960.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "39430",
+   "stanowisko": "Ingénieur en protection physique des matières nucléaires des sites H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-ingenieur-en-protection-physique-des-matieres-nucleaires-des-sites-h-f_39430.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42400",
+   "stanowisko": "CDI Ingénieur.e Sécurité d'une Installation Nucléaire H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-cdi-ingenieur-e-securite-d-une-installation-nucleaire-h-f_42400.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42295",
+   "stanowisko": "Stage - Ingénieur Sûreté Nucléaire H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-ingenieur-surete-nucleaire-h-f_42295.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42181",
+   "stanowisko": "STAGE - Modélisation par intelligence artificielle des combustibles nucléaires à l'échelle atomique H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-modelisation-par-intelligence-artificielle-des-combustibles-nucleaires-a-l-echelle-atomique-h-f_42181.aspx"
+  },
+  {
+   "firma": "cea",
+   "id": "42179",
+   "stanowisko": "STAGE - Modélisation pour un jumeau numérique d'expériences sur les combustibles nucléaires H/F",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://www.emploi.cea.fr/offre-de-emploi/emploi-stage-modelisation-pour-un-jumeau-numerique-d-experiences-sur-les-combustibles-nucleaires-h-f_42179.aspx"
+  },
+  {
+   "firma": "cez",
+   "id": "2001483795",
+   "stanowisko": "SW Team Leader - simulátory řídicích systémů jaderných elektráren",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://kdejinde.jobs.cz/pd/2001483795"
+  },
+  {
+   "firma": "cez",
+   "id": "2001477226",
+   "stanowisko": "Výcvikový/á inženýr/ka základní přípravy - nový jaderný zdroj",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://kdejinde.jobs.cz/pd/2001477226"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Lead-Mechanical-Construction-Planner/1454223933/",
+   "stanowisko": "Lead Mechanical Construction Planner",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Lead-Mechanical-Construction-Planner/1454223933/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/Sizewell-Visitor-Centre-Guide-%28Sizewell-C%29/1453443833/",
+   "stanowisko": "Visitor Centre Guide (Sizewell C)",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://hpcjobsservice.edfenergy.com/job/Sizewell-Visitor-Centre-Guide-%28Sizewell-C%29/1453443833/"
+  },
+  {
+   "firma": "hpc",
+   "id": "/job/HPC-Main-Site-Commissioning-Manager-%28Electrical%29/1451238433/",
+   "stanowisko": "Commissioning Manager (Electrical)",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://hpcjobsservice.edfenergy.com/job/HPC-Main-Site-Commissioning-Manager-%28Electrical%29/1451238433/"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NAFA20261020-001",
+   "stanowisko": "Internship - Diagnostics Development",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NAFA20261020-001&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "TAL-NENP20260908-003",
+   "stanowisko": "Internship – INPRO Support for Sustainable Nuclear Energy Systems and Advanced Reactor Deployment",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=TAL-NENP20260908-003&lang=en"
+  },
+  {
+   "firma": "iaea",
+   "id": "2026/0462 (020219)",
+   "stanowisko": "Mechanical Technician (Seals) (G2)",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://iaea.taleo.net/careersection/ex/jobdetail.ftl?job=2026/0462%20%28020219%29&lang=en"
+  },
+  {
+   "firma": "iter",
+   "id": "/job/St-Paul-Lez-Durance-Security-Coordinator-IO1190-Bouc-13067/1437475533/",
+   "stanowisko": "Security Coordinator IO1190",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://iter.jobs.hr.cloud.sap/job/St-Paul-Lez-Durance-Security-Coordinator-IO1190-Bouc-13067/1437475533/"
+  },
+  {
+   "firma": "pej",
+   "id": "starsza-specjalistka-starszy-specjalista-ds-chemii-procesowej-i-radiochemii",
+   "stanowisko": "Starsza Specjalistka / Starszy Specjalista ds. chemii procesowej i radiochemii",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://pej.pl/o-nas/kariera/oferty-pracy/starsza-specjalistka-starszy-specjalista-ds-chemii-procesowej-i-radiochemii/"
+  },
+  {
+   "firma": "pr_egis",
+   "id": "8509",
+   "stanowisko": "Head of Digital Capability",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.egis-group.com/job/head-of-digital-capability-in-bristol-jid-8509"
+  },
+  {
+   "firma": "pr_egis",
+   "id": "9981",
+   "stanowisko": "Intern, Fisheries Technician",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://jobs.egis-group.com/job/intern-fisheries-technician-in-oshawa-jid-9981"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8621457",
+   "stanowisko": "Apprenti Mécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8621457-apprenti-mecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8621447",
+   "stanowisko": "Apprenti Technicien de Maintenance(H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8621447-apprenti-technicien-de-maintenance-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8621430",
+   "stanowisko": "Chef de chantier en chaudronnerie(H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8621430-chef-de-chantier-en-chaudronnerie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620272",
+   "stanowisko": "Soudeur (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620272-soudeur-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620267",
+   "stanowisko": "Mécanicien machines tournantes expérimenté (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620267-mecanicien-machines-tournantes-experimente-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620261",
+   "stanowisko": "Mécanicien machines tournantes expérimenté (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620261-mecanicien-machines-tournantes-experimente-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620257",
+   "stanowisko": "Mécanicien Dieseliste (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620257-mecanicien-dieseliste-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620250",
+   "stanowisko": "Chef d'équipe en Tuyauterie (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620250-chef-d-equipe-en-tuyauterie-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620248",
+   "stanowisko": "Tuyauteur industriel (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620248-tuyauteur-industriel-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620244",
+   "stanowisko": "Mécanicien Graisseur (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620244-mecanicien-graisseur-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8620234",
+   "stanowisko": "Mécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8620234-mecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8619991",
+   "stanowisko": "Agent de Contrôle Non Destructif (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8619991-agent-de-controle-non-destructif-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8619986",
+   "stanowisko": "Préparateur en mécanique (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8619986-preparateur-en-mecanique-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8619972",
+   "stanowisko": "Electromécanicien (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8619972-electromecanicien-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8572853",
+   "stanowisko": "Chaudronnier Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8572853-chaudronnier-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8571070",
+   "stanowisko": "Formation Tuyauteur Nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8571070-formation-tuyauteur-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8540537",
+   "stanowisko": "Préparateur Tuyauterie Soudage Site (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8540537-preparateur-tuyauterie-soudage-site-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8513225",
+   "stanowisko": "Préparateur Maintenance (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8513225-preparateur-maintenance-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8467417",
+   "stanowisko": "Tuyauteur nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8467417-tuyauteur-nucleaire-h-f"
+  },
+  {
+   "firma": "pr_endel",
+   "id": "8467303",
+   "stanowisko": "Soudeur nucléaire (H/F)",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://carriere.altradendel.com/jobs/8467303-soudeur-nucleaire-h-f"
+  },
+  {
+   "firma": "pracuj",
+   "id": "1005152873",
+   "stanowisko": "Starsza Specjalistka / Starszy Specjalista ds. chemii procesowej i radiochemii",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://www.pracuj.pl/praca/starsza-specjalistka-starszy-specjalista-ds-chemii-procesowej-i-radiochemii-warszawa,oferta,1005152873"
+  },
+  {
+   "firma": "szc",
+   "id": "/job/London-Senior-Commercial-Manager-EC2R-7BP/1455655433/",
+   "stanowisko": "Senior Commercial Manager",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://jobs.sizewellc.com/job/London-Senior-Commercial-Manager-EC2R-7BP/1455655433/"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53404",
+   "stanowisko": "Produktionstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/produktionstekniker-in-torpshammar-jid-53404"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53403",
+   "stanowisko": "Produktionstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/produktionstekniker-in-bergeforsen-jid-53403"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53343",
+   "stanowisko": "Director Decommissioning and Waste Management - Ringhals",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/director-decommissioning-and-waste-management-ringhals-in-ringhals-jid-53343"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53401",
+   "stanowisko": "Senior Offshore Wind Turbine Loads & Structural Dynamics Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-offshore-wind-turbine-loads-and-structural-dynamics-engineer-in-hamburg-jid-53401"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53400",
+   "stanowisko": "Senior Offshore Wind Turbine Loads & Structural Dynamics Engineer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-offshore-wind-turbine-loads-and-structural-dynamics-engineer-in-kolding-jid-53400"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53396",
+   "stanowisko": "ProjektstÃ¶d",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/projektstoed-in-gothenburg-jid-53396"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53395",
+   "stanowisko": "InstruktÃ¶rer till KSU Forsmark UF123",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/instruktoerer-till-ksu-forsmark-uf123-in-forsmark-jid-53395"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53394",
+   "stanowisko": "Gruppchef StationsunderhÃ¥ll Mellersta Norrland - Vattenfall Eldistributionâ¯",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/gruppchef-stationsunderhall-mellersta-norrland-vattenfall-eldistribution-in-umea-jid-53394"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53393",
+   "stanowisko": "Gruppchef StationsunderhÃ¥ll Mellersta Norrland - Vattenfall Eldistributionâ¯",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/gruppchef-stationsunderhall-mellersta-norrland-vattenfall-eldistribution-in-oernskoeldsvik-jid-53393"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53391",
+   "stanowisko": "MÃ¤ttekekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/maettekekniker-in-saeffle-jid-53391"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53392",
+   "stanowisko": "Produktionsenheten pÃ¥ Ringhals sÃ¶ker Driftspersonal/IngenjÃ¶rer till kontrollrummet!",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/produktionsenheten-pa-ringhals-soeker-driftspersonal-ingenjoerer-till-kontrollrummet-in-varberg-jid-53392"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "49975",
+   "stanowisko": "Anlagenmechaniker:in SHK",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/anlagenmechaniker-in-shk-in-cologne-jid-49975"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53390",
+   "stanowisko": "KontrollskÃ¥pstekniker inom elkraft",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/kontrollskapstekniker-inom-elkraft-in-stenungsund-jid-53390"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53389",
+   "stanowisko": "KontrollskÃ¥pstekniker inom elkraft",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/kontrollskapstekniker-inom-elkraft-in-trollhaettan-jid-53389"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53387",
+   "stanowisko": "Tekniker med inriktning tele & data till Ringhals InstrumentunderhÃ¥ll",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-med-inriktning-tele-and-data-till-ringhals-instrumentunderhall-in-varberg-jid-53387"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53385",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-umea-jid-53385"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53384",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-lulea-jid-53384"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53383",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-trollhaettan-jid-53383"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53382",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-vaesteras-jid-53382"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53381",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-uppsala-jid-53381"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53380",
+   "stanowisko": "Skydd- och kontrollanalytiker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skydd-och-kontrollanalytiker-in-solna-jid-53380"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53378",
+   "stanowisko": "Stationstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/stationstekniker-in-straengnaes-jid-53378"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53377",
+   "stanowisko": "Project Manager Stadswarmte",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/project-manager-stadswarmte-in-rotterdam-jid-53377"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53376",
+   "stanowisko": "Project Governance Officer â specialist inom projektstyrning",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/project-governance-officer-specialist-inom-projektstyrning-in-solna-jid-53376"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53375",
+   "stanowisko": "Project Governance Officer â specialist inom projektstyrning",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/project-governance-officer-specialist-inom-projektstyrning-in-gothenburg-jid-53375"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53374",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-oskarshamn-jid-53374"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53373",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-lulea-jid-53373"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53372",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-umea-jid-53372"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53371",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-sundsvall-jid-53371"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53370",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-nykoeping-jid-53370"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53369",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-forsmark-jid-53369"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53368",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-vaesteras-jid-53368"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53367",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-varberg-jid-53367"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53366",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-gaevle-jid-53366"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53365",
+   "stanowisko": "Senior projektledare med stort affÃ¤rsfokus inom ny kÃ¤rnkraft",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-projektledare-med-stort-affaersfokus-inom-ny-kaernkraft-in-solna-jid-53365"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53364",
+   "stanowisko": "Senior projektledare med stort affÃ¤rsfokus inom ny kÃ¤rnkraft",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-projektledare-med-stort-affaersfokus-inom-ny-kaernkraft-in-gothenburg-jid-53364"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53363",
+   "stanowisko": "(Senior) Project Engineer - Inter Array Cables",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-project-engineer-inter-array-cables-in-hamburg-jid-53363"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53362",
+   "stanowisko": "(Senior) Project Engineer - Inter Array Cables",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-project-engineer-inter-array-cables-in-amsterdam-jid-53362"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53360",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-solna-jid-53360"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53361",
+   "stanowisko": "Teknisk Projektledare inom Elkraft eller I&C â Vattenfall Power Solutions",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/teknisk-projektledare-inom-elkraft-eller-i-and-c-vattenfall-power-solutions-in-uppsala-jid-53361"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53359",
+   "stanowisko": "Stationstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/stationstekniker-in-nykoeping-jid-53359"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53358",
+   "stanowisko": "Stationstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/stationstekniker-in-katrineholm-jid-53358"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53357",
+   "stanowisko": "Stationstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/stationstekniker-in-soedertaelje-jid-53357"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53353",
+   "stanowisko": "Stationstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/stationstekniker-in-flen-jid-53353"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53354",
+   "stanowisko": "Control Centre Operator",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/control-centre-operator-in-esbjerg-jid-53354"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "52963",
+   "stanowisko": "Senior projektledare med inriktning bygg och anlÃ¤ggning",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-projektledare-med-inriktning-bygg-och-anlaeggning-in-lulea-jid-52963"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "52980",
+   "stanowisko": "Senior projektledare med inriktning bygg och anlÃ¤ggning",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/senior-projektledare-med-inriktning-bygg-och-anlaeggning-in-jokkmokk-jid-52980"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53348",
+   "stanowisko": "SkiftgÃ¥ende KontrollrumsingenjÃ¶r",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skiftgaende-kontrollrumsingenjoer-in-jokkmokk-jid-53348"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "50097",
+   "stanowisko": "SkiftgÃ¥ende KontrollrumsingenjÃ¶r",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/skiftgaende-kontrollrumsingenjoer-in-vuollerim-jid-50097"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53346",
+   "stanowisko": "Fastighetstekniker till VB Energi",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/fastighetstekniker-till-vb-energi-in-ludvika-jid-53346"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53345",
+   "stanowisko": "Arbeitsplaner:in Instandhaltung der Kranwerkstatt im Kernkraftwerk BrunsbÃ¼ttel",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/arbeitsplaner-in-instandhaltung-der-kranwerkstatt-im-kernkraftwerk-brunsbuettel-in-brunsbuettel-jid-53345"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53344",
+   "stanowisko": "AnslutningsingenjÃ¶r - Vattenfall Eldistribution",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/anslutningsingenjoer-vattenfall-eldistribution-in-umea-jid-53344"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53335",
+   "stanowisko": "Tekniker LokalnÃ¤t",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-lokalnaet-in-tidaholm-jid-53335"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53334",
+   "stanowisko": "Tekniker LokalnÃ¤t",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-lokalnaet-in-hjo-jid-53334"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53333",
+   "stanowisko": "Tekniker LokalnÃ¤t",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-lokalnaet-in-skara-jid-53333"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53332",
+   "stanowisko": "Tekniker LokalnÃ¤t",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-lokalnaet-in-mullsjoe-jid-53332"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53331",
+   "stanowisko": "Werkvoorbereider",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/werkvoorbereider-in-almere-jid-53331"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53330",
+   "stanowisko": "VÃ¤gbelysningstekniker",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/vaegbelysningstekniker-in-svedala-jid-53330"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53329",
+   "stanowisko": "Tekniker LokalnÃ¤t",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/tekniker-lokalnaet-in-habo-jid-53329"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53275",
+   "stanowisko": "Gruppchef Elanalys och kÃ¤rnsÃ¤kerhet",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/gruppchef-elanalys-och-kaernsaekerhet-in-forsmark-jid-53275"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53327",
+   "stanowisko": "SystemfÃ¶rvaltare/Systemutvecklare inom dokumenthantering",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/systemfoervaltare-systemutvecklare-inom-dokumenthantering-in-solna-jid-53327"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53326",
+   "stanowisko": "SystemfÃ¶rvaltare/Systemutvecklare inom dokumenthantering",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/systemfoervaltare-systemutvecklare-inom-dokumenthantering-in-forsmark-jid-53326"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53325",
+   "stanowisko": "SystemfÃ¶rvaltare/Systemutvecklare inom dokumenthantering",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/systemfoervaltare-systemutvecklare-inom-dokumenthantering-in-varberg-jid-53325"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53324",
+   "stanowisko": "Lead Veiligheidskundige Warmte",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/lead-veiligheidskundige-warmte-in-amsterdam-jid-53324"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53323",
+   "stanowisko": "Lead Veiligheidskundige Operatie & Assetbeheer",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/lead-veiligheidskundige-operatie-and-assetbeheer-in-diemen-jid-53323"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "52325",
+   "stanowisko": "Opzichter Stadswarmte Projectrealisatie",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/opzichter-stadswarmte-projectrealisatie-in-arnhem-jid-52325"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53321",
+   "stanowisko": "Projektleiter:in SHK",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/projektleiter-in-shk-in-fredersdorf-vogelsdorf-jid-53321"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53283",
+   "stanowisko": "KursadministratÃ¶r till KSU",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/kursadministratoer-till-ksu-in-forsmark-jid-53283"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "50872",
+   "stanowisko": "Meister:in fÃ¼r Elektrotechnik",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/meister-in-fuer-elektrotechnik-in-fredersdorf-vogelsdorf-jid-50872"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53320",
+   "stanowisko": "AvfallsingenjÃ¶r till Vattenfall",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/avfallsingenjoer-till-vattenfall-in-oskarshamn-jid-53320"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53319",
+   "stanowisko": "InstruktÃ¶r POP-kompetens",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/instruktoer-pop-kompetens-in-varberg-jid-53319"
+  },
+  {
+   "firma": "vattenfall",
+   "id": "53318",
+   "stanowisko": "AvfallsingenjÃ¶r till Vattenfall",
+   "typ": "nowa",
+   "szczegoly": "employer",
+   "url": "https://careers.vattenfall.com/global/job/avfallsingenjoer-till-vattenfall-in-nykoeping-jid-53318"
+  },
+  {
+   "firma": "westinghouse",
+   "id": "1321261900",
+   "stanowisko": "SRO Senior Engineer Nuclear Operations",
+   "typ": "zamknięta",
+   "szczegoly": "brak na stronie pracodawcy",
+   "url": "https://careers.westinghousenuclear.com/job/SAN-SEBASTIAN-DE-LOS-REYES-SRO-Senior-Engineer-Nuclear-Operations-M-28703/1321261900/"
+  }
+ ]
+}

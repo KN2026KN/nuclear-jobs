@@ -1,0 +1,7138 @@
+{
+ "dzien": "2026-11-12",
+ "kandydaci": [
+  {
+   "kraj": "PL",
+   "kategoria": "regulator",
+   "nazwa": "Państwowa Agencja Atomistyki (PAA)",
+   "www": "https://www.gov.pl/web/paa",
+   "kariera": "https://www.gov.pl/web/paa/kariera-w-paa",
+   "platforma": [],
+   "linki_ofert": 4,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "regulator",
+   "nazwa": "Urząd Dozoru Technicznego (UDT)",
+   "www": "https://www.udt.gov.pl/",
+   "kariera": "https://www.udt.gov.pl/kariera",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "regulator",
+   "nazwa": "Ministerstwo Energii",
+   "www": "https://www.gov.pl/web/energia",
+   "kariera": "https://www.gov.pl/web/energia/pracuj-z-nami",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "regulator",
+   "nazwa": "Transportowy Dozór Techniczny (TDT)",
+   "www": "https://www.tdt.gov.pl/",
+   "kariera": "https://www.tdt.gov.pl/informacje/kariera/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "operator",
+   "nazwa": "Polskie Elektrownie Jądrowe (PEJ)",
+   "www": "https://ppej.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "operator",
+   "nazwa": "Orlen Synthos Green Energy (OSGE)",
+   "www": "https://www.osge.com/",
+   "kariera": "https://kariera.osge.com/",
+   "platforma": [
+    "erecruiter",
+    "softgarden"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "operator",
+   "nazwa": "PGE (PAK-PCE, SMR)",
+   "www": "https://www.gkpge.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "operator",
+   "nazwa": "KGHM Polska Miedź (SMR)",
+   "www": "https://kghm.com/",
+   "kariera": "https://kghm.com/pl/kariera/dolacz-do-nas/oferty-pracy",
+   "platforma": [
+    "taleo"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "badania",
+   "nazwa": "Narodowe Centrum Badań Jądrowych (NCBJ, POLATOM)",
+   "www": "https://www.ncbj.gov.pl/",
+   "kariera": "https://www.ncbj.gov.pl/infrastruktura",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "badania",
+   "nazwa": "Instytut Chemii i Techniki Jądrowej (IChTJ)",
+   "www": "https://www.ichtj.waw.pl/",
+   "kariera": "http://www.ichtj.waw.pl/drupal/?q=node/8",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "badania",
+   "nazwa": "Instytut Fizyki Jądrowej PAN (IFJ PAN)",
+   "www": "https://www.ifj.edu.pl/",
+   "kariera": "https://www.ifj.edu.pl/kariera/oferty-pracy/naukowe/adiunkt-asystent/",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "badania",
+   "nazwa": "Centralne Laboratorium Ochrony Radiologicznej (CLOR)",
+   "www": "https://clor.waw.pl/",
+   "kariera": "https://clor.waw.pl/clor/struktura.html",
+   "platforma": [],
+   "linki_ofert": 14,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "odpady",
+   "nazwa": "Zakład Unieszkodliwiania Odpadów Promieniotwórczych (ZUOP)",
+   "www": "https://www.zuop.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Polimex Mostostal",
+   "www": "https://www.polimex-mostostal.pl/",
+   "kariera": "https://www.pxinfrastruktura.pl/",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Mostostal Warszawa",
+   "www": "https://www.mostostal.waw.pl/",
+   "kariera": "https://www.mostostal.waw.pl/kariera/oferty-pracy",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 8,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Budimex",
+   "www": "https://www.budimex.pl/",
+   "kariera": "https://budimex.pl/kariera/oferty-pracy/",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 24,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Famet",
+   "www": "https://www.famet.com.pl/",
+   "kariera": "https://www.famet.com.pl/pl/praca",
+   "platforma": [],
+   "linki_ofert": 27,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Energomontaż-Północ Gdynia",
+   "www": "https://www.emp-gdynia.com.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "ZRE Katowice",
+   "www": "https://www.zre.com.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Tele-Fonika Kable",
+   "www": "https://www.tfkable.com/",
+   "kariera": "https://www.tele-fonika.com/kariera/aktualne-oferty",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Technokabel",
+   "www": "https://www.technokabel.com.pl/",
+   "kariera": "https://www.technokabel.com.pl/kariera/",
+   "platforma": [],
+   "linki_ofert": 4,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "dostawca",
+   "nazwa": "Doraco",
+   "www": "https://www.doraco.pl/",
+   "kariera": "https://www.doraco.pl/pl/kariera/oferty-pracy",
+   "platforma": [
+    "erecruiter"
+   ],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "inzynieria",
+   "nazwa": "Energoprojekt-Katowice",
+   "www": "https://www.energoprojekt.pl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "inzynieria",
+   "nazwa": "Jacobs Polska / AtkinsRéalis Polska",
+   "www": "https://www.atkinsrealis.com/",
+   "kariera": "https://careers.atkinsrealis.com/en?utm_source=corporate_website",
+   "platforma": [],
+   "linki_ofert": 22,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "PL",
+   "kategoria": "medycyna",
+   "nazwa": "Synektik (radiofarmaceutyki)",
+   "www": "https://www.synektik.com.pl/",
+   "kariera": "https://synektik.com.pl/category/kariera/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "regulator",
+   "nazwa": "Státní úřad pro jadernou bezpečnost (SÚJB)",
+   "www": "https://www.sujb.cz/",
+   "kariera": "https://sujb.gov.cz/kariera",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "operator",
+   "nazwa": "Elektrárna Dukovany II (EDU II)",
+   "www": "https://www.edu2.cz/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "badania",
+   "nazwa": "ÚJV Řež",
+   "www": "https://www.ujv.cz/",
+   "kariera": "https://ujv.jobs.cz/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "badania",
+   "nazwa": "Centrum výzkumu Řež (CVŘ)",
+   "www": "https://www.cvrez.cz/",
+   "kariera": "https://ujv.jobs.cz/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "dostawca",
+   "nazwa": "Škoda JS",
+   "www": "https://www.skoda-js.cz/",
+   "kariera": "https://www.skoda-js.cz/kariera/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "dostawca",
+   "nazwa": "Doosan Škoda Power",
+   "www": "https://www.doosanskoda.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "dostawca",
+   "nazwa": "Vítkovice",
+   "www": "https://www.vitkovice.cz/",
+   "kariera": "https://www.vitkovice.cz/kariera",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "dostawca",
+   "nazwa": "I&C Energo",
+   "www": "https://www.ic-energo.eu/",
+   "kariera": "https://ic-energo.eu/o-nas/kariera",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CZ",
+   "kategoria": "odpady",
+   "nazwa": "Správa úložišť radioaktivních odpadů (SÚRAO)",
+   "www": "https://www.surao.cz/",
+   "kariera": "https://surao.gov.cz/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SK",
+   "kategoria": "regulator",
+   "nazwa": "Úrad jadrového dozoru SR (ÚJD SR)",
+   "www": "https://www.ujd.gov.sk/",
+   "kariera": "https://www.ujd.gov.sk/urad/kontakt/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SK",
+   "kategoria": "operator",
+   "nazwa": "Slovenské elektrárne",
+   "www": "https://www.seas.sk/",
+   "kariera": "https://kariera.seas.sk/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "SK",
+   "kategoria": "odpady",
+   "nazwa": "JAVYS",
+   "www": "https://www.javys.sk/",
+   "kariera": "https://www.javys.sk/sk/eu-program-bohunice/narodna-agentura-siea",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SK",
+   "kategoria": "inzynieria",
+   "nazwa": "VUJE",
+   "www": "https://www.vuje.sk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "SK",
+   "kategoria": "operator",
+   "nazwa": "Jadrová energetická spoločnosť Slovenska (JESS)",
+   "www": "https://www.jess.sk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "BG",
+   "kategoria": "regulator",
+   "nazwa": "Nuclear Regulatory Agency (АЯР)",
+   "www": "https://www.bnra.bg/",
+   "kariera": "https://bnra.bg/bg/karieri/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BG",
+   "kategoria": "operator",
+   "nazwa": "Kozloduy NPP",
+   "www": "https://www.kznpp.org/",
+   "kariera": "https://www.kznpp.org/bg/jobs",
+   "platforma": [],
+   "linki_ofert": 11,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "BG",
+   "kategoria": "operator",
+   "nazwa": "Kozloduy NPP-Newbuild",
+   "www": "https://www.kznpp-newbuild.bg/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "BG",
+   "kategoria": "odpady",
+   "nazwa": "Държавно предприятие РАО (SE RAW)",
+   "www": "https://www.dprao.bg/",
+   "kariera": "http://dprao.bg/en/about-us/%D0%BA%D0%B0%D1%80%D0%B8%D0%B5%D1%80%D0%B8.html",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BG",
+   "kategoria": "inzynieria",
+   "nazwa": "Risk Engineering",
+   "www": "https://www.riskeng.bg/",
+   "kariera": "https://abilico.co/404",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "regulator",
+   "nazwa": "CNCAN",
+   "www": "https://www.cncan.ro/",
+   "kariera": "https://www.cncan.ro/informatii-de-interes-public/procedura-in-vederea-inscrierii-pe-portalul-cncan",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "operator",
+   "nazwa": "Nuclearelectrica (SNN)",
+   "www": "https://www.nuclearelectrica.ro/",
+   "kariera": "https://nuclearelectrica.ro/snn/category/joburi/",
+   "platforma": [],
+   "linki_ofert": 4,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "operator",
+   "nazwa": "EnergoNuclear",
+   "www": "https://www.energonuclear.ro/",
+   "kariera": "https://www.energonuclear.ro/cariere",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "operator",
+   "nazwa": "RoPower Nuclear",
+   "www": "https://www.ropowernuclear.ro/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "badania",
+   "nazwa": "RATEN ICN Pitești",
+   "www": "https://www.nuclear.ro/",
+   "kariera": "https://nuclear.ro/euratom/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "badania",
+   "nazwa": "IFIN-HH (ELI-NP)",
+   "www": "https://www.nipne.ro/",
+   "kariera": "https://www.nipne.ro/job-announcements.php",
+   "platforma": [],
+   "linki_ofert": 12,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "dostawca",
+   "nazwa": "Nuclear Fuel Plant Pitești (FCN)",
+   "www": "https://www.nuclearelectrica.ro/fcn/",
+   "kariera": "https://nuclearelectrica.ro/snn/category/joburi/",
+   "platforma": [],
+   "linki_ofert": 4,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "RO",
+   "kategoria": "odpady",
+   "nazwa": "ANDR",
+   "www": "https://www.andr.ro/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "regulator",
+   "nazwa": "URSJV (SNSA)",
+   "www": "https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-jedrsko-varnost/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "operator",
+   "nazwa": "Nuklearna elektrarna Krško (NEK)",
+   "www": "https://www.nek.si/",
+   "kariera": "https://www.nek.si/o-jedrski-energiji/uran-in-jedrska-cepitev",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "operator",
+   "nazwa": "GEN energija (JEK2)",
+   "www": "https://www.gen-energija.si/",
+   "kariera": "https://www.gen-energija.si/gen/kariera-zaposlitev/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "badania",
+   "nazwa": "Institut Jožef Stefan",
+   "www": "https://www.ijs.si/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "odpady",
+   "nazwa": "ARAO",
+   "www": "https://www.arao.si/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "regulator",
+   "nazwa": "ASNR (Autorité de sûreté nucléaire et de radioprotection)",
+   "www": "https://www.asnr.fr/",
+   "kariera": "https://www.asnr.fr/marches-et-appels-doffres",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "operator",
+   "nazwa": "EDF",
+   "www": "https://www.edf.fr/",
+   "kariera": "https://www.edf.fr/entreprises/toutes-les-offres-et-solutions/offres-de-marche-electricite-et-gaz",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Framatome",
+   "www": "https://www.framatome.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Orano",
+   "www": "https://www.orano.group/",
+   "kariera": "https://www.orano.group/jobs/fr",
+   "platforma": [],
+   "linki_ofert": 54,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "badania",
+   "nazwa": "CEA",
+   "www": "https://www.cea.fr/",
+   "kariera": "https://www.cea.fr/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "odpady",
+   "nazwa": "Andra",
+   "www": "https://www.andra.fr/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "fuzja",
+   "nazwa": "ITER Organization",
+   "www": "https://www.iter.org/",
+   "kariera": "https://www.iter.org/public/jobs",
+   "platforma": [],
+   "linki_ofert": 9,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "inzynieria",
+   "nazwa": "Assystem",
+   "www": "https://www.assystem.com/",
+   "kariera": "https://www.assystem.com/en/career/",
+   "platforma": [
+    "smartrecruiters"
+   ],
+   "linki_ofert": 6,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "inzynieria",
+   "nazwa": "Egis",
+   "www": "https://www.egis-group.com/",
+   "kariera": "https://jobs.egis-group.com/",
+   "platforma": [
+    "smartrecruiters"
+   ],
+   "linki_ofert": 31,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Onet Technologies",
+   "www": "https://www.onet-technologies.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Endel (Equans)",
+   "www": "https://www.endel.fr/",
+   "kariera": "https://carriere.altradendel.com/",
+   "platforma": [
+    "teamtailor"
+   ],
+   "linki_ofert": 20,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Ponticelli Frères",
+   "www": "https://www.ponticelli.com/",
+   "kariera": "https://careers.ponticelli.com/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Bouygues Construction (nucléaire)",
+   "www": "https://www.bouygues-construction.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Vinci Construction (nucléaire)",
+   "www": "https://www.vinci-construction.com/",
+   "kariera": "https://jobs.vinci.com/en/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B%22key%22:%22salary_time%22,%22value%22:%22VINCI+Construction%22%7D]",
+   "platforma": [
+    "talentsoft"
+   ],
+   "linki_ofert": 16,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Naval Group (propulsion)",
+   "www": "https://www.naval-group.com/",
+   "kariera": "https://www.naval-group.com/en/join-us",
+   "platforma": [
+    "talentsoft"
+   ],
+   "linki_ofert": 12,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "TechnicAtome",
+   "www": "https://www.technicatome.com/",
+   "kariera": "https://www.technicatome.com/nous-rejoindre/nos-offres-demploi/",
+   "platforma": [
+    "smartrecruiters"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Nuward (SMR EDF)",
+   "www": "https://www.nuward.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Jimmy Energy / Newcleo France",
+   "www": "https://www.newcleo.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "medycyna",
+   "nazwa": "Curium",
+   "www": "https://www.curiumpharma.com/",
+   "kariera": "https://www.curiumpharma.com/people-careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "instytucja",
+   "nazwa": "OECD Nuclear Energy Agency (NEA)",
+   "www": "https://www.oecd-nea.org/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "regulator",
+   "nazwa": "Office for Nuclear Regulation (ONR)",
+   "www": "https://www.onr.org.uk/",
+   "kariera": "https://www.onr.org.uk/careers",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "regulator",
+   "nazwa": "Environment Agency (nuclear)",
+   "www": "https://www.gov.uk/government/organisations/environment-agency",
+   "kariera": "https://environmentagencyjobs.tal.net/vx/appcentre-1/candidate/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "operator",
+   "nazwa": "EDF Energy",
+   "www": "https://www.edfenergy.com/",
+   "kariera": "https://careers.edfenergy.com/",
+   "platforma": [],
+   "linki_ofert": 19,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "operator",
+   "nazwa": "Sizewell C",
+   "www": "https://www.sizewellc.com/",
+   "kariera": "https://www.sizewellc.com/jobs/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 8,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "operator",
+   "nazwa": "Great British Energy - Nuclear",
+   "www": "https://www.gbe-n.gov.uk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "odpady",
+   "nazwa": "Nuclear Decommissioning Authority (NDA)",
+   "www": "https://www.gov.uk/government/organisations/nuclear-decommissioning-authority",
+   "kariera": "https://ndagroup.careers/current-opportunities/?organisation%5B%5D=60fdf507d703e035527f0640",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "odpady",
+   "nazwa": "Sellafield Ltd",
+   "www": "https://www.gov.uk/government/organisations/sellafield-ltd",
+   "kariera": "https://careers.sellafieldsite.co.uk/",
+   "platforma": [],
+   "linki_ofert": 10,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "odpady",
+   "nazwa": "Nuclear Restoration Services",
+   "www": "https://www.nuclearrestorationservices.uk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "odpady",
+   "nazwa": "Nuclear Waste Services",
+   "www": "https://www.nuclearwasteservices.uk/",
+   "kariera": "https://www.nuclearwasteservices.uk/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "badania",
+   "nazwa": "National Nuclear Laboratory (NNL)",
+   "www": "https://www.nnl.co.uk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "fuzja",
+   "nazwa": "UK Atomic Energy Authority (UKAEA)",
+   "www": "https://www.gov.uk/government/organisations/uk-atomic-energy-authority",
+   "kariera": "https://www.ukaea.org/about-ukaea/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Rolls-Royce SMR",
+   "www": "https://www.rolls-royce-smr.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Rolls-Royce Submarines",
+   "www": "https://www.rolls-royce.com/",
+   "kariera": "https://careers.rolls-royce.com/en",
+   "platforma": [],
+   "linki_ofert": 6,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Urenco",
+   "www": "https://www.urenco.com/",
+   "kariera": "https://www.urenco.com/careers",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Doosan Babcock",
+   "www": "https://www.doosanbabcock.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Babcock International",
+   "www": "https://www.babcockinternational.com/",
+   "kariera": "https://jobs.babcockinternational.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Cavendish Nuclear",
+   "www": "https://www.cavendishnuclear.com/",
+   "kariera": "https://www.cavendishnuclear.com/careers/",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Amentum",
+   "www": "https://www.amentum.com/",
+   "kariera": "https://www.amentumcareers.com/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 4,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Mammoet",
+   "www": "https://www.mammoet.com/",
+   "kariera": "https://jobs.mammoet.com/careers-home",
+   "platforma": [
+    "icims"
+   ],
+   "linki_ofert": 8,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "BAE Systems (submarines)",
+   "www": "https://www.baesystems.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "AWE",
+   "www": "https://www.awe.co.uk/",
+   "kariera": "https://www.awe.co.uk/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "AtkinsRéalis",
+   "www": "https://www.atkinsrealis.com/",
+   "kariera": "https://careers.atkinsrealis.com/en?utm_source=corporate_website",
+   "platforma": [],
+   "linki_ofert": 22,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "Jacobs",
+   "www": "https://www.jacobs.com/",
+   "kariera": "https://www.jacobs.com/careers-jacobs",
+   "platforma": [
+    "avature"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "Frazer-Nash Consultancy",
+   "www": "https://www.fnc.co.uk/",
+   "kariera": "https://careers.fnc.co.uk/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "Assystem UK",
+   "www": "https://www.assystem.com/",
+   "kariera": "https://www.assystem.com/en/career/",
+   "platforma": [
+    "smartrecruiters"
+   ],
+   "linki_ofert": 6,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "regulator",
+   "nazwa": "BASE (Bundesamt für die Sicherheit der nuklearen Entsorgung)",
+   "www": "https://www.base.bund.de/",
+   "kariera": "https://www.base.bund.de/de/service/karriere/karriere_inhalt.html",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "regulator",
+   "nazwa": "GRS",
+   "www": "https://www.grs.de/",
+   "kariera": "https://www.grs.de/de/karriere/stellenangebote",
+   "platforma": [],
+   "linki_ofert": 4,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "operator",
+   "nazwa": "PreussenElektra",
+   "www": "https://www.preussenelektra.de/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "operator",
+   "nazwa": "RWE Nuclear",
+   "www": "https://www.rwe.com/",
+   "kariera": "https://au.rwe.com/careers/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "operator",
+   "nazwa": "EnBW Kernkraft",
+   "www": "https://www.enbw.com/",
+   "kariera": "https://www.enbw.com/karriere/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "odpady",
+   "nazwa": "BGZ Gesellschaft für Zwischenlagerung",
+   "www": "https://bgz.de/",
+   "kariera": "https://bgz.de/kontakt/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "odpady",
+   "nazwa": "BGE Bundesgesellschaft für Endlagerung",
+   "www": "https://www.bge.de/",
+   "kariera": "https://www.bge.de/en/news/job-offers/",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "Framatome GmbH",
+   "www": "https://www.framatome.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "Urenco Deutschland",
+   "www": "https://www.urenco.com/",
+   "kariera": "https://www.urenco.com/careers",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "GNS Gesellschaft für Nuklear-Service",
+   "www": "https://www.gns.de/",
+   "kariera": "https://www.gns.de/jobs/",
+   "platforma": [],
+   "linki_ofert": 11,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "NUKEM Technologies",
+   "www": "https://www.nukemtechnologies.de/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "Siempelkamp",
+   "www": "https://www.siempelkamp.com/",
+   "kariera": "https://www.siempelkamp.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "badania",
+   "nazwa": "Karlsruher Institut für Technologie (KIT)",
+   "www": "https://www.kit.edu/",
+   "kariera": "https://www.kit-ausbildung.de/de/offene-stellen",
+   "platforma": [],
+   "linki_ofert": 19,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "badania",
+   "nazwa": "Forschungszentrum Jülich",
+   "www": "https://www.fz-juelich.de/",
+   "kariera": "https://www.fz-juelich.de/de/karriere/stellenangebote",
+   "platforma": [],
+   "linki_ofert": 6,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "fuzja",
+   "nazwa": "Max-Planck-Institut für Plasmaphysik (IPP)",
+   "www": "https://www.ipp.mpg.de/",
+   "kariera": "https://www.ipp.mpg.de/ccpostdoc",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "badania",
+   "nazwa": "EU JRC Karlsruhe",
+   "www": "https://joint-research-centre.ec.europa.eu/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "regulator",
+   "nazwa": "STUK",
+   "www": "https://www.stuk.fi/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "operator",
+   "nazwa": "Teollisuuden Voima (TVO)",
+   "www": "https://www.tvo.fi/",
+   "kariera": "https://www.tvo.fi/ura.html",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "operator",
+   "nazwa": "Fortum",
+   "www": "https://www.fortum.com/",
+   "kariera": "https://jobs.fortum.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "odpady",
+   "nazwa": "Posiva",
+   "www": "https://www.posiva.fi/",
+   "kariera": "https://www.posiva.fi/ura.html",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "badania",
+   "nazwa": "VTT",
+   "www": "https://www.vttresearch.com/",
+   "kariera": "https://www.vttresearch.com/en/careers/research-jobs-in-finland",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "dostawca",
+   "nazwa": "Steady Energy (SMR)",
+   "www": "https://www.steadyenergy.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FI",
+   "kategoria": "inzynieria",
+   "nazwa": "AFRY",
+   "www": "https://afry.com/",
+   "kariera": "https://afry.com/en/careers",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "regulator",
+   "nazwa": "Strålsäkerhetsmyndigheten (SSM)",
+   "www": "https://www.stralsakerhetsmyndigheten.se/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "operator",
+   "nazwa": "Vattenfall",
+   "www": "https://group.vattenfall.com/",
+   "kariera": "https://careers.vattenfall.com/global/?utm_source=corporate&utm_medium=referral",
+   "platforma": [],
+   "linki_ofert": 21,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "operator",
+   "nazwa": "OKG",
+   "www": "https://www.okg.se/",
+   "kariera": "https://okg.se/vi-ar-okg/jobba-hos-oss/",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "operator",
+   "nazwa": "Forsmarks Kraftgrupp",
+   "www": "https://group.vattenfall.com/se/var-verksamhet/forsmark",
+   "kariera": "https://karnkraft.vattenfall.se:443/forsmark/jobba-pa-forsmark/",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "odpady",
+   "nazwa": "SKB",
+   "www": "https://www.skb.se/",
+   "kariera": "https://skb.se/jobba-med-skb/",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "dostawca",
+   "nazwa": "Westinghouse Electric Sweden",
+   "www": "https://www.westinghousenuclear.com/",
+   "kariera": "https://westinghousenuclear.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "dostawca",
+   "nazwa": "Kärnfull Next (SMR)",
+   "www": "https://www.karnfull.se/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "dostawca",
+   "nazwa": "Blykalla (SMR)",
+   "www": "https://www.blykalla.com/",
+   "kariera": "https://careers.blykalla.com/",
+   "platforma": [
+    "teamtailor"
+   ],
+   "linki_ofert": 7,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "dostawca",
+   "nazwa": "Studsvik",
+   "www": "https://www.studsvik.com/",
+   "kariera": "https://www.studsvik.com/careers/",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "SE",
+   "kategoria": "inzynieria",
+   "nazwa": "Sweco",
+   "www": "https://www.sweco.se/",
+   "kariera": "https://www.sweco.se/karriar/lediga-tjanster/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "regulator",
+   "nazwa": "ANVS",
+   "www": "https://www.autoriteitnvs.nl/",
+   "kariera": "https://www.autoriteitnvs.nl/kom-bij-ons-werken",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "operator",
+   "nazwa": "EPZ",
+   "www": "https://www.epz.nl/",
+   "kariera": "https://www.epz.nl/werken-bij/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "operator",
+   "nazwa": "NVI Nucleair (nowe bloki)",
+   "www": "https://www.nvinucleair.nl/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "badania",
+   "nazwa": "NRG / PALLAS",
+   "www": "https://www.nrg.eu/",
+   "kariera": "https://www.werkenbijnrgpallas.nl/en/vacancies",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "odpady",
+   "nazwa": "COVRA",
+   "www": "https://www.covra.nl/",
+   "kariera": "https://www.covra.nl/nl/copera/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "dostawca",
+   "nazwa": "Urenco Nederland",
+   "www": "https://www.urenco.com/",
+   "kariera": "https://www.urenco.com/careers",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "NL",
+   "kategoria": "badania",
+   "nazwa": "EU JRC Petten",
+   "www": "https://joint-research-centre.ec.europa.eu/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "regulator",
+   "nazwa": "FANC / AFCN",
+   "www": "https://fanc.fgov.be/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "regulator",
+   "nazwa": "Bel V",
+   "www": "https://belv.be/",
+   "kariera": "https://belv.talentfinder.be/en/index.aspx",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "operator",
+   "nazwa": "Engie Electrabel",
+   "www": "https://www.engie.be/",
+   "kariera": "https://corporate.engie.be/nl/jobs/een-passie-voor-energie",
+   "platforma": [],
+   "linki_ofert": 34,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "badania",
+   "nazwa": "SCK CEN",
+   "www": "https://www.sckcen.be/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "odpady",
+   "nazwa": "ONDRAF/NIRAS",
+   "www": "https://www.ondraf.be/",
+   "kariera": "https://www.ondraf.be/jobs",
+   "platforma": [],
+   "linki_ofert": 7,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "medycyna",
+   "nazwa": "IRE (Institut des Radioéléments)",
+   "www": "https://www.ire.eu/",
+   "kariera": "https://ire.talentfinder.be/fr/index.aspx",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "inzynieria",
+   "nazwa": "Tractebel",
+   "www": "https://tractebel-engie.com/",
+   "kariera": "https://tractebel-engie.com/en/careers/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BE",
+   "kategoria": "badania",
+   "nazwa": "EU JRC Geel",
+   "www": "https://joint-research-centre.ec.europa.eu/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "regulator",
+   "nazwa": "Consejo de Seguridad Nuclear (CSN)",
+   "www": "https://www.csn.es/",
+   "kariera": "https://www.csn.es/comision-europea",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "operator",
+   "nazwa": "Centrales Nucleares Almaraz-Trillo (CNAT)",
+   "www": "https://www.cnat.es/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "operator",
+   "nazwa": "ANAV (Ascó, Vandellós)",
+   "www": "https://www.anav.es/",
+   "kariera": "https://www.anav.es/en/job-offers/",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "odpady",
+   "nazwa": "Enresa",
+   "www": "https://www.enresa.es/",
+   "kariera": "https://www.enresa.es/empleo-trabaja-con-nosotros/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "dostawca",
+   "nazwa": "ENUSA",
+   "www": "https://www.enusa.es/",
+   "kariera": "https://www.enusa.es/trabaja-con-nosotros/",
+   "platforma": [
+    "talentsoft"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "dostawca",
+   "nazwa": "ENSA Equipos Nucleares",
+   "www": "https://www.ensa.es/",
+   "kariera": "https://www.ensa.es/cultura-empresarial/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "dostawca",
+   "nazwa": "Tecnatom",
+   "www": "https://www.tecnatom.es/",
+   "kariera": "https://westinghousenuclear.com/careers/career-types/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "inzynieria",
+   "nazwa": "Empresarios Agrupados / Ghesa",
+   "www": "https://www.empresariosagrupados.es/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "fuzja",
+   "nazwa": "Fusion for Energy (F4E)",
+   "www": "https://fusionforenergy.europa.eu/",
+   "kariera": "https://fusionforenergy.europa.eu/vacancies/",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "regulator",
+   "nazwa": "ISIN",
+   "www": "https://www.isinucleare.it/",
+   "kariera": "https://www.euraca.eu/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "odpady",
+   "nazwa": "Sogin",
+   "www": "https://www.sogin.it/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "dostawca",
+   "nazwa": "Ansaldo Nucleare",
+   "www": "https://www.ansaldoenergia.com/",
+   "kariera": "https://www.ansaldoenergia.com/discover-our-job-opportunities",
+   "platforma": [],
+   "linki_ofert": 60,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "dostawca",
+   "nazwa": "newcleo",
+   "www": "https://www.newcleo.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "dostawca",
+   "nazwa": "Nuclitalia",
+   "www": "https://www.nuclitalia.it/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "badania",
+   "nazwa": "ENEA",
+   "www": "https://www.enea.it/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "fuzja",
+   "nazwa": "Eni / CFS (fusione)",
+   "www": "https://www.eni.com/",
+   "kariera": "https://www.eni.com/en-IT/careers.html",
+   "platforma": [
+    "taleo"
+   ],
+   "linki_ofert": 16,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "badania",
+   "nazwa": "EU JRC Ispra",
+   "www": "https://joint-research-centre.ec.europa.eu/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "IT",
+   "kategoria": "dostawca",
+   "nazwa": "Mangiarotti",
+   "www": "https://www.mangiarotti.it/",
+   "kariera": "https://westinghousenuclear.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "regulator",
+   "nazwa": "ENSI",
+   "www": "https://www.ensi.ch/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "operator",
+   "nazwa": "Axpo (Beznau, Leibstadt)",
+   "www": "https://www.axpo.com/",
+   "kariera": "https://careers.axpo.com/jobs?country=United+States&split_view=true&query=",
+   "platforma": [
+    "teamtailor"
+   ],
+   "linki_ofert": 11,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "operator",
+   "nazwa": "Kernkraftwerk Gösgen",
+   "www": "https://www.kkg.ch/",
+   "kariera": "https://kkg.jobs.hr.cloud.sap/go/All-Jobs/505674/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 7,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "badania",
+   "nazwa": "Paul Scherrer Institut (PSI)",
+   "www": "https://www.psi.ch/",
+   "kariera": "https://www.psi.ch/en/hr/career-center",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "odpady",
+   "nazwa": "Nagra",
+   "www": "https://www.nagra.ch/",
+   "kariera": "https://www.nagra.ch/jobs",
+   "platforma": [],
+   "linki_ofert": 6,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "badania",
+   "nazwa": "CERN",
+   "www": "https://careers.cern/",
+   "kariera": "https://careers.cern/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "AT",
+   "kategoria": "instytucja",
+   "nazwa": "IAEA",
+   "www": "https://www.iaea.org/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "AT",
+   "kategoria": "instytucja",
+   "nazwa": "CTBTO",
+   "www": "https://www.ctbto.org/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "AT",
+   "kategoria": "badania",
+   "nazwa": "Seibersdorf Laboratories",
+   "www": "https://www.seibersdorf-laboratories.at/",
+   "kariera": "https://www.seibersdorf-laboratories.at/karriere",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "LT",
+   "kategoria": "operator",
+   "nazwa": "Ignalina NPP (INPP)",
+   "www": "https://www.iae.lt/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "LT",
+   "kategoria": "regulator",
+   "nazwa": "VATESI",
+   "www": "https://www.vatesi.lt/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "EE",
+   "kategoria": "operator",
+   "nazwa": "Fermi Energia",
+   "www": "https://fermi.ee/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "UA",
+   "kategoria": "operator",
+   "nazwa": "Energoatom",
+   "www": "https://www.energoatom.com.ua/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "regulator",
+   "nazwa": "Nuclear Regulatory Commission (NRC)",
+   "www": "https://www.nrc.gov/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "regulator",
+   "nazwa": "Department of Energy (DOE)",
+   "www": "https://www.energy.gov/",
+   "kariera": "https://www.energy.gov/careers/jobs-doe",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Southern Nuclear",
+   "www": "https://www.southerncompany.com/",
+   "kariera": "https://southerncompany.jobs/?vs=2925&utm_source=southerncompany.com-DE&utm_medium=Other&utm_campaign=southerncompany.com&_ga=2.18922104.1393374614.1612792799-630953019.1598387569",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Constellation Energy",
+   "www": "https://www.constellationenergy.com/",
+   "kariera": "https://jobs.constellationenergy.com/careers-home",
+   "platforma": [
+    "icims"
+   ],
+   "linki_ofert": 29,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Duke Energy",
+   "www": "https://www.duke-energy.com/",
+   "kariera": "https://www.duke-energy.com/our-company/careers",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Tennessee Valley Authority (TVA)",
+   "www": "https://www.tva.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Dominion Energy",
+   "www": "https://www.dominionenergy.com/",
+   "kariera": "https://careers.dominionenergy.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Holtec International",
+   "www": "https://holtecinternational.com/",
+   "kariera": "https://holtec.jobs.hr.cloud.sap/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "TerraPower",
+   "www": "https://www.terrapower.com/",
+   "kariera": "https://www.terrapower.com/careers/",
+   "platforma": [
+    "greenhouse"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "X-energy",
+   "www": "https://x-energy.com/",
+   "kariera": "https://x-energy.com/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "NuScale Power",
+   "www": "https://www.nuscalepower.com/",
+   "kariera": "https://www.nuscalepower.com/about/careers",
+   "platforma": [
+    "jobvite"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "GE Vernova Hitachi Nuclear Energy",
+   "www": "https://www.gevernova.com/",
+   "kariera": "https://careers.gevernova.com/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 11,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "BWX Technologies",
+   "www": "https://www.bwxt.com/",
+   "kariera": "https://www.bwxt.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Curtiss-Wright Nuclear",
+   "www": "https://www.curtisswright.com/",
+   "kariera": "https://curtisswright.com/careers",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Kairos Power",
+   "www": "https://kairospower.com/",
+   "kariera": "https://www.kairospower.com/careers",
+   "platforma": [
+    "greenhouse"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Oklo",
+   "www": "https://oklo.com/",
+   "kariera": "https://oklo.com/about/careers",
+   "platforma": [
+    "greenhouse"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Centrus Energy",
+   "www": "https://www.centrusenergy.com/",
+   "kariera": "https://www.centrusenergy.com/careers/",
+   "platforma": [
+    "oracle-hcm"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Framatome Inc.",
+   "www": "https://www.framatome.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Sargent & Lundy",
+   "www": "https://www.sargentlundy.com/",
+   "kariera": "https://www.sargentlundy.com/careers/",
+   "platforma": [
+    "icims"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Burns & McDonnell",
+   "www": "https://www.burnsmcd.com/",
+   "kariera": "https://www.burnsmcd.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Fluor",
+   "www": "https://www.fluor.com/",
+   "kariera": "https://www.fluor.com/careers",
+   "platforma": [
+    "eightfold"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "badania",
+   "nazwa": "Idaho National Laboratory",
+   "www": "https://inl.gov/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "badania",
+   "nazwa": "Oak Ridge National Laboratory",
+   "www": "https://www.ornl.gov/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "badania",
+   "nazwa": "Los Alamos National Laboratory",
+   "www": "https://www.lanl.gov/",
+   "kariera": "https://lanl.jobs/",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "badania",
+   "nazwa": "Savannah River (SRNS)",
+   "www": "https://www.srs.gov/",
+   "kariera": "https://public.srs.gov/careers/",
+   "platforma": [
+    "icims"
+   ],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "instytucja",
+   "nazwa": "INPO",
+   "www": "https://www.inpo.info/",
+   "kariera": "https://www.inpo.info/careers",
+   "platforma": [],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "instytucja",
+   "nazwa": "EPRI",
+   "www": "https://www.epri.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "regulator",
+   "nazwa": "Canadian Nuclear Safety Commission (CNSC)",
+   "www": "https://www.cnsc-ccsn.gc.ca/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "operator",
+   "nazwa": "Ontario Power Generation (OPG)",
+   "www": "https://www.opg.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "podłączony"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "operator",
+   "nazwa": "Bruce Power",
+   "www": "https://www.brucepower.com/",
+   "kariera": "https://www.brucepower.com/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "operator",
+   "nazwa": "NB Power",
+   "www": "https://www.nbpower.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "badania",
+   "nazwa": "Canadian Nuclear Laboratories (CNL)",
+   "www": "https://www.cnl.ca/",
+   "kariera": "https://www.cnl.ca/about-cnl/work-with-us/",
+   "platforma": [
+    "taleo"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "odpady",
+   "nazwa": "NWMO",
+   "www": "https://www.nwmo.ca/",
+   "kariera": "https://www.nwmo.ca/en/Careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "dostawca",
+   "nazwa": "AtkinsRéalis (Candu)",
+   "www": "https://www.atkinsrealis.com/",
+   "kariera": "https://careers.atkinsrealis.com/en?utm_source=corporate_website",
+   "platforma": [],
+   "linki_ofert": 22,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "dostawca",
+   "nazwa": "BWXT Canada",
+   "www": "https://www.bwxt.com/",
+   "kariera": "https://www.bwxt.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "dostawca",
+   "nazwa": "Cameco",
+   "www": "https://www.cameco.com/",
+   "kariera": "https://www.cameco.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "dostawca",
+   "nazwa": "Laker Energy Products",
+   "www": "https://www.lakerenergy.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "inzynieria",
+   "nazwa": "Kinectrics",
+   "www": "https://www.kinectrics.com/",
+   "kariera": "https://careers.kinectrics.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "medycyna",
+   "nazwa": "Nordion",
+   "www": "https://www.nordion.com/",
+   "kariera": "https://soterahealth.com/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "badania",
+   "nazwa": "TRIUMF",
+   "www": "https://www.triumf.ca/",
+   "kariera": "https://triumf.ca/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "AE",
+   "kategoria": "regulator",
+   "nazwa": "FANR",
+   "www": "https://www.fanr.gov.ae/",
+   "kariera": "https://www.fanr.gov.ae/ar/careers",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "AE",
+   "kategoria": "operator",
+   "nazwa": "ENEC",
+   "www": "https://www.enec.gov.ae/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "AE",
+   "kategoria": "operator",
+   "nazwa": "Nawah Energy",
+   "www": "https://www.nawah.ae/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "AE",
+   "kategoria": "inzynieria",
+   "nazwa": "KEPCO / KHNP (Barakah)",
+   "www": "https://www.khnp.co.kr/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "CN",
+   "kategoria": "operator",
+   "nazwa": "CGN",
+   "www": "https://en.cgnpc.com.cn/",
+   "kariera": "https://en.cgnpc.com.cn/encgn/SwakopUranium/pic_txt.shtml",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CN",
+   "kategoria": "operator",
+   "nazwa": "CNNC",
+   "www": "https://en.cnnc.com.cn/",
+   "kariera": "https://en.cnnc.com.cn/nuclearuranium.html",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "odpady",
+   "nazwa": "Dounreay (NRS)",
+   "www": "https://www.gov.uk/government/organisations/nuclear-restoration-services/about/recruitment",
+   "kariera": "https://dounreaycareers.com/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Mactech Energy Group",
+   "www": "https://www.mactechenergy.co.uk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Boccard UK",
+   "www": "https://www.boccard.com/",
+   "kariera": "https://www.boccard.com/join-us/career-page-2/",
+   "platforma": [
+    "smartrecruiters"
+   ],
+   "linki_ofert": 6,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "AECOM",
+   "www": "https://aecom.com/careers/",
+   "kariera": "https://aecom.jobs/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "fuzja",
+   "nazwa": "Tokamak Energy",
+   "www": "https://tokamakenergy.com/careers/",
+   "kariera": "https://tokamakenergy.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "fuzja",
+   "nazwa": "First Light Fusion",
+   "www": "https://firstlightfusion.com/careers",
+   "kariera": "https://firstlightfusion.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "fuzja",
+   "nazwa": "UK Industrial Fusion Solutions (STEP)",
+   "www": "https://ukifs.uk/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "operator",
+   "nazwa": "Alpiq",
+   "www": "https://www.alpiq.com/career/your-future-at-alpiq/",
+   "kariera": "https://www.alpiq.com/career",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CH",
+   "kategoria": "dostawca",
+   "nazwa": "Deep Atomic",
+   "www": "https://deepatomic.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Bertin Technologies",
+   "www": "https://bertin-technologies.com/careers",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Stellaria",
+   "www": "https://www.stellaria-energy.com/",
+   "kariera": "https://www.stellaria.fr/offre/#configurations",
+   "platforma": [
+    "teamtailor"
+   ],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Blue Capsule",
+   "www": "https://www.blue-capsule.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Hexana",
+   "www": "https://www.hexana.fr/",
+   "kariera": "https://recrutement.hexana.fr/",
+   "platforma": [
+    "teamtailor"
+   ],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Calogena",
+   "www": "https://www.calogena.com/",
+   "kariera": "https://www.calogena.com/offre-emploi/",
+   "platforma": [],
+   "linki_ofert": 23,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "SI",
+   "kategoria": "badania",
+   "nazwa": "Elektroinštitut Milan Vidmar (EIMV)",
+   "www": "https://www.eimv.si/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "DK",
+   "kategoria": "dostawca",
+   "nazwa": "Seaborg",
+   "www": "https://www.seaborg.com/careers",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "DK",
+   "kategoria": "dostawca",
+   "nazwa": "Copenhagen Atomics",
+   "www": "https://www.copenhagenatomics.com/",
+   "kariera": "https://copenhagenatomics.com/jobs/",
+   "platforma": [],
+   "linki_ofert": 21,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "The Nuclear Company",
+   "www": "https://job-boards.greenhouse.io/thenuclearcompany",
+   "kariera": "https://job-boards.greenhouse.io/thenuclearcompany/jobs/5456889008",
+   "platforma": [
+    "greenhouse"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Radiant Industries",
+   "www": "https://www.radiantnuclear.com/careers",
+   "kariera": "https://www.radiantnuclear.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Last Energy",
+   "www": "https://www.lastenergy.com/careers",
+   "kariera": "https://www.lastenergy.com/careers/jobs",
+   "platforma": [
+    "lever"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Aalo Atomics",
+   "www": "https://www.aalo.com/careers",
+   "kariera": "https://www.aalo.com/careers",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "fuzja",
+   "nazwa": "Commonwealth Fusion Systems",
+   "www": "https://cfs.energy/careers",
+   "kariera": "https://cfs.energy/careers/",
+   "platforma": [
+    "lever"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "fuzja",
+   "nazwa": "Helion Energy",
+   "www": "https://www.helionenergy.com/careers",
+   "kariera": "https://www.helionenergy.com/careers",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Vistra",
+   "www": "https://www.vistracorp.com/careers/",
+   "kariera": "https://vistracorp.com/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Energy Northwest",
+   "www": "https://www.energy-northwest.com/careers/",
+   "kariera": "https://www.energy-northwest.com/careers/",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "dostawca",
+   "nazwa": "Aecon",
+   "www": "https://www.aecon.com/careers",
+   "kariera": "https://jobs.aecon.com/?locale=en_US",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "inzynieria",
+   "nazwa": "Laurentis Energy Partners",
+   "www": "https://www.laurentisenergy.com/careers",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "JP",
+   "kategoria": "dostawca",
+   "nazwa": "Mitsubishi Heavy Industries",
+   "www": "https://www.mhi.com/careers",
+   "kariera": "https://www.mhi.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "IN",
+   "kategoria": "operator",
+   "nazwa": "NPCIL",
+   "www": "https://www.npcil.nic.in/",
+   "kariera": "https://www.npcil.nic.in/content/Hindi/396_1_Careergrowthpromotionanddevelopmentavenues.aspx",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "BR",
+   "kategoria": "operator",
+   "nazwa": "Eletronuclear",
+   "www": "https://www.eletronuclear.gov.br/",
+   "kariera": "https://www.eletronuclear.gov.br/Seguranca/Paginas/default.aspx",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "AR",
+   "kategoria": "operator",
+   "nazwa": "Nucleoeléctrica Argentina (NA-SA)",
+   "www": "https://www.na-sa.com.ar/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "ZA",
+   "kategoria": "operator",
+   "nazwa": "Eskom (Koeberg)",
+   "www": "https://www.eskom.co.za/careers/",
+   "kariera": "https://www.eskom.co.za/careers/#main",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "KR",
+   "kategoria": "dostawca",
+   "nazwa": "Hyundai E&C",
+   "www": "https://www.hdec.kr/",
+   "kariera": "https://www.hdec.kr/kr/career/talent.aspx",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Arabelle Solutions",
+   "www": "https://www.arabellesolutions.com/",
+   "kariera": "https://www.arabellesolutions.com/en/join-the-team-shaping-the-future-of-low-carbon-energy",
+   "platforma": [
+    "workday"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Ardatem",
+   "www": "https://www.ardatem.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "Hayward Tyler",
+   "www": "https://www.haywardtyler.com/",
+   "kariera": "https://haywardtyler.com/about/careers/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "Mott MacDonald",
+   "www": "https://www.mottmac.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "Turner & Townsend",
+   "www": "https://www.turnerandtownsend.com/",
+   "kariera": "https://www.turnerandtownsend.com/join-us/early-careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "dostawca",
+   "nazwa": "IMI plc",
+   "www": "https://www.imiplc.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "GB",
+   "kategoria": "inzynieria",
+   "nazwa": "LRQA",
+   "www": "https://www.lrqa.com/",
+   "kariera": "https://jobs.lrqa.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 24,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "Bilfinger",
+   "www": "https://www.bilfinger.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "dostawca",
+   "nazwa": "Siemens Energy",
+   "www": "https://www.siemens-energy.com/",
+   "kariera": "https://jobs.siemens-energy.com/en_US/jobs",
+   "platforma": [
+    "avature"
+   ],
+   "linki_ofert": 47,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "DE",
+   "kategoria": "inzynieria",
+   "nazwa": "TÜV Rheinland",
+   "www": "https://www.tuv.com/",
+   "kariera": "https://www.tuv.com/usa/en/career/",
+   "platforma": [],
+   "linki_ofert": 5,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Altrad",
+   "www": "https://www.altrad.com/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "dostawca",
+   "nazwa": "Gérard Perrier Industrie",
+   "www": "https://www.gerard-perrier.com/",
+   "kariera": "https://www.gerard-perrier.com/ardatem-fournisseur-a-enjeux-dedf-une-reconnaissance-qui-conforte-un-partenariat-durable/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "FR",
+   "kategoria": "inzynieria",
+   "nazwa": "Capgemini Engineering",
+   "www": "https://www.capgemini.com/",
+   "kariera": "https://www.capgemini.com/careers/",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "ES",
+   "kategoria": "odpady",
+   "nazwa": "Tradebe",
+   "www": "https://www.tradebe.com/",
+   "kariera": "https://www.tradebe.com/join-us/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "CA",
+   "kategoria": "inzynieria",
+   "nazwa": "Hatch",
+   "www": "https://www.hatch.com/",
+   "kariera": "https://jobs.hatch.com/",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Zachry Group",
+   "www": "https://www.zachrygroup.com/",
+   "kariera": "https://careers.zachrygroup.com/",
+   "platforma": [
+    "oracle-hcm"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Pro2Serve",
+   "www": "https://www.p2s.com/",
+   "kariera": "https://www.p2s.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "NANO Nuclear Energy",
+   "www": "https://nanonuclearenergy.com/",
+   "kariera": "https://nanonuclearenergy.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Greenberry",
+   "www": "https://www.greenberry.com/",
+   "kariera": "https://greenberry.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Kiewit",
+   "www": "https://www.kiewit.com/",
+   "kariera": "https://www.kiewit.com/careers/",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Black & Veatch",
+   "www": "https://www.bv.com/",
+   "kariera": "https://www.bv.com/en-US/careers",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Enercon Services",
+   "www": "https://www.enercon.com/",
+   "kariera": "https://explore.enercon.com/careers-home#new_tab",
+   "platforma": [
+    "icims"
+   ],
+   "linki_ofert": 2,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "odpady",
+   "nazwa": "APTIM",
+   "www": "https://www.aptim.com/",
+   "kariera": "https://www.aptim.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "inzynieria",
+   "nazwa": "Leidos",
+   "www": "https://www.leidos.com/",
+   "kariera": "https://careers.leidos.com/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona dostępna"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "NextEra Energy",
+   "www": "https://www.nexteraenergy.com/",
+   "kariera": "https://www.nexteraenergy.com/careers.html",
+   "platforma": [],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "DTE Energy",
+   "www": "https://www.dteenergy.com/",
+   "kariera": "https://www.dteenergy.com/us/en/business/about-dte/careers/careers.html",
+   "platforma": [
+    "successfactors"
+   ],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "operator",
+   "nazwa": "Oglethorpe Power",
+   "www": "https://opc.com/",
+   "kariera": "https://opc.com/careers/",
+   "platforma": [],
+   "linki_ofert": 28,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "badania",
+   "nazwa": "Battelle",
+   "www": "https://www.battelle.org/",
+   "kariera": null,
+   "platforma": [],
+   "linki_ofert": null,
+   "stan": "brak dostępu z runnera"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "medycyna",
+   "nazwa": "SHINE Technologies",
+   "www": "https://www.shinefusion.com/",
+   "kariera": "https://www.shinefusion.com/company/careers/",
+   "platforma": [],
+   "linki_ofert": 3,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Zeno Power",
+   "www": "https://www.zenopower.com/",
+   "kariera": "https://www.zenopower.com/careers",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "General Matter",
+   "www": "https://www.generalmatter.com/",
+   "kariera": "https://generalmatter.com/careers/",
+   "platforma": [
+    "greenhouse"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "PaR Systems",
+   "www": "https://www.par.com/",
+   "kariera": "https://www.par.com/careers/",
+   "platforma": [],
+   "linki_ofert": 17,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "CB&I",
+   "www": "https://www.cbi.com/",
+   "kariera": "https://www.cbi.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Joseph Jingoli & Son",
+   "www": "https://www.jingoli.com/",
+   "kariera": "https://www.jingoli.com/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "dostawca",
+   "nazwa": "Integrated Power Services",
+   "www": "https://www.ips.us/",
+   "kariera": "https://careers.ips.us/",
+   "platforma": [],
+   "linki_ofert": 19,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "instytucja",
+   "nazwa": "Mission Support and Test Services (NNSS)",
+   "www": "https://www.nnss.gov/",
+   "kariera": "https://nnss.gov/careers/",
+   "platforma": [
+    "oracle-hcm"
+   ],
+   "linki_ofert": 1,
+   "stan": "strona kariery"
+  },
+  {
+   "kraj": "US",
+   "kategoria": "instytucja",
+   "nazwa": "Pantex Plant",
+   "www": "https://pantex.energy.gov/",
+   "kariera": "https://pantex.energy.gov/careers/",
+   "platforma": [],
+   "linki_ofert": 0,
+   "stan": "strona kariery"
+  }
+ ],
+ "archiwa": {
+  "akkuyu": {
+   "firma": "Akkuyu Nuclear",
+   "gleboko_do": "2006",
+   "jadrowych_razem": 4,
+   "kraj": "TR",
+   "lata": {
+    "2006": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2007": {
+     "adresow": 98,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2008": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2009": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2010": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2011": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2012": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2013": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2014": {
+     "adresow": 3,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2015": {
+     "adresow": 180,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2016": {
+     "adresow": 361,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2017": {
+     "adresow": 62,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2018": {
+     "adresow": 37,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2019": {
+     "adresow": 1392,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2020": {
+     "adresow": 1931,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2021": {
+     "adresow": 837,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2022": {
+     "adresow": 2266,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2023": {
+     "adresow": 2883,
+     "jadrowe": 0,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2024": {
+     "adresow": 1055,
+     "jadrowe": 0,
+     "pobrane": 3,
+     "szczegolow": 3
+    },
+    "2025": {
+     "adresow": 540,
+     "jadrowe": 0,
+     "pobrane": 2,
+     "szczegolow": 2
+    },
+    "2026": {
+     "adresow": 237,
+     "jadrowe": 0,
+     "pobrane": 1,
+     "szczegolow": 2
+    }
+   },
+   "najstarszy": "20060823",
+   "nastepny_rok": 2005,
+   "ofert_razem": 11,
+   "ostatnio": "2026-11-11",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "akkuyu.com"
+  },
+  "areva_flamanville": {
+   "firma": "Areva (Flamanville 3, Olkiluoto 3)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 1,
+   "kraj": "FR",
+   "lata": {
+    "2026": {
+     "adresow": 3562,
+     "jadrowe": 1,
+     "pobrane": 2,
+     "szczegolow": 2
+    }
+   },
+   "najstarszy": "19981206",
+   "nastepny_rok": 2025,
+   "ofert_razem": 2,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "areva.com"
+  },
+  "asnr_autorit_de_s_ret_nucl_aire_et_de_ra": {
+   "firma": "ASNR (Autorité de sûreté nucléaire et de radioprotection)",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 13,
+   "kraj": "FR",
+   "lata": {
+    "2025": {
+     "adresow": 20000,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2026": {
+     "adresow": 20000,
+     "jadrowe": 12,
+     "pobrane": 12,
+     "szczegolow": 12
+    }
+   },
+   "najstarszy": "20200514",
+   "nastepny_rok": 2024,
+   "ofert_razem": 13,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "asnr.fr"
+  },
+  "assystem": {
+   "firma": "Assystem",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 81,
+   "kraj": "FR",
+   "lata": {
+    "2025": {
+     "adresow": 1448,
+     "jadrowe": 41,
+     "pobrane": 41,
+     "szczegolow": 43
+    },
+    "2026": {
+     "adresow": 1199,
+     "jadrowe": 40,
+     "pobrane": 40,
+     "szczegolow": 40
+    }
+   },
+   "najstarszy": "20221128",
+   "nastepny_rok": 2024,
+   "ofert_razem": 81,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.assystem.com/en/career"
+  },
+  "atomstroyexport": {
+   "firma": "Atomstroyexport (Bushehr, Kudankulam)",
+   "gleboko_do": "2022",
+   "jadrowych_razem": 0,
+   "kraj": "RU",
+   "lata": {
+    "2022": {
+     "adresow": 193,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 25,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20010301",
+   "nastepny_rok": 2021,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "atomstroyexport.ru"
+  },
+  "bechtel": {
+   "firma": "Bechtel",
+   "gleboko_do": null,
+   "jadrowych_razem": 387,
+   "kraj": "US",
+   "lata": {
+    "2026": {
+     "adresow": 3984,
+     "jadrowe": 387,
+     "pobrane": 387,
+     "szczegolow": 3680
+    }
+   },
+   "najstarszy": "20121113",
+   "ofert_razem": 387,
+   "ostatnio": "2026-11-11",
+   "status": "w toku",
+   "url": "jobs.bechtel.com"
+  },
+  "budimex": {
+   "firma": "Budimex",
+   "gleboko_do": null,
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {},
+   "najstarszy": "20240707",
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "budimex.pl/kariera/oferty-pracy"
+  },
+  "cea": {
+   "firma": "CEA",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 1,
+   "kraj": "FR",
+   "lata": {
+    "2026": {
+     "adresow": 20000,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 2
+    }
+   },
+   "najstarszy": "19970209",
+   "nastepny_rok": 2025,
+   "ofert_razem": 1,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "cea.fr"
+  },
+  "centralne_laboratorium_ochrony_radiologi": {
+   "firma": "Centralne Laboratorium Ochrony Radiologicznej (CLOR)",
+   "gleboko_do": "2020",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2020": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20200815",
+   "nastepny_rok": 2019,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "clor.waw.pl/clor/struktura.html"
+  },
+  "centrum_v_zkumu_e_cv": {
+   "firma": "Centrum výzkumu Řež (CVŘ)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "CZ",
+   "lata": {
+    "2026": {
+     "adresow": 80,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20170420",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "ujv.jobs.cz"
+  },
+  "cncan": {
+   "firma": "CNCAN",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "RO",
+   "lata": {
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20261020",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.cncan.ro/informatii-de-interes-public/procedura-in-vederea-inscrierii-pe-portalul-cncan"
+  },
+  "doraco": {
+   "firma": "Doraco",
+   "gleboko_do": "2024",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20240423",
+   "nastepny_rok": 2023,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.doraco.pl/pl/kariera/oferty-pracy"
+  },
+  "edf": {
+   "firma": "EDF",
+   "gleboko_do": "2021",
+   "jadrowych_razem": 0,
+   "kraj": "FR",
+   "lata": {
+    "2021": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 8,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 8,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20210115",
+   "nastepny_rok": 2020,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.edf.fr/entreprises/toutes-les-offres-et-solutions/offres-de-marche-electricite-et-gaz"
+  },
+  "edf_energy": {
+   "firma": "EDF Energy (Hinkley Point C)",
+   "gleboko_do": "2017",
+   "jadrowych_razem": 5,
+   "kraj": "GB",
+   "lata": {
+    "2017": {
+     "adresow": 33,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2018": {
+     "adresow": 18,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2019": {
+     "adresow": 10,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2020": {
+     "adresow": 8,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2021": {
+     "adresow": 35,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 45,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 65,
+     "jadrowe": 2,
+     "pobrane": 2,
+     "szczegolow": 2
+    },
+    "2024": {
+     "adresow": 75,
+     "jadrowe": 2,
+     "pobrane": 2,
+     "szczegolow": 2
+    },
+    "2025": {
+     "adresow": 18,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20090826",
+   "nastepny_rok": 2016,
+   "ofert_razem": 5,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "edfenergy.com/careers"
+  },
+  "egis": {
+   "firma": "Egis",
+   "gleboko_do": null,
+   "jadrowych_razem": 6,
+   "kraj": "FR",
+   "lata": {
+    "2026": {
+     "adresow": 6011,
+     "jadrowe": 6,
+     "pobrane": 65,
+     "szczegolow": 5796
+    }
+   },
+   "najstarszy": "20241112",
+   "ofert_razem": 65,
+   "ostatnio": "2026-11-12",
+   "status": "w toku",
+   "url": "jobs.egis-group.com"
+  },
+  "enec": {
+   "firma": "ENEC (Barakah)",
+   "kraj": "AE",
+   "lata": {},
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "enec.gov.ae/careers"
+  },
+  "energonuclear": {
+   "firma": "EnergoNuclear",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "RO",
+   "lata": {
+    "2025": {
+     "adresow": 683,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 713,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 4
+    }
+   },
+   "najstarszy": "20100926",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "energonuclear.ro"
+  },
+  "famet": {
+   "firma": "Famet",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2025": {
+     "adresow": 9,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 10,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20180205",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.famet.com.pl/pl/praca"
+  },
+  "gen_energija_jek2": {
+   "firma": "GEN energija (JEK2)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "SI",
+   "lata": {
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20260105",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.gen-energija.si/gen/kariera-zaposlitev"
+  },
+  "i_c_energo": {
+   "firma": "I&C Energo",
+   "kraj": "CZ",
+   "lata": {},
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "ic-energo.eu/o-nas/kariera"
+  },
+  "ifin_hh_eli_np": {
+   "firma": "IFIN-HH (ELI-NP)",
+   "gleboko_do": "2023",
+   "jadrowych_razem": 10,
+   "kraj": "RO",
+   "lata": {
+    "2023": {
+     "adresow": 4956,
+     "jadrowe": 2,
+     "pobrane": 4,
+     "szczegolow": 133
+    },
+    "2024": {
+     "adresow": 5343,
+     "jadrowe": 3,
+     "pobrane": 8,
+     "szczegolow": 8
+    },
+    "2025": {
+     "adresow": 4326,
+     "jadrowe": 2,
+     "pobrane": 7,
+     "szczegolow": 52
+    },
+    "2026": {
+     "adresow": 5202,
+     "jadrowe": 3,
+     "pobrane": 8,
+     "szczegolow": 8
+    }
+   },
+   "najstarszy": "20010124",
+   "nastepny_rok": 2022,
+   "ofert_razem": 27,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "nipne.ro"
+  },
+  "instytut_chemii_i_techniki_j_drowej_icht": {
+   "firma": "Instytut Chemii i Techniki Jądrowej (IChTJ)",
+   "gleboko_do": "2020",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2020": {
+     "adresow": 359,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 443,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 2633,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 2119,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 2166,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1975,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1362,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "19980212",
+   "nastepny_rok": 2019,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "ichtj.waw.pl"
+  },
+  "instytut_fizyki_j_drowej_pan_ifj_pan": {
+   "firma": "Instytut Fizyki Jądrowej PAN (IFJ PAN)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2026": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20200512",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "www.ifj.edu.pl/kariera/oferty-pracy/naukowe/adiunkt-asystent"
+  },
+  "iter_organization": {
+   "firma": "ITER Organization",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "FR",
+   "lata": {
+    "2025": {
+     "adresow": 40,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 42,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20241020",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.iter.org/public/jobs"
+  },
+  "jacobs_polska_atkinsr_alis_polska": {
+   "firma": "Jacobs Polska / AtkinsRéalis Polska",
+   "kraj": "PL",
+   "lata": {},
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "careers.atkinsrealis.com"
+  },
+  "javys": {
+   "firma": "JAVYS",
+   "gleboko_do": "2019",
+   "jadrowych_razem": 0,
+   "kraj": "SK",
+   "lata": {
+    "2019": {
+     "adresow": 6,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2020": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 15,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 12,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20190821",
+   "nastepny_rok": 2018,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.javys.sk/sk/eu-program-bohunice/narodna-agentura-siea"
+  },
+  "jv_e": {
+   "firma": "ÚJV Řež",
+   "gleboko_do": "2017",
+   "jadrowych_razem": 0,
+   "kraj": "CZ",
+   "lata": {
+    "2017": {
+     "adresow": 19,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2018": {
+     "adresow": 7,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2019": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2020": {
+     "adresow": 8,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 12,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 72,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 63,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 59,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 314,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 80,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20170420",
+   "nastepny_rok": 2016,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "ujv.jobs.cz"
+  },
+  "kghm_polska_mied_smr": {
+   "firma": "KGHM Polska Miedź (SMR)",
+   "gleboko_do": "2020",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2020": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20200815",
+   "nastepny_rok": 2019,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "kghm.com/pl/kariera/dolacz-do-nas/oferty-pracy"
+  },
+  "koda_js": {
+   "firma": "Škoda JS",
+   "gleboko_do": "2007",
+   "jadrowych_razem": 1,
+   "kraj": "CZ",
+   "lata": {
+    "2007": {
+     "adresow": 150,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2008": {
+     "adresow": 166,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2009": {
+     "adresow": 189,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2010": {
+     "adresow": 41,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2011": {
+     "adresow": 177,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2012": {
+     "adresow": 264,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2013": {
+     "adresow": 135,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2014": {
+     "adresow": 109,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2015": {
+     "adresow": 149,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2016": {
+     "adresow": 658,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2017": {
+     "adresow": 393,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2018": {
+     "adresow": 251,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2019": {
+     "adresow": 624,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2020": {
+     "adresow": 565,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 1049,
+     "jadrowe": 0,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2022": {
+     "adresow": 807,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 1797,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 980,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2025": {
+     "adresow": 425,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 588,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20040811",
+   "nastepny_rok": 2006,
+   "ofert_razem": 2,
+   "ostatnio": "2026-11-12",
+   "status": "w toku",
+   "url": "skoda-js.cz"
+  },
+  "kozloduy_npp": {
+   "firma": "Kozloduy NPP",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 16,
+   "kraj": "BG",
+   "lata": {
+    "2025": {
+     "adresow": 5,
+     "jadrowe": 4,
+     "pobrane": 4,
+     "szczegolow": 4
+    },
+    "2026": {
+     "adresow": 13,
+     "jadrowe": 12,
+     "pobrane": 12,
+     "szczegolow": 12
+    }
+   },
+   "najstarszy": "20201024",
+   "nastepny_rok": 2024,
+   "ofert_razem": 16,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.kznpp.org/bg/jobs"
+  },
+  "ministerstwo_energii": {
+   "firma": "Ministerstwo Energii",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20190716",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "www.gov.pl/web/energia/pracuj-z-nami"
+  },
+  "mostostal_warszawa": {
+   "firma": "Mostostal Warszawa",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2025": {
+     "adresow": 126,
+     "jadrowe": 0,
+     "pobrane": 113,
+     "szczegolow": 117
+    },
+    "2026": {
+     "adresow": 18,
+     "jadrowe": 0,
+     "pobrane": 12,
+     "szczegolow": 12
+    }
+   },
+   "najstarszy": "20150929",
+   "nastepny_rok": 2024,
+   "ofert_razem": 125,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.mostostal.waw.pl/kariera/oferty-pracy"
+  },
+  "narodowe_centrum_bada_j_drowych_ncbj_pol": {
+   "firma": "Narodowe Centrum Badań Jądrowych (NCBJ, POLATOM)",
+   "gleboko_do": "2021",
+   "jadrowych_razem": 179,
+   "kraj": "PL",
+   "lata": {
+    "2021": {
+     "adresow": 6553,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 20000,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    },
+    "2023": {
+     "adresow": 17911,
+     "jadrowe": 2,
+     "pobrane": 2,
+     "szczegolow": 2
+    },
+    "2024": {
+     "adresow": 20000,
+     "jadrowe": 1,
+     "pobrane": 2,
+     "szczegolow": 2
+    },
+    "2025": {
+     "adresow": 20000,
+     "jadrowe": 55,
+     "pobrane": 76,
+     "szczegolow": 76
+    },
+    "2026": {
+     "adresow": 18715,
+     "jadrowe": 120,
+     "pobrane": 145,
+     "szczegolow": 146
+    }
+   },
+   "najstarszy": "20110925",
+   "nastepny_rok": 2020,
+   "ofert_razem": 226,
+   "ostatnio": "2026-11-11",
+   "status": "w toku",
+   "url": "ncbj.gov.pl"
+  },
+  "niaep": {
+   "firma": "NIAEP / ASE",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "RU",
+   "lata": {
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20070225",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "niaep.ru"
+  },
+  "nuclear_fuel_plant_pite_ti_fcn": {
+   "firma": "Nuclear Fuel Plant Pitești (FCN)",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "RO",
+   "lata": {
+    "2025": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20250701",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "nuclearelectrica.ro/snn/category/joburi"
+  },
+  "nuclear_regulatory_agency": {
+   "firma": "Nuclear Regulatory Agency (АЯР)",
+   "gleboko_do": "2024",
+   "jadrowych_razem": 0,
+   "kraj": "BG",
+   "lata": {
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20240229",
+   "nastepny_rok": 2023,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "bnra.bg/bg/karieri"
+  },
+  "nuclearelectrica_snn": {
+   "firma": "Nuclearelectrica (SNN)",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "RO",
+   "lata": {
+    "2025": {
+     "adresow": 4,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20250701",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "nuclearelectrica.ro/snn/category/joburi"
+  },
+  "nuklearna_elektrarna_kr_ko_nek": {
+   "firma": "Nuklearna elektrarna Krško (NEK)",
+   "gleboko_do": "2023",
+   "jadrowych_razem": 0,
+   "kraj": "SI",
+   "lata": {
+    "2023": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20210611",
+   "nastepny_rok": 2022,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.nek.si/o-jedrski-energiji/uran-in-jedrska-cepitev"
+  },
+  "orano": {
+   "firma": "Orano",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 377,
+   "kraj": "FR",
+   "lata": {
+    "2025": {
+     "adresow": 724,
+     "jadrowe": 351,
+     "pobrane": 385,
+     "szczegolow": 578
+    },
+    "2026": {
+     "adresow": 93,
+     "jadrowe": 26,
+     "pobrane": 26,
+     "szczegolow": 26
+    }
+   },
+   "najstarszy": "20220516",
+   "nastepny_rok": 2025,
+   "ofert_razem": 411,
+   "ostatnio": "2026-11-12",
+   "status": "w toku",
+   "url": "www.orano.group/jobs/fr"
+  },
+  "orlen_synthos_green_energy_osge": {
+   "firma": "Orlen Synthos Green Energy (OSGE)",
+   "kraj": "PL",
+   "lata": {},
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "kariera.osge.com"
+  },
+  "pa_stwowa_agencja_atomistyki_paa": {
+   "firma": "Państwowa Agencja Atomistyki (PAA)",
+   "kraj": "PL",
+   "lata": {},
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "www.gov.pl/web/paa/kariera-w-paa"
+  },
+  "pej": {
+   "firma": "Polskie Elektrownie Jądrowe (PEJ)",
+   "gleboko_do": "2024",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2024": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 2,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 0,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20240820",
+   "nastepny_rok": 2023,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "pej.pl/kariera"
+  },
+  "pgeej1": {
+   "firma": "PGE EJ 1 (poprzednik PEJ)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2026": {
+     "adresow": 3,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20110224",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "pgeej1.pl"
+  },
+  "polimex_mostostal": {
+   "firma": "Polimex Mostostal",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2026": {
+     "adresow": 58,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20260219",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "pxinfrastruktura.pl"
+  },
+  "rad_jadrov_ho_dozoru_sr_jd_sr": {
+   "firma": "Úrad jadrového dozoru SR (ÚJD SR)",
+   "gleboko_do": null,
+   "jadrowych_razem": 0,
+   "kraj": "SK",
+   "lata": {},
+   "najstarszy": "20220523",
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "www.ujd.gov.sk/urad/kontakt"
+  },
+  "raten_icn_pite_ti": {
+   "firma": "RATEN ICN Pitești",
+   "gleboko_do": "2014",
+   "jadrowych_razem": 0,
+   "kraj": "RO",
+   "lata": {
+    "2014": {
+     "adresow": 107,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2015": {
+     "adresow": 188,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2016": {
+     "adresow": 282,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2017": {
+     "adresow": 14,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2018": {
+     "adresow": 5,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2019": {
+     "adresow": 306,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2020": {
+     "adresow": 186,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2021": {
+     "adresow": 570,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 676,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 448,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1387,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1223,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 625,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20020923",
+   "nastepny_rok": 2013,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "nuclear.ro"
+  },
+  "se_raw": {
+   "firma": "Държавно предприятие РАО (SE RAW)",
+   "gleboko_do": "2021",
+   "jadrowych_razem": 0,
+   "kraj": "BG",
+   "lata": {
+    "2021": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2022": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2023": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20130823",
+   "nastepny_rok": 2020,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "dprao.bg/en/about-us/%D0%BA%D0%B0%D1%80%D0%B8%D0%B5%D1%80%D0%B8.html"
+  },
+  "slovensk_elektr_rne": {
+   "firma": "Slovenské elektrárne",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "SK",
+   "lata": {
+    "2026": {
+     "adresow": 126,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20260521",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "kariera.seas.sk"
+  },
+  "southern_vogtle": {
+   "firma": "Southern Company (Vogtle 3-4)",
+   "gleboko_do": null,
+   "jadrowych_razem": 0,
+   "kraj": "US",
+   "lata": {
+    "2026": {
+     "adresow": 3892,
+     "jadrowe": 0,
+     "pobrane": 368,
+     "szczegolow": 2278
+    }
+   },
+   "najstarszy": "20170723",
+   "ofert_razem": 368,
+   "ostatnio": "2026-11-11",
+   "status": "w toku",
+   "url": "southerncompany.jobs"
+  },
+  "spr_va_lo_i_radioaktivn_ch_odpad_s_rao": {
+   "firma": "Správa úložišť radioaktivních odpadů (SÚRAO)",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "CZ",
+   "lata": {
+    "2025": {
+     "adresow": 1657,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1070,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20250207",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "surao.gov.cz"
+  },
+  "st_tn_ad_pro_jadernou_bezpe_nost_s_jb": {
+   "firma": "Státní úřad pro jadernou bezpečnost (SÚJB)",
+   "gleboko_do": "2024",
+   "jadrowych_razem": 1,
+   "kraj": "CZ",
+   "lata": {
+    "2024": {
+     "adresow": 4710,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 3644,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 3395,
+     "jadrowe": 1,
+     "pobrane": 1,
+     "szczegolow": 1
+    }
+   },
+   "najstarszy": "20240218",
+   "nastepny_rok": 2023,
+   "ofert_razem": 1,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "sujb.gov.cz"
+  },
+  "synektik_radiofarmaceutyki": {
+   "firma": "Synektik (radiofarmaceutyki)",
+   "gleboko_do": "2023",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2023": {
+     "adresow": 3,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 13,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 1,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20231129",
+   "nastepny_rok": 2022,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "synektik.com.pl/category/kariera"
+  },
+  "technokabel": {
+   "firma": "Technokabel",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2025": {
+     "adresow": 2339,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 3150,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "20000107",
+   "nastepny_rok": 2024,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "technokabel.com.pl"
+  },
+  "tele_fonika_kable": {
+   "firma": "Tele-Fonika Kable",
+   "gleboko_do": "2025",
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {
+    "2025": {
+     "adresow": 18,
+     "jadrowe": 0,
+     "pobrane": 9,
+     "szczegolow": 9
+    },
+    "2026": {
+     "adresow": 13,
+     "jadrowe": 0,
+     "pobrane": 5,
+     "szczegolow": 5
+    }
+   },
+   "najstarszy": "20250424",
+   "nastepny_rok": 2024,
+   "ofert_razem": 14,
+   "ostatnio": "2026-11-12",
+   "sprawdzone_do_roku": 2026,
+   "status": "dno",
+   "url": "www.tele-fonika.com/kariera/aktualne-oferty"
+  },
+  "teollisuuden_olkiluoto": {
+   "firma": "TVO (Olkiluoto 3)",
+   "gleboko_do": "2026",
+   "jadrowych_razem": 0,
+   "kraj": "FI",
+   "lata": {
+    "2026": {
+     "adresow": 2583,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "19980523",
+   "nastepny_rok": 2025,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "tvo.fi"
+  },
+  "transportowy_doz_r_techniczny_tdt": {
+   "firma": "Transportowy Dozór Techniczny (TDT)",
+   "gleboko_do": null,
+   "jadrowych_razem": 0,
+   "kraj": "PL",
+   "lata": {},
+   "najstarszy": "20210507",
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "www.tdt.gov.pl/informacje/kariera"
+  },
+  "urz_d_dozoru_technicznego_udt": {
+   "firma": "Urząd Dozoru Technicznego (UDT)",
+   "kraj": "PL",
+   "lata": {},
+   "ostatnio": "2026-11-11",
+   "status": "błąd archiwum",
+   "url": "udt.gov.pl"
+  },
+  "v_tkovice": {
+   "firma": "Vítkovice",
+   "gleboko_do": "2023",
+   "jadrowych_razem": 0,
+   "kraj": "CZ",
+   "lata": {
+    "2023": {
+     "adresow": 508,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2024": {
+     "adresow": 722,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2025": {
+     "adresow": 355,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    },
+    "2026": {
+     "adresow": 102,
+     "jadrowe": 0,
+     "pobrane": 0,
+     "szczegolow": 0
+    }
+   },
+   "najstarszy": "19970425",
+   "nastepny_rok": 2022,
+   "ofert_razem": 0,
+   "ostatnio": "2026-11-12",
+   "status": "błąd archiwum",
+   "url": "vitkovice.cz"
+  },
+  "westinghouse": {
+   "firma": "Westinghouse Electric Company",
+   "gleboko_do": "2027",
+   "jadrowych_razem": 227,
+   "kraj": "US",
+   "lata": {
+    "2026": {
+     "adresow": 3441,
+     "jadrowe": 227,
+     "pobrane": 227,
+     "szczegolow": 2931
+    }
+   },
+   "najstarszy": "20201001",
+   "ofert_razem": 227,
+   "ostatnio": "2026-11-11",
+   "status": "w toku",
+   "url": "careers.westinghousenuclear.com"
+  }
+ },
+ "pokrycie": {
+  "PL": {
+   "Bechtel": {
+    "n": 64,
+    "zrodla": [
+     "bechtel",
+     "pracuj"
+    ]
+   },
+   "Westinghouse": {
+    "n": 48,
+    "zrodla": [
+     "westinghouse"
+    ]
+   },
+   "Państwowa Agencja Atomistyki w Warszawie": {
+    "n": 14,
+    "zrodla": [
+     "kprm"
+    ]
+   },
+   "Polskie Elektrownie Jądrowe (PEJ)": {
+    "n": 13,
+    "zrodla": [
+     "pej",
+     "pracuj"
+    ]
+   },
+   "Centralne Laboratorium Ochrony Radiologicznej (CLOR)": {
+    "n": 3,
+    "zrodla": [
+     "clor"
+    ]
+   },
+   "FINOW POLSKA SP. Z O.O.": {
+    "n": 1,
+    "zrodla": [
+     "pracuj"
+    ]
+   },
+   "Fortum": {
+    "n": 1,
+    "zrodla": [
+     "fortum"
+    ]
+   }
+  },
+  "US": {
+   "Westinghouse": {
+    "n": 214,
+    "zrodla": [
+     "westinghouse"
+    ]
+   },
+   "Bechtel": {
+    "n": 61,
+    "zrodla": [
+     "bechtel"
+    ]
+   }
+  },
+  "FR": {
+   "Orano": {
+    "n": 179,
+    "zrodla": [
+     "orano"
+    ]
+   },
+   "Altrad Endel": {
+    "n": 48,
+    "zrodla": [
+     "pr_endel"
+    ]
+   },
+   "CEA": {
+    "n": 11,
+    "zrodla": [
+     "cea"
+    ]
+   },
+   "Westinghouse": {
+    "n": 9,
+    "zrodla": [
+     "westinghouse"
+    ]
+   },
+   "ITER Organization": {
+    "n": 4,
+    "zrodla": [
+     "iter"
+    ]
+   },
+   "Egis": {
+    "n": 2,
+    "zrodla": [
+     "pr_egis"
+    ]
+   }
+  },
+  "GB": {
+   "Hinkley Point C Jobs Service (EDF i partnerzy)": {
+    "n": 115,
+    "zrodla": [
+     "hpc"
+    ]
+   },
+   "Hinkley Point C / Sizewell C Jobs Service (EDF i wykonawcy)": {
+    "n": 48,
+    "zrodla": [
+     "hpc"
+    ]
+   },
+   "Sizewell C": {
+    "n": 29,
+    "zrodla": [
+     "szc"
+    ]
+   },
+   "EDF Energy": {
+    "n": 23,
+    "zrodla": [
+     "edfuk"
+    ]
+   },
+   "Bechtel": {
+    "n": 12,
+    "zrodla": [
+     "bechtel"
+    ]
+   },
+   "Westinghouse": {
+    "n": 4,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "SE": {
+   "Vattenfall": {
+    "n": 72,
+    "zrodla": [
+     "vattenfall"
+    ]
+   },
+   "Blykalla": {
+    "n": 20,
+    "zrodla": [
+     "pr_blykalla"
+    ]
+   },
+   "Fortum": {
+    "n": 15,
+    "zrodla": [
+     "fortum"
+    ]
+   },
+   "Westinghouse": {
+    "n": 5,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "RO": {
+   "Nuclearelectrica (SNN)": {
+    "n": 45,
+    "zrodla": [
+     "snn"
+    ]
+   }
+  },
+  "ES": {
+   "Westinghouse": {
+    "n": 12,
+    "zrodla": [
+     "westinghouse"
+    ]
+   },
+   "ANAV (Ascó, Vandellós)": {
+    "n": 2,
+    "zrodla": [
+     "pr_anav"
+    ]
+   }
+  },
+  "IT": {
+   "Westinghouse": {
+    "n": 14,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "DE": {
+   "GNS Gesellschaft für Nuklear-Service": {
+    "n": 8,
+    "zrodla": [
+     "pr_gns"
+    ]
+   },
+   "Westinghouse": {
+    "n": 5,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "AT": {
+   "IAEA": {
+    "n": 12,
+    "zrodla": [
+     "iaea"
+    ]
+   }
+  },
+  "FI": {
+   "Fortum": {
+    "n": 10,
+    "zrodla": [
+     "fortum"
+    ]
+   }
+  },
+  "BG": {
+   "АЕЦ Козлодуй (Kozloduy NPP)": {
+    "n": 6,
+    "zrodla": [
+     "kznpp"
+    ]
+   },
+   "Westinghouse": {
+    "n": 2,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "CZ": {
+   "ČEZ": {
+    "n": 6,
+    "zrodla": [
+     "cez"
+    ]
+   },
+   "Westinghouse": {
+    "n": 1,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "CA": {
+   "Westinghouse": {
+    "n": 4,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "CH": {
+   "Nagra": {
+    "n": 2,
+    "zrodla": [
+     "pr_nagra"
+    ]
+   },
+   "Axpo (Beznau, Leibstadt)": {
+    "n": 1,
+    "zrodla": [
+     "pr_axpo"
+    ]
+   },
+   "Paul Scherrer Institut (PSI)": {
+    "n": 1,
+    "zrodla": [
+     "pr_psi"
+    ]
+   }
+  },
+  "SK": {
+   "Westinghouse": {
+    "n": 2,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "BE": {
+   "Westinghouse": {
+    "n": 1,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  },
+  "CN": {
+   "Westinghouse": {
+    "n": 1,
+    "zrodla": [
+     "westinghouse"
+    ]
+   }
+  }
+ },
+ "zrodla": {
+  "pej": {
+   "nazwa": "PEJ",
+   "kraj": "PL",
+   "ok": true,
+   "n": [
+    6,
+    6
+   ],
+   "s": 29,
+   "blad": null
+  },
+  "pracuj": {
+   "nazwa": "pracuj.pl",
+   "kraj": "PL",
+   "ok": true,
+   "n": 12,
+   "s": 28,
+   "blad": null
+  },
+  "ncbj": {
+   "nazwa": "NCBJ",
+   "kraj": "PL",
+   "ok": true,
+   "n": 7,
+   "s": 13,
+   "blad": null
+  },
+  "kprm": {
+   "nazwa": "Nabory KPRM (PAA, ministerstwa)",
+   "kraj": "PL",
+   "ok": true,
+   "n": [
+    17,
+    0
+   ],
+   "s": 118,
+   "blad": null
+  },
+  "clor": {
+   "nazwa": "CLOR",
+   "kraj": "PL",
+   "ok": true,
+   "n": 3,
+   "s": 1,
+   "blad": null
+  },
+  "kznpp": {
+   "nazwa": "Kozloduy NPP",
+   "kraj": "BG",
+   "ok": true,
+   "n": [
+    6,
+    0
+   ],
+   "s": 2,
+   "blad": null
+  },
+  "snn": {
+   "nazwa": "Nuclearelectrica",
+   "kraj": "RO",
+   "ok": true,
+   "n": [
+    45,
+    0
+   ],
+   "s": 11,
+   "blad": null
+  },
+  "szc": {
+   "nazwa": "Sizewell C",
+   "kraj": "GB",
+   "ok": true,
+   "n": [
+    29,
+    0
+   ],
+   "s": 3,
+   "blad": null
+  },
+  "hpc": {
+   "nazwa": "HPC / SZC Jobs Service",
+   "kraj": "GB",
+   "ok": true,
+   "n": [
+    163,
+    0
+   ],
+   "s": 13,
+   "blad": null
+  },
+  "iter": {
+   "nazwa": "ITER",
+   "kraj": "FR",
+   "ok": true,
+   "n": [
+    4,
+    0
+   ],
+   "s": 3,
+   "blad": null
+  },
+  "iaea": {
+   "nazwa": "IAEA",
+   "kraj": "AT",
+   "ok": true,
+   "n": [
+    12,
+    0
+   ],
+   "s": 2,
+   "blad": null
+  },
+  "edfuk": {
+   "nazwa": "EDF Energy",
+   "kraj": "GB",
+   "ok": true,
+   "n": [
+    31,
+    0
+   ],
+   "s": 5,
+   "blad": null
+  },
+  "fortum": {
+   "nazwa": "Fortum",
+   "kraj": "FI",
+   "ok": true,
+   "n": [
+    29,
+    0
+   ],
+   "s": 5,
+   "blad": null
+  },
+  "cez": {
+   "nazwa": "ČEZ",
+   "kraj": "CZ",
+   "ok": true,
+   "n": [
+    181,
+    37
+   ],
+   "s": 98,
+   "blad": null
+  },
+  "cea": {
+   "nazwa": "CEA",
+   "kraj": "FR",
+   "ok": true,
+   "n": [
+    836,
+    109
+   ],
+   "s": 315,
+   "blad": null
+  },
+  "vattenfall": {
+   "nazwa": "Vattenfall",
+   "kraj": "SE",
+   "ok": true,
+   "n": [
+    258,
+    100
+   ],
+   "s": 186,
+   "blad": null
+  },
+  "pr_anav": {
+   "nazwa": "ANAV (Ascó, Vandellós)",
+   "kraj": "ES",
+   "ok": true,
+   "n": [
+    2,
+    0
+   ],
+   "s": 2,
+   "blad": null
+  },
+  "pr_gns": {
+   "nazwa": "GNS Gesellschaft für Nuklear-Service",
+   "kraj": "DE",
+   "ok": true,
+   "n": [
+    8,
+    0
+   ],
+   "s": 1,
+   "blad": null
+  },
+  "pr_nagra": {
+   "nazwa": "Nagra",
+   "kraj": "CH",
+   "ok": true,
+   "n": [
+    2,
+    0
+   ],
+   "s": 0,
+   "blad": null
+  },
+  "pr_blykalla": {
+   "nazwa": "Blykalla",
+   "kraj": "SE",
+   "ok": true,
+   "n": [
+    20,
+    0
+   ],
+   "s": 1,
+   "blad": null
+  },
+  "pr_endel": {
+   "nazwa": "Altrad Endel",
+   "kraj": "FR",
+   "ok": true,
+   "n": [
+    189,
+    35
+   ],
+   "s": 82,
+   "blad": null
+  },
+  "pr_axpo": {
+   "nazwa": "Axpo (Beznau, Leibstadt)",
+   "kraj": "CH",
+   "ok": true,
+   "n": [
+    86,
+    43
+   ],
+   "s": 74,
+   "blad": null
+  },
+  "pr_psi": {
+   "nazwa": "Paul Scherrer Institut (PSI)",
+   "kraj": "CH",
+   "ok": true,
+   "n": [
+    17,
+    0
+   ],
+   "s": 1,
+   "blad": null
+  },
+  "pr_egis": {
+   "nazwa": "Egis",
+   "kraj": "FR",
+   "ok": true,
+   "n": [
+    300,
+    29
+   ],
+   "s": 89,
+   "blad": null
+  },
+  "pr_nda": {
+   "nazwa": "NDA group (Sellafield, NRS, NWS, NTS)",
+   "kraj": "GB",
+   "ok": true,
+   "n": [
+    4,
+    0
+   ],
+   "s": 3,
+   "blad": null
+  },
+  "pr_ukaea": {
+   "nazwa": "UK Atomic Energy Authority (UKAEA)",
+   "kraj": "GB",
+   "ok": true,
+   "n": [
+    10,
+    0
+   ],
+   "s": 2,
+   "blad": null
+  },
+  "bechtel": {
+   "nazwa": "Bechtel",
+   "kraj": "świat",
+   "ok": true,
+   "n": [
+    1163,
+    135,
+    0
+   ],
+   "s": 177,
+   "blad": null
+  },
+  "wec": {
+   "nazwa": "Westinghouse",
+   "kraj": "świat",
+   "ok": true,
+   "n": [
+    1126,
+    0
+   ],
+   "s": 63,
+   "blad": null
+  },
+  "opg": {
+   "nazwa": "Ontario Power Generation",
+   "kraj": "CA",
+   "ok": false,
+   "n": null,
+   "s": 0,
+   "blad": "opg: pusta lista"
+  }
+ },
+ "rotacja": {
+  "noc": 0,
+  "pominiete": [
+   "orano"
+  ]
+ },
+ "niepodlaczone": [
+  [
+   "ENEC (Barakah)",
+   "AE",
+   "brak połączenia z runnera GitHub"
+  ],
+  [
+   "Nawah (Barakah)",
+   "AE",
+   "brak połączenia z runnera GitHub"
+  ],
+  [
+   "Framatome",
+   "FR",
+   "403"
+  ],
+  [
+   "EDF (Francja)",
+   "FR",
+   "lista ładowana skryptem"
+  ],
+  [
+   "F4E",
+   "ES",
+   "lista ładowana skryptem"
+  ],
+  [
+   "Sellafield Ltd",
+   "GB",
+   "lista przez admin-ajax (POST)"
+  ],
+  [
+   "Slovenské elektrárne",
+   "SK",
+   "lista ładowana skryptem"
+  ],
+  [
+   "OSGE",
+   "PL",
+   "lista ładowana skryptem"
+  ],
+  [
+   "ZUOP",
+   "PL",
+   "403 (BIP)"
+  ],
+  [
+   "KCOR",
+   "PL",
+   "403 (BIP)"
+  ],
+  [
+   "UDT",
+   "PL",
+   "brak listy ofert (oferty na pracuj.pl)"
+  ],
+  [
+   "TVO",
+   "FI",
+   "zewnętrzny system ofert"
+  ],
+  [
+   "Kozloduy NPP-Newbuild",
+   "BG",
+   "brak połączenia"
+  ]
+ ],
+ "wygenerowano": "2026-11-12T03:53:01+00:00",
+ "otwarte_razem": 1246,
+ "tylko_analiza_otwarte": 0,
+ "otwarte": {
+  "kraj": {
+   "US": 275,
+   "FR": 253,
+   "PL": 240,
+   "GB": 231,
+   "SE": 112,
+   "RO": 45,
+   "ES": 14,
+   "IT": 14,
+   "DE": 13,
+   "AT": 12,
+   "FI": 10,
+   "BG": 8,
+   "CZ": 7,
+   "CA": 4,
+   "CH": 4,
+   "SK": 2,
+   "BE": 1,
+   "CN": 1
+  },
+  "projekt": {
+   "-": 856,
+   "Hinkley Point C": 116,
+   "Sizewell C": 87,
+   "AP1000 Lubiatowo-Kopalino": 81,
+   "Cernavodă": 22,
+   "La Hague": 22,
+   "IAEA": 12,
+   "Forsmark": 7,
+   "Heysham / Torness / Hartlepool": 6,
+   "Kozloduy": 6,
+   "Oskarshamn": 6,
+   "Ringhals": 5,
+   "ITER": 4,
+   "Sellafield": 4,
+   "Loviisa": 3,
+   "Ascó / Vandellós": 2,
+   "EPR2 Penly / Gravelines": 2,
+   "Almaraz": 1,
+   "Cernavodă 3-4": 1,
+   "Kozloduy 7-8": 1,
+   "Leibstadt": 1,
+   "Temelín": 1
+  },
+  "typ_obiektu": {
+   "-": 856,
+   "bud": 288,
+   "eks": 60,
+   "odp": 26,
+   "ins": 12,
+   "fuz": 4
+  },
+  "pracodawca": {
+   "westinghouse": 322,
+   "Orano": 179,
+   "bechtel": 133,
+   "Hinkley Point C Jobs Service (EDF i partnerzy)": 115,
+   "Państwowa Agencja Atomistyki w Warszawie": 110,
+   "Vattenfall": 72,
+   "Altrad Endel": 48,
+   "Hinkley Point C / Sizewell C Jobs Service (EDF i wykonawcy)": 48,
+   "Nuclearelectrica (SNN)": 45,
+   "Sizewell C": 29,
+   "Fortum": 26,
+   "EDF Energy": 23,
+   "Blykalla": 20,
+   "IAEA": 12,
+   "CEA": 11,
+   "GNS Gesellschaft für Nuklear-Service": 8,
+   "Polskie Elektrownie Jądrowe sp. z o.o.": 7,
+   "pej": 6,
+   "ČEZ": 6,
+   "АЕЦ Козлодуй (Kozloduy NPP)": 6,
+   "Bechtel Polska Sp. Z o.o.": 4,
+   "ITER Organization": 4,
+   "Centralne Laboratorium Ochrony Radiologicznej (CLOR)": 3,
+   "ANAV (Ascó, Vandellós)": 2,
+   "Egis": 2,
+   "Nagra": 2,
+   "Axpo (Beznau, Leibstadt)": 1,
+   "FINOW POLSKA SP. Z O.O.": 1,
+   "Paul Scherrer Institut (PSI)": 1
+  },
+  "zrodlo": {
+   "westinghouse": 322,
+   "orano": 179,
+   "hpc": 163,
+   "bechtel": 133,
+   "kprm": 110,
+   "vattenfall": 72,
+   "pr_endel": 48,
+   "snn": 45,
+   "szc": 29,
+   "fortum": 26,
+   "edfuk": 23,
+   "pr_blykalla": 20,
+   "iaea": 12,
+   "pracuj": 12,
+   "cea": 11,
+   "pr_gns": 8,
+   "cez": 6,
+   "kznpp": 6,
+   "pej": 6,
+   "iter": 4,
+   "clor": 3,
+   "pr_anav": 2,
+   "pr_egis": 2,
+   "pr_nagra": 2,
+   "pr_axpo": 1,
+   "pr_psi": 1
+  },
+  "funkcja": {
+   "Inżynieria i projektowanie": 957,
+   "Zarządzanie projektem i planowanie": 78,
+   "Zakupy i kontrakty": 47,
+   "Jakość i kontrola (QA/QC)": 43,
+   "Administracja, HR i finanse": 40,
+   "Budowa i montaż": 25,
+   "IT i systemy": 21,
+   "Produkcja i spawalnictwo": 11,
+   "Dozór i licencjonowanie": 9,
+   "BHP i ochrona środowiska (EHS)": 8,
+   "Szkolenie personelu eksploatacji": 4,
+   "Bezpieczeństwo jądrowe i ochrona radiologiczna": 3
+  },
+  "poziom": {
+   "Specjalista": 741,
+   "Senior lub ekspert": 225,
+   "Kierownik": 153,
+   "Junior / wykonawczy": 91,
+   "Praktyka lub staż": 36
+  },
+  "jezyk": {
+   "EN": 894,
+   "PL": 130,
+   "FR": 76,
+   "SV": 59,
+   "RO": 45,
+   "DE": 15,
+   "BG": 6,
+   "CS": 6,
+   "NL": 5,
+   "ES": 4,
+   "FI": 4,
+   "?": 2
+  }
+ },
+ "tylko_analiza": {
+  "kraj": {}
+ },
+ "nowe": {
+  "2021": 24,
+  "2022": 25,
+  "2023": 26,
+  "2024": 52,
+  "2025": 108,
+  "2026-01": 3,
+  "2026-02": 23,
+  "2026-03": 38,
+  "2026-04": 3,
+  "2026-05": 7,
+  "2026-06": 6,
+  "2026-10-31": 130,
+  "2026-11-03": 2,
+  "2026-11-04": 1,
+  "2026-11-05": 4,
+  "2026-11-06": 2,
+  "2026-11-07": 2,
+  "2026-11-10": 761,
+  "2026-11-11": 282,
+  "2026-11-12": 107
+ },
+ "zamkniete": {
+  "2026-10-31": 307,
+  "2026-11-01": 1,
+  "2026-11-03": 2,
+  "2026-11-05": 7,
+  "2026-11-06": 8,
+  "2026-11-08": 1,
+  "2026-11-09": 1,
+  "2026-11-10": 7,
+  "2026-11-11": 14,
+  "2026-11-12": 12
+ },
+ "nowe_tylko_analiza": {},
+ "zamkniete_tylko_analiza": {},
+ "wynagrodzenia": {
+  "funkcja": {
+   "Inżynieria i projektowanie": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 121,
+     "mediana": 9950,
+     "min": 5117,
+     "max": 23892
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 13,
+     "mediana": 207800,
+     "min": 124600,
+     "max": 269550
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 74,
+     "mediana": 95850,
+     "min": 50535,
+     "max": 205000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 67,
+     "mediana": 47000,
+     "min": 26050,
+     "max": 87000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "mies",
+     "n": 3,
+     "mediana": 352,
+     "min": 352,
+     "max": 10000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 4,
+     "mediana": 20,
+     "min": 15,
+     "max": 29
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 83,
+     "mediana": 37,
+     "min": 18,
+     "max": 300
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 17,
+     "mediana": 36950,
+     "min": 32000,
+     "max": 51384
+    },
+    {
+     "waluta": "USD",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 350,
+     "min": 350,
+     "max": 350
+    },
+    {
+     "waluta": "SEK",
+     "okres": "mies",
+     "n": 4,
+     "mediana": 62500,
+     "min": 52500,
+     "max": 66500
+    },
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 3,
+     "mediana": 40,
+     "min": 14,
+     "max": 40
+    },
+    {
+     "waluta": "EUR",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 2500,
+     "min": 2500,
+     "max": 2500
+    }
+   ],
+   "Administracja, HR i finanse": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 10,
+     "mediana": 9329,
+     "min": 5775,
+     "max": 38810
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 7,
+     "mediana": 181550,
+     "min": 124600,
+     "max": 288250
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 2,
+     "mediana": 108075,
+     "min": 101250,
+     "max": 114900
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 2,
+     "mediana": 34,
+     "min": 28,
+     "max": 40
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 50000,
+     "min": 50000,
+     "max": 50000
+    }
+   ],
+   "IT i systemy": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 16,
+     "mediana": 15625,
+     "min": 5808,
+     "max": 19112
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 116100,
+     "min": 116100,
+     "max": 116100
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 3,
+     "mediana": 27,
+     "min": 27,
+     "max": 75
+    }
+   ],
+   "Jakość i kontrola (QA/QC)": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 8,
+     "mediana": 12841,
+     "min": 8233,
+     "max": 23892
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 14,
+     "mediana": 116100,
+     "min": 72900,
+     "max": 140000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 57000,
+     "min": 26050,
+     "max": 57000
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 3,
+     "mediana": 27,
+     "min": 25,
+     "max": 95
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 2,
+     "mediana": 54550,
+     "min": 50750,
+     "max": 58350
+    }
+   ],
+   "Zakupy i kontrakty": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 12841,
+     "min": 5808,
+     "max": 23892
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 23,
+     "mediana": 207800,
+     "min": 138000,
+     "max": 342650
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 6,
+     "mediana": 103134,
+     "min": 72900,
+     "max": 131400
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 2,
+     "mediana": 36782,
+     "min": 26050,
+     "max": 47513
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 58350,
+     "min": 58350,
+     "max": 58350
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 22,
+     "min": 22,
+     "max": 22
+    }
+   ],
+   "Dozór i licencjonowanie": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 5,
+     "mediana": 21000,
+     "min": 15633,
+     "max": 23892
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 181550,
+     "min": 181550,
+     "max": 181550
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 2,
+     "mediana": 95850,
+     "min": 95850,
+     "max": 95850
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 27,
+     "min": 27,
+     "max": 27
+    }
+   ],
+   "Budowa i montaż": [
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 15,
+     "mediana": 207800,
+     "min": 138000,
+     "max": 475200
+    },
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 3,
+     "mediana": 7960,
+     "min": 7107,
+     "max": 20000
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 195350,
+     "min": 171550,
+     "max": 220800
+    }
+   ],
+   "Zarządzanie projektem i planowanie": [
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 10,
+     "mediana": 207800,
+     "min": 138000,
+     "max": 320450
+    },
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 15633,
+     "min": 8233,
+     "max": 16000
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 16,
+     "mediana": 116100,
+     "min": 65700,
+     "max": 169400
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 7,
+     "mediana": 64261,
+     "min": 35000,
+     "max": 75000
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 14,
+     "mediana": 42,
+     "min": 27,
+     "max": 100
+    }
+   ],
+   "BHP i ochrona środowiska (EHS)": [
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 7,
+     "mediana": 244995,
+     "min": 181550,
+     "max": 320450
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 149544,
+     "min": 149544,
+     "max": 149544
+    }
+   ],
+   "Bezpieczeństwo jądrowe i ochrona radiologiczna": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 2,
+     "mediana": 16000,
+     "min": 16000,
+     "max": 16000
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 68788,
+     "min": 68788,
+     "max": 68788
+    }
+   ],
+   "Szkolenie personelu eksploatacji": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 3,
+     "mediana": 10425,
+     "min": 8233,
+     "max": 12841
+    }
+   ],
+   "Produkcja i spawalnictwo": [
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 29,
+     "min": 29,
+     "max": 29
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 38,
+     "min": 38,
+     "max": 38
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 33050,
+     "min": 33050,
+     "max": 33050
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 65700,
+     "min": 65700,
+     "max": 65700
+    }
+   ]
+  },
+  "kraj": {
+   "PL": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 178,
+     "mediana": 10425,
+     "min": 5117,
+     "max": 38810
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 76,
+     "mediana": 207800,
+     "min": 124600,
+     "max": 475200
+    }
+   ],
+   "ES": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 15633,
+     "min": 15633,
+     "max": 15633
+    }
+   ],
+   "US": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 15633,
+     "min": 15633,
+     "max": 15633
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 110,
+     "mediana": 97925,
+     "min": 50535,
+     "max": 220800
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 108,
+     "mediana": 38,
+     "min": 18,
+     "max": 300
+    },
+    {
+     "waluta": "USD",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 350,
+     "min": 350,
+     "max": 350
+    }
+   ],
+   "GB": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 80,
+     "mediana": 49250,
+     "min": 26050,
+     "max": 87000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "mies",
+     "n": 3,
+     "mediana": 352,
+     "min": 352,
+     "max": 10000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 5,
+     "mediana": 21,
+     "min": 15,
+     "max": 29
+    }
+   ],
+   "IT": [
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 14,
+     "mediana": 36950,
+     "min": 33050,
+     "max": 58350
+    }
+   ],
+   "CA": [
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 101250,
+     "min": 97650,
+     "max": 119250
+    }
+   ],
+   "AT": [
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 103165,
+     "min": 56046,
+     "max": 103165
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 47896,
+     "min": 38382,
+     "max": 68788
+    }
+   ],
+   "SE": [
+    {
+     "waluta": "SEK",
+     "okres": "mies",
+     "n": 4,
+     "mediana": 62500,
+     "min": 52500,
+     "max": 66500
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 140000,
+     "min": 140000,
+     "max": 205000
+    }
+   ],
+   "FR": [
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 33000,
+     "min": 32000,
+     "max": 48000
+    },
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 14,
+     "min": 14,
+     "max": 14
+    },
+    {
+     "waluta": "EUR",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 2500,
+     "min": 2500,
+     "max": 2500
+    }
+   ],
+   "DE": [
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 2,
+     "mediana": 40,
+     "min": 40,
+     "max": 40
+    }
+   ]
+  },
+  "zrodlo": {
+   "pej": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 33,
+     "mediana": 16000,
+     "min": 8500,
+     "max": 21000
+    }
+   ],
+   "westinghouse": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 73,
+     "mediana": 12841,
+     "min": 5775,
+     "max": 38810
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 93,
+     "mediana": 95850,
+     "min": 50535,
+     "max": 182250
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 108,
+     "mediana": 38,
+     "min": 18,
+     "max": 300
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 14,
+     "mediana": 36950,
+     "min": 33050,
+     "max": 58350
+    },
+    {
+     "waluta": "USD",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 350,
+     "min": 350,
+     "max": 350
+    }
+   ],
+   "bechtel": [
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 76,
+     "mediana": 207800,
+     "min": 124600,
+     "max": 475200
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 21,
+     "mediana": 132600,
+     "min": 92628,
+     "max": 220800
+    }
+   ],
+   "pracuj": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 8,
+     "mediana": 18000,
+     "min": 16000,
+     "max": 21000
+    }
+   ],
+   "edfuk": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 27,
+     "mediana": 41165,
+     "min": 26050,
+     "max": 85000
+    }
+   ],
+   "hpc": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 21,
+     "mediana": 55000,
+     "min": 30238,
+     "max": 87000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "mies",
+     "n": 3,
+     "mediana": 352,
+     "min": 352,
+     "max": 10000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 5,
+     "mediana": 21,
+     "min": 15,
+     "max": 29
+    }
+   ],
+   "kprm": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 66,
+     "mediana": 9240,
+     "min": 5117,
+     "max": 14214
+    }
+   ],
+   "szc": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 32,
+     "mediana": 43250,
+     "min": 26050,
+     "max": 87000
+    }
+   ],
+   "iaea": [
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 103165,
+     "min": 56046,
+     "max": 103165
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 47896,
+     "min": 38382,
+     "max": 68788
+    }
+   ],
+   "pr_blykalla": [
+    {
+     "waluta": "SEK",
+     "okres": "mies",
+     "n": 4,
+     "mediana": 62500,
+     "min": 52500,
+     "max": 66500
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 140000,
+     "min": 140000,
+     "max": 205000
+    }
+   ],
+   "pr_endel": [
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 33000,
+     "min": 32000,
+     "max": 48000
+    },
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 14,
+     "min": 14,
+     "max": 14
+    },
+    {
+     "waluta": "EUR",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 2500,
+     "min": 2500,
+     "max": 2500
+    }
+   ],
+   "pr_gns": [
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 2,
+     "mediana": 40,
+     "min": 40,
+     "max": 40
+    }
+   ]
+  },
+  "projekt": {
+   "AP1000 Lubiatowo-Kopalino": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 46,
+     "mediana": 16000,
+     "min": 8233,
+     "max": 21000
+    },
+    {
+     "waluta": "PLN",
+     "okres": "rok",
+     "n": 76,
+     "mediana": 207800,
+     "min": 124600,
+     "max": 475200
+    }
+   ],
+   "-": [
+    {
+     "waluta": "PLN",
+     "okres": "mies",
+     "n": 134,
+     "mediana": 9808,
+     "min": 5117,
+     "max": 38810
+    },
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 117,
+     "mediana": 101250,
+     "min": 50535,
+     "max": 220800
+    },
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 6,
+     "mediana": 50756,
+     "min": 32000,
+     "max": 60000
+    },
+    {
+     "waluta": "USD",
+     "okres": "godz",
+     "n": 108,
+     "mediana": 38,
+     "min": 18,
+     "max": 300
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 17,
+     "mediana": 34250,
+     "min": 32000,
+     "max": 58350
+    },
+    {
+     "waluta": "USD",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 350,
+     "min": 350,
+     "max": 350
+    },
+    {
+     "waluta": "SEK",
+     "okres": "mies",
+     "n": 4,
+     "mediana": 62500,
+     "min": 52500,
+     "max": 66500
+    },
+    {
+     "waluta": "EUR",
+     "okres": "godz",
+     "n": 3,
+     "mediana": 40,
+     "min": 14,
+     "max": 40
+    },
+    {
+     "waluta": "EUR",
+     "okres": "mies",
+     "n": 6,
+     "mediana": 2500,
+     "min": 2500,
+     "max": 2500
+    }
+   ],
+   "Hinkley Point C": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 18,
+     "mediana": 55000,
+     "min": 26050,
+     "max": 85000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "mies",
+     "n": 2,
+     "mediana": 352,
+     "min": 352,
+     "max": 352
+    },
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 4,
+     "mediana": 25,
+     "min": 18,
+     "max": 29
+    }
+   ],
+   "Heysham / Torness / Hartlepool": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 9,
+     "mediana": 30717,
+     "min": 26050,
+     "max": 64261
+    }
+   ],
+   "Sizewell C": [
+    {
+     "waluta": "GBP",
+     "okres": "rok",
+     "n": 47,
+     "mediana": 47000,
+     "min": 26050,
+     "max": 87000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "mies",
+     "n": 1,
+     "mediana": 10000,
+     "min": 10000,
+     "max": 10000
+    },
+    {
+     "waluta": "GBP",
+     "okres": "godz",
+     "n": 1,
+     "mediana": 15,
+     "min": 15,
+     "max": 15
+    }
+   ],
+   "IAEA": [
+    {
+     "waluta": "USD",
+     "okres": "rok",
+     "n": 3,
+     "mediana": 103165,
+     "min": 56046,
+     "max": 103165
+    },
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 4,
+     "mediana": 47896,
+     "min": 38382,
+     "max": 68788
+    }
+   ],
+   "EPR2 Penly / Gravelines": [
+    {
+     "waluta": "EUR",
+     "okres": "rok",
+     "n": 1,
+     "mediana": 48000,
+     "min": 48000,
+     "max": 48000
+    }
+   ]
+  }
+ },
+ "wynagrodzenia_tylko_analiza": {},
+ "czas_zycia_dni": {
+  "srednia": 640.8,
+  "mediana": 478.0,
+  "n": 360
+ },
+ "zrodla_ostatni_przebieg": [
+  {
+   "zrodlo": "bechtel",
+   "n": 133,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "ncbj",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "zrodlo": "pej",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pracuj",
+   "n": 12,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "cea",
+   "n": 11,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "cez",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "clor",
+   "n": 3,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "edfuk",
+   "n": 23,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "fortum",
+   "n": 26,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "hpc",
+   "n": 163,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "iaea",
+   "n": 12,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "iter",
+   "n": 4,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "kprm",
+   "n": 14,
+   "tryb": "partial"
+  },
+  {
+   "zrodlo": "kznpp",
+   "n": 6,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_anav",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_axpo",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_blykalla",
+   "n": 20,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_egis",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_endel",
+   "n": 48,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_gns",
+   "n": 8,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_nagra",
+   "n": 2,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_nda",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "zrodlo": "pr_psi",
+   "n": 1,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "pr_ukaea",
+   "n": 0,
+   "tryb": "partial"
+  },
+  {
+   "zrodlo": "snn",
+   "n": 45,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "szc",
+   "n": 29,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "vattenfall",
+   "n": 72,
+   "tryb": "full"
+  },
+  {
+   "zrodlo": "westinghouse",
+   "n": 322,
+   "tryb": "full"
+  }
+ ]
+}
