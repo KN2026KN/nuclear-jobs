@@ -1,4 +1,1966 @@
 {
+ "akkuyu": {
+  "firma": "Akkuyu Nuclear",
+  "gleboko_do": "2006",
+  "jadrowych_razem": 4,
+  "kraj": "TR",
+  "lata": {
+   "2006": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 98,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 180,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 361,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 62,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 37,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 1392,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2020": {
+    "adresow": 1931,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2021": {
+    "adresow": 837,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2022": {
+    "adresow": 2266,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2023": {
+    "adresow": 2883,
+    "jadrowe": 0,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2024": {
+    "adresow": 1055,
+    "jadrowe": 0,
+    "pobrane": 3,
+    "szczegolow": 3
+   },
+   "2025": {
+    "adresow": 540,
+    "jadrowe": 0,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2026": {
+    "adresow": 237,
+    "jadrowe": 0,
+    "pobrane": 1,
+    "szczegolow": 2
+   }
+  },
+  "najstarszy": "20060823",
+  "nastepny_rok": 2005,
+  "ofert_razem": 11,
+  "ostatnio": "2026-11-11",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "akkuyu.com"
+ },
+ "areva_flamanville": {
+  "firma": "Areva (Flamanville 3, Olkiluoto 3)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 1,
+  "kraj": "FR",
+  "lata": {
+   "2026": {
+    "adresow": 3562,
+    "jadrowe": 1,
+    "pobrane": 2,
+    "szczegolow": 2
+   }
+  },
+  "najstarszy": "19981206",
+  "nastepny_rok": 2025,
+  "ofert_razem": 2,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "areva.com"
+ },
+ "asnr_autorit_de_s_ret_nucl_aire_et_de_ra": {
+  "firma": "ASNR (Autorité de sûreté nucléaire et de radioprotection)",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 13,
+  "kraj": "FR",
+  "lata": {
+   "2025": {
+    "adresow": 20000,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2026": {
+    "adresow": 20000,
+    "jadrowe": 12,
+    "pobrane": 12,
+    "szczegolow": 12
+   }
+  },
+  "najstarszy": "20200514",
+  "nastepny_rok": 2024,
+  "ofert_razem": 13,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "asnr.fr"
+ },
+ "assystem": {
+  "firma": "Assystem",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 81,
+  "kraj": "FR",
+  "lata": {
+   "2025": {
+    "adresow": 1448,
+    "jadrowe": 41,
+    "pobrane": 41,
+    "szczegolow": 43
+   },
+   "2026": {
+    "adresow": 1199,
+    "jadrowe": 40,
+    "pobrane": 40,
+    "szczegolow": 40
+   }
+  },
+  "najstarszy": "20221128",
+  "nastepny_rok": 2024,
+  "ofert_razem": 81,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.assystem.com/en/career"
+ },
+ "atomstroyexport": {
+  "firma": "Atomstroyexport (Bushehr, Kudankulam)",
+  "gleboko_do": "2022",
+  "jadrowych_razem": 0,
+  "kraj": "RU",
+  "lata": {
+   "2022": {
+    "adresow": 193,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 25,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20010301",
+  "nastepny_rok": 2021,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "atomstroyexport.ru"
+ },
+ "bechtel": {
+  "firma": "Bechtel",
+  "gleboko_do": null,
+  "jadrowych_razem": 387,
+  "kraj": "US",
+  "lata": {
+   "2026": {
+    "adresow": 3984,
+    "jadrowe": 387,
+    "pobrane": 387,
+    "szczegolow": 3680
+   }
+  },
+  "najstarszy": "20121113",
+  "ofert_razem": 387,
+  "ostatnio": "2026-11-11",
+  "status": "w toku",
+  "url": "jobs.bechtel.com"
+ },
+ "budimex": {
+  "firma": "Budimex",
+  "gleboko_do": null,
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {},
+  "najstarszy": "20240707",
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "budimex.pl/kariera/oferty-pracy"
+ },
+ "cea": {
+  "firma": "CEA",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 1,
+  "kraj": "FR",
+  "lata": {
+   "2026": {
+    "adresow": 20000,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 2
+   }
+  },
+  "najstarszy": "19970209",
+  "nastepny_rok": 2025,
+  "ofert_razem": 1,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "cea.fr"
+ },
+ "centralne_laboratorium_ochrony_radiologi": {
+  "firma": "Centralne Laboratorium Ochrony Radiologicznej (CLOR)",
+  "gleboko_do": "2020",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2020": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20200815",
+  "nastepny_rok": 2019,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "clor.waw.pl/clor/struktura.html"
+ },
+ "centrum_v_zkumu_e_cv": {
+  "firma": "Centrum výzkumu Řež (CVŘ)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "CZ",
+  "lata": {
+   "2026": {
+    "adresow": 80,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20170420",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "ujv.jobs.cz"
+ },
+ "cncan": {
+  "firma": "CNCAN",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "RO",
+  "lata": {
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20261020",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.cncan.ro/informatii-de-interes-public/procedura-in-vederea-inscrierii-pe-portalul-cncan"
+ },
+ "doraco": {
+  "firma": "Doraco",
+  "gleboko_do": "2024",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20240423",
+  "nastepny_rok": 2023,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.doraco.pl/pl/kariera/oferty-pracy"
+ },
+ "edf": {
+  "firma": "EDF",
+  "gleboko_do": "2021",
+  "jadrowych_razem": 0,
+  "kraj": "FR",
+  "lata": {
+   "2021": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 8,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 8,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20210115",
+  "nastepny_rok": 2020,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.edf.fr/entreprises/toutes-les-offres-et-solutions/offres-de-marche-electricite-et-gaz"
+ },
+ "edf_energy": {
+  "firma": "EDF Energy (Hinkley Point C)",
+  "gleboko_do": "2017",
+  "jadrowych_razem": 5,
+  "kraj": "GB",
+  "lata": {
+   "2017": {
+    "adresow": 33,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 18,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 10,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 8,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2021": {
+    "adresow": 35,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 45,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 65,
+    "jadrowe": 2,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2024": {
+    "adresow": 75,
+    "jadrowe": 2,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2025": {
+    "adresow": 18,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20090826",
+  "nastepny_rok": 2016,
+  "ofert_razem": 5,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "edfenergy.com/careers"
+ },
+ "egis": {
+  "firma": "Egis",
+  "gleboko_do": null,
+  "jadrowych_razem": 6,
+  "kraj": "FR",
+  "lata": {
+   "2026": {
+    "adresow": 6011,
+    "jadrowe": 6,
+    "pobrane": 65,
+    "szczegolow": 5796
+   }
+  },
+  "najstarszy": "20241112",
+  "ofert_razem": 65,
+  "ostatnio": "2026-11-12",
+  "status": "w toku",
+  "url": "jobs.egis-group.com"
+ },
+ "enec": {
+  "firma": "ENEC (Barakah)",
+  "kraj": "AE",
+  "lata": {},
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "enec.gov.ae/careers"
+ },
+ "energonuclear": {
+  "firma": "EnergoNuclear",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "RO",
+  "lata": {
+   "2025": {
+    "adresow": 683,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 713,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 4
+   }
+  },
+  "najstarszy": "20100926",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "energonuclear.ro"
+ },
+ "famet": {
+  "firma": "Famet",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2025": {
+    "adresow": 9,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 10,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20180205",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.famet.com.pl/pl/praca"
+ },
+ "gen_energija_jek2": {
+  "firma": "GEN energija (JEK2)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "SI",
+  "lata": {
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20260105",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.gen-energija.si/gen/kariera-zaposlitev"
+ },
+ "i_c_energo": {
+  "firma": "I&C Energo",
+  "kraj": "CZ",
+  "lata": {},
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "ic-energo.eu/o-nas/kariera"
+ },
+ "ifin_hh_eli_np": {
+  "firma": "IFIN-HH (ELI-NP)",
+  "gleboko_do": "2023",
+  "jadrowych_razem": 10,
+  "kraj": "RO",
+  "lata": {
+   "2023": {
+    "adresow": 4956,
+    "jadrowe": 2,
+    "pobrane": 4,
+    "szczegolow": 133
+   },
+   "2024": {
+    "adresow": 5343,
+    "jadrowe": 3,
+    "pobrane": 8,
+    "szczegolow": 8
+   },
+   "2025": {
+    "adresow": 4326,
+    "jadrowe": 2,
+    "pobrane": 7,
+    "szczegolow": 52
+   },
+   "2026": {
+    "adresow": 5202,
+    "jadrowe": 3,
+    "pobrane": 8,
+    "szczegolow": 8
+   }
+  },
+  "najstarszy": "20010124",
+  "nastepny_rok": 2022,
+  "ofert_razem": 27,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "nipne.ro"
+ },
+ "instytut_chemii_i_techniki_j_drowej_icht": {
+  "firma": "Instytut Chemii i Techniki Jądrowej (IChTJ)",
+  "gleboko_do": "2020",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2020": {
+    "adresow": 359,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 443,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 2633,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 2119,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 2166,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1975,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1362,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "19980212",
+  "nastepny_rok": 2019,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "ichtj.waw.pl"
+ },
+ "instytut_fizyki_j_drowej_pan_ifj_pan": {
+  "firma": "Instytut Fizyki Jądrowej PAN (IFJ PAN)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2026": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20200512",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "www.ifj.edu.pl/kariera/oferty-pracy/naukowe/adiunkt-asystent"
+ },
+ "iter_organization": {
+  "firma": "ITER Organization",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "FR",
+  "lata": {
+   "2025": {
+    "adresow": 40,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 42,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20241020",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.iter.org/public/jobs"
+ },
+ "jacobs_polska_atkinsr_alis_polska": {
+  "firma": "Jacobs Polska / AtkinsRéalis Polska",
+  "kraj": "PL",
+  "lata": {},
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "careers.atkinsrealis.com"
+ },
+ "javys": {
+  "firma": "JAVYS",
+  "gleboko_do": "2019",
+  "jadrowych_razem": 0,
+  "kraj": "SK",
+  "lata": {
+   "2019": {
+    "adresow": 6,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 15,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 12,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20190821",
+  "nastepny_rok": 2018,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.javys.sk/sk/eu-program-bohunice/narodna-agentura-siea"
+ },
+ "jv_e": {
+  "firma": "ÚJV Řež",
+  "gleboko_do": "2017",
+  "jadrowych_razem": 0,
+  "kraj": "CZ",
+  "lata": {
+   "2017": {
+    "adresow": 19,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 7,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 8,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 12,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 72,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 63,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 59,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 314,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 80,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20170420",
+  "nastepny_rok": 2016,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "ujv.jobs.cz"
+ },
+ "kghm_polska_mied_smr": {
+  "firma": "KGHM Polska Miedź (SMR)",
+  "gleboko_do": "2020",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2020": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20200815",
+  "nastepny_rok": 2019,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "kghm.com/pl/kariera/dolacz-do-nas/oferty-pracy"
+ },
+ "koda_js": {
+  "firma": "Škoda JS",
+  "gleboko_do": "2007",
+  "jadrowych_razem": 1,
+  "kraj": "CZ",
+  "lata": {
+   "2007": {
+    "adresow": 150,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 166,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 189,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 41,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 177,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 264,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 135,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 109,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 149,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 658,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 393,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 251,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 624,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 565,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 1049,
+    "jadrowe": 0,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2022": {
+    "adresow": 807,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 1797,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 980,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2025": {
+    "adresow": 425,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 588,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20040811",
+  "nastepny_rok": 2006,
+  "ofert_razem": 2,
+  "ostatnio": "2026-11-12",
+  "status": "w toku",
+  "url": "skoda-js.cz"
+ },
+ "kozloduy_npp": {
+  "firma": "Kozloduy NPP",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 16,
+  "kraj": "BG",
+  "lata": {
+   "2025": {
+    "adresow": 5,
+    "jadrowe": 4,
+    "pobrane": 4,
+    "szczegolow": 4
+   },
+   "2026": {
+    "adresow": 13,
+    "jadrowe": 12,
+    "pobrane": 12,
+    "szczegolow": 12
+   }
+  },
+  "najstarszy": "20201024",
+  "nastepny_rok": 2024,
+  "ofert_razem": 16,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.kznpp.org/bg/jobs"
+ },
+ "ministerstwo_energii": {
+  "firma": "Ministerstwo Energii",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20190716",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "www.gov.pl/web/energia/pracuj-z-nami"
+ },
+ "mostostal_warszawa": {
+  "firma": "Mostostal Warszawa",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2025": {
+    "adresow": 126,
+    "jadrowe": 0,
+    "pobrane": 113,
+    "szczegolow": 117
+   },
+   "2026": {
+    "adresow": 18,
+    "jadrowe": 0,
+    "pobrane": 12,
+    "szczegolow": 12
+   }
+  },
+  "najstarszy": "20150929",
+  "nastepny_rok": 2024,
+  "ofert_razem": 125,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.mostostal.waw.pl/kariera/oferty-pracy"
+ },
+ "narodowe_centrum_bada_j_drowych_ncbj_pol": {
+  "firma": "Narodowe Centrum Badań Jądrowych (NCBJ, POLATOM)",
+  "gleboko_do": "2021",
+  "jadrowych_razem": 179,
+  "kraj": "PL",
+  "lata": {
+   "2021": {
+    "adresow": 6553,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 20000,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2023": {
+    "adresow": 17911,
+    "jadrowe": 2,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2024": {
+    "adresow": 20000,
+    "jadrowe": 1,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2025": {
+    "adresow": 20000,
+    "jadrowe": 55,
+    "pobrane": 76,
+    "szczegolow": 76
+   },
+   "2026": {
+    "adresow": 18715,
+    "jadrowe": 120,
+    "pobrane": 145,
+    "szczegolow": 146
+   }
+  },
+  "najstarszy": "20110925",
+  "nastepny_rok": 2020,
+  "ofert_razem": 226,
+  "ostatnio": "2026-11-11",
+  "status": "w toku",
+  "url": "ncbj.gov.pl"
+ },
+ "niaep": {
+  "firma": "NIAEP / ASE",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "RU",
+  "lata": {
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20070225",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "niaep.ru"
+ },
+ "nuclear_fuel_plant_pite_ti_fcn": {
+  "firma": "Nuclear Fuel Plant Pitești (FCN)",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "RO",
+  "lata": {
+   "2025": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20250701",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "nuclearelectrica.ro/snn/category/joburi"
+ },
+ "nuclear_regulatory_agency": {
+  "firma": "Nuclear Regulatory Agency (АЯР)",
+  "gleboko_do": "2024",
+  "jadrowych_razem": 0,
+  "kraj": "BG",
+  "lata": {
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20240229",
+  "nastepny_rok": 2023,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "bnra.bg/bg/karieri"
+ },
+ "nuclearelectrica_snn": {
+  "firma": "Nuclearelectrica (SNN)",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "RO",
+  "lata": {
+   "2025": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20250701",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "nuclearelectrica.ro/snn/category/joburi"
+ },
+ "nuklearna_elektrarna_kr_ko_nek": {
+  "firma": "Nuklearna elektrarna Krško (NEK)",
+  "gleboko_do": "2023",
+  "jadrowych_razem": 0,
+  "kraj": "SI",
+  "lata": {
+   "2023": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20210611",
+  "nastepny_rok": 2022,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.nek.si/o-jedrski-energiji/uran-in-jedrska-cepitev"
+ },
+ "orano": {
+  "firma": "Orano",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 377,
+  "kraj": "FR",
+  "lata": {
+   "2025": {
+    "adresow": 724,
+    "jadrowe": 351,
+    "pobrane": 385,
+    "szczegolow": 578
+   },
+   "2026": {
+    "adresow": 93,
+    "jadrowe": 26,
+    "pobrane": 26,
+    "szczegolow": 26
+   }
+  },
+  "najstarszy": "20220516",
+  "nastepny_rok": 2025,
+  "ofert_razem": 411,
+  "ostatnio": "2026-11-12",
+  "status": "w toku",
+  "url": "www.orano.group/jobs/fr"
+ },
+ "orlen_synthos_green_energy_osge": {
+  "firma": "Orlen Synthos Green Energy (OSGE)",
+  "kraj": "PL",
+  "lata": {},
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "kariera.osge.com"
+ },
+ "pa_stwowa_agencja_atomistyki_paa": {
+  "firma": "Państwowa Agencja Atomistyki (PAA)",
+  "kraj": "PL",
+  "lata": {},
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "www.gov.pl/web/paa/kariera-w-paa"
+ },
+ "pej": {
+  "firma": "Polskie Elektrownie Jądrowe (PEJ)",
+  "gleboko_do": "2024",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2024": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20240820",
+  "nastepny_rok": 2023,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "pej.pl/kariera"
+ },
+ "pgeej1": {
+  "firma": "PGE EJ 1 (poprzednik PEJ)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2026": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20110224",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "pgeej1.pl"
+ },
+ "polimex_mostostal": {
+  "firma": "Polimex Mostostal",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2026": {
+    "adresow": 58,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20260219",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "pxinfrastruktura.pl"
+ },
+ "rad_jadrov_ho_dozoru_sr_jd_sr": {
+  "firma": "Úrad jadrového dozoru SR (ÚJD SR)",
+  "gleboko_do": null,
+  "jadrowych_razem": 0,
+  "kraj": "SK",
+  "lata": {},
+  "najstarszy": "20220523",
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "www.ujd.gov.sk/urad/kontakt"
+ },
+ "raten_icn_pite_ti": {
+  "firma": "RATEN ICN Pitești",
+  "gleboko_do": "2014",
+  "jadrowych_razem": 0,
+  "kraj": "RO",
+  "lata": {
+   "2014": {
+    "adresow": 107,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 188,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 282,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 14,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 306,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 186,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 570,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 676,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 448,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1387,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1223,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 625,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20020923",
+  "nastepny_rok": 2013,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "nuclear.ro"
+ },
+ "se_raw": {
+  "firma": "Държавно предприятие РАО (SE RAW)",
+  "gleboko_do": "2021",
+  "jadrowych_razem": 0,
+  "kraj": "BG",
+  "lata": {
+   "2021": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20130823",
+  "nastepny_rok": 2020,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "dprao.bg/en/about-us/%D0%BA%D0%B0%D1%80%D0%B8%D0%B5%D1%80%D0%B8.html"
+ },
+ "slovensk_elektr_rne": {
+  "firma": "Slovenské elektrárne",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "SK",
+  "lata": {
+   "2026": {
+    "adresow": 126,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20260521",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "kariera.seas.sk"
+ },
+ "southern_vogtle": {
+  "firma": "Southern Company (Vogtle 3-4)",
+  "gleboko_do": null,
+  "jadrowych_razem": 0,
+  "kraj": "US",
+  "lata": {
+   "2026": {
+    "adresow": 3892,
+    "jadrowe": 0,
+    "pobrane": 368,
+    "szczegolow": 2278
+   }
+  },
+  "najstarszy": "20170723",
+  "ofert_razem": 368,
+  "ostatnio": "2026-11-11",
+  "status": "w toku",
+  "url": "southerncompany.jobs"
+ },
+ "spr_va_lo_i_radioaktivn_ch_odpad_s_rao": {
+  "firma": "Správa úložišť radioaktivních odpadů (SÚRAO)",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "CZ",
+  "lata": {
+   "2025": {
+    "adresow": 1657,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1070,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20250207",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "surao.gov.cz"
+ },
+ "st_tn_ad_pro_jadernou_bezpe_nost_s_jb": {
+  "firma": "Státní úřad pro jadernou bezpečnost (SÚJB)",
+  "gleboko_do": "2024",
+  "jadrowych_razem": 1,
+  "kraj": "CZ",
+  "lata": {
+   "2024": {
+    "adresow": 4710,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 3644,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 3395,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   }
+  },
+  "najstarszy": "20240218",
+  "nastepny_rok": 2023,
+  "ofert_razem": 1,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "sujb.gov.cz"
+ },
+ "synektik_radiofarmaceutyki": {
+  "firma": "Synektik (radiofarmaceutyki)",
+  "gleboko_do": "2023",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2023": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 13,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20231129",
+  "nastepny_rok": 2022,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "synektik.com.pl/category/kariera"
+ },
+ "technokabel": {
+  "firma": "Technokabel",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2025": {
+    "adresow": 2339,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 3150,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20000107",
+  "nastepny_rok": 2024,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "technokabel.com.pl"
+ },
+ "tele_fonika_kable": {
+  "firma": "Tele-Fonika Kable",
+  "gleboko_do": "2025",
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {
+   "2025": {
+    "adresow": 18,
+    "jadrowe": 0,
+    "pobrane": 9,
+    "szczegolow": 9
+   },
+   "2026": {
+    "adresow": 13,
+    "jadrowe": 0,
+    "pobrane": 5,
+    "szczegolow": 5
+   }
+  },
+  "najstarszy": "20250424",
+  "nastepny_rok": 2024,
+  "ofert_razem": 14,
+  "ostatnio": "2026-11-12",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
+  "url": "www.tele-fonika.com/kariera/aktualne-oferty"
+ },
+ "teollisuuden_olkiluoto": {
+  "firma": "TVO (Olkiluoto 3)",
+  "gleboko_do": "2026",
+  "jadrowych_razem": 0,
+  "kraj": "FI",
+  "lata": {
+   "2026": {
+    "adresow": 2583,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "19980523",
+  "nastepny_rok": 2025,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "tvo.fi"
+ },
+ "transportowy_doz_r_techniczny_tdt": {
+  "firma": "Transportowy Dozór Techniczny (TDT)",
+  "gleboko_do": null,
+  "jadrowych_razem": 0,
+  "kraj": "PL",
+  "lata": {},
+  "najstarszy": "20210507",
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "www.tdt.gov.pl/informacje/kariera"
+ },
+ "urz_d_dozoru_technicznego_udt": {
+  "firma": "Urząd Dozoru Technicznego (UDT)",
+  "kraj": "PL",
+  "lata": {},
+  "ostatnio": "2026-11-11",
+  "status": "błąd archiwum",
+  "url": "udt.gov.pl"
+ },
+ "v_tkovice": {
+  "firma": "Vítkovice",
+  "gleboko_do": "2023",
+  "jadrowych_razem": 0,
+  "kraj": "CZ",
+  "lata": {
+   "2023": {
+    "adresow": 508,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 722,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 355,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 102,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "19970425",
+  "nastepny_rok": 2022,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-12",
+  "status": "błąd archiwum",
+  "url": "vitkovice.cz"
+ },
  "westinghouse": {
   "firma": "Westinghouse Electric Company",
   "gleboko_do": "2027",
