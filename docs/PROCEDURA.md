@@ -36,3 +36,14 @@ Folder: `Pobrane\Keura praca baza\`
 - Słownik wymagań: `kod\kp_tags.py`, zmiany po akceptacji.
 
 > 11.11.2026 - wynagrodzenia: oprócz zakresów parser bierze też pojedynczą kwotę z okresem albo etykietą (np. HPC „Basic PAYE: £29.34/hr”, „Projected annual earnings: £91,854”); dodatki (allowance, bonus, zakwaterowanie) pomijane; kwota „miesięczna” > 25 000 EUR/GBP/USD/CHF/CAD liczona jako roczna. Ofert z płacą: 255 -> 526. Poprzednia wersja: kod/Archiwum/kp_parse_11-11-2026.py.
+
+## Praca na obiekcie jądrowym (12.11.2026)
+Oferta z obiektu jądrowego (elektrownia w budowie lub w eksploatacji, SMR, składowisko i likwidacja - np. Vogtle, Hinkley Point C)
+liczy się w całości, także stanowiska niejądrowe (administrator IT, księgowość, ochrona). Obiekt rozpoznajemy po tytule i lokalizacji
+(w archiwum także po adresie strony, np. `/waynesboro-ga/`), potem po początku treści - słownik `kod/kp_projekty.py`.
+Reaktory badawcze, fuzja i instytucje (NCBJ, IAEA) - bez tego wyjątku: tam nadal wymagana treść jądrowa.
+
+## Archiwa - błędy (12.11.2026)
+Zapytania CDX stronicowane (resumeKey, paczki po 5000), czas 180 s, do 5 prób z przerwami 30 - 240 s. Gdy cały rok się nie uda,
+robot pyta miesiąc po miesiącu. Powód błędu i liczba kolejnych błędów: `blad`, `bledow` w data/archiwum/glebokosc.json.
+Nieudane strony ofert - do 3 prób w kolejne noce. Liczba ofert jądrowych przeliczana na końcu każdego przebiegu wg bieżącej reguły.

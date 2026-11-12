@@ -2,7 +2,11 @@
 # w opisie obowiązków / wymagań / projektu musi być coś jednoznacznie jądrowego (elektrownia jądrowa, nuclear, ISO 19443, ASME NQA-1, AP1000...).
 # Nazwa i opis samej firmy się nie liczą (np. „Narodowe Centrum Badań Jądrowych” w stopce nie robi z księgowej oferty jądrowej).
 # Wyjątek: inwestor i wykonawcy projektu pierwszej elektrowni (PEJ, Westinghouse, Bechtel) - każda ich oferta w Polsce dotyczy projektu.
+# Wyjątek 2 (12.11.2026, zasada właściciela): praca NA obiekcie jądrowym (elektrownia w budowie / w eksploatacji, SMR,
+# składowisko i likwidacja - np. Vogtle, Hinkley Point C) liczy się w całości, także stanowiska niejądrowe (np. administrator IT).
+# Obiekt rozpoznajemy po tytule i lokalizacji, potem po początku treści. Reaktory badawcze, fuzja i instytucje - bez tego wyjątku.
 import re
+from kp_projekty import projekt as _projekt
 # 10.11.2026 (po pierwszym przebiegu): sama „ochrona radiologiczna” / „dozymetria” łapała RTG w przychodniach - nie wystarcza.
 SLOWA = re.compile(r'elektrown\w* jądrow|energetyk\w* jądrow|obiekt\w* jądrow|bezpieczeństw\w* jądrow|dozor\w* jądrow|dozór jądrow|zezwoleń jądrow|licencj\w* jądrow|'
                    r'technologi\w* jądrow|projekt\w* jądrow|sektor\w* jądrow|branż\w* jądrow|przemysł\w* jądrow|paliw\w* jądrow|reaktor\w*|reactor|nuclear|'
@@ -13,6 +17,7 @@ SLOWA = re.compile(r'elektrown\w* jądrow|energetyk\w* jądrow|obiekt\w* jądrow
                    r'Cernavod|Mochovc|Bohunic|Dukovan|Temel[ií]n|Kozlod|Козлодуй|Olkiluoto|Loviis|Forsmark|Ringhals|Oskarshamn|Hinkley|Sizewell|Sellafield|Flamanville|\bITER\b|Barakah|Krško|Krsko', re.I)
 MEDYCYNA = re.compile(r'medycyn\w* jądrow|nuclear medicine|elektroradiolog|\bRTG\b|radiologi\w* (lekarsk|stomatolog)|tomograf|rezonans', re.I)
 PROJEKT = re.compile(r'Polskie Elektrownie Jądrowe|Westinghouse|Bechtel|Orlen Synthos Green Energy|OSGE', re.I)   # OSGE = inwestor SMR BWRX-300
+OBIEKT = ('bud', 'eks', 'smr', 'odp')   # typy obiektów z kp_projekty, na których każda praca się liczy
 BEZ = ('about-us', 'about-company', 'benefits', 'offered', 'training-space', 'recruitment-stages', 'work-organization')
 
 def sektor(pracodawca):
@@ -32,4 +37,8 @@ def jadrowa(pracodawca, tytul, sekcje):
     tekst = re.sub(r'Narodowe(go)? Centrum Badań Jądrowych|Zakład(u)? Unieszkodliwiania Odpadów Promieniotwórczych|Państwow\w+ Agencj\w+ Atomistyki', ' ', tekst, flags=re.I)
     if MEDYCYNA.search(tekst) and not re.search(r'elektrown\w* jądrow|energetyk\w* jądrow|nuclear power|ISO\s*19443|NQA', tekst, re.I): return False, 'medycyna'
     m = SLOWA.search(tekst)
-    return (bool(m), m.group(0) if m else '')
+    if m: return True, m.group(0)
+    lok = ' '.join(t for typ, t in sekcje if typ in ('lok', 'lokalizacja', 'miejsce', 'location'))
+    e, t = _projekt(tytul or '', lok, tekst)
+    if e and t in OBIEKT: return True, 'obiekt: ' + e
+    return False, ''
