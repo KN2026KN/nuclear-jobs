@@ -456,8 +456,8 @@
   "url": "autoriteitnvs.nl"
  },
  "areva_flamanville": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "blad": "HTTP 504",
+  "bledow": 2,
   "firma": "Areva (Flamanville 3, Olkiluoto 3)",
   "gleboko_do": "2026",
   "jadrowych_razem": 2,
@@ -506,11 +506,30 @@
   "url": "asnr.fr"
  },
  "assystem": {
+  "bledow": 0,
   "firma": "Assystem",
-  "gleboko_do": "2025",
-  "jadrowych_razem": 81,
+  "gleboko_do": "2022",
+  "jadrowych_razem": 113,
   "kraj": "FR",
   "lata": {
+   "2022": {
+    "adresow": 15,
+    "jadrowe": 9,
+    "pobrane": 10,
+    "szczegolow": 10
+   },
+   "2023": {
+    "adresow": 566,
+    "jadrowe": 8,
+    "pobrane": 16,
+    "szczegolow": 16
+   },
+   "2024": {
+    "adresow": 1133,
+    "jadrowe": 15,
+    "pobrane": 15,
+    "szczegolow": 15
+   },
    "2025": {
     "adresow": 1448,
     "jadrowe": 41,
@@ -525,10 +544,11 @@
    }
   },
   "najstarszy": "20221128",
-  "nastepny_rok": 2024,
-  "ofert_razem": 81,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "nastepny_rok": 2021,
+  "ofert_razem": 122,
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "www.assystem.com/en/career"
  },
  "assystem_uk": {
@@ -598,10 +618,52 @@
  "atomstroyexport": {
   "bledow": 0,
   "firma": "Atomstroyexport (Bushehr, Kudankulam)",
-  "gleboko_do": "2008",
+  "gleboko_do": "2001",
   "jadrowych_razem": 0,
   "kraj": "RU",
   "lata": {
+   "2001": {
+    "adresow": 26,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2002": {
+    "adresow": 34,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2003": {
+    "adresow": 94,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2004": {
+    "adresow": 78,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2005": {
+    "adresow": 46,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 65,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 600,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2008": {
     "adresow": 1,
     "jadrowe": 0,
@@ -718,18 +780,33 @@
    }
   },
   "najstarszy": "20010301",
-  "nastepny_rok": 2007,
+  "nastepny_rok": 2000,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "atomstroyexport.ru"
  },
  "awe": {
+  "blad": "HTTP 504",
+  "bledow": 1,
   "firma": "AWE",
-  "gleboko_do": "2026",
-  "jadrowych_razem": 0,
+  "gleboko_do": "2024",
+  "jadrowych_razem": 5,
   "kraj": "GB",
   "lata": {
+   "2024": {
+    "adresow": 3208,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 5102,
+    "jadrowe": 5,
+    "pobrane": 6,
+    "szczegolow": 6
+   },
    "2026": {
     "adresow": 2951,
     "jadrowe": 0,
@@ -738,9 +815,9 @@
    }
   },
   "najstarszy": "20000229",
-  "nastepny_rok": 2025,
-  "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "nastepny_rok": 2023,
+  "ofert_razem": 6,
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "awe.co.uk"
  },
@@ -784,11 +861,18 @@
   "url": "jobs.babcockinternational.com"
  },
  "base_bundesamt_f_r_die_sicherheit_der_nu": {
+  "bledow": 0,
   "firma": "BASE (Bundesamt für die Sicherheit der nuklearen Entsorgung)",
-  "gleboko_do": "2025",
+  "gleboko_do": "2024",
   "jadrowych_razem": 0,
   "kraj": "DE",
   "lata": {
+   "2024": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2025": {
     "adresow": 1,
     "jadrowe": 0,
@@ -803,10 +887,11 @@
    }
   },
   "najstarszy": "20241210",
-  "nastepny_rok": 2024,
+  "nastepny_rok": 2023,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "www.base.bund.de/de/service/karriere/karriere_inhalt.html"
  },
  "bechtel": {
@@ -974,11 +1059,48 @@
   "url": "www.bge.de/en/news/job-offers"
  },
  "bgz_gesellschaft_f_r_zwischenlagerung": {
+  "bledow": 0,
   "firma": "BGZ Gesellschaft für Zwischenlagerung",
-  "gleboko_do": "2018",
+  "gleboko_do": "2012",
   "jadrowych_razem": 0,
   "kraj": "DE",
   "lata": {
+   "2012": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2018": {
     "adresow": 170,
     "jadrowe": 0,
@@ -1035,9 +1157,9 @@
    }
   },
   "najstarszy": "20000109",
-  "nastepny_rok": 2017,
+  "nastepny_rok": 2011,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "bgz.de"
  },
@@ -1103,11 +1225,72 @@
   "url": "budimex.pl/kariera/oferty-pracy"
  },
  "cavendish_nuclear": {
+  "bledow": 0,
   "firma": "Cavendish Nuclear",
-  "gleboko_do": "2023",
+  "gleboko_do": "2013",
   "jadrowych_razem": 0,
   "kraj": "GB",
   "lata": {
+   "2013": {
+    "adresow": 10,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 85,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 68,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 71,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 141,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 41,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 560,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 683,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 1099,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 671,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2023": {
     "adresow": 359,
     "jadrowe": 0,
@@ -1134,18 +1317,32 @@
    }
   },
   "najstarszy": "20131124",
-  "nastepny_rok": 2022,
+  "nastepny_rok": 2012,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "cavendishnuclear.com"
  },
  "cea": {
+  "bledow": 0,
   "firma": "CEA",
-  "gleboko_do": "2026",
-  "jadrowych_razem": 1,
+  "gleboko_do": "2025",
+  "jadrowych_razem": 4,
   "kraj": "FR",
   "lata": {
+   "2024": {
+    "adresow": 20000,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 5
+   },
+   "2025": {
+    "adresow": 20000,
+    "jadrowe": 3,
+    "pobrane": 3,
+    "szczegolow": 3
+   },
    "2026": {
     "adresow": 20000,
     "jadrowe": 1,
@@ -1154,10 +1351,10 @@
    }
   },
   "najstarszy": "19970209",
-  "nastepny_rok": 2025,
-  "ofert_razem": 1,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "nastepny_rok": 2024,
+  "ofert_razem": 4,
+  "ostatnio": "2026-11-13",
+  "status": "w toku",
   "url": "cea.fr"
  },
  "centralne_laboratorium_ochrony_radiologi": {
@@ -1218,13 +1415,18 @@
   "url": "clor.waw.pl/clor/struktura.html"
  },
  "centrum_v_zkumu_e_cv": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Centrum výzkumu Řež (CVŘ)",
-  "gleboko_do": "2026",
+  "gleboko_do": "2025",
   "jadrowych_razem": 0,
   "kraj": "CZ",
   "lata": {
+   "2025": {
+    "adresow": 314,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2026": {
     "adresow": 80,
     "jadrowe": 0,
@@ -1233,7 +1435,7 @@
    }
   },
   "najstarszy": "20170420",
-  "nastepny_rok": 2025,
+  "nastepny_rok": 2024,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
@@ -1329,14 +1531,29 @@
   "url": "www.covra.nl/nl/copera"
  },
  "curium": {
+  "bledow": 0,
   "firma": "Curium",
-  "gleboko_do": null,
-  "jadrowych_razem": 0,
+  "gleboko_do": "2025",
+  "jadrowych_razem": 34,
   "kraj": "FR",
-  "lata": {},
+  "lata": {
+   "2025": {
+    "adresow": 3402,
+    "jadrowe": 26,
+    "pobrane": 146,
+    "szczegolow": 146
+   },
+   "2026": {
+    "adresow": 3408,
+    "jadrowe": 8,
+    "pobrane": 141,
+    "szczegolow": 141
+   }
+  },
   "najstarszy": "20170420",
-  "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "nastepny_rok": 2024,
+  "ofert_razem": 287,
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "curiumpharma.com"
  },
@@ -1471,13 +1688,36 @@
   "url": "www.edf.fr/entreprises/toutes-les-offres-et-solutions/offres-de-marche-electricite-et-gaz"
  },
  "edf_energy": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "EDF Energy (Hinkley Point C)",
-  "gleboko_do": "2013",
+  "gleboko_do": "2009",
   "jadrowych_razem": 5,
   "kraj": "GB",
   "lata": {
+   "2009": {
+    "adresow": 70,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 116,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 161,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 95,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2013": {
     "adresow": 24,
     "jadrowe": 0,
@@ -1564,10 +1804,11 @@
    }
   },
   "najstarszy": "20090826",
-  "nastepny_rok": 2012,
+  "nastepny_rok": 2008,
   "ofert_razem": 5,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "edfenergy.com/careers"
  },
  "egis": {
@@ -1637,10 +1878,52 @@
  "enec": {
   "bledow": 0,
   "firma": "ENEC (Barakah)",
-  "gleboko_do": "2018",
+  "gleboko_do": "2011",
   "jadrowych_razem": 0,
   "kraj": "AE",
   "lata": {
+   "2011": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2018": {
     "adresow": 3,
     "jadrowe": 0,
@@ -1697,10 +1980,11 @@
    }
   },
   "najstarszy": "20110518",
-  "nastepny_rok": 2017,
+  "nastepny_rok": 2010,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "enec.gov.ae/careers"
  },
  "energonuclear": {
@@ -2442,11 +2726,18 @@
   "url": "www.famet.com.pl/pl/praca"
  },
  "forschungszentrum_j_lich": {
+  "bledow": 0,
   "firma": "Forschungszentrum Jülich",
   "gleboko_do": "2026",
-  "jadrowych_razem": 9,
+  "jadrowych_razem": 36,
   "kraj": "DE",
   "lata": {
+   "2025": {
+    "adresow": 666,
+    "jadrowe": 27,
+    "pobrane": 269,
+    "szczegolow": 652
+   },
    "2026": {
     "adresow": 197,
     "jadrowe": 9,
@@ -2456,9 +2747,9 @@
   },
   "najstarszy": "20220602",
   "nastepny_rok": 2025,
-  "ofert_razem": 182,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ofert_razem": 451,
+  "ostatnio": "2026-11-13",
+  "status": "w toku",
   "url": "www.fz-juelich.de/de/karriere/stellenangebote"
  },
  "forsmarks_kraftgrupp": {
@@ -2558,11 +2849,61 @@
   "url": "www.gen-energija.si/gen/kariera-zaposlitev"
  },
  "gns_gesellschaft_f_r_nuklear_service": {
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "GNS Gesellschaft für Nuklear-Service",
-  "gleboko_do": "2026",
+  "gleboko_do": "2018",
   "jadrowych_razem": 0,
   "kraj": "DE",
   "lata": {
+   "2018": {
+    "adresow": 183,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 530,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 838,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 811,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 693,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 1544,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 586,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 462,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2026": {
     "adresow": 455,
     "jadrowe": 0,
@@ -2571,9 +2912,9 @@
    }
   },
   "najstarszy": "20010302",
-  "nastepny_rok": 2025,
+  "nastepny_rok": 2017,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "gns.de"
  },
@@ -2728,10 +3069,46 @@
  "instytut_chemii_i_techniki_j_drowej_icht": {
   "bledow": 0,
   "firma": "Instytut Chemii i Techniki Jądrowej (IChTJ)",
-  "gleboko_do": "2004",
+  "gleboko_do": "1998",
   "jadrowych_razem": 0,
   "kraj": "PL",
   "lata": {
+   "1998": {
+    "adresow": 57,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "1999": {
+    "adresow": 309,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2000": {
+    "adresow": 409,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2001": {
+    "adresow": 254,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2002": {
+    "adresow": 381,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2003": {
+    "adresow": 534,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2004": {
     "adresow": 833,
     "jadrowe": 0,
@@ -2872,10 +3249,11 @@
    }
   },
   "najstarszy": "19980212",
-  "nastepny_rok": 2003,
+  "nastepny_rok": 1997,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "ichtj.waw.pl"
  },
  "instytut_fizyki_j_drowej_pan_ifj_pan": {
@@ -3076,11 +3454,18 @@
   "url": "euraca.eu"
  },
  "iter_organization": {
+  "bledow": 0,
   "firma": "ITER Organization",
-  "gleboko_do": "2025",
+  "gleboko_do": "2024",
   "jadrowych_razem": 0,
   "kraj": "FR",
   "lata": {
+   "2024": {
+    "adresow": 12,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2025": {
     "adresow": 40,
     "jadrowe": 0,
@@ -3095,13 +3480,16 @@
    }
   },
   "najstarszy": "20241020",
-  "nastepny_rok": 2024,
+  "nastepny_rok": 2023,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "www.iter.org/public/jobs"
  },
  "jacobs": {
+  "blad": "ChunkedEncodingError",
+  "bledow": 1,
   "firma": "Jacobs",
   "gleboko_do": "2026",
   "jadrowych_razem": 0,
@@ -3117,7 +3505,7 @@
   "najstarszy": "20010220",
   "nastepny_rok": 2025,
   "ofert_razem": 1,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "jacobs.com"
  },
@@ -3280,6 +3668,8 @@
   "url": "ujv.jobs.cz"
  },
  "karlsruher_institut_f_r_technologie_kit": {
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "Karlsruher Institut für Technologie (KIT)",
   "gleboko_do": null,
   "jadrowych_razem": 0,
@@ -3287,7 +3677,7 @@
   "lata": {},
   "najstarszy": "20190920",
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "www.kit-ausbildung.de/de/offene-stellen"
  },
@@ -3592,6 +3982,8 @@
   "url": "westinghousenuclear.com"
  },
  "max_planck_institut_f_r_plasmaphysik_ipp": {
+  "blad": "HTTP 504",
+  "bledow": 1,
   "firma": "Max-Planck-Institut für Plasmaphysik (IPP)",
   "gleboko_do": "2026",
   "jadrowych_razem": 0,
@@ -3607,7 +3999,7 @@
   "najstarszy": "19970706",
   "nastepny_rok": 2025,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "ipp.mpg.de"
  },
@@ -3863,10 +4255,82 @@
  "niaep": {
   "bledow": 0,
   "firma": "NIAEP / ASE",
-  "gleboko_do": "2019",
-  "jadrowych_razem": 0,
+  "gleboko_do": "2007",
+  "jadrowych_razem": 3,
   "kraj": "RU",
   "lata": {
+   "2007": {
+    "adresow": 19,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 84,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 94,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 110,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 304,
+    "jadrowe": 2,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2012": {
+    "adresow": 253,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2013": {
+    "adresow": 828,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 306,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 305,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 632,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 1002,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 875,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2019": {
     "adresow": 274,
     "jadrowe": 0,
@@ -3917,10 +4381,11 @@
    }
   },
   "najstarszy": "20070225",
-  "nastepny_rok": 2018,
-  "ofert_razem": 0,
+  "nastepny_rok": 2006,
+  "ofert_razem": 3,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "niaep.ru"
  },
  "nrg_pallas": {
@@ -4157,11 +4622,13 @@
   "url": "www.nek.si/o-jedrski-energiji/uran-in-jedrska-cepitev"
  },
  "office_for_nuclear_regulation_onr": {
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "Office for Nuclear Regulation (ONR)",
   "jadrowych_razem": 0,
   "kraj": "GB",
   "lata": {},
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "onr.org.uk"
  },
@@ -4535,10 +5002,82 @@
  "pgeej1": {
   "bledow": 0,
   "firma": "PGE EJ 1 (poprzednik PEJ)",
-  "gleboko_do": "2023",
+  "gleboko_do": "2011",
   "jadrowych_razem": 0,
   "kraj": "PL",
   "lata": {
+   "2011": {
+    "adresow": 69,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 115,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 119,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 157,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 57,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 190,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 328,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 152,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 404,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2020": {
+    "adresow": 471,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 301,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2022": {
+    "adresow": 133,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2023": {
     "adresow": 1,
     "jadrowe": 0,
@@ -4565,10 +5104,11 @@
    }
   },
   "najstarszy": "20110224",
-  "nastepny_rok": 2022,
+  "nastepny_rok": 2010,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "pgeej1.pl"
  },
  "polimex_mostostal": {
@@ -4593,11 +5133,24 @@
   "url": "pxinfrastruktura.pl"
  },
  "ponticelli_fr_res": {
+  "bledow": 0,
   "firma": "Ponticelli Frères",
-  "gleboko_do": "2025",
+  "gleboko_do": "2023",
   "jadrowych_razem": 0,
   "kraj": "FR",
   "lata": {
+   "2023": {
+    "adresow": 22,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 27,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2025": {
     "adresow": 25,
     "jadrowe": 0,
@@ -4612,21 +5165,32 @@
    }
   },
   "najstarszy": "20230320",
-  "nastepny_rok": 2024,
+  "nastepny_rok": 2022,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "careers.ponticelli.com"
  },
  "posiva": {
+  "blad": "HTTP 504",
+  "bledow": 1,
   "firma": "Posiva",
-  "gleboko_do": null,
-  "jadrowych_razem": 0,
+  "gleboko_do": "2026",
+  "jadrowych_razem": 1,
   "kraj": "FI",
-  "lata": {},
+  "lata": {
+   "2026": {
+    "adresow": 1045,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   }
+  },
   "najstarszy": "19980114",
-  "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "nastepny_rok": 2025,
+  "ofert_razem": 1,
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "posiva.fi"
  },
@@ -4863,11 +5427,18 @@
   "url": "careers.rolls-royce.com"
  },
  "rwe_nuclear": {
+  "bledow": 0,
   "firma": "RWE Nuclear",
-  "gleboko_do": "2024",
+  "gleboko_do": "2023",
   "jadrowych_razem": 0,
   "kraj": "DE",
   "lata": {
+   "2023": {
+    "adresow": 397,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2024": {
     "adresow": 265,
     "jadrowe": 0,
@@ -4888,10 +5459,11 @@
    }
   },
   "najstarszy": "20230906",
-  "nastepny_rok": 2023,
+  "nastepny_rok": 2022,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "au.rwe.com"
  },
  "se_raw": {
@@ -5053,6 +5625,8 @@
   "url": "careers.sellafieldsite.co.uk"
  },
  "siempelkamp": {
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "Siempelkamp",
   "gleboko_do": "2023",
   "jadrowych_razem": 0,
@@ -5086,20 +5660,28 @@
   "najstarszy": "20000302",
   "nastepny_rok": 2022,
   "ofert_razem": 1,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "siempelkamp.com"
  },
  "sizewell_c": {
+  "bledow": 0,
   "firma": "Sizewell C",
   "gleboko_do": null,
-  "jadrowych_razem": 0,
+  "jadrowych_razem": 119,
   "kraj": "GB",
-  "lata": {},
+  "lata": {
+   "2026": {
+    "adresow": 3672,
+    "jadrowe": 119,
+    "pobrane": 119,
+    "szczegolow": 126
+   }
+  },
   "najstarszy": "20230503",
-  "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "ofert_razem": 119,
+  "ostatnio": "2026-11-13",
+  "status": "w toku",
   "url": "sizewellc.com"
  },
  "skb": {
@@ -5390,10 +5972,112 @@
  "technokabel": {
   "bledow": 0,
   "firma": "Technokabel",
-  "gleboko_do": "2018",
+  "gleboko_do": "2001",
   "jadrowych_razem": 0,
   "kraj": "PL",
   "lata": {
+   "2001": {
+    "adresow": 152,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2002": {
+    "adresow": 163,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2003": {
+    "adresow": 198,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2004": {
+    "adresow": 210,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2005": {
+    "adresow": 309,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 181,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 397,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 79,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 90,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 31,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 122,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 102,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 197,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 282,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 62,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 527,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 1023,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2018": {
     "adresow": 561,
     "jadrowe": 0,
@@ -5450,7 +6134,7 @@
    }
   },
   "najstarszy": "20000107",
-  "nastepny_rok": 2017,
+  "nastepny_rok": 2000,
   "ofert_razem": 0,
   "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
@@ -5542,8 +6226,8 @@
   "url": "www.tele-fonika.com/kariera/aktualne-oferty"
  },
  "teollisuuden_olkiluoto": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "blad": "HTTP 504",
+  "bledow": 2,
   "firma": "TVO (Olkiluoto 3)",
   "gleboko_do": "2020",
   "jadrowych_razem": 0,
@@ -5600,6 +6284,8 @@
   "url": "tvo.fi"
  },
  "teollisuuden_voima_tvo": {
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "Teollisuuden Voima (TVO)",
   "gleboko_do": "2026",
   "jadrowych_razem": 0,
@@ -5615,7 +6301,7 @@
   "najstarszy": "19980523",
   "nastepny_rok": 2025,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-12",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "tvo.fi"
  },
@@ -5964,12 +6650,49 @@
   "url": "careers.vattenfall.com"
  },
  "vinci_construction_nucl_aire": {
+  "bledow": 0,
   "firma": "Vinci Construction (nucléaire)",
+  "gleboko_do": "2022",
   "jadrowych_razem": 0,
   "kraj": "FR",
-  "lata": {},
-  "ostatnio": "2026-11-12",
-  "status": "błąd archiwum",
+  "lata": {
+   "2022": {
+    "adresow": 21,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2023": {
+    "adresow": 19,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 27,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 40,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2026": {
+    "adresow": 24,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "20220521",
+  "nastepny_rok": 2021,
+  "ofert_razem": 0,
+  "ostatnio": "2026-11-13",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "jobs.vinci.com/en/search-jobs"
  },
  "vtt": {
