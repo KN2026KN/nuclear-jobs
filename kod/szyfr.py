@@ -6,7 +6,7 @@
 import os, sys, hmac, hashlib, glob
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
-CELE = ['raw', 'data/kp.sqlite.gz']
+CELE = ['raw', 'data/kp.sqlite.gz', 'data/dzien', 'data/panel']   # 13.11.2026: także lista dnia i panel (informacje o ofertach)
 MAGIC = b'KNJ1'
 
 def klucze():

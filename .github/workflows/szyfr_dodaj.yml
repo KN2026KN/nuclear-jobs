@@ -1,0 +1,26 @@
+name: Szyfrowanie - dołączenie data/dzien i data/panel (jednorazowo)
+on: workflow_dispatch
+permissions: { contents: write }
+concurrency: { group: nocny, cancel-in-progress: false }
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - env: { RAW_KEY: '${{ secrets.RAW_KEY }}' }
+        run: |
+          [ ${#RAW_KEY} -ge 16 ] || { echo "Brak RAW_KEY"; exit 1; }
+          pip install --quiet cryptography
+          python3 kod/szyfr.py szyfruj
+          mkdir -p /tmp/k/kod /tmp/k/data && cp kod/szyfr.py /tmp/k/kod/ && cp -r data/dzien data/panel /tmp/k/data/ && find /tmp/k/data -type f ! -name '*.enc' -delete
+          (cd /tmp/k && python3 kod/szyfr.py odszyfruj)
+          diff -r --exclude='*.enc' data/dzien /tmp/k/data/dzien && diff -r --exclude='*.enc' data/panel /tmp/k/data/panel && echo "kontrola OK"
+          printf 'data/dzien/**\n!data/dzien/**/\n!data/dzien/**/*.enc\ndata/panel/**\n!data/panel/**/\n!data/panel/**/*.enc\n' >> .gitignore
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git rm -r -q --cached data/dzien data/panel
+          git add .gitignore data/dzien data/panel
+          git status --short | awk '{print $1}' | sort | uniq -c
+          git commit -qm "Lista dnia i panel ofert w repozytorium tylko zaszyfrowane"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
