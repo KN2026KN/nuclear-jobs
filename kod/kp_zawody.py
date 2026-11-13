@@ -55,11 +55,44 @@ ZAWODY = [
     ('specjalista', 'Specjalista / analityk (inne)', 'Specialist / analyst (other)', _R(r'specialist', r'specjalist', r'analyst', r'analityk', r'expert', r'ekspert', r'spécialiste', r'consultant', r'konsultant', r'специалист', r'аналитик', r'advisor', r'adviser', r'doradca')),
 ]
 
+import unicodedata
+def _norm(x):
+    x = unicodedata.normalize('NFD', (x or '').lower().replace('ё', 'е'))
+    x = ''.join(c for c in x if unicodedata.category(c) != 'Mn')
+    return ' ' + re.sub(r'[^0-9a-zа-яіїєґ&]+', ' ', x).strip() + ' '
+
+_SLOW = None
+def _ze_slownika(tytul):
+    """13.11.2026: gdy wzorce nie pasują - słownik wielojęzyczny (kp_zawody_slownik), najdłuższe trafienie od początku słowa."""
+    global _SLOW
+    if _SLOW is None:
+        from kp_zawody_slownik import slownik
+        _SLOW = sorted({(_norm(w).strip(), k) for k, d in slownik().items() for ws in d.values() for w in ws if len(_norm(w).strip()) >= 5},
+                       key=lambda x: -len(x[0]))
+    t = _norm(tytul)
+    for w, k in _SLOW:
+        if ' ' + w in t: return k
+    return None
+
 def zawod(tytul):
     t = ' ' + re.sub(r'\s+', ' ', tytul or '') + ' '
     for k, pl, en, rx in ZAWODY:
         if rx.search(t): return k
-    return 'inne'
+    return _ze_slownika(tytul) or 'inne'
 
 NAZWY = {k: (pl, en) for k, pl, en, _ in ZAWODY}
 NAZWY['inne'] = ('Inne', 'Other')
+
+# Poziom stanowiska (13.11.2026) - wielojęzycznie, te same nazwy co kp_db.lvl, żeby porównywać odpowiedniki: zawód + poziom.
+POZIOMY = ['Praktyka lub staż', 'Junior / wykonawczy', 'Specjalista', 'Senior lub ekspert', 'Kierownik']
+_PZ = [
+    ('Praktyka lub staż', r'intern|trainee|apprenti|graduate|stage\b|stagiaire|alternan|praktik|praktyk|stażyst|\bstaż|ausbildung|azubi|werkstudent|tirocin|becari|стаж|практикант|випускник|выпускник'),
+    ('Kierownik', r'director|manager|\bhead\b|superintendent|team lead|supervisor|deputy|chief|kierownik|dyrektor|naczelnik|leiter\b|leiterin|direct(eur|rice)|responsable|chef d|jefe|director|responsabile|capo|vedouc|ředitel|riaditeľ|chef\b|päällikkö|johtaja|șef|vezető|ръководител|начальник|руководител|директор|керівник|müdür'),
+    ('Senior lub ekspert', r'senior|\blead\b|principal|expert|ekspert|starsz|główn|chartered|confirm|exp[eé]riment|erfahren|esperto|zkušen|seniorn?\b|vanhempi|старш|ведущ|главн|провідн|kıdemli|\bsr\b|\bIII\b|\bIV\b'),
+    ('Junior / wykonawczy', r'junior|młodsz|assistant|asystent|technician|technik\b|operator|helper|pomocnik|worker|laborer|labourer|débutant|einsteiger|mladší|младш|помощник|\bjr\b|\bI\b'),
+]
+def poziom(tytul):
+    t = ' ' + (tytul or '') + ' '
+    for nazwa, rx in _PZ:
+        if re.search(rx, t, re.I): return nazwa
+    return 'Specjalista'

@@ -7,14 +7,24 @@ var kr=function(k){return KRAJ[k]||k},fl=function(k){return /^[A-Z]{2}$/.test(k)
 var esc=function(s){return String(s==null?'':s).replace(/[<>"]/g,function(c){return {'<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
 // domyślna waluta z języka przeglądarki
 var JW={pl:'PLN',en:'EUR','en-gb':'GBP','en-us':'USD',sv:'SEK',cs:'CZK',ro:'RON',hu:'HUF',bg:'BGN',de:'EUR',fr:'EUR',it:'EUR',es:'EUR',fi:'EUR',sk:'EUR',nb:'NOK',da:'DKK',tr:'TRY',zh:'CNY',ko:'KRW',ja:'JPY'};
-var jl=(navigator.language||'en').toLowerCase(),dw=JW[jl]||JW[jl.slice(0,2)]||'EUR';
+// 13.11.2026 (właściciel): domyślnie zawsze lokalna waluta odwiedzającego. Kolejność: region w języku przeglądarki (de-CH -> CHF),
+// język jednoznaczny walutowo (pl -> PLN), strefa czasowa (en + Europe/Warsaw -> PLN), na końcu EUR.
+var TZ={'Europe/Warsaw':'PL','Europe/London':'GB','Europe/Dublin':'IE','Europe/Prague':'CZ','Europe/Bratislava':'SK','Europe/Budapest':'HU','Europe/Bucharest':'RO','Europe/Sofia':'BG','Europe/Stockholm':'SE','Europe/Oslo':'NO','Europe/Copenhagen':'DK','Europe/Helsinki':'FI','Europe/Berlin':'DE','Europe/Vienna':'AT','Europe/Zurich':'CH','Europe/Paris':'FR','Europe/Brussels':'BE','Europe/Amsterdam':'NL','Europe/Madrid':'ES','Europe/Rome':'IT','Europe/Lisbon':'PT','Europe/Ljubljana':'SI','Europe/Vilnius':'LT','Europe/Riga':'LV','Europe/Tallinn':'EE','Europe/Kiev':'UA','Europe/Kyiv':'UA','Europe/Minsk':'BY','Europe/Moscow':'RU','Europe/Istanbul':'TR','Asia/Dubai':'AE','Asia/Seoul':'KR','Asia/Tokyo':'JP','Asia/Shanghai':'CN','Asia/Kolkata':'IN','Asia/Almaty':'KZ','Asia/Tashkent':'UZ','Africa/Cairo':'EG','Africa/Johannesburg':'ZA','America/Toronto':'CA','America/Vancouver':'CA','Australia/Sydney':'AU'};
+function walutaLokalna(){var WKr=KU.waluty_krajow||{},L=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);
+  for(var i=0;i<L.length;i++){var t=String(L[i]).split('-'),reg=(t[1]||'').toUpperCase();if(reg&&WKr[reg]&&EBC[WKr[reg]])return WKr[reg]}
+  var j=String(L[0]).slice(0,2).toLowerCase(),JL={pl:'PLN',cs:'CZK',sv:'SEK',hu:'HUF',ro:'RON',tr:'TRY',uk:'UAH',nb:'NOK',no:'NOK',da:'DKK',ja:'JPY',ko:'KRW',bg:'EUR',sk:'EUR',fi:'EUR',it:'EUR',es:'EUR',nl:'EUR',sl:'EUR',lt:'EUR',lv:'EUR',et:'EUR'};
+  if(JL[j]&&EBC[JL[j]])return JL[j];
+  try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone,k=TZ[tz];if(k&&WKr[k]&&EBC[WKr[k]])return WKr[k];if(/^America\//.test(tz))return 'USD'}catch(e){}
+  return 'EUR'}
+var dw=walutaLokalna();
 var KJ={PLN:'PL',GBP:'GB',USD:'US',SEK:'SE',CZK:'CZ',CHF:'CH',RON:'RO',HUF:'HU',BGN:'BG',NOK:'NO',DKK:'DK',CAD:'CA',TRY:'TR',CNY:'CN',KRW:'KR',JPY:'JP',INR:'IN',AED:'AE',EUR:'EMU'};
 function opt(id,list,sel){$(id).innerHTML=list.map(function(x){return '<option value="'+esc(x[0])+'"'+(x[0]===sel?' selected':'')+'>'+esc(x[1])+'</option>'}).join('')}
 opt('cur',WALUTY.map(function(w){return [w,w]}),dw);
-opt('cur2',[['','bez drugiej waluty']].concat(WALUTY.map(function(w){return [w,w]})),dw==='EUR'?'':'EUR');
+opt('cur2',[['','bez drugiej waluty']].concat(WALUTY.map(function(w){return [w,w]})),dw==='EUR'?'USD':'EUR');
 var refs=Object.keys(KJ).filter(function(w){return PPP[KJ[w]]}).map(function(w){return [KJ[w],kr(KJ[w])+' ('+w+')']});
 opt('ref',refs,KJ[dw]||'EMU');
 var obs={};R.forEach(function(r){obs[r.ob]=1});opt('ob',[['','wszystkie obszary']].concat(Object.keys(obs).sort().map(function(o){return [o,o]})),'');
+var PZ=D.poziomy||[];opt('pz',[['','wszystkie poziomy']].concat(PZ.map(function(p){return [p,p]})),'');
 var Y=new Date().getFullYear();opt('lata',[['2','ostatnie 2 lata'],['5','ostatnie 5 lat'],['0','wszystkie lata'],['1','tylko bieżący rok']],'2');
 // podpowiedzi zawodów
 var zl=Object.keys(Z).map(function(k){return Z[k].pl});$('zl').innerHTML=zl.map(function(n){return '<option value="'+esc(n)+'">'}).join('');
@@ -31,7 +41,7 @@ function szukaj(q){var n=norm(q);if(n.length<3)return [];var wyn=[];
    if(sc)wyn.push({k:e.k,j:e.j,w:e.w,sc:sc+(e.k==='inzynier'||e.k==='specjalista'||e.k==='kierownik'?-15:0)})});
   wyn.sort(function(a,b){return b.sc-a.sc});var by={},out=[];wyn.forEach(function(x){if(!by[x.k]){by[x.k]=1;out.push(x)}});return out.slice(0,5)}
 function jezykZ(q,traf){if(/[а-яё]/i.test(q)){if(/[іїєґ]/i.test(q))return 'uk';if(traf&&(traf.j==='bg'||traf.j==='uk'||traf.j==='ru'))return traf.j;return 'ru'}return traf?traf.j:''}
-function ustawWalute(j){if(stan.wRecz||!j)return;var w=JW2[j];if(w&&EBC[w]&&WALUTY.indexOf(w)>=0)$('cur').value=w}
+function ustawWalute(j){stan.wj='';var w=JW2[j];if(j&&w&&EBC[w]&&WALUTY.indexOf(w)>=0&&w!==$('cur').value)stan.wj=w}
 // przeliczenia
 function naEUR(v,w){return EBC[w]?v/EBC[w]:null}
 function ppKraj(r){var k=r.k;return PPP[k]?PPP[k].ppp:null}
@@ -46,7 +56,7 @@ function fmt(v,w){if(v==null||isNaN(v))return '-';var a=Math.abs(v);var s=a>=1e6
 function w2(vEUR){var c2=$('cur2').value;if(!c2||$('pp').checked||vEUR==null)return '';return fmt(vEUR*EBC[c2],c2)}
 function pasuje(r){
   if(!$('wa').checked&&r.s==='o')return false;if(!$('wz').checked&&r.s==='c')return false;if(!$('wr').checked&&r.s==='a')return false;
-  if(!$('wx').checked&&r.a)return false;var ob=$('ob').value;if(ob&&r.ob!==ob)return false;
+  if(!$('wx').checked&&r.a)return false;var ob=$('ob').value;if(ob&&r.ob!==ob)return false;var pz=$('pz').value;if(pz&&r.lv!==pz)return false;
   var l=+$('lata').value;if(l&&r.y<Y-l+1)return false;
   if(stan.z&&r.z!==stan.z)return false;
   if(stan.q&&!stan.z){var q=stan.q.toLowerCase();if((r.t+' '+r.e).toLowerCase().indexOf(q)<0)return false}
@@ -75,8 +85,9 @@ function render(){
   else if(t==='zaw')o=lista(grupuj(function(r){return r.z}),nZaw);
   else if(t==='cmp')o=porownanie();
   else if(t==='jaw')o=jawnosc();
+  else if(t==='odp')o=odpowiedniki();
   else o=tabela();
-  $('out').innerHTML=o;$('leg').style.display=(t==='lista'||t==='cmp'||t==='jaw')?'none':'block';
+  $('out').innerHTML=o;$('leg').style.display=(t==='lista'||t==='cmp'||t==='jaw'||t==='odp')?'none':'block';
   var n=R.filter(pasuje).length;
   $('sub').innerHTML='Ofert z wynagrodzeniem w wyborze: <b>'+n+'</b> z '+R.length+' · '+(stan.z?'zawód: <b>'+esc((Z[stan.z]||{}).pl)+'</b>':stan.q?'szukane: <b>'+esc(stan.q)+'</b>':'wszystkie zawody')+' · dane z '+esc(D.wygenerowano)+' · kursy EBC z '+esc((KU.ebc||{}).data||'-');
   [].forEach.call(document.querySelectorAll('#chips button'),function(b){b.classList.toggle('on',b.getAttribute('data-z')===stan.z)});
@@ -94,6 +105,20 @@ function porownanie(){
     h+='<div class="k"><span class="mut">'+(k[0]==='K'?fl(k.slice(2))+' '+esc(kr(k.slice(2))):esc(k.slice(2)))+'</span><b>'+fmt(g.med,W)+'</b><span class="mut">mediana · połowa ofert: '+fmt(g.p25,W)+' - '+fmt(g.p75,W)+'</span><br><span class="mut">'+g.n+' ofert'+(g.n<5?' <span class="mal">mało danych</span>':'')+(w2(g.medE)?' · '+w2(g.medE):'')+'</span>'+(d?'<br><b style="font-size:16px;color:'+(d>0?'#0f7c78':'#b42318')+'">'+(d>0?'+':'')+d+'% wobec pierwszego</b>':'')+'</div>'});
   return h+'</div>';
 }
+function odpowiedniki(){
+  // 13.11.2026: te same stanowiska pod różnymi nazwami = ten sam zawód (słownik 17 języków) + ten sam poziom. Wiersz = odpowiednik, kolumny = kraje.
+  var W=walPP(),g={},kn={};
+  R.forEach(function(r){if(!pasuje(r))return;var v=wartosc(r,(r.lo+r.hi)/2);if(v==null||v<1000||r.z==='inne')return;var key=r.z+'|'+(r.lv||'Specjalista');
+    (g[key]=g[key]||{all:[],k:{},t:{}}).all.push(v);(g[key].k[r.k]=g[key].k[r.k]||[]).push(v);g[key].t[r.t]=1;kn[r.k]=(kn[r.k]||0)+1});
+  var kraje=Object.keys(kn).sort(function(a,b){return kn[b]-kn[a]}).slice(0,7),PO=PZ.length?PZ:['Specjalista'];
+  var keys=Object.keys(g).sort(function(a,b){var A=a.split('|'),B=b.split('|');return A[0]===B[0]?PO.indexOf(A[1])-PO.indexOf(B[1]):g[b].all.length-g[a].all.length});
+  if(!keys.length)return '<div class="pusto">Brak ofert.</div>';
+  var md=function(a){a=a.slice().sort(function(x,y){return x-y});return kw(a,.5)};
+  var h='<p class="mut" style="margin:0 0 10px">Odpowiednik = ten sam zawód i ten sam poziom, bez względu na nazwę stanowiska i język (np. „Pipe Welder”, „Soudeur tuyauteur”, „Spawacz rurociągów” to Spawacz · Specjalista). W komórce mediana rocznego wynagrodzenia i liczba ofert. Najedź na nazwę, aby zobaczyć tytuły ofert w grupie.</p><div style="overflow-x:auto"><table><tr><th>Zawód · poziom</th>'+kraje.map(function(k){return '<th class="n">'+fl(k)+' '+esc(kr(k))+'</th>'}).join('')+'<th class="n">Wszystkie</th></tr>';
+  keys.slice(0,80).forEach(function(key){var x=g[key],p=key.split('|'),tyt=Object.keys(x.t).slice(0,12).join('\n');
+    h+='<tr><td title="'+esc(tyt)+'"><b>'+esc((Z[p[0]]||{}).pl||p[0])+'</b><br><span class="mut">'+esc(p[1])+'</span></td>'+kraje.map(function(k){var a=x.k[k];return a?'<td class="n">'+fmt(md(a),W)+'<br><span class="mut">'+a.length+(a.length<3?' · mało':'')+'</span></td>':'<td class="n mut">-</td>'}).join('')+'<td class="n"><b>'+fmt(md(x.all),W)+'</b><br><span class="mut">'+x.all.length+'</span></td></tr>'});
+  return h+'</table></div>';
+}
 function jawnosc(){
   var JA=D.jawnosc||{k:{},f:{}},Y0=Y-5,ys=[];for(var y=Y0;y<=Y;y++)ys.push(String(y));
   function wiersz(nazwa,L,n){var tn=0,tz=0;ys.forEach(function(y){var a=L[y];if(a){tn+=a[0];tz+=a[1]}});if(tn<n)return null;
@@ -108,21 +133,22 @@ function tabela(){
   if(!rr.length)return '<div class="pusto">Brak ofert.</div>';
   var S={o:'otwarta',c:'zamknięta',a:'archiwum'};
   return '<div style="overflow-x:auto"><table><thead><tr><th>Stanowisko</th><th>Pracodawca</th><th>Kraj</th><th>Rok</th><th>Wynagrodzenie roczne</th><th>W ofercie</th></tr></thead><tbody>'+rr.map(function(x){var r=x.r,lo=wartosc(r,r.lo),hi=wartosc(r,r.hi);
-   return '<tr><td><a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.t)+'</a><br><span class="mut">'+esc((Z[r.z]||{}).pl||'')+' · '+S[r.s]+'</span></td><td>'+esc(r.e)+'</td><td>'+fl(r.k)+' '+esc(kr(r.k))+'</td><td>'+r.y+'</td><td class="n">'+(Math.round(lo)===Math.round(hi)?fmt(lo,W):fmt(lo,W)+' - '+fmt(hi,W))+(w2(naEUR(r.lo,r.w))?'<br><small class="mut">'+w2(naEUR((r.lo+r.hi)/2,r.w))+'</small>':'')+'</td><td class="mut">'+Math.round(r.lo).toLocaleString('pl-PL')+(r.hi!==r.lo?' - '+Math.round(r.hi).toLocaleString('pl-PL'):'')+' '+esc(r.w)+'/rok<br>(podano: '+({rok:'rocznie',mies:'miesięcznie',godz:'za godzinę'}[r.per]||r.per)+')</td></tr>'}).join('')+'</tbody></table></div>';
+   return '<tr><td><a href="'+esc(r.u)+'" target="_blank" rel="noopener">'+esc(r.t)+'</a><br><span class="mut">'+esc((Z[r.z]||{}).pl||'')+' · '+esc(r.lv||'')+' · '+S[r.s]+'</span>'+(r.z!=='inne'?' <button class="pod" data-z="'+r.z+'" data-p="'+esc(r.lv||'')+'">≈ podobne w innych krajach</button>':'')+'</td><td>'+esc(r.e)+'</td><td>'+fl(r.k)+' '+esc(kr(r.k))+'</td><td>'+r.y+'</td><td class="n">'+(Math.round(lo)===Math.round(hi)?fmt(lo,W):fmt(lo,W)+' - '+fmt(hi,W))+(w2(naEUR(r.lo,r.w))?'<br><small class="mut">'+w2(naEUR((r.lo+r.hi)/2,r.w))+'</small>':'')+'</td><td class="mut">'+Math.round(r.lo).toLocaleString('pl-PL')+(r.hi!==r.lo?' - '+Math.round(r.hi).toLocaleString('pl-PL'):'')+' '+esc(r.w)+'/rok<br>(podano: '+({rok:'rocznie',mies:'miesięcznie',godz:'za godzinę'}[r.per]||r.per)+')</td></tr>'}).join('')+'</tbody></table></div>';
 }
 // zdarzenia
 function zQ(v){v=(v||'').trim();stan.q=v;stan.z='';stan.jez='';var t=szukaj(v);
   if(t.length&&t[0].sc>=50){stan.z=t[0].k;stan.jez=jezykZ(v,t[0]);ustawWalute(stan.jez)}else if(v){stan.jez=jezykZ(v,null)}
-  var h='';if(stan.z){h='Rozpoznano: <b>'+esc(Z[stan.z].pl)+'</b> ('+esc(Z[stan.z].en)+')'+(stan.jez?' · język: '+esc(JZ[stan.jez]||stan.jez):'')+(stan.jez&&JW2[stan.jez]&&!stan.wRecz?' · waluta: '+esc($('cur').value):'');
+  var h='';if(stan.z){h='Rozpoznano: <b>'+esc(Z[stan.z].pl)+'</b> ('+esc(Z[stan.z].en)+')'+(stan.jez?' · język: '+esc(JZ[stan.jez]||stan.jez):'')+(stan.wj?' · <button data-w="'+stan.wj+'">pokaż w '+stan.wj+'</button>':'');
    var inne=t.slice(1).filter(function(x){return x.sc>=60}).slice(0,3);if(inne.length)h+=' · może chodzi o: '+inne.map(function(x){return '<button data-z="'+x.k+'">'+esc(Z[x.k].pl)+'</button>'}).join(', ')}
   else if(v.length>=3)h='Nie rozpoznano zawodu - szukam frazy w tytułach ofert.';
   $('jez').innerHTML=h;render()}
-$('jez').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;stan.z=b.getAttribute('data-z');$('jez').innerHTML='Wybrano: <b>'+esc(Z[stan.z].pl)+'</b>';render()});
+$('jez').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;if(b.getAttribute('data-w')){$('cur').value=b.getAttribute('data-w');stan.wRecz=true;b.remove();render();return}stan.z=b.getAttribute('data-z');$('jez').innerHTML='Wybrano: <b>'+esc(Z[stan.z].pl)+'</b>';render()});
 $('cur').addEventListener('change',function(){stan.wRecz=true});
 var tq;$('q').addEventListener('input',function(){clearTimeout(tq);var v=this.value;tq=setTimeout(function(){zQ(v)},200)});
 $('chips').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var z=b.getAttribute('data-z');stan.z=stan.z===z?'':z;stan.q='';$('q').value=stan.z?(Z[z]||{}).pl:'';render()});
 $('tabs').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;stan.t=b.getAttribute('data-t');[].forEach.call(this.children,function(x){x.classList.toggle('on',x===b)});render()});
-['cur','cur2','ob','lata','pp','ref','wa','wz','wr','wx'].forEach(function(i){$(i).addEventListener('change',render)});
+['cur','cur2','pz','ob','lata','pp','ref','wa','wz','wr','wx'].forEach(function(i){$(i).addEventListener('change',render)});
+$('out').addEventListener('click',function(e){var b=e.target.closest('button.pod');if(!b)return;stan.z=b.getAttribute('data-z');stan.q='';$('q').value=(Z[stan.z]||{}).pl;$('pz').value=b.getAttribute('data-p');stan.t='kraje';[].forEach.call($('tabs').children,function(x){x.classList.toggle('on',x.getAttribute('data-t')==='kraje')});$('jez').innerHTML='Odpowiedniki: <b>'+esc((Z[stan.z]||{}).pl)+'</b> · '+esc($('pz').value);render();$('tabs').scrollIntoView({behavior:'smooth'})});
 $('out').addEventListener('change',function(e){var s=e.target;if(s.getAttribute('data-c')==null)return;var i=+s.getAttribute('data-c');var sel=stan.cmp.length?stan.cmp:[].map.call(document.querySelectorAll('#out select'),function(x){return x.value});sel[i]=s.value;stan.cmp=sel;render()});
 var G=KU.godziny_rok||{};
 $('zas').innerHTML='<b>Jak liczymy.</b> Tylko oferty, w których pracodawca sam podał wynagrodzenie (otwarte, zamknięte i z archiwów Internet Archive z poprzednich lat). Kwoty sprowadzone do rocznych brutto: miesięczne × 12, godzinowe × godziny pracy w roku przyjęte dla kraju ('+Object.keys(G).filter(function(k){return k!=='_'}).map(function(k){return k+' '+G[k]}).join(', ')+', pozostałe '+(G['_']||2000)+'). Dodatki, premie i zakwaterowanie pomijane. Środek widełek liczy się jako jedna oferta. Przeliczenie walut: kursy referencyjne EBC z '+esc((KU.ebc||{}).data||'-')+(KU.kursy_przez_usd?' (dla '+KU.kursy_przez_usd.join(', ')+' przez USD, Bank Światowy)':'')+'. Starsze oferty liczone po dzisiejszym kursie, bez inflacji. Zarobki w krajach, w których pracodawcy rzadko publikują stawki (np. Francja, Szwecja, Niemcy), opierają się na niewielu ofertach - patrz liczba ofert.';

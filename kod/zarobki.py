@@ -6,7 +6,7 @@
 import json, sqlite3, sys, os, re, gzip, glob, datetime as dt
 from urllib.parse import urlparse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from kp_zawody import zawod, NAZWY
+from kp_zawody import zawod, NAZWY, poziom, POZIOMY
 from kp_obszar import obszar
 from kp_jadro import jadrowa
 from kp_parse import placa
@@ -33,7 +33,7 @@ def rekord(t, kraj, cur, lo, hi, per, prac, rok, st, url, lv='', proj='', anal=F
     lo, hi = roczna(lo, per, kraj), roczna(hi or lo, per, kraj)
     if not lo or not cur: return None
     return {'t': t[:120], 'z': zawod(t), 'ob': obszar(t), 'k': kraj or '?', 'w': cur, 'lo': round(lo), 'hi': round(max(lo, hi)),
-            'per': per, 'e': (prac or '')[:80], 'y': rok, 's': st, 'u': url, 'lv': lv or '', 'p': proj or '', 'a': 1 if anal else 0}
+            'per': per, 'e': (prac or '')[:80], 'y': rok, 's': st, 'u': url, 'lv': lv or poziom(t), 'p': proj or '', 'a': 1 if anal else 0}
 
 def z_bazy(db):
     out = []
@@ -51,10 +51,24 @@ def z_bazy(db):
         if r: out.append(r)
     return out
 
+ZLY_TYTUL = re.compile(r'search\s*&\s*apply|cookies?|apply now|job details|job search|careers? (at|home)|^jobs?\b|offres? d.emploi|stellenangebote|\bjobs?\s*\|', re.I)
+
 def tytul_z_adresu(u):
+    """13.11.2026: także adresy typu /jobs/5408455-soudeur-h-f (numer z przodu, oznaczenie płci na końcu)."""
     s = urlparse(u).path.strip('/').split('/')
-    kand = [x for x in s if re.search(r'[a-z]{3,}-[a-z]{3,}', x, re.I) and not re.match(r'^(job|jobs|en|us|careers?)$', x, re.I)]
-    return re.sub(r'[-_]+', ' ', kand[-1]).strip().capitalize() if kand else ''
+    for x in reversed(s):
+        x = re.sub(r'^\d+[-_]', '', x)
+        x = re.sub(r'[-_](h[-_]f|f[-_]h|m[-_]w[-_]d|m[-_]f[-_]d|w[-_]m[-_]d|m[-_]k)$', '', x, flags=re.I)
+        x = re.sub(r'[-_]\d+$', '', x)
+        if re.search(r'[a-zà-ÿ]{5,}', x, re.I) and not re.match(r'^(jobs?|offres?|stellen|careers?|carriere|karriere|kariera|vacancies|vacancy|job-details|job-search-results|job-search|search|rest-of-the-world|details?|apply|index|default|[a-z]{2}(-[a-z]{2})?)$', x, re.I) and not re.search(r'\.(html?|aspx?|php)$', x, re.I):
+            return re.sub(r'[-_]+', ' ', x).strip().capitalize()
+    return ''
+
+def tytul_z_tekstu(tx):
+    for l in (tx or '').split('\n')[:15]:
+        l = l.strip()
+        if 6 <= len(l) <= 90 and not ZLY_TYTUL.search(l) and re.search(r'[A-Za-zÀ-ÿ]{4,}', l) and not re.search(r'[.!?]$', l): return l
+    return ''
 
 def z_archiwow():
     G = json.load(open('data/archiwum/glebokosc.json', encoding='utf-8')) if os.path.exists('data/archiwum/glebokosc.json') else {}
@@ -70,13 +84,13 @@ def z_archiwow():
                 if o.get('blad') or u in byly: continue
                 tx = o.get('tekst') or ''
                 t = o.get('tytul') or ''
-                if not t or len(t) < 6 or re.search(r'\bjobs?\b\s*\|', t, re.I): t = tytul_z_adresu(u) or t
+                if not t or len(t) < 6 or ZLY_TYTUL.search(t): t = tytul_z_adresu(u) or tytul_z_tekstu(tx) or ''
                 sc = re.sub(r'[-_/+]+', ' ', urlparse(u).path)
                 if not jadrowa(g.get('firma', ''), (t + ' ' + sc).strip(), [('lok', sc), ('opis', tx)])[0]: continue
                 byly.add(u)
                 lo, hi, per, cur = placa(tx)
                 jaw(g.get('kraj'), g.get('firma'), rok, bool(lo and cur))
-                r = rekord(t, g.get('kraj'), cur, lo, hi, per, g.get('firma'), rok, 'a', u)
+                r = rekord(t, g.get('kraj'), cur, lo, hi, per, g.get('firma'), rok, 'a', u) if t else None   # bez tytułu płaca nic nie mówi
                 if r: out.append(r)
     return out
 
@@ -84,7 +98,7 @@ def main():
     db = sqlite3.connect(sys.argv[1])
     rek = z_bazy(db) + z_archiwow()
     zaw = {k: {'pl': v[0], 'en': v[1]} for k, v in NAZWY.items()}
-    json.dump({'wygenerowano': dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'), 'rekordy': rek, 'zawody': zaw, 'jawnosc': J,
+    json.dump({'wygenerowano': dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'), 'rekordy': rek, 'zawody': zaw, 'poziomy': POZIOMY, 'jawnosc': J,
                'slownik': slownik(), 'jezyki': JEZYKI, 'jezyk_waluta': JEZYK_WALUTA,
                'kursy': {k: K.get(k) for k in ('ebc', 'ppp', 'waluty_krajow', 'godziny_rok', 'odswiezone', 'kursy_przez_usd')}},
               open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
