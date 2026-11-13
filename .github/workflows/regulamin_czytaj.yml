@@ -1,0 +1,11 @@
+name: Regulamin - odczyt akapitów (log)
+on:
+  workflow_dispatch:
+    inputs:
+      adresy: { description: 'Adresy oddzielone spacją', required: true }
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests beautifulsoup4 && python3 narzedzia/regulamin_czytaj.py ${{ inputs.adresy }}
