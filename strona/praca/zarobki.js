@@ -19,7 +19,7 @@ var Y=new Date().getFullYear();opt('lata',[['2','ostatnie 2 lata'],['5','ostatni
 // podpowiedzi zawodów
 var zl=Object.keys(Z).map(function(k){return Z[k].pl});$('zl').innerHTML=zl.map(function(n){return '<option value="'+esc(n)+'">'}).join('');
 var licz={};R.forEach(function(r){licz[r.z]=(licz[r.z]||0)+1});
-var top=Object.keys(licz).filter(function(k){return k!=='inne'}).sort(function(a,b){return licz[b]-licz[a]}).slice(0,14);
+var top=Object.keys(licz).filter(function(k){return ['inne','inzynier','specjalista','kierownik'].indexOf(k)<0}).sort(function(a,b){return licz[b]-licz[a]}).slice(0,14);
 $('chips').innerHTML=top.map(function(k){return '<button data-z="'+k+'">'+esc((Z[k]||{}).pl||k)+' <span class="mut">'+licz[k]+'</span></button>'}).join('');
 var stan={q:'',z:'',t:'kraje',cmp:[],jez:'',wRecz:false};
 var SL=D.slownik||{},JZ=D.jezyki||{},JW2=D.jezyk_waluta||{};
