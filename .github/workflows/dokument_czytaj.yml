@@ -1,0 +1,24 @@
+name: Dokument PDF - fragmenty do logu
+on:
+  workflow_dispatch:
+    inputs:
+      url: { required: true }
+      wzorzec: { description: 'Regex początków fragmentów, np. ^Art\. 30[5-9]\.', required: true }
+      dlugosc: { default: '6000' }
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          sudo apt-get -qq install -y poppler-utils >/dev/null 2>&1 || true
+          curl -sSL -A "Mozilla/5.0" -o d.pdf "${{ inputs.url }}"
+          pdftotext -layout d.pdf d.txt
+          python3 - <<'PY'
+          import re,os
+          t=open('d.txt',encoding='utf-8',errors='ignore').read()
+          t=re.sub(r'\n\s*©Kancelaria Sejmu.*?\n','\n',t)
+          rx=re.compile(os.environ['W'],re.M); n=int(os.environ['L'])
+          for m in rx.finditer(t):
+              print('=====', m.group(0)); print(t[m.start():m.start()+n])
+          PY
+        env: { W: '${{ inputs.wzorzec }}', L: '${{ inputs.dlugosc }}' }
