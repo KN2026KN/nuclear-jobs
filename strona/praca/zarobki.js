@@ -7,15 +7,15 @@ var kr=function(k){return KRAJ[k]||k},fl=function(k){return /^[A-Z]{2}$/.test(k)
 var esc=function(s){return String(s==null?'':s).replace(/[<>"]/g,function(c){return {'<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
 // domyślna waluta z języka przeglądarki
 var JW={pl:'PLN',en:'EUR','en-gb':'GBP','en-us':'USD',sv:'SEK',cs:'CZK',ro:'RON',hu:'HUF',bg:'BGN',de:'EUR',fr:'EUR',it:'EUR',es:'EUR',fi:'EUR',sk:'EUR',nb:'NOK',da:'DKK',tr:'TRY',zh:'CNY',ko:'KRW',ja:'JPY'};
-// 13.11.2026 (właściciel): domyślnie zawsze lokalna waluta odwiedzającego. Kolejność: region w języku przeglądarki (de-CH -> CHF),
-// język jednoznaczny walutowo (pl -> PLN), strefa czasowa (en + Europe/Warsaw -> PLN), na końcu EUR.
+// 13.11.2026 (właściciel): domyślnie zawsze lokalna waluta odwiedzającego - patrz walutaLokalna().
 var TZ={'Europe/Warsaw':'PL','Europe/London':'GB','Europe/Dublin':'IE','Europe/Prague':'CZ','Europe/Bratislava':'SK','Europe/Budapest':'HU','Europe/Bucharest':'RO','Europe/Sofia':'BG','Europe/Stockholm':'SE','Europe/Oslo':'NO','Europe/Copenhagen':'DK','Europe/Helsinki':'FI','Europe/Berlin':'DE','Europe/Vienna':'AT','Europe/Zurich':'CH','Europe/Paris':'FR','Europe/Brussels':'BE','Europe/Amsterdam':'NL','Europe/Madrid':'ES','Europe/Rome':'IT','Europe/Lisbon':'PT','Europe/Ljubljana':'SI','Europe/Vilnius':'LT','Europe/Riga':'LV','Europe/Tallinn':'EE','Europe/Kiev':'UA','Europe/Kyiv':'UA','Europe/Minsk':'BY','Europe/Moscow':'RU','Europe/Istanbul':'TR','Asia/Dubai':'AE','Asia/Seoul':'KR','Asia/Tokyo':'JP','Asia/Shanghai':'CN','Asia/Kolkata':'IN','Asia/Almaty':'KZ','Asia/Tashkent':'UZ','Africa/Cairo':'EG','Africa/Johannesburg':'ZA','America/Toronto':'CA','America/Vancouver':'CA','Australia/Sydney':'AU'};
-function walutaLokalna(){var WKr=KU.waluty_krajow||{},L=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']);
-  for(var i=0;i<L.length;i++){var t=String(L[i]).split('-'),reg=(t[1]||'').toUpperCase();if(reg&&WKr[reg]&&EBC[WKr[reg]])return WKr[reg]}
-  var j=String(L[0]).slice(0,2).toLowerCase(),JL={pl:'PLN',cs:'CZK',sv:'SEK',hu:'HUF',ro:'RON',tr:'TRY',uk:'UAH',nb:'NOK',no:'NOK',da:'DKK',ja:'JPY',ko:'KRW',bg:'EUR',sk:'EUR',fi:'EUR',it:'EUR',es:'EUR',nl:'EUR',sl:'EUR',lt:'EUR',lv:'EUR',et:'EUR'};
-  if(JL[j]&&EBC[JL[j]])return JL[j];
-  try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone,k=TZ[tz];if(k&&WKr[k]&&EBC[WKr[k]])return WKr[k];if(/^America\//.test(tz))return 'USD'}catch(e){}
-  return 'EUR'}
+function walutaLokalna(){var WKr=KU.waluty_krajow||{},L=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'en']),ok=function(w){return w&&EBC[w]?w:''};
+  // 13.11.2026: najpierw kraj, w którym odwiedzający jest (strefa czasowa systemu), potem region i język przeglądarki.
+  // Przykład: przeglądarka ru-RU w Warszawie -> PLN; ru-RU w Moskwie -> RUB; en bez regionu w Pradze -> CZK.
+  try{var tz=Intl.DateTimeFormat().resolvedOptions().timeZone,k=TZ[tz];if(k&&ok(WKr[k]))return WKr[k];if(/^America\/(New_York|Chicago|Denver|Los_Angeles|Phoenix|Anchorage)/.test(tz))return 'USD'}catch(e){}
+  var t=String(L[0]).split('-'),reg=(t[1]||'').toUpperCase();if(reg&&ok(WKr[reg]))return WKr[reg];
+  var j=t[0].toLowerCase(),JL={pl:'PLN',cs:'CZK',sv:'SEK',hu:'HUF',ro:'RON',tr:'TRY',uk:'UAH',nb:'NOK',no:'NOK',da:'DKK',ja:'JPY',ko:'KRW',bg:'EUR',sk:'EUR',fi:'EUR',it:'EUR',es:'EUR',nl:'EUR',sl:'EUR',lt:'EUR',lv:'EUR',et:'EUR',de:'EUR',fr:'EUR'};
+  return ok(JL[j])||'EUR'}
 var dw=walutaLokalna();
 var KJ={PLN:'PL',GBP:'GB',USD:'US',SEK:'SE',CZK:'CZ',CHF:'CH',RON:'RO',HUF:'HU',BGN:'BG',NOK:'NO',DKK:'DK',CAD:'CA',TRY:'TR',CNY:'CN',KRW:'KR',JPY:'JP',INR:'IN',AED:'AE',EUR:'EMU'};
 function opt(id,list,sel){$(id).innerHTML=list.map(function(x){return '<option value="'+esc(x[0])+'"'+(x[0]===sel?' selected':'')+'>'+esc(x[1])+'</option>'}).join('')}
