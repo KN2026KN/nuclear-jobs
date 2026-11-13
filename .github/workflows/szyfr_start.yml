@@ -1,0 +1,28 @@
+name: Szyfrowanie treści ofert - jednorazowe włączenie
+on: workflow_dispatch
+permissions: { contents: write }
+concurrency: { group: nocny, cancel-in-progress: false }
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - env: { RAW_KEY: '${{ secrets.RAW_KEY }}' }
+        run: |
+          [ ${#RAW_KEY} -ge 16 ] || { echo "Brak sekretu RAW_KEY (min. 16 znaków)"; exit 1; }
+          pip install --quiet cryptography
+          python3 kod/szyfr.py szyfruj
+          # kontrola: odszyfrowanie daje te same pliki
+          mkdir -p /tmp/k && cp -r raw /tmp/k/ && find /tmp/k/raw -type f ! -name '*.enc' -delete
+          (cd /tmp/k && mkdir -p kod data && cp $GITHUB_WORKSPACE/kod/szyfr.py kod/ && cp $GITHUB_WORKSPACE/data/kp.sqlite.gz.enc data/ && python3 kod/szyfr.py odszyfruj)
+          diff -r --exclude='*.enc' raw /tmp/k/raw && cmp data/kp.sqlite.gz /tmp/k/data/kp.sqlite.gz && echo "kontrola OK"
+          printf '\n# 13.11.2026: pełne treści ofert tylko zaszyfrowane (kod/szyfr.py, sekret RAW_KEY)\nraw/**\n!raw/**/\n!raw/**/*.enc\ndata/kp.sqlite.gz\n' >> .gitignore
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git rm -r -q --cached raw data/kp.sqlite.gz
+          git add .gitignore raw data/kp.sqlite.gz.enc
+          git status --short | awk '{print $1}' | sort | uniq -c
+          git ls-files raw | grep -v '\.enc$' | head -3 || true
+          git commit -qm "Treści ofert w repozytorium tylko zaszyfrowane (RAW_KEY)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

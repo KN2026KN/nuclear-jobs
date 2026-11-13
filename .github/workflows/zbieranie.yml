@@ -24,6 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Odszyfrowanie treści ofert (sekret RAW_KEY)
+        env: { RAW_KEY: '${{ secrets.RAW_KEY }}' }
+        run: pip install --quiet cryptography && python3 kod/szyfr.py odszyfruj
       - name: Biblioteki
         run: pip install --quiet requests beautifulsoup4 openpyxl langdetect
       - name: Oferty pracy z oficjalnych stron
@@ -69,6 +72,7 @@ jobs:
         run: |
           git config user.name "keura-robot"
           git config user.email "keura-robot@users.noreply.github.com"
+          RAW_KEY='${{ secrets.RAW_KEY }}' python3 kod/szyfr.py szyfruj
           git add raw data
           git commit -qm "Nocny robot $DAY" || echo "brak zmian"
           for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
