@@ -51,3 +51,11 @@ jobs:
           python3 strona/praca_publikuj.py /tmp/praca.html /tmp/praca_en.html
           python3 kod/statystyki.py /tmp/kp.sqlite $DAY data/statystyki/$DAY.json
           python3 strona/statystyki_publikuj.py data/statystyki/$DAY.json
+          python3 kod/kursy.py | tail -3
+          python3 kod/zarobki.py /tmp/kp.sqlite /tmp/zarobki.json
+          python3 strona/zarobki_publikuj.py /tmp/zarobki.json
+      - name: Zapis kursów
+        run: |
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git add data/kursy.json && git commit -qm "Kursy walut i PPP $(date -u +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done

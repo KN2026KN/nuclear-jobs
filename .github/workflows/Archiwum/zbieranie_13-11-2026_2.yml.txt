@@ -1,0 +1,78 @@
+name: Nocny robot - oferty pracy w sektorze jądrowym
+
+on:
+  schedule:
+    - cron: '37 2 * * *'   # codziennie ok. 03:37/04:37 czasu polskiego
+  workflow_dispatch:
+  # 11.2026: bez uruchamiania przy push (zmiany kodu testujemy w test_zbierania.yml, przebieg ręczny - workflow_dispatch)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nocny
+  cancel-in-progress: false
+
+jobs:
+  noc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Odszyfrowanie treści ofert (sekret RAW_KEY)
+        env: { RAW_KEY: '${{ secrets.RAW_KEY }}' }
+        run: pip install --quiet cryptography && python3 kod/szyfr.py odszyfruj
+      - name: Biblioteki
+        run: pip install --quiet requests beautifulsoup4 openpyxl langdetect
+      - name: Oferty pracy z oficjalnych stron
+        continue-on-error: true
+        run: |
+          DAY=$(date -u +%Y-%m-%d)
+          echo "DAY=$DAY" >> $GITHUB_ENV
+          mkdir -p data/log data/dzien
+          echo "START=$(date +%s)" >> $GITHUB_ENV
+          timeout 1440 python3 -u collect/collect.py raw/$DAY 2>&1 | tee data/log/$DAY-zbieranie.txt
+          cd raw/$DAY && for f in kp_bechtel_*.json kp_wec_*.json kp_pej_2*.txt kp_pracuj_*.json kp_ncbj_*.json kp_sw_*.json; do [ -f "$f" ] && gzip -f "$f"; done; cd ../..
+          python3 kod/bez_kontaktow.py raw/$DAY   # repozytorium publiczne: bez e-maili i telefonów rekruterów
+      - name: Odbudowa bazy i podsumowanie dnia
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python3 kod/rebuild_all.py raw /tmp/kp.sqlite 2>&1 | tee data/log/$DAY-baza.txt
+          python3 kod/podsumowanie.py /tmp/kp.sqlite $DAY > data/dzien/$DAY.json
+          cp raw/$DAY/raport_zbierania.json data/dzien/$DAY-raport.json || true
+          if [ "$(date -u +%u)" = "1" ] || [ ! -f data/kp.sqlite.gz ]; then gzip -c /tmp/kp.sqlite > data/kp.sqlite.gz; fi
+      - name: Strona keura.eu/praca i panel ofert (z bazy)
+        continue-on-error: true
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          mkdir -p data/panel
+          python3 kod/strona_praca.py /tmp/kp.sqlite $DAY /tmp/praca.html /tmp/praca_en.html 2>&1 | tee data/log/$DAY-praca.txt
+          python3 strona/praca_publikuj.py /tmp/praca.html /tmp/praca_en.html 2>&1 | tee -a data/log/$DAY-praca.txt
+          python3 kod/panel_praca.py /tmp/kp.sqlite $DAY data/panel/panel.html 2>&1 | tee -a data/log/$DAY-praca.txt   # bot Keura (repo prywatne) pobiera go stąd
+      - name: Statystyki dla właściciela (prywatna strona WP kp-statystyki-dane)
+        continue-on-error: true
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          mkdir -p data/statystyki
+          python3 kod/statystyki.py /tmp/kp.sqlite $DAY data/statystyki/$DAY.json 2>&1 | tee -a data/log/$DAY-praca.txt
+          python3 strona/statystyki_publikuj.py data/statystyki/$DAY.json 2>&1 | tee -a data/log/$DAY-praca.txt
+          echo "czas do statystyk: $(( $(date +%s) - START )) s" | tee -a data/log/$DAY-praca.txt
+      - name: Zapis do repozytorium
+        if: always()
+        run: |
+          git config user.name "keura-robot"
+          git config user.email "keura-robot@users.noreply.github.com"
+          RAW_KEY='${{ secrets.RAW_KEY }}' python3 kod/szyfr.py szyfruj
+          git add raw data
+          git commit -qm "Nocny robot $DAY" || echo "brak zmian"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done

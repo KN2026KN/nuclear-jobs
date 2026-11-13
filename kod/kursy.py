@@ -56,6 +56,13 @@ def main():
         ppp = bank_swiatowy('PA.NUS.PPP'); fx = bank_swiatowy('PA.NUS.FCRF')
         wynik['ppp'] = {'jednostka': 'waluta lokalna za 1 dolar międzynarodowy', 'wskaznik': 'PA.NUS.PPP',
                         'zrodlo': 'https://data.worldbank.org/indicator/PA.NUS.PPP', 'kraje': {k: {'ppp': v[0], 'rok': v[1]} for k, v in ppp.items()}}
+        # strefa euro jako całość: Bank Światowy nie podaje agregatu w tym wskaźniku - mediana PPP krajów strefy euro
+        import statistics
+        ez = [ppp[k][0] for k in STREFA_EURO if k in ppp]
+        if ez and 'EMU' not in ppp: ppp['EMU'] = (round(statistics.median(ez), 6), max(ppp[k][1] for k in STREFA_EURO if k in ppp))
+        wynik['ppp'] = {'jednostka': 'waluta lokalna za 1 dolar międzynarodowy', 'wskaznik': 'PA.NUS.PPP',
+                        'zrodlo': 'https://data.worldbank.org/indicator/PA.NUS.PPP', 'kraje': {k: {'ppp': v[0], 'rok': v[1]} for k, v in ppp.items()},
+                        'EMU': 'mediana krajów strefy euro'}
         wynik['wb_kurs'] = {'wskaznik': 'PA.NUS.FCRF', 'jednostka': 'waluta lokalna za 1 USD (średnia roczna)', 'kraje': {k: {'kurs': v[0], 'rok': v[1]} for k, v in fx.items()}}
     except Exception as e:
         print('Bank Światowy: błąd', type(e).__name__, '- zostają poprzednie dane PPP')

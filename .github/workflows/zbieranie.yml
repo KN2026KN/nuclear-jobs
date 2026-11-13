@@ -67,6 +67,15 @@ jobs:
           python3 kod/statystyki.py /tmp/kp.sqlite $DAY data/statystyki/$DAY.json 2>&1 | tee -a data/log/$DAY-praca.txt
           python3 strona/statystyki_publikuj.py data/statystyki/$DAY.json 2>&1 | tee -a data/log/$DAY-praca.txt
           echo "czas do statystyk: $(( $(date +%s) - START )) s" | tee -a data/log/$DAY-praca.txt
+      - name: Kalkulator zarobków (prywatna strona WP kp-zarobki; dane tylko w /tmp)
+        continue-on-error: true
+        env:
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: |
+          python3 kod/kursy.py 2>&1 | tail -3 | tee -a data/log/$DAY-praca.txt
+          python3 kod/zarobki.py /tmp/kp.sqlite /tmp/zarobki.json 2>&1 | tee -a data/log/$DAY-praca.txt
+          python3 strona/zarobki_publikuj.py /tmp/zarobki.json 2>&1 | tee -a data/log/$DAY-praca.txt
       - name: Zapis do repozytorium
         if: always()
         run: |

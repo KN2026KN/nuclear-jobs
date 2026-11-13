@@ -1,0 +1,65 @@
+<!-- wp:html -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap&subset=latin-ext" rel="stylesheet">
+<style>
+#kz{--navy:#0d2836;--teal:#0f7c78;--teal-l:#d7efed;--line:#e3e8ec;--mut:#5d7280;--amb:#b45309;font-family:Manrope,system-ui,sans-serif;color:var(--navy);max-width:1200px;margin:0 auto;padding:8px 0 40px}
+#kz h1{font-size:26px;font-weight:800;letter-spacing:-.4px;margin:0 0 4px}#kz .sub{color:var(--mut);font-size:14px;margin-bottom:16px}
+#kz h2{font-size:17px;font-weight:800;margin:0 0 8px}
+#kz .c{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:16px}
+#kz .szuk{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#kz .szuk input[type=search]{flex:1 1 320px;font:inherit;font-size:18px;font-weight:700;padding:12px 14px;border:2px solid var(--teal);border-radius:10px;color:var(--navy)}
+#kz .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}#kz .chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:#f6f9fa;border-radius:20px;padding:4px 10px;cursor:pointer;color:var(--navy)}
+#kz .jez{font-size:13px;color:var(--mut,#64748b);margin-top:8px;min-height:18px}#kz .jez b{color:var(--navy)}#kz .jez button{font:inherit;font-size:12px;border:0;background:none;color:var(--teal);cursor:pointer;text-decoration:underline;padding:0 2px}#kz .proc{display:inline-block;min-width:38px;text-align:right}#kz .chips button.on{background:var(--teal);color:#fff;border-color:var(--teal)}#kz .chips button.on .mut{color:#d7f0ee}
+#kz .fl{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}#kz label{font-size:12px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px;display:block}
+#kz select{font:inherit;font-size:14px;width:100%;padding:7px 8px;border:1px solid var(--line);border-radius:8px;margin-top:3px;background:#fff;color:var(--navy)}
+#kz .row{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-top:12px;font-size:14px}#kz .row input[type=checkbox]{accent-color:var(--teal);width:16px;height:16px;vertical-align:-3px}
+#kz .ppp{background:#fff8eb;border:1px solid #f3d9a8;border-radius:10px;padding:12px 14px;font-size:14px;line-height:1.55;margin-top:12px}
+#kz .ppp b{color:var(--amb)}
+#kz .tabs{display:flex;gap:6px;margin:4px 0 14px;flex-wrap:wrap}#kz .tabs button{font:inherit;font-weight:700;font-size:14px;border:0;background:#eef3f5;border-radius:8px;padding:8px 14px;cursor:pointer;color:var(--navy)}#kz .tabs button.on{background:var(--navy);color:#fff}
+#kz .lst{display:grid;grid-template-columns:minmax(150px,230px) 1fr 190px;gap:6px 14px;align-items:center;font-size:14px}
+#kz .lst .nm{font-weight:700;display:flex;align-items:center;gap:7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#kz .lst .nm img{width:20px;border-radius:2px}
+#kz .bar{position:relative;height:22px}#kz .bar .ax{position:absolute;top:10px;height:2px;background:#cfd8dd;left:0;right:0}
+#kz .bar .mm{position:absolute;top:10px;height:2px;background:#9fb3bd}#kz .bar .iq{position:absolute;top:5px;height:12px;background:var(--teal-l);border:1px solid #9fd3cf;border-radius:4px}
+#kz .bar .md{position:absolute;top:2px;width:4px;height:18px;margin-left:-2px;background:var(--teal);border-radius:2px}
+#kz .val{text-align:right;font-weight:800;white-space:nowrap}#kz .val small{display:block;font-weight:600;color:var(--mut);font-size:12px}
+#kz .mal{display:inline-block;font-size:11px;font-weight:700;color:var(--amb);background:#fff3df;border-radius:6px;padding:1px 6px;margin-left:4px}
+#kz .skala{display:flex;justify-content:space-between;font-size:11px;color:var(--mut);margin:0 0 4px calc(min(230px,25%) + 14px)}
+#kz .leg{font-size:12px;color:var(--mut);margin-top:10px}#kz .leg i{display:inline-block;vertical-align:-2px;margin:0 4px 0 10px}
+#kz table{width:100%;border-collapse:collapse;font-size:14px}#kz th{text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.6px;color:var(--mut);border-bottom:2px solid var(--line);padding:8px}
+#kz td{border-bottom:1px solid var(--line);padding:8px;vertical-align:top}#kz td.n{text-align:right;font-weight:800;white-space:nowrap}#kz a{color:var(--teal)}
+#kz .cmp{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}#kz .cmp .k{border:1px solid var(--line);border-radius:12px;padding:14px}#kz .cmp .k b{font-size:24px;display:block}
+#kz .mut{color:var(--mut)}#kz .pusto{color:var(--mut);padding:20px 0;text-align:center}
+@media (max-width:900px){#kz .fl{grid-template-columns:1fr 1fr}#kz .lst{grid-template-columns:110px 1fr 120px}#kz .cmp{grid-template-columns:1fr}#kz .skala{margin-left:124px}}
+</style>
+<div id="kz">
+<h1>Kalkulator zarobków - sektor jądrowy</h1>
+<div class="sub" id="sub"></div>
+<div class="c">
+ <div class="szuk"><input type="search" id="q" placeholder="Zawód w dowolnym języku, np. spawacz, welder, Schweißer, svářeč, сварщик, soudeur" list="zl" autocomplete="off"><datalist id="zl"></datalist></div>
+ <div class="jez" id="jez"></div>
+ <div class="chips" id="chips"></div>
+ <div class="fl">
+  <div><label>Pokaż w walucie</label><select id="cur"></select></div>
+  <div><label>Druga waluta</label><select id="cur2"></select></div>
+  <div><label>Obszar</label><select id="ob"></select></div>
+  <div><label>Okres</label><select id="lata"></select></div>
+ </div>
+ <div class="row">
+  <label style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--navy)"><input type="checkbox" id="pp"> Uwzględnij siłę nabywczą (ceny w kraju)</label>
+  <span id="refw" style="display:none">ceny jak w: <select id="ref" style="width:auto;display:inline-block"></select></span>
+  <label style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--navy)"><input type="checkbox" id="wa" checked> oferty otwarte</label>
+  <label style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--navy)"><input type="checkbox" id="wz" checked> zamknięte</label>
+  <label style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--navy)"><input type="checkbox" id="wr" checked> archiwa (poprzednie lata)</label>
+  <label style="text-transform:none;letter-spacing:0;font-size:14px;color:var(--navy)"><input type="checkbox" id="wx"> także „tylko do analizy” (RU, BY)</label>
+ </div>
+ <div class="ppp" id="pppinfo" style="display:none"></div>
+</div>
+<div class="c">
+ <div class="tabs" id="tabs"><button data-t="kraje" class="on">Kraje</button><button data-t="firmy">Pracodawcy</button><button data-t="zaw">Zawody</button><button data-t="cmp">Porównanie</button><button data-t="jaw">Jawność płac</button><button data-t="lista">Oferty</button></div>
+ <div id="out"></div>
+ <div class="leg" id="leg">Pasek: <i style="width:14px;height:10px;background:#d7efed;border:1px solid #9fd3cf;border-radius:3px"></i>połowa ofert (od 25% do 75%) <i style="width:3px;height:12px;background:#0f7c78"></i>mediana <i style="width:14px;height:2px;background:#9fb3bd"></i>od najniższej do najwyższej. Kwoty roczne brutto. <span class="mal">mało danych</span> = mniej niż 5 ofert.</div>
+</div>
+<div class="c mut" style="font-size:13px;line-height:1.6" id="zas"></div>
+<script type="application/json" id="kz-dane">{{DANE}}</script>
+<script>{{SKRYPT}}</script>
+</div>
+<!-- /wp:html -->
