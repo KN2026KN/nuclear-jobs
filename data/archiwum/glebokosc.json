@@ -3819,11 +3819,30 @@
   "url": "pej.pl/kariera"
  },
  "pgeej1": {
+  "bledow": 0,
   "firma": "PGE EJ 1 (poprzednik PEJ)",
-  "gleboko_do": "2026",
+  "gleboko_do": "2023",
   "jadrowych_razem": 0,
   "kraj": "PL",
   "lata": {
+   "2023": {
+    "adresow": 1,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2026": {
     "adresow": 3,
     "jadrowe": 0,
@@ -3832,9 +3851,9 @@
    }
   },
   "najstarszy": "20110224",
-  "nastepny_rok": 2025,
+  "nastepny_rok": 2022,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-11",
+  "ostatnio": "2026-11-13",
   "status": "błąd archiwum",
   "url": "pgeej1.pl"
  },
