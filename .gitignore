@@ -6,3 +6,9 @@ raw/**
 !raw/**/
 !raw/**/*.enc
 data/kp.sqlite.gz
+data/dzien/**
+!data/dzien/**/
+!data/dzien/**/*.enc
+data/panel/**
+!data/panel/**/
+!data/panel/**/*.enc
