@@ -1,0 +1,7 @@
+ofert na stronie: 1194 | kraje: {'FR': 277, 'US': 272, 'GB': 245, 'PL': 135, 'SE': 112, 'RO': 48, 'CH': 19, 'ES': 14, 'IT': 14, 'AT': 14, 'DE': 13, 'FI': 9, 'BG': 8, 'CZ': 6, 'CA': 4, 'SK': 2, 'BE': 1, 'CN': 1} | sektory: {'bud': 401, 'dos': 505, 'odp': 42, 'eks': 189, 'nau': 30, 'doz': 27} | pracodawcy: 29 | pominięte: {'tylko_analiza': 0, 'po_terminie': 97, 'duplikat': 8}
+praca pl: strona 7194, zapisano 1194 ofert, status draft, zgodne po odczycie: True
+praca en: strona 7238, zapisano 1194 ofert, status draft, zgodne po odczycie: True
+panel: ofert w historii 1757 | otwartych 1291 | z wynagrodzeniem 635
+statystyki: 1299 otwartych, 0 tylko do analizy, 21 okresów
+statystyki: strona 7240 status private bajtów 165369
+czas do statystyk: 1364 s

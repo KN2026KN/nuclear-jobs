@@ -1,0 +1,46 @@
+pej {'ok': True, 'n': (6, 6), 's': 29, 'od_startu': 29}
+pracuj {'ok': True, 'n': 12, 's': 28, 'od_startu': 57}
+ncbj {'ok': True, 'n': 9, 's': 15, 'od_startu': 72}
+kprm: 293 na liście, 16 w terminie
+kprm {'ok': True, 'n': (16, 0), 's': 115, 'od_startu': 188}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 188}
+lista kznpp: 6 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 2, 'od_startu': 190}
+lista https://nuclearelectrica.ro/snn/category/joburi/page/6/ https://nuclearelectrica.ro/snn/category/joburi/page/6/: HTTP 404
+lista snn: 48 ofert, stron 6, 11 s, pełna: True
+snn {'ok': True, 'n': (48, 3), 's': 17, 'od_startu': 208}
+szc {'ok': True, 'n': (29, 2), 's': 5, 'od_startu': 213}
+hpc {'ok': True, 'n': (163, 9), 's': 25, 'od_startu': 237}
+iter {'ok': True, 'n': (4, 0), 's': 2, 'od_startu': 239}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1373747", "contestNo": "TAL-NAFA20261014-001", "column": ["Internship \u2013 Contaminant Dynamics ", "[\"Austria-Lower Austria-Seibersdorf-IAEA Laboratories in Seibersdorf\"]", "2026-11-26, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 15}
+iaea {'ok': True, 'n': (14, 2), 's': 3, 'od_startu': 243}
+lista edfuk: 32 ofert, stron 4, 5 s, pełna: True
+edfuk {'ok': True, 'n': (32, 1), 's': 7, 'od_startu': 249}
+fortum {'ok': True, 'n': (29, 1), 's': 6, 'od_startu': 255}
+lista cez: 179 ofert, stron 9, 14 s, pełna: True
+cez {'ok': True, 'n': (179, 6), 's': 26, 'od_startu': 281}
+lista orano: 390 ofert, stron 66, 165 s, pełna: True
+orano {'ok': True, 'n': (390, 74), 's': 347, 'od_startu': 628}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 631}
+lista pr_gns: 8 ofert, stron 1, 0 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 0), 's': 0, 'od_startu': 631}
+lista pr_nagra: 2 ofert, stron 1, 0 s, pełna: True
+pr_nagra {'ok': True, 'n': (2, 0), 's': 0, 'od_startu': 631}
+lista pr_blykalla: 20 ofert, stron 1, 0 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 0, 'od_startu': 632}
+lista pr_endel: 190 ofert, stron 11, 26 s, pełna: True
+pr_endel {'ok': True, 'n': (190, 28), 's': 87, 'od_startu': 719}
+lista pr_axpo: 84 ofert, stron 13, 16 s, pełna: True
+pr_axpo {'ok': True, 'n': (84, 1), 's': 17, 'od_startu': 736}
+lista pr_psi: 19 ofert, stron 1, 0 s, pełna: True
+pr_psi {'ok': True, 'n': (19, 2), 's': 3, 'od_startu': 740}
+lista pr_egis: 300 ofert, stron 26, 43 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 40), 's': 103, 'od_startu': 843}
+lista pr_nda: 3 ofert, stron 2, 4 s, pełna: True
+pr_nda {'ok': True, 'n': (3, 3), 's': 10, 'od_startu': 852}
+lista pr_ukaea: 10 ofert, stron 1, 2 s, pełna: True
+pr_ukaea {'ok': True, 'n': (10, 10), 's': 18, 'od_startu': 871}
+bechtel {'ok': True, 'n': (1167, 138, 6), 's': 186, 'od_startu': 1056}
+wec {'ok': True, 'n': (1119, 0), 's': 62, 'od_startu': 1119}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 0, 'od_startu': 1119}
