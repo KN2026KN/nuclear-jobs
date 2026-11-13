@@ -1,0 +1,13 @@
+name: Regulaminy źródeł (wycinki o robotach)
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q requests beautifulsoup4 && python3 narzedzia/regulaminy.py
+      - run: |
+          git config user.name "nuclear-jobs bot"; git config user.email "bot@keura.eu"
+          git add data/zrodla && git commit -qm "Regulaminy źródeł $(date -u +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
