@@ -1,2 +1,8 @@
 __pycache__/
 *.pyc
+
+# 13.11.2026: pełne treści ofert tylko zaszyfrowane (kod/szyfr.py, sekret RAW_KEY)
+raw/**
+!raw/**/
+!raw/**/*.enc
+data/kp.sqlite.gz
