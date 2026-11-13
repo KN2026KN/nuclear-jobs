@@ -62,6 +62,7 @@ def _cdx_raz(cel, par):
 
 def cdx(cel, **par):
     w = _cdx_raz(cel, par)
+    if w is None and not OSTATNI_BLAD[0].endswith('Timeout'): return None   # 429/5xx - miesiące też nie przejdą
     if w is not None or 'from' not in par or par.get('from') != par.get('to') or len(str(par['from'])) != 4: return w
     # cały rok się nie udał - próbujemy miesiąc po miesiącu
     rok = str(par['from']); razem = []
@@ -124,7 +125,11 @@ def main():
     G = wczytaj(GL, {})
     C = cele(); teraz = dt.date.today().year
     # najpierw cele bez ustalonego dna, potem wg najmniej przerobionych
-    kolej = sorted(C, key=lambda k: (G.get(k, {}).get('status') in ('dno', 'brak w archiwum'), G.get(k, {}).get('ostatnio', '')))
+    # 13.11.2026: cele z błędem (do 3 nieudanych prób z rzędu) idą przed resztą, potem najdawniej ruszane
+    def _k(k):
+        g = G.get(k, {})
+        return (g.get('status') in ('dno', 'brak w archiwum'), not (g.get('status') == 'błąd archiwum' and (g.get('bledow') or 0) < 3), g.get('ostatnio', ''))
+    kolej = sorted(C, key=_k)
     zrobione = 0
     for k in kolej:
         if not czas_ok(): break

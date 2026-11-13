@@ -1,7 +1,7 @@
 name: Archiwa - stare oferty z Internet Archive (stopniowo, do dna)
 on:
   schedule:
-    - cron: '17 9 * * *'   # codziennie, między przebiegami ofert (repo publiczne - minuty bez limitu)
+    - cron: '17 3,9,15,21 * * *'   # co 6 h, prawie bez przerwy (repo publiczne - minuty bez limitu); kolejka przez concurrency
   workflow_dispatch:
     inputs:
       limit: { description: 'Limit sekund pracy', default: '19800' }
