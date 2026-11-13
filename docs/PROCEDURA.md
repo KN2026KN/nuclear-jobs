@@ -55,3 +55,8 @@ Nieudane strony ofert - do 3 prób w kolejne noce. Liczba ofert jądrowych przel
 - Obszar: 16 obszarów, `kod/kp_obszar.py` (tytuł w wielu językach, potem kategoria źródła, przy tytułach ogólnych - początek treści).
 - Stanowisko jądrowe / wspierające: `kp_jadro.stanowisko_jadrowe` - wspierające = obszar administracyjny (IT, finanse, HR, prawo, ochrona, zakupy, inne) bez słów jądrowych w tytule;
   staż oceniany po kierunku. Na /praca przełącznik „Tylko stanowiska jądrowe” (domyślnie wyłączony); w statystyce tabela „Obszary i rodzaj stanowiska”.
+
+## Zgoda właściciela strony (13.11.2026)
+- `narzedzia/robots_sprawdz.py` (workflow „Sprawdzenie robots.txt źródeł”) - robots.txt wszystkich źródeł; wynik `data/zrodla/robots.md`.
+- `data/zrodla/zakazy.json` - źródła z zakazem; `collect/collect.py` pomija je zawsze. Przy zakazie: link do strony kariery albo prośba o zgodę.
+- SmartRecruiters - oficjalne publiczne API ogłoszeń (robots.txt domeny api zabrania przeglądania stron, nie dotyczy API) - do potwierdzenia w regulaminie API.

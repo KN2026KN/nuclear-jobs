@@ -198,6 +198,11 @@ if __name__ == '__main__':
     for k, f in swiat.KOLEKTORY.items(): globals()[k] = f
     # kolejność = priorytet przy limicie czasu: Polska, mała Europa, duża Europa, świat (Bechtel, Westinghouse, OPG)
     which = sys.argv[2:] or ['pej', 'pracuj', 'ncbj', 'kprm', 'clor', 'kznpp', 'snn', 'szc', 'hpc', 'iter', 'iaea', 'edfuk', 'fortum', 'cez', 'orano', 'cea', 'vattenfall'] + [k for k in swiat.KOLEKTORY if k.startswith('pr_')] + ['bechtel', 'wec', 'opg']
+    # 13.11.2026: źródła z zakazem automatycznego zbierania (data/zrodla/zakazy.json) - pomijane zawsze
+    try: ZAKAZY = {k for k in json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'zrodla', 'zakazy.json'), encoding='utf-8')) if not k.startswith('_')}
+    except (FileNotFoundError, ValueError): ZAKAZY = set()
+    which = [k for k in which if k not in ZAKAZY]
+    if ZAKAZY: print('pominięte - zakaz właściciela strony:', sorted(ZAKAZY))
     # 11.2026: duże listy rotacyjnie co 2. noc (w noc przerwy źródło nie jest zbierane = oferty nie są zamykane, zostają z ostatniej listy)
     ROTACJA = {'cea': 0, 'vattenfall': 0, 'orano': 1}
     nr = datetime.date.today().toordinal() % 2

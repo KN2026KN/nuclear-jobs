@@ -1,0 +1,5 @@
+{
+ "_opis": "Źródła wyłączone z automatycznego zbierania, bo właściciel strony tego zabrania (robots.txt / regulamin). Decyzja właściciela 13.11.2026: przy zakazie nie zbieramy - na /praca najwyżej link do strony kariery. Wynik sprawdzenia: data/zrodla/robots.md.",
+ "cez": {"powod": "robots.txt beta.jobs.cz - zakaz", "data": "2026-11-13", "dalej": "szukać ofert ČEZ na stronie samego ČEZ albo zapytać ČEZ o zgodę"},
+ "pr_nagra": {"powod": "robots.txt nagra.ch - zakaz /jobs", "data": "2026-11-13", "dalej": "tylko link do strony kariery albo zapytać Nagra o zgodę"}
+}
