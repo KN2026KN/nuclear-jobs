@@ -1,6 +1,8 @@
 # Odbudowa bazy od zera w kolejności chronologicznej: archiwum Wayback, potem dni z raw/RRRR-MM-DD.
 # Użycie: python3 rebuild_all.py <folder raw> <nowa_baza.sqlite>
 import sys, os, glob, json, re
+_glob = glob.glob   # 13.11.2026: w raw/ leżą też zaszyfrowane kopie *.enc - pomijamy je
+glob.glob = lambda *a, **k: [p for p in _glob(*a, **k) if not p.endswith('.enc')]
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kp_parse import parse_bechtel, parse_wec, parse_pej, parse_pej_archive, parse_wec_archive, parse_pracuj, parse_ncbj, parse_swiat, wzbogac
 from kp_db import connect, ingest, reconcile, presence_only
