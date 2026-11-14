@@ -1,0 +1,45 @@
+pominięte - zakaz właściciela strony: ['cez', 'pr_nagra']
+pej {'ok': True, 'n': (6, 6), 's': 31, 'od_startu': 31}
+pracuj {'ok': True, 'n': 12, 's': 32, 'od_startu': 63}
+ncbj {'ok': True, 'n': 8, 's': 15, 'od_startu': 78}
+kprm: 293 na liście, 14 w terminie
+kprm {'ok': True, 'n': (14, 0), 's': 123, 'od_startu': 201}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 202}
+lista kznpp: 6 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 2, 'od_startu': 205}
+lista https://nuclearelectrica.ro/snn/category/joburi/page/6/ https://nuclearelectrica.ro/snn/category/joburi/page/6/: HTTP 404
+lista snn: 49 ofert, stron 6, 12 s, pełna: True
+snn {'ok': True, 'n': (49, 1), 's': 14, 'od_startu': 219}
+szc {'ok': False, 'err': "https://jobs.sizewellc.com/search/?q=&locationsearch=&startrow=25: HTTPSConnectionPool(host='jobs.sizewellc.com', port=443): Read timed out. (read timeout=40)", 's': 192, 'od_startu': 411}
+hpc {'ok': False, 'err': 'https://hpcjobsservice.edfenergy.com/search/?q=&locationsearch=&startrow=0: HTTP 503', 's': 26, 'od_startu': 437}
+iter {'ok': False, 'err': 'https://iter.jobs.hr.cloud.sap/search/?q=&locationsearch=&startrow=0: HTTP 503', 's': 26, 'od_startu': 463}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1373656", "contestNo": "TAL-NAFA20261020-002", "column": ["Consultant - Laboratory Scientist in Isotopic Applications", "[\"Austria-Lower Austria-Seibersdorf-IAEA Laboratories in Seibersdorf\"]", "2026-11-27, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 16}
+iaea {'ok': True, 'n': (15, 1), 's': 2, 'od_startu': 465}
+lista edfuk: 33 ofert, stron 4, 6 s, pełna: True
+edfuk {'ok': True, 'n': (33, 1), 's': 8, 'od_startu': 473}
+fortum {'ok': True, 'n': (29, 1), 's': 7, 'od_startu': 480}
+lista cea: 822 ofert, stron 84, 139 s, pełna: True
+cea {'ok': True, 'n': (822, 106), 's': 320, 'od_startu': 800}
+lista vattenfall: 263 ofert, stron 23, 37 s, pełna: True
+vattenfall {'ok': True, 'n': (263, 93), 's': 188, 'od_startu': 989}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 991}
+lista pr_gns: 8 ofert, stron 1, 1 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 0), 's': 1, 'od_startu': 992}
+lista pr_blykalla: 20 ofert, stron 1, 0 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 0, 'od_startu': 992}
+lista pr_endel: 191 ofert, stron 11, 21 s, pełna: True
+pr_endel {'ok': True, 'n': (191, 32), 's': 81, 'od_startu': 1073}
+lista pr_axpo: 84 ofert, stron 13, 25 s, pełna: True
+pr_axpo {'ok': True, 'n': (84, 0), 's': 25, 'od_startu': 1099}
+lista pr_psi: 19 ofert, stron 1, 1 s, pełna: True
+pr_psi {'ok': True, 'n': (19, 0), 's': 1, 'od_startu': 1100}
+lista pr_egis: 300 ofert, stron 26, 48 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 0), 's': 48, 'od_startu': 1148}
+lista pr_nda: 3 ofert, stron 2, 3 s, pełna: True
+pr_nda {'ok': True, 'n': (3, 0), 's': 3, 'od_startu': 1151}
+lista pr_ukaea: 10 ofert, stron 1, 3 s, pełna: True
+pr_ukaea {'ok': True, 'n': (10, 0), 's': 3, 'od_startu': 1154}
+bechtel {'ok': True, 'n': (1175, 135, 0), 's': 187, 'od_startu': 1340}
+wec {'ok': True, 'n': (1115, 0), 's': 70, 'od_startu': 1410}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 1, 'od_startu': 1411}

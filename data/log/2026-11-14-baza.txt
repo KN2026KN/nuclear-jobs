@@ -1,0 +1,65 @@
+UWAGA 2026-11-10 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 cea: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 cea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 snn: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 snn: 42 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 vattenfall: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 kprm: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_egis: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_nda: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_ukaea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 kprm: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 pr_nda: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 pr_ukaea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-13 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-13 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 pr_ukaea: 5 ofert - wczytane bez zamykania ofert
+('bechtel', 'closed', 24)
+('bechtel', 'open', 134)
+('cea', 'closed', 1)
+('cea', 'open', 23)
+('cez', 'closed', 1)
+('cez', 'open', 6)
+('clor', 'open', 3)
+('edfuk', 'closed', 4)
+('edfuk', 'open', 24)
+('fortum', 'closed', 1)
+('fortum', 'open', 25)
+('hpc', 'closed', 12)
+('hpc', 'open', 163)
+('iaea', 'closed', 3)
+('iaea', 'open', 15)
+('iter', 'closed', 1)
+('iter', 'open', 4)
+('kprm', 'open', 110)
+('kznpp', 'open', 6)
+('orano', 'closed', 84)
+('orano', 'open', 181)
+('pej', 'closed', 96)
+('pej', 'open', 6)
+('pr_anav', 'open', 2)
+('pr_axpo', 'closed', 1)
+('pr_axpo', 'open', 14)
+('pr_blykalla', 'open', 20)
+('pr_egis', 'closed', 1)
+('pr_egis', 'open', 4)
+('pr_endel', 'open', 82)
+('pr_gns', 'open', 8)
+('pr_nagra', 'open', 2)
+('pr_nda', 'open', 3)
+('pr_psi', 'open', 2)
+('pr_ukaea', 'open', 10)
+('pracuj', 'closed', 1)
+('pracuj', 'open', 12)
+('snn', 'open', 49)
+('szc', 'closed', 8)
+('szc', 'open', 29)
+('vattenfall', 'closed', 2)
+('vattenfall', 'open', 139)
+('westinghouse', 'closed', 330)
+('westinghouse', 'open', 303)
+migawki listy PEJ: (18, 3)
