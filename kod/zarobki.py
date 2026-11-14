@@ -29,9 +29,31 @@ def roczna(v, per, kraj):
     if per == 'godz': return v * GODZ.get(kraj, GODZ.get('_', 2000))
     return None
 
-def rekord(t, kraj, cur, lo, hi, per, prac, rok, st, url, lv='', proj='', anal=False):
+# 14.11.2026: kraj OFERTY, nie pracodawcy (Blykalla SE wystawia oferty w USA w USD; Westinghouse „ES” z płacą w PLN to Polska).
+MIEDZYNARODOWE = re.compile(r'IAEA|ITER|F4E|Fusion for Energy|OECD|NEA\b|CERN|EURATOM|JRC|United Nations', re.I)
+WALUTA_KRAJ = {'USD': 'US', 'GBP': 'GB', 'PLN': 'PL', 'SEK': 'SE', 'CAD': 'CA', 'CHF': 'CH', 'CZK': 'CZ', 'RON': 'RO', 'HUF': 'HU', 'NOK': 'NO', 'DKK': 'DK', 'JPY': 'JP', 'KRW': 'KR', 'CNY': 'CN', 'INR': 'IN', 'AED': 'AE', 'TRY': 'TR', 'ZAR': 'ZA', 'AUD': 'AU'}
+ZNACZNIKI = [('US', r'(?:^|[\s,(\-–|])(?:US|USA|U\.S\.|United States)(?:$|[\s,)\-–|])|\b(?:Tennessee|Texas|Pennsylvania|Georgia|Idaho|Wyoming|Ohio|Virginia|Carolina|Illinois|Michigan|South Carolina|Washington DC)\b'),
+             ('GB', r'(?:^|[\s,(\-–|])(?:UK|United Kingdom|England|Scotland|Wales)(?:$|[\s,)\-–|])'),
+             ('PL', r'\b(?:Poland|Polska|Warszawa|Warsaw|Gdańsk|Gdansk|Kraków|Krakow|Choczewo|Lubiatowo)\b'),
+             ('CA', r'\b(?:Canada|Ontario|Toronto|Bruce|Darlington|Pickering|Peterborough)\b')]
+def kraj_oferty(kraj, cur, prac, *teksty):
+    if MIEDZYNARODOWE.search(prac or ''): return kraj
+    t = ' '.join(x or '' for x in teksty)
+    for k, rx in ZNACZNIKI:
+        if k != kraj and re.search(rx, t): return k
+    if cur in WALUTA_KRAJ and WALUTA_KRAJ[cur] != kraj and K.get('waluty_krajow', {}).get(kraj) != cur: return WALUTA_KRAJ[cur]
+    return kraj
+
+ODRZUCONE = []
+def rekord(t, kraj, cur, lo, hi, per, prac, rok, st, url, lv='', proj='', anal=False, tekst='', miejsce=''):
+    kraj = kraj_oferty(kraj, cur, prac, t, miejsce)
+    lo0, hi0 = lo, hi
     lo, hi = roczna(lo, per, kraj), roczna(hi or lo, per, kraj)
     if not lo or not cur: return None
+    # 14.11.2026: kwota roczna poza 10 000 - 400 000 EUR to błąd odczytu (np. stawka dzienna jako miesięczna) - nie liczymy
+    e = lo / (K.get('ebc', {}).get('kursy', {}).get(cur) or 1)
+    if not (10000 <= e <= 400000):
+        ODRZUCONE.append((kraj, prac, t, lo0, hi0, per, cur, round(e), url, tekst)); return None
     return {'t': t[:120], 'z': zawod(t), 'ob': obszar(t), 'k': kraj or '?', 'w': cur, 'lo': round(lo), 'hi': round(max(lo, hi)),
             'per': per, 'e': (prac or '')[:80], 'y': rok, 's': st, 'u': url, 'lv': lv or poziom(t), 'p': proj or '', 'a': 1 if anal else 0}
 
@@ -43,11 +65,12 @@ def z_bazy(db):
         e = json.loads(emp or '{}')
         if e.get('tylko_analiza'): continue
         jaw(e.get('kraj'), e.get('name') or firm, (fs or str(ROK_TERAZ))[:4], z)
-    q = '''SELECT j.firm, j.title, j.status, j.first_seen, j.url, j.level, v.sal_min, v.sal_max, v.sal_period, v.currency, v.employer
+    q = '''SELECT j.firm, j.title, j.status, j.first_seen, j.url, j.level, v.sal_min, v.sal_max, v.sal_period, v.currency, v.employer, v.text, v.city, v.locations
            FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key AND sal_min IS NOT NULL ORDER BY seen DESC, id DESC LIMIT 1)'''
-    for firm, t, st, fs, url, lv, lo, hi, per, cur, emp in db.execute(q):
+    for firm, t, st, fs, url, lv, lo, hi, per, cur, emp, tx, city, locs in db.execute(q):
         e = json.loads(emp or '{}')
-        r = rekord(t or '', e.get('kraj'), cur, lo, hi, per, e.get('name') or firm, int((fs or str(ROK_TERAZ))[:4]), 'o' if st == 'open' else 'c', url, lv, e.get('projekt'), e.get('tylko_analiza'))
+        r = rekord(t or '', e.get('kraj'), cur, lo, hi, per, e.get('name') or firm, int((fs or str(ROK_TERAZ))[:4]), 'o' if st == 'open' else 'c', url, lv, e.get('projekt'), e.get('tylko_analiza'),
+                   tekst=tx or '', miejsce=f'{city or ""} {locs or ""}')
         if r: out.append(r)
     return out
 
@@ -90,7 +113,7 @@ def z_archiwow():
                 byly.add(u)
                 lo, hi, per, cur = placa(tx)
                 jaw(g.get('kraj'), g.get('firma'), rok, bool(lo and cur))
-                r = rekord(t, g.get('kraj'), cur, lo, hi, per, g.get('firma'), rok, 'a', u) if t else None   # bez tytułu płaca nic nie mówi
+                r = rekord(t, g.get('kraj'), cur, lo, hi, per, g.get('firma'), rok, 'a', u, tekst=tx, miejsce=sc) if t else None   # bez tytułu płaca nic nie mówi
                 if r: out.append(r)
     return out
 
@@ -103,6 +126,12 @@ def main():
                'kursy': {k: K.get(k) for k in ('ebc', 'ppp', 'waluty_krajow', 'godziny_rok', 'odswiezone', 'kursy_przez_usd')}},
               open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     from collections import Counter
+    print('zarobki: odrzucone (kwota poza 10-400 tys. EUR/rok):', len(ODRZUCONE))
+    if os.environ.get('ZAROBKI_DIAG'):        # tylko w prywatnym repo keura (log niepubliczny)
+        for kr, pr, t, lo, hi, per, cur, e, url, tx in ODRZUCONE:
+            m = re.search(re.escape(f'{int(lo):,}').replace(',', '[ ,.]?') if lo >= 1000 else re.escape(str(int(lo))), tx or '')
+            ctx = (tx[max(0, m.start() - 90):m.end() + 60] if m else (tx or '')[:150]).replace('\n', ' ')
+            print(f'ODRZ | {kr} | {pr[:25]} | {t[:50]} | {lo}-{hi} {cur} {per} -> {e} EUR | {ctx}')
     print('zarobki: rekordów', len(rek), '| status', dict(Counter(r['s'] for r in rek)), '| kraje', dict(Counter(r['k'] for r in rek).most_common(10)))
 
 if __name__ == '__main__':
