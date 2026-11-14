@@ -375,18 +375,27 @@ def parse_swiat(path, pam=None):
     d = json.load(_open(path)); pam = {} if pam is None else pam
     pam.update(d.get('tresci') or {})
     zr = d['zrodlo']; out = []
+    TX = {}
+    for it in d.get('lista') or []:
+        tr = pam.get(it['id']) or {}
+        if tr: TX[it['id']] = _bez_osob(napraw_kodowanie(clean_html(tr['html']) if tr.get('html') else (tr.get('tekst') or '')))
+    # 14.11.2026: stała stopka o firmie („Vattenfall … kärnkraftverken Forsmark och Ringhals …”) w każdej ofercie sprawiała, że filtr jądrowy
+    # przepuszczał farmy wiatrowe i sieci ciepłownicze. Linie powtarzające się w ≥ 20 % ofert źródła (min. 5) nie liczą się do filtra.
+    from collections import Counter
+    _ln = Counter(l for t in TX.values() for l in {re.sub(r'\s+', ' ', x).strip().lower() for x in t.split('\n')} if len(l) > 30)
+    STOPKA = {l for l, n in _ln.items() if n >= max(5, 0.2 * len(TX))}
+    bez_stopki = lambda t: '\n'.join(x for x in t.split('\n') if re.sub(r'\s+', ' ', x).strip().lower() not in STOPKA)
     for it in d.get('lista') or []:
         tr = pam.get(it['id']) or {}
         if not tr and not it.get('bez_tresci'): continue          # treść pobierze następna noc
-        text = clean_html(tr['html']) if tr.get('html') else (tr.get('tekst') or '')
-        text = _bez_osob(napraw_kodowanie(text))
+        text = TX.get(it['id'], '')
         tytul = it.get('tytul') or tr.get('h1') or ''
         if tr.get('h1') and len(tr['h1']) > 5 and len(tr['h1']) < 160 and zr not in ('kprm',): tytul = tr['h1']
         if ZLY_H1.search(tytul or '') and it.get('tytul'): tytul = it['tytul']        # 14.11.2026: „Обяви за работа”, „Bewirb dich jetzt”, „OGŁOSZENIE”
         tytul = re.sub(r'\s+', ' ', napraw_kodowanie(tytul)).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
-            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', text)])   # 12.11: praca na obiekcie jądrowym
+            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', bez_stopki(text))])   # 12.11: praca na obiekcie jądrowym
             if not ok: continue
         meta = tr.get('meta') or {}
         lok = it.get('miasto') or it.get('lokalizacja') or meta.get('jobLocation') or meta.get('addressLocality') or ''
