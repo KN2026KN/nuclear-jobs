@@ -71,11 +71,11 @@ REGULY = [
 # 14.11.2026: uzupełnienia z przeglądu 181 ofert „Inne” (FR, SV, NL, DE, CS, ES, RO, GB) - dopisywane do wzorców obszaru, kolejność reguł bez zmian
 DOP = {
     'Staże i praktyki': [r'examensarbete', r'postgraduate', r'ausbildung', r'thèse', r'stage de fin', r'CQPM'],
-    'Ochrona fizyczna': [r'incendie', r'secours', r'brandman', r'räddning'],
+    'Ochrona fizyczna': [r'спасител', r'incendie', r'secours', r'brandman', r'räddning'],
     'IT i cyberbezpieczeństwo': [r'systemförvalt', r'systemutveckl', r'nätverkstekn', r'tele ?& ?data', r'IHM', r'fonctionnel d.application', r'simulátor', r'SW team', r'acquisition de données', r'systems manager'],
-    'Bezpieczeństwo jądrowe i ochrona radiologiczna': [r'criticité', r'sécurité nucléaire', r'kärnsäkerhet', r'mesure nucléaire', r'skydd- och kontroll', r'veiligheidskund'],
+    'Bezpieczeństwo jądrowe i ochrona radiologiczna': [r'анализ на безопасността', r'criticité', r'sécurité nucléaire', r'kärnsäkerhet', r'mesure nucléaire', r'skydd- och kontroll', r'veiligheidskund'],
     'Jakość (QA/QC)': [r'contrôle non destructif', r'\bCND\b', r'surveillance', r'contrôle projet', r'kontrollskåp', r'caractérisation'],
-    'BHP i środowisko': [r'environnement', r'hydrogéolog', r'géo-environnement', r'wellbeing', r'hållbarhet', r'arbetsmiljö'],
+    'BHP i środowisko': [r'лекар', r'medical', r'médecin', r'environnement', r'hydrogéolog', r'géo-environnement', r'wellbeing', r'hållbarhet', r'arbetsmiljö'],
     'Zarządzanie projektem': [r'chargé\w* d.affaires', r'responsable d.affaires', r'responsable de projets?', r'pilote prestation', r'projektledare', r'projektstöd', r'\bMOA\b', r'TOC director',
                               r'target cost', r'risk integration', r'modulari[sz]ation', r'process manager', r'operating model', r'opzichter', r'werkvoorbereider', r'préparateur', r'operational excellence',
                               r'coordinateur', r'appels? d.offres?'],
@@ -86,7 +86,7 @@ DOP = {
     'Budowa i montaż': [r'groundworker', r'robinet', r'chaudronn', r'tuyauterie', r'soudage', r'\bIWT\b', r'démantèlement', r'mise en service', r'driftsättning', r'pied d.ouvrage', r'elnätsberedare'],
     'Eksploatacja i utrzymanie ruchu': [r'operador', r'kontrollrum', r'stationstekn', r'tekniker', r'produktionstekn', r'production operation', r'opérateur', r'machines tournantes', r'mécanique',
                                         r'mecanic', r'elektrikář', r'electrical plant', r'anlagenmechaniker', r'belysningstekn', r'mättekn', r'technicien', r'gruppchef', r'chef d.équipe'],
-    'Inżynieria i projektowanie': [r'ingenjör', r'deviseur', r'projeteur', r'études', r'HVAC', r'\bCVC\b', r'ventilation', r'tekenaar', r'constructeur', r'elanalys', r'contrôle.commande', r'power plant'],
+    'Inżynieria i projektowanie': [r'ingenjör', r'deviseur', r'projeteur', r'études', r'HVAC', r'\bCVC\b', r'ventilation', r'tekenaar', r'constructeur', r'elanalys', r'contrôle.commande', r'power plant', r'контрол и управление', r'mättek', r'travaux cuves'],
 }
 REGULY = [(n, re.compile(rx.pattern + ('|' + '|'.join(DOP[n]) if n in DOP else ''), re.I)) for n, rx in REGULY]
 
