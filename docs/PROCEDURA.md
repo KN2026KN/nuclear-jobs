@@ -60,3 +60,9 @@ Nieudane strony ofert - do 3 prób w kolejne noce. Liczba ofert jądrowych przel
 - `narzedzia/robots_sprawdz.py` (workflow „Sprawdzenie robots.txt źródeł”) - robots.txt wszystkich źródeł; wynik `data/zrodla/robots.md`.
 - `data/zrodla/zakazy.json` - źródła z zakazem; `collect/collect.py` pomija je zawsze. Przy zakazie: link do strony kariery albo prośba o zgodę.
 - SmartRecruiters - oficjalne publiczne API ogłoszeń (robots.txt domeny api zabrania przeglądania stron, nie dotyczy API) - do potwierdzenia w regulaminie API.
+
+## Jakość danych (14.11.2026)
+- Stała zasada właściciela: błędy w danych (kwoty, kraje, klasyfikacja „Inne”, śmieciowe tytuły) poprawiamy od razu, gdy je widać, i sprawdzamy pętlą diagnostyka -> poprawka -> diagnostyka aż do wyniku.
+- Diagnostyka z treściami ofert tylko w prywatnym repo keura: workflow „diag_zarobki.yml” (parametr źródło -> trafienia filtra jądrowego `KP_DEBUG_JADRO`).
+- Wynagrodzenia: kraj oferty z waluty i znaczników w tytule/lokalizacji (nie kraj pracodawcy; wyjątek organizacje międzynarodowe); stawki dzienne (HPC „PAYE/Umbrella”) jako okres „dzien”; dodatki (allowance, per diem) to nie pensja; kwota roczna poza 6 - 400 tys. EUR odrzucana.
+- Filtr jądrowy: linie powtarzające się w ofertach o ≥ 4 różnych tytułach (stopka o firmie) i karty innych ofert („Salary Location … Expiry Date”) nie liczą się; grupy energetyczne klasy B potrzebują słowa jądrowego w tytule/lokalizacji albo 2 razy w treści.
