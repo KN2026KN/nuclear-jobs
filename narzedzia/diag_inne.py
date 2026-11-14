@@ -19,6 +19,7 @@ from kp_jadro import jadrowa
 import collections
 _rows = list(db.execute("SELECT j.title, v.city, v.locations, v.text FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1) WHERE j.status='open' AND j.firm='vattenfall'"))
 print('VF otwarte po filtrze:', len(_rows))
+for t, city, locs, tx in _rows: print('VFO |', (t or '')[:70])
 for t, city, locs, tx in db.execute("SELECT j.title, v.city, v.locations, v.text FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1) WHERE j.status='open' AND j.firm='vattenfall'"):
     ok, hit = jadrowa('Vattenfall', t or '', [('lok', f'{city or ""} {locs or ""}'), ('opis', tx or '')])
     print('VF |', 'TAK' if ok else 'NIE', '|', (hit or '')[:25], '|', (t or '')[:60], '|', (city or '')[:30])
