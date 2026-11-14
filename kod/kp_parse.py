@@ -1,3 +1,4 @@
+import os
 # Parsery ofert: Bechtel (Phenom JSON), Westinghouse (SuccessFactors HTML), PEJ (tekst ze strony pej.pl)
 import json, re, html, hashlib, os, urllib.parse, gzip
 
@@ -400,7 +401,10 @@ def parse_swiat(path, pam=None):
         tytul = re.sub(r'\s+', ' ', napraw_kodowanie(tytul)).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
-            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', bez_stopki(text))])   # 12.11: praca na obiekcie jądrowym
+            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', bez_stopki(text))])
+            if os.environ.get('KP_DEBUG_JADRO') == zr and ok:
+                _o = bez_stopki(text); _m = re.search(re.escape(hit or '#'), _o, re.I) if hit else None
+                print('JADRO |', tytul[:50], '|', hit, '|', (_o[max(0, _m.start() - 60):_m.end() + 40] if _m else '').replace('\n', ' '), '| stopka', len(STOPKA), '| lok', (it.get('miasto') or it.get('lokalizacja') or '')[:30])   # 12.11: praca na obiekcie jądrowym
             if not ok: continue
         meta = tr.get('meta') or {}
         lok = it.get('miasto') or it.get('lokalizacja') or meta.get('jobLocation') or meta.get('addressLocality') or ''
