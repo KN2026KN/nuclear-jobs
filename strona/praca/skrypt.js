@@ -9,14 +9,14 @@ var IC={bud:'<path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/>',eks:'<circle c
 var svg=function(k){return '<svg viewBox="0 0 24 24">'+IC[k]+'</svg>'};
 var T=EN?{
  sect:{bud:'Nuclear new build',eks:'Operating plants',dos:'Suppliers and manufacturing',doz:'Regulators and institutions',nau:'Research and fusion',odp:'Waste and decommissioning'},
- mode:{st:'On-site',hy:'Hybrid',zd:'Remote',np:'Work mode: not stated'},per:{mies:'month',rok:'year',godz:'hour'},
+ mode:{st:'On-site',hy:'Hybrid',zd:'Remote',np:'Work mode: not stated'},per:{mies:'month',rok:'year',godz:'hour',dzien:'day'},
  f:{s:'Sector',k:'Country',l:'Job ad language',p:'Project',c:'City',e:'Employer',fn:'Area',lv:'Level',m:'Work mode',sal:'Salary'},
  salY:'Salary stated only',salN:'Salary not stated',noSal:'Salary not stated',gross:'gross',see:'View job →',added:'added',valid:'valid until',src:'Source',
  all:'All',more:'Show all',less:'Show less',empty:'No jobs match the selected filters.',stan:'as of',
  n:function(n){return n===1?'job':'jobs'},allC:'All countries',allL:'All languages',labC:'Country',labL:'Ad language'
 }:{
  sect:{bud:'Budowa elektrowni jądrowych',eks:'Eksploatacja elektrowni',dos:'Dostawcy i produkcja',doz:'Dozór i instytucje',nau:'Nauka i fuzja',odp:'Odpady i wycofywanie'},
- mode:{st:'Stacjonarnie',hy:'Hybrydowo',zd:'Zdalnie',np:'Tryb pracy: nie podano'},per:{mies:'miesiąc',rok:'rok',godz:'godzinę'},
+ mode:{st:'Stacjonarnie',hy:'Hybrydowo',zd:'Zdalnie',np:'Tryb pracy: nie podano'},per:{mies:'miesiąc',rok:'rok',godz:'godzinę',dzien:'dzień'},
  f:{s:'Sektor',k:'Kraj',l:'Język ogłoszenia',p:'Projekt',c:'Miasto',e:'Pracodawca',fn:'Obszar',lv:'Poziom',m:'Tryb pracy',sal:'Wynagrodzenie'},
  salY:'Tylko z podanym wynagrodzeniem',salN:'Bez podanego wynagrodzenia',noSal:'Wynagrodzenie nie podane',gross:'brutto',see:'Zobacz ofertę →',added:'dodano',valid:'ważna do',src:'Źródło',
  all:'Wszystkie',more:'Pokaż wszystkie',less:'Pokaż mniej',empty:'Brak ofert dla wybranych filtrów.',stan:'stan na',
@@ -25,7 +25,7 @@ var T=EN?{
 var LV_EN={'Praktyka lub staż':'Internship','Kierownik':'Manager','Senior lub ekspert':'Senior or expert','Junior / wykonawczy':'Junior / operative','Specjalista':'Specialist'};
 var FN_EN={'Inżynieria i projektowanie': 'Engineering and design', 'Budowa i montaż': 'Construction and installation', 'Eksploatacja i utrzymanie ruchu': 'Operations and maintenance', 'Bezpieczeństwo jądrowe i ochrona radiologiczna': 'Nuclear safety and radiation protection', 'Jakość (QA/QC)': 'Quality (QA/QC)', 'BHP i środowisko': 'Health, safety and environment', 'Zarządzanie projektem': 'Project management', 'Zakupy i łańcuch dostaw': 'Procurement and supply chain', 'IT i cyberbezpieczeństwo': 'IT and cybersecurity', 'Finanse i administracja': 'Finance and administration', 'HR i szkolenia': 'HR and training', 'Prawo i regulacje': 'Legal and regulatory', 'Ochrona fizyczna': 'Physical security', 'Badania i rozwój': 'Research and development', 'Staże i praktyki': 'Internships and graduates', 'Inne': 'Other'};
 var tr=function(m,v){return EN?(m[v]||v):v};
-var NA_MIES={mies:1,rok:1/12,godz:168};
+var NA_MIES={mies:1,rok:1/12,godz:168,dzien:21};
 var K=D.kursy||{PLN:1};
 var pln=function(s){if(!s)return 0;var k=K[s.cur]||(s.cur==='PLN'?1:0);return Math.round(((s.min+(s.max||s.min))/2)*NA_MIES[s.per]*k)};
 var fmt=function(n){return Math.round(n).toLocaleString(LOC).replace(/[  ]/g,' ').replace(/,/g,EN?',':' ')};

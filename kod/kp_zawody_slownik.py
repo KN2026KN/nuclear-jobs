@@ -60,12 +60,34 @@ JEZYKI = {'pl': 'polski', 'en': 'angielski', 'de': 'niemiecki', 'fr': 'francuski
 JEZYK_WALUTA = {'pl': 'PLN', 'de': 'EUR', 'fr': 'EUR', 'es': 'EUR', 'it': 'EUR', 'nl': 'EUR', 'cs': 'CZK', 'sk': 'EUR', 'sv': 'SEK',
                 'fi': 'EUR', 'ro': 'RON', 'hu': 'HUF', 'bg': 'EUR', 'uk': 'UAH', 'ru': 'EUR', 'tr': 'TRY'}
 
+# 14.11.2026: uzupełnienia z przeglądu ofert „inne” (słowa z prawdziwych tytułów) - te same zawody, dopisane do słownika
+DOP = {
+ 'operator_reaktora': 'es: operador de sala, operador/a de sala, sala de control; en: shift lead',
+ 'operator_maszyn': 'fr: manutention, conducteur routier, convois exceptionnels; en: production operation',
+ 'kierownik_projektu': 'fr: chargé d affaires, chargés d affaires, chargé de projets, chargé de missions, pilote de travaux, pilote prestation; en: modularization lead, operational excellence; sv: projektstöd',
+ 'planista': 'en: project coordinator, interface coordinator, work pack coordinator, construction coordinator, permit project coordinator; nl: werkvoorbereider; fr: coordinateur technique',
+ 'kierownik_budowy': 'en: construction lead, offshore agent, offshore sub agent, temporary works; fr: chargé de travaux, coordinateur superviseur travaux; nl: opzichter',
+ 'rzemioslo_bud': 'en: groundworker, general laborer, labourer; fr: chaudronnier',
+ 'mechanik': 'fr: robinetier, robinetterie',
+ 'bhp': 'fr: environnement, surveillance environnementale, géo-environnementaliste, hydrogéologue; sv: hållbarhetsledare; en: permit to work',
+ 'naukowiec': 'fr: géologue, fiabilité, simplification des modèles, qualification d un code; en: modeller, plasma, turbulence; ro: dezvoltare inovare',
+ 'bezp_jadrowe': 'fr: criticité; en: pra peer reviewer, independent assessor',
+ 'it': 'fr: plateforme ihm, acquisition de données; sv: systemförvaltare, systemutvecklare, nätverkstekniker; en: digital execution',
+ 'utrzymanie_ruchu': 'ro: reparator; sv: produktionstekniker, fastighetstekniker, stationstekniker; fr: machines tournantes',
+ 'elektryk': 'sv: belysningstekniker, elnätsberedare, skydd- och kontroll; en: electrical plant',
+ 'aparatura': 'sv: mättekniker, mätteknik',
+ 'hr': 'sv: instruktör, instruktörer; en: learning coordinator, shared services, organisation set-up; fr: ingénierie pédagogique',
+ 'administracja': 'en: janitor, janitorial, custodial, station guide, visitor centre, travel and onboarding, utility person',
+ 'lancuch_dostaw': 'en: material coordinator',
+ 'staz': 'sv: examensarbete; en: postgraduate',
+}
+
 def slownik():
     """{zawód: {język: [słowa]}} dla strony."""
     out = {}
-    for k, s in S.items():
-        out[k] = {}
+    for k, s in list(S.items()) + list(DOP.items()):
+        out.setdefault(k, {})
         for cz in s.split(';'):
             j, _, w = cz.strip().partition(':')
-            out[k][j.strip()] = [x.strip() for x in w.split(',') if x.strip()]
+            out[k].setdefault(j.strip(), []).extend(x.strip() for x in w.split(',') if x.strip())
     return out

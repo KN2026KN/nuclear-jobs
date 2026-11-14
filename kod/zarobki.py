@@ -27,6 +27,7 @@ def roczna(v, per, kraj):
     if per == 'rok': return v
     if per == 'mies': return v * 12
     if per == 'godz': return v * GODZ.get(kraj, GODZ.get('_', 2000))
+    if per == 'dzien': return v * GODZ.get(kraj, GODZ.get('_', 2000)) / 8
     return None
 
 # 14.11.2026: kraj OFERTY, nie pracodawcy (Blykalla SE wystawia oferty w USA w USD; Westinghouse „ES” z płacą w PLN to Polska).
@@ -52,7 +53,7 @@ def rekord(t, kraj, cur, lo, hi, per, prac, rok, st, url, lv='', proj='', anal=F
     if not lo or not cur: return None
     # 14.11.2026: kwota roczna poza 10 000 - 400 000 EUR to błąd odczytu (np. stawka dzienna jako miesięczna) - nie liczymy
     e = lo / (K.get('ebc', {}).get('kursy', {}).get(cur) or 1)
-    if not (10000 <= e <= 400000):
+    if not (6000 <= e <= 400000):
         ODRZUCONE.append((kraj, prac, t, lo0, hi0, per, cur, round(e), url, tekst)); return None
     return {'t': t[:120], 'z': zawod(t), 'ob': obszar(t), 'k': kraj or '?', 'w': cur, 'lo': round(lo), 'hi': round(max(lo, hi)),
             'per': per, 'e': (prac or '')[:80], 'y': rok, 's': st, 'u': url, 'lv': lv or poziom(t), 'p': proj or '', 'a': 1 if anal else 0}
@@ -126,7 +127,7 @@ def main():
                'kursy': {k: K.get(k) for k in ('ebc', 'ppp', 'waluty_krajow', 'godziny_rok', 'odswiezone', 'kursy_przez_usd')}},
               open(sys.argv[2], 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     from collections import Counter
-    print('zarobki: odrzucone (kwota poza 10-400 tys. EUR/rok):', len(ODRZUCONE))
+    print('zarobki: odrzucone (kwota poza 6-400 tys. EUR/rok):', len(ODRZUCONE))
     if os.environ.get('ZAROBKI_DIAG'):        # tylko w prywatnym repo keura (log niepubliczny)
         for kr, pr, t, lo, hi, per, cur, e, url, tx in ODRZUCONE:
             m = re.search(re.escape(f'{int(lo):,}').replace(',', '[ ,.]?') if lo >= 1000 else re.escape(str(int(lo))), tx or '')

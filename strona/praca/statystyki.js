@@ -19,7 +19,7 @@ var R=D.rotacja||{};$('rot').textContent=(R.pominiete||[]).length?'Tej nocy w ro
 $('tX').innerHTML=(D.niepodlaczone||[]).map(function(x){return '<tr><td><b>'+esc(x[0])+'</b></td><td><span class="fl">'+fl(x[1])+esc(kr(x[1]))+'</span></td><td class="mut">'+esc(x[2])+'</td></tr>'}).join('');
 var W=(D.wynagrodzenia||{}).kraj||{},wr=[];
 Object.keys(W).forEach(function(k){W[k].forEach(function(w){wr.push([k,w])})});wr.sort(function(a,b){return b[1].n-a[1].n});
-var per={mies:'mies.',rok:'rok',godz:'godz.'};
+var per={mies:'mies.',rok:'rok',godz:'godz.',dzien:'dzień'};
 $('tW').innerHTML=wr.map(function(x){var w=x[1];return '<tr><td><span class="fl">'+fl(x[0])+esc(kr(x[0]))+'</span></td><td>'+esc(w.waluta)+' / '+(per[w.okres]||w.okres)+'</td><td class="n">'+w.n+'</td><td class="n">'+w.mediana.toLocaleString('pl-PL')+'</td><td class="mut">'+w.min.toLocaleString('pl-PL')+' - '+w.max.toLocaleString('pl-PL')+'</td></tr>'}).join('');
 var KAT={regulator:'dozór / regulator',operator:'operator / inwestor',dostawca:'dostawca',inzynieria:'inżynieria',badania:'badania',medycyna:'medycyna nuklearna',fuzja:'fuzja',odpady:'odpady i wycofywanie',instytucja:'instytucja międzynarodowa'};
 var O=D.obszary||{},ok=Object.keys(O),KL=D.klasy||{};$('opo').textContent='otwarte oferty w terminie · klasy pracodawców: A (firma jądrowa, każda oferta) '+(KL.A||0)+' · B (energetyka mieszana, tylko obiekty jądrowe) '+(KL.B||0)+' · C (dostawcy, tylko treść jądrowa) '+(KL.C||0);

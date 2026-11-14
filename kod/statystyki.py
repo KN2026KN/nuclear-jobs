@@ -51,7 +51,7 @@ for key, firm, st, fs, ls, co, fn, lv, smin, smax, per, cur, emp, tytul, kat in 
     if st == 'closed':
         (zamk_a if a else zamk)[okres(co or ls)] += 1
         if fs and (co or ls): zycie.append((datetime.date.fromisoformat((co or ls)[:10]) - datetime.date.fromisoformat(fs[:10])).days)
-    if smin and per in ('mies', 'rok', 'godz'):
+    if smin and per in ('mies', 'rok', 'godz', 'dzien'):
         srodek = (smin + (smax or smin)) / 2
         for k in ('funkcja', 'kraj', 'zrodlo', 'projekt'):
             place[(('A:' if a else '') + k, wym[k], cur or '?', per)].append(round(srodek))

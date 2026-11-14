@@ -6,7 +6,7 @@ db = sqlite3.connect(sys.argv[1]); DZIEN = sys.argv[2]
 NAZWY = {'bechtel': 'Bechtel', 'westinghouse': 'Westinghouse', 'pej': 'PEJ', 'ncbj': 'NCBJ'}
 def mies(v, per):
     if v is None: return None
-    return round(v / 12) if per == 'rok' else (round(v * 168) if per == 'godz' else v)
+    return round(v / 12) if per == 'rok' else (round(v * 168) if per == 'godz' else (round(v * 21) if per == 'dzien' else v))
 rows = db.execute('''SELECT j.job_key, j.firm, j.url, j.title, j.city, j.first_seen, j.last_seen, j.status, j.func, j.level,
   v.sal_min, v.sal_max, v.sal_period, v.employer, v.mode, v.tags
   FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1)''').fetchall()

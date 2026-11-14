@@ -53,7 +53,7 @@ for key, firm, ext, url, title, city, posted, mode, smin, smax, per, emp, cat, l
     if c and re.search(r'Lubiatowo|Choczewo|Kopalino', c, re.I): c = 'Lubiatowo-Kopalino'
     if c.lower() in ('unspecified', 'remote', ''): c = ''
     sal = None
-    if smin and per in ('mies', 'rok', 'godz'):
+    if smin and per in ('mies', 'rok', 'godz', 'dzien'):
         sal = {'min': smin, 'max': smax or smin, 'per': per, 'cur': cur or 'PLN'}
         if firm == 'pracuj': sal['typ'] = emp.get('brutto_netto')
     out.append({'t': title, 'e': e, 's': s, 'p': pr or '', 'k': k, 'l': emp.get('jezyk') or '', 'c': c, 'm': TRYB.get(mode, 'np'),

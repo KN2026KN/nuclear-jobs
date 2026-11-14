@@ -12,3 +12,6 @@ for t, cat, emp in db.execute(q):
     if zawod(t or '') == 'inne': za.append(f"{e.get('kraj','?')} | {(t or '')[:90]}")
 print('OBSZAR_INNE', len(ob)); [print('OB |', x) for x in sorted(ob)]
 print('ZAWOD_INNE', len(za)); [print('ZA |', x) for x in sorted(za)]
+from collections import Counter
+c = Counter(json.loads(e or '{}').get('name') or f for f, e in db.execute("SELECT j.firm, v.employer FROM jobs j JOIN versions v ON v.id=(SELECT id FROM versions WHERE job_key=j.job_key ORDER BY seen DESC, id DESC LIMIT 1) WHERE j.status='open'"))
+print('OTWARTE', sum(c.values()), dict(c.most_common(12)))

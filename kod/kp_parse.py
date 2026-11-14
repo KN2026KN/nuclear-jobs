@@ -290,6 +290,8 @@ def placa(text):
     """(min, max, okres, waluta); 11.11.2026: kwota „miesięczna” powyżej 25 000 EUR/GBP/USD/CHF/CAD to w praktyce roczna (np. Westinghouse Włochy: „€29.100 to €37.000 per month”)."""
     lo, hi, per, kod = _placa(text)
     if per == 'mies' and kod in ('EUR', 'GBP', 'USD', 'CHF', 'CAD') and lo and lo > 25000: per = 'rok'
+    # 14.11.2026 (diagnostyka): NCBJ „Gross remuneration accounted for 9 000 PLN” - kwota PLN/CZK/RON/SEK poniżej progu to pensja miesięczna, nie roczna
+    if per == 'rok' and lo and lo < {'PLN': 40000, 'RON': 40000, 'CZK': 150000, 'SEK': 120000, 'HUF': 3000000}.get(kod, 0): per = 'mies'
     return lo, hi, per, kod
 
 def _placa(text):
@@ -315,7 +317,7 @@ def _placa(text):
     return placa_jedna(t)
 
 # 11.11.2026: pojedyncza kwota z okresem albo z etykietą (np. HPC: „Basic PAYE: £29.34/hr”, „Projected annual earnings: £91,854”)
-OKRES_RX = (r'(?P<o>/\s?(?:hr|hour|h)\b|per hour|an hour|hourly|p/?h\b|/\s?godz|za godzin\w*|/\s?(?:year|yr|annum|rok)\b|per (?:annum|year)|p\.\s?a\.?|\bpa\b|annual(?:ly)?|a year|'
+OKRES_RX = (r'(?P<o>/\s?day\b|per day|a day|daily|dziennie|par jour|/\s?(?:hr|hour|h)\b|per hour|an hour|hourly|p/?h\b|/\s?godz|za godzin\w*|/\s?(?:year|yr|annum|rok)\b|per (?:annum|year)|p\.\s?a\.?|\bpa\b|annual(?:ly)?|a year|'
             r'/\s?(?:month|mo|m-c|mies)\.?|per month|monthly|miesięcznie|mies\.|par an|par mois|/mois|pro (?:Jahr|Monat|Stunde)|jährlich|monatlich|в месяц|/мес|měsíčně)')
 ETYKIETA_RX = re.compile(r'salary|\bpay\b|rate|earnings|wynagrodzeni|stawk|zarob|pensj|salaire|rémunération|gehalt|vergütung|lohn|mzda|plat\b|зарплат|оклад|доход|compensation|remuneration|basic', re.I)
 def _kwota(a, d):
@@ -332,10 +334,17 @@ def placa_jedna(t):
                 if m.group('k'): v *= 1000
                 okr = (m.group('o') or '').lower()
                 przed = t[max(0, m.start() - 70):m.start()]
+                po = t[m.end():m.end() + 40]
+                # 14.11.2026: HPC „Pay: £351.69 PAYE or £491.26 Umbrella” = stawka dzienna; „$350 monthly travel allowance” to nie pensja
+                if re.search(r'allowance|per diem|stipend|reimburs|relocation|bonus|dodatek|zwrot', po, re.I) and not re.search(r'salary|wynagrodz', po, re.I): continue
+                if not okr and re.match(r'\s*(PAYE|Umbrella|LTD|per day|/\s?day|a day|daily|dziennie|/\s?dzień)', po, re.I) and 50 <= v <= 2500:
+                    if 1990 <= v <= 2100: continue
+                    return v, v, 'dzien', kod
                 if not okr and not ETYKIETA_RX.search(przed): continue
                 if not okr and re.search(r'annual|year|annum|rok|jahr|an\b', przed, re.I): okr = 'year'
                 if not okr and re.search(r'hour|godzin|stund', przed, re.I): okr = 'hour'
-                if re.search(r'hr|hour|/h|godz|stunde|p/?h', okr): per, ok = 'godz', 5 <= v <= 600
+                if re.search(r'day|dzie[nń]|jour|\btag\b', okr): per, ok = 'dzien', 50 <= v <= 2500
+                elif re.search(r'hr|hour|/h|godz|stunde|p/?h', okr): per, ok = 'godz', 5 <= v <= 600
                 elif re.search(r'month|mo\b|mies|m-c|mois|monat|мес|měsíč', okr): per, ok = 'mies', 300 <= v <= 150000
                 elif okr: per, ok = 'rok', 5000 <= v <= 3000000
                 else: per = 'rok' if v > 15000 else ('mies' if v >= 300 else 'godz'); ok = 5 <= v <= 3000000
@@ -350,6 +359,17 @@ def _bez_osob(t):
     """Usuwa linie z danymi kontaktowymi rekruterów (e-mail, telefon, „Contact: Imię Nazwisko”)."""
     return '\n'.join(l for l in (t or '').split('\n') if not re.search(r'\S+@\S+\.\w+|\+?\d[\d \-]{8,}\d|^(contact|kontakt|recruiter|rekruter|kontaktní osoba|контакт)\b.{0,60}$', l.strip(), re.I))
 
+def napraw_kodowanie(s):
+    """14.11.2026: Vattenfall zwraca UTF-8 odczytany jako Latin-1 („AvfallsingenjÃ¶r”) - odwracamy, gdy widać typowe pary."""
+    if s and re.search(r'Ã[\x80-\xbf¤¥¶¼©¨§]|â€|Ã…|Ã–', s):
+        try: return s.encode('latin-1', 'ignore').decode('utf-8')
+        except UnicodeDecodeError:
+            try: return s.encode('cp1252', 'ignore').decode('utf-8')
+            except UnicodeDecodeError: return s
+    return s
+
+ZLY_H1 = re.compile(r'^\s*(обяви за работа|bewirb dich jetzt|initiativbewerbung|ogłoszenie|job offers?|careers?|vacancies|offres d.emploi|stellenangebote|apply now|search & apply|expression of interest.*|are you interested in .*)\s*$', re.I)
+
 def parse_swiat(path, pam=None):
     from kp_jadro import jadrowa
     d = json.load(_open(path)); pam = {} if pam is None else pam
@@ -359,10 +379,11 @@ def parse_swiat(path, pam=None):
         tr = pam.get(it['id']) or {}
         if not tr and not it.get('bez_tresci'): continue          # treść pobierze następna noc
         text = clean_html(tr['html']) if tr.get('html') else (tr.get('tekst') or '')
-        text = _bez_osob(text)
+        text = _bez_osob(napraw_kodowanie(text))
         tytul = it.get('tytul') or tr.get('h1') or ''
         if tr.get('h1') and len(tr['h1']) > 5 and len(tr['h1']) < 160 and zr not in ('kprm',): tytul = tr['h1']
-        tytul = re.sub(r'\s+', ' ', tytul).strip()[:200]
+        if ZLY_H1.search(tytul or '') and it.get('tytul'): tytul = it['tytul']        # 14.11.2026: „Обяви за работа”, „Bewirb dich jetzt”, „OGŁOSZENIE”
+        tytul = re.sub(r'\s+', ' ', napraw_kodowanie(tytul)).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
             ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', text)])   # 12.11: praca na obiekcie jądrowym

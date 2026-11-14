@@ -68,6 +68,28 @@ REGULY = [
                            r'projektant', r'инженер', r'конструктор', r'проектировщ', r'insinööri', r'suunnitteli', r'ingenjör', r'konstruktör', r'expert', r'ekspert')),
 ]
 
+# 14.11.2026: uzupełnienia z przeglądu 181 ofert „Inne” (FR, SV, NL, DE, CS, ES, RO, GB) - dopisywane do wzorców obszaru, kolejność reguł bez zmian
+DOP = {
+    'Staże i praktyki': [r'examensarbete', r'postgraduate', r'ausbildung', r'thèse', r'stage de fin', r'CQPM'],
+    'Ochrona fizyczna': [r'incendie', r'secours', r'brandman', r'räddning'],
+    'IT i cyberbezpieczeństwo': [r'systemförvalt', r'systemutveckl', r'nätverkstekn', r'tele ?& ?data', r'IHM', r'fonctionnel d.application', r'simulátor', r'SW team', r'acquisition de données', r'systems manager'],
+    'Bezpieczeństwo jądrowe i ochrona radiologiczna': [r'criticité', r'sécurité nucléaire', r'kärnsäkerhet', r'mesure nucléaire', r'skydd- och kontroll', r'veiligheidskund'],
+    'Jakość (QA/QC)': [r'contrôle non destructif', r'\bCND\b', r'surveillance', r'contrôle projet', r'kontrollskåp', r'caractérisation'],
+    'BHP i środowisko': [r'environnement', r'hydrogéolog', r'géo-environnement', r'wellbeing', r'hållbarhet', r'arbetsmiljö'],
+    'Zarządzanie projektem': [r'chargé\w* d.affaires', r'responsable d.affaires', r'responsable de projets?', r'pilote prestation', r'projektledare', r'projektstöd', r'\bMOA\b', r'TOC director',
+                              r'target cost', r'risk integration', r'modulari[sz]ation', r'process manager', r'operating model', r'opzichter', r'werkvoorbereider', r'préparateur', r'operational excellence',
+                              r'coordinateur', r'appels? d.offres?'],
+    'Zakupy i łańcuch dostaw': [r'category manager', r'responsable contrat', r'contract (&|and) claim', r'grands comptes', r'conducteur routier', r'convois', r'dumper', r'\bdriver\b', r'kaufmann', r'kauffrau'],
+    'HR i szkolenia': [r'instruktör', r'instruktor', r'shared services'],
+    'Finanse i administracja': [r'brand', r'délégué territorial', r'responsable (secteur|d.antenne)', r'janitor', r'custodial', r'building manager', r'buildings manager', r'fastighetstekn', r'utility (person|worker)'],
+    'Badania i rozwój': [r'géologue', r'modeller', r'technologist', r'plasma', r'turbulence', r'simulation', r'fiabilité', r'qualification d.un code', r'développement et industrialisation', r'implémentation', r'dezvoltare', r'inovare'],
+    'Budowa i montaż': [r'groundworker', r'robinet', r'chaudronn', r'tuyauterie', r'soudage', r'\bIWT\b', r'démantèlement', r'mise en service', r'driftsättning', r'pied d.ouvrage', r'elnätsberedare'],
+    'Eksploatacja i utrzymanie ruchu': [r'operador', r'kontrollrum', r'stationstekn', r'tekniker', r'produktionstekn', r'production operation', r'opérateur', r'machines tournantes', r'mécanique',
+                                        r'mecanic', r'elektrikář', r'electrical plant', r'anlagenmechaniker', r'belysningstekn', r'mättekn', r'technicien', r'gruppchef', r'chef d.équipe'],
+    'Inżynieria i projektowanie': [r'ingenjör', r'deviseur', r'projeteur', r'études', r'HVAC', r'\bCVC\b', r'ventilation', r'tekenaar', r'constructeur', r'elanalys', r'contrôle.commande', r'power plant'],
+}
+REGULY = [(n, re.compile(rx.pattern + ('|' + '|'.join(DOP[n]) if n in DOP else ''), re.I)) for n, rx in REGULY]
+
 KATEGORIE = [   # kategoria / dział ze źródła (np. Bechtel, SuccessFactors) - gdy tytuł nic nie powiedział
     (r'project controls|project management', 'Zarządzanie projektem'), (r'supply chain|procurement|contracts', 'Zakupy i łańcuch dostaw'),
     (r'human resources|\bHR\b|training', 'HR i szkolenia'), (r'legal', 'Prawo i regulacje'), (r'environmental|safety & health|\bHSE\b|\bEHS\b', 'BHP i środowisko'),
@@ -79,7 +101,7 @@ KATEGORIE = [   # kategoria / dział ze źródła (np. Bechtel, SuccessFactors) 
 SKROTY = {'IT i cyberbezpieczeństwo': re.compile(r'\b(IT|ICT|SAP|ERP|OT|SI|DSI)\b|\bIT[- ]'), 'BHP i środowisko': re.compile(r'\bSHE\b'),
           'Finanse i administracja': re.compile(r'\bPR\b')}
 
-OGOLNE = re.compile(r'^\s*((młodszy|starszy|główny)\s+)?specjalist\w*\s*$|^\s*ogłoszenie\s*$|^\s*обяви за работа\s*$|^\s*(job|offre|oferta)\s*$', re.I)
+OGOLNE = re.compile(r'^\s*((młodszy|starszy|główny)\s+)?specjalist\w*\s*$|^\s*ogłoszenie\s*$|^\s*обяви за работа\s*$|^\s*(job|offre|oferta)\s*$|^\s*(bewirb dich jetzt|initiativbewerbung)\s*$|expression of interest|are you interested in', re.I)
 
 def obszar(tytul, kategoria='', tekst=''):
     """Tytuł, potem kategoria źródła; przy tytułach ogólnych („specjalista”, „OGŁOSZENIE”) - początek treści."""

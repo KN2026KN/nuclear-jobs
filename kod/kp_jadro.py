@@ -64,8 +64,20 @@ def jadrowa(pracodawca, tytul, sekcje):
     tekst = re.sub(nazwa, ' ', tekst, flags=re.I)
     tekst = re.sub(r'Narodowe(go)? Centrum Badań Jądrowych|Zakład(u)? Unieszkodliwiania Odpadów Promieniotwórczych|Państwow\w+ Agencj\w+ Atomistyki', ' ', tekst, flags=re.I)
     if MEDYCYNA.search(tekst) and not re.search(r'elektrown\w* jądrow|energetyk\w* jądrow|nuclear power|ISO\s*19443|NQA', tekst, re.I): return False, 'medycyna'
-    m = SLOWA.search(tekst)
-    if m: return True, m.group(0)
+    # 14.11.2026 (diagnostyka „Inne”): grupy energetyczne klasy B (Vattenfall, Fortum, EDF…) mają „kärnkraft / nuclear” w stałej
+    # stopce o firmie - stąd w bazie „Tekniker Lokalnät”, „Hydro Support”, sieci ciepłownicze w NL. Dla klasy B słowo jądrowe musi być
+    # w tytule lub lokalizacji, albo co najmniej 2 razy w treści; obiekt jądrowy w lokalizacji nadal wystarcza.
+    if k == 'B':
+        lok0 = ' '.join(t for typ, t in sekcje if typ in ('lok', 'lokalizacja', 'miejsce', 'location'))
+        m = SLOWA.search(f'{tytul or ""} {lok0}')
+        if m: return True, m.group(0)
+        opis = ' '.join(t for typ, t in sekcje if typ not in BEZ and typ not in ('lok', 'lokalizacja', 'miejsce', 'location'))
+        opis = re.sub(nazwa, ' ', opis, flags=re.I)
+        tr = SLOWA.findall(opis)
+        if len(tr) >= 2: return True, tr[0] if isinstance(tr[0], str) else tr[0][0]
+    else:
+        m = SLOWA.search(tekst)
+        if m: return True, m.group(0)
     lok = ' '.join(t for typ, t in sekcje if typ in ('lok', 'lokalizacja', 'miejsce', 'location'))
     e, t = _projekt(tytul or '', lok, tekst)
     if e and t in OBIEKT: return True, 'obiekt: ' + e
