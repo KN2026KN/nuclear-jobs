@@ -360,13 +360,20 @@ def _bez_osob(t):
     return '\n'.join(l for l in (t or '').split('\n') if not re.search(r'\S+@\S+\.\w+|\+?\d[\d \-]{8,}\d|^(contact|kontakt|recruiter|rekruter|kontaktní osoba|контакт)\b.{0,60}$', l.strip(), re.I))
 
 def napraw_kodowanie(s):
-    """14.11.2026: Vattenfall zwraca UTF-8 odczytany jako Latin-1 („AvfallsingenjÃ¶r”) - odwracamy, gdy widać typowe pary."""
-    if s and re.search(r'Ã[\x80-\xbf¤¥¶¼©¨§]|â€|Ã…|Ã–', s):
-        try: return s.encode('latin-1', 'ignore').decode('utf-8')
-        except UnicodeDecodeError:
-            try: return s.encode('cp1252', 'ignore').decode('utf-8')
-            except UnicodeDecodeError: return s
-    return s
+    """14.11.2026: Vattenfall zwraca UTF-8 odczytany jako Latin-1/cp1252 („AvfallsingenjÃ¶r”) - naprawa po kawałkach (w tekście bywają też poprawne znaki)."""
+    if not s or not re.search(r'[ÂÃâÄÅ][\x80-\xbf\u0152\u0153\u0160\u0161\u0178\u017d\u017e\u02c6\u02dc\u2013-\u203a\u20ac\u2122¡-¿]', s): return s
+    def _f(m):
+        x = m.group(0)
+        for enc in ('cp1252', 'latin-1'):
+            try: return x.encode(enc).decode('utf-8')
+            except (UnicodeEncodeError, UnicodeDecodeError): pass
+        return x
+    return re.sub(r'(?:[ÂÃÄÅÆâãäåæ][\x80-\xbf\u0152\u0153\u0160\u0161\u0178\u017d\u017e\u02c6\u02dc\u2013-\u203a\u20ac\u2122¡-¿]{1,3})+', _f, s)
+
+# 14.11.2026: Vattenfall wstawia pod ofertą listę innych ofert („Apply Apply … Salary Location Forsmark … Expiry Date”) - stąd farmy wiatrowe
+# „na Forsmarku”. Karty innych ofert usuwamy z tekstu dla filtra jądrowego; lokalizacja oferty idzie z meta (jobLocation).
+KARTA_RX = re.compile(r'(?:Apply\s+Apply\s+(?:(?!Apply\s+Apply).){0,200}?)?Salary\s+Location\s.{0,400}?Expiry Date\s+\S+', re.S)
+def bez_kart(t): return KARTA_RX.sub(' ', t or '')
 
 ZLY_H1 = re.compile(r'^\s*(обяви за работа|bewirb dich jetzt|initiativbewerbung|ogłoszenie|job offers?|careers?|vacancies|offres d.emploi|stellenangebote|apply now|search & apply|expression of interest.*|are you interested in .*)\s*$', re.I)
 
@@ -400,10 +407,13 @@ def parse_swiat(path, pam=None):
         tytul = re.sub(r'\s+', ' ', napraw_kodowanie(tytul)).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
-            ok, hit = jadrowa(prac, tytul, [('lok', it.get('miasto') or it.get('lokalizacja') or ''), ('opis', bez_stopki(text))])
+            _meta = tr.get('meta') or {}
+            _lok = ' '.join(str(x) for x in (it.get('miasto'), it.get('lokalizacja'), _meta.get('jobLocation'), _meta.get('addressLocality')) if x)
+            ok, hit = jadrowa(prac, tytul, [('lok', _lok), ('opis', bez_kart(bez_stopki(text)))])
             if os.environ.get('KP_DEBUG_JADRO') == zr and ok:
                 _o = bez_stopki(text); _m = re.search(re.escape(hit or '#'), _o, re.I) if hit else None
-                print('JADRO |', tytul[:50], '|', hit, '|', (_o[max(0, _m.start() - 400):_m.end() + 40] if _m else '').replace('\n', ' '), '| stopka', len(STOPKA), '| lok', (it.get('miasto') or it.get('lokalizacja') or '')[:30])   # 12.11: praca na obiekcie jądrowym
+                _o = bez_kart(_o); _m = re.search(re.escape(hit or '#'), _o, re.I) if hit else None
+                print('JADRO |', tytul[:50], '|', hit, '|', (_o[max(0, _m.start() - 80):_m.end() + 40] if _m else '').replace('\n', ' '), '| stopka', len(STOPKA), '| lok', (it.get('miasto') or it.get('lokalizacja') or '')[:30])   # 12.11: praca na obiekcie jądrowym
             if not ok: continue
         meta = tr.get('meta') or {}
         lok = it.get('miasto') or it.get('lokalizacja') or meta.get('jobLocation') or meta.get('addressLocality') or ''
