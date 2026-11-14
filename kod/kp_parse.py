@@ -410,6 +410,7 @@ def parse_swiat(path, pam=None):
             _meta = tr.get('meta') or {}
             _lok = ' '.join(str(x) for x in (it.get('miasto'), it.get('lokalizacja'), _meta.get('jobLocation'), _meta.get('addressLocality')) if x)
             ok, hit = jadrowa(prac, tytul, [('lok', _lok), ('opis', bez_kart(bez_stopki(text)))])
+            if os.environ.get('KP_DEBUG_JADRO') == zr and not ok: print('NIEJADRO |', tytul[:70])
             if os.environ.get('KP_DEBUG_JADRO') == zr and ok:
                 _o = bez_stopki(text); _m = re.search(re.escape(hit or '#'), _o, re.I) if hit else None
                 _o = bez_kart(_o); _m = re.search(re.escape(hit or '#'), _o, re.I) if hit else None
