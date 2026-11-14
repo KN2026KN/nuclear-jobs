@@ -380,10 +380,15 @@ def parse_swiat(path, pam=None):
         tr = pam.get(it['id']) or {}
         if tr: TX[it['id']] = _bez_osob(napraw_kodowanie(clean_html(tr['html']) if tr.get('html') else (tr.get('tekst') or '')))
     # 14.11.2026: stała stopka o firmie („Vattenfall … kärnkraftverken Forsmark och Ringhals …”) w każdej ofercie sprawiała, że filtr jądrowy
-    # przepuszczał farmy wiatrowe i sieci ciepłownicze. Linie powtarzające się w ≥ 20 % ofert źródła (min. 5) nie liczą się do filtra.
+    # przepuszczał farmy wiatrowe i sieci ciepłownicze. Linie powtarzające się w ofertach o ≥ 4 różnych tytułach nie liczą się do filtra.
     from collections import Counter
-    _ln = Counter(l for t in TX.values() for l in {re.sub(r'\s+', ' ', x).strip().lower() for x in t.split('\n')} if len(l) > 30)
-    STOPKA = {l for l, n in _ln.items() if n >= max(5, 0.2 * len(TX))}
+    # linia = stopka, gdy występuje w ofertach o co najmniej 4 RÓŻNYCH tytułach (ta sama oferta wystawiona 6 razy nie robi ze swoich linii stopki)
+    _tyt = {it['id']: (it.get('tytul') or '').strip().lower() for it in d.get('lista') or []}
+    _ln = {}
+    for i, t in TX.items():
+        for l in {re.sub(r'\s+', ' ', x).strip().lower() for x in t.split('\n')}:
+            if len(l) > 30: _ln.setdefault(l, set()).add(_tyt.get(i, i))
+    STOPKA = {l for l, n in _ln.items() if len(n) >= 4}
     bez_stopki = lambda t: '\n'.join(x for x in t.split('\n') if re.sub(r'\s+', ' ', x).strip().lower() not in STOPKA)
     for it in d.get('lista') or []:
         tr = pam.get(it['id']) or {}
