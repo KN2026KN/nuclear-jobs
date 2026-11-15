@@ -67,6 +67,7 @@ DOP = {
  'kierownik_projektu': 'fr: pilote de projet, excellence opérationnelle, coordonnateur excellence, chargé d affaires, chargés d affaires, chargé de projets, chargé de missions, pilote de travaux, pilote prestation; en: modularization lead, operational excellence; sv: projektstöd',
  'planista': 'en: project coordinator, interface coordinator, work pack coordinator, construction coordinator, permit project coordinator; nl: werkvoorbereider; fr: coordinateur technique',
  'kierownik_budowy': 'fr: travaux cuves; en: team leader; en: construction lead, offshore agent, offshore sub agent, temporary works; fr: chargé de travaux, coordinateur superviseur travaux; nl: opzichter',
+ 'budowlany': 'de: geotechnische modellierung, untertagbau, industriebau, hochbau',
  'rzemioslo_bud': 'en: groundworker, general laborer, labourer; fr: chaudronnier',
  'mechanik': 'fr: robinetier, robinetterie',
  'bhp': 'fr: infirmier, infirmière, environnement, surveillance environnementale, géo-environnementaliste, hydrogéologue; sv: hållbarhetsledare; en: permit to work',
