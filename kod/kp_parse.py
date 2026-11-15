@@ -375,7 +375,18 @@ def napraw_kodowanie(s):
 KARTA_RX = re.compile(r'(?:Apply\s+Apply\s+(?:(?!Apply\s+Apply).){0,200}?)?Salary\s+Location\s.{0,400}?Expiry Date\s+\S+', re.S)
 def bez_kart(t): return KARTA_RX.sub(' ', t or '')
 
-ZLY_H1 = re.compile(r'^\s*(обяви за работа|bewirb dich jetzt|initiativbewerbung|ogłoszenie|job offers?|careers?|vacancies|offres d.emploi|stellenangebote|apply now|search & apply|expression of interest.*|are you interested in .*)\s*$', re.I)
+def _tytul_awaryjny(url, text):
+    """15.11.2026: tytuł z adresu (…/elektryk-utrzymania-ruchu-123) albo z pierwszej sensownej linii treści."""
+    for x in reversed(urllib.parse.urlparse(url).path.strip('/').split('/')):
+        x = re.sub(r'\.(html?|aspx?|php)$', '', re.sub(r'^\d+[-_]|[-_]\d+$', '', x))
+        if re.search(r'[a-zà-ž]{5,}', x, re.I) and '-' in x and not re.match(r'^(job|jobs|stellen|stellenangebote?|karriere|kariera|praca|oferty?)(-|$)', x, re.I):
+            return re.sub(r'[-_]+', ' ', x).strip().capitalize()
+    for l in (text or '').split('\n')[:12]:
+        l = l.strip()
+        if 8 <= len(l) <= 100 and not ZLY_H1.search(l) and not re.search(r'[.!?:]$', l) and re.search(r'[A-Za-zÀ-žА-я]{4,}', l): return l
+    return ''
+
+ZLY_H1 = re.compile(r'^\s*(обяви за работа|bewirb dich jetzt|zum stellenangebot|jetzt bewerben|initiativbewerbung|ogłoszenie|job offers?|careers?|vacancies|offres d.emploi|stellenangebote|apply now|search & apply|expression of interest.*|are you interested in .*)\s*$', re.I)
 
 def parse_swiat(path, pam=None):
     from kp_jadro import jadrowa
@@ -404,6 +415,7 @@ def parse_swiat(path, pam=None):
         tytul = it.get('tytul') or tr.get('h1') or ''
         if tr.get('h1') and len(tr['h1']) > 5 and len(tr['h1']) < 160 and zr not in ('kprm',): tytul = tr['h1']
         if ZLY_H1.search(tytul or '') and it.get('tytul'): tytul = it['tytul']        # 14.11.2026: „Обяви за работа”, „Bewirb dich jetzt”, „OGŁOSZENIE”
+        if ZLY_H1.search(tytul or ''): tytul = _tytul_awaryjny(it.get('url') or '', text) or tytul   # 15.11.2026: gdy i lista ma śmieciowy tytuł
         tytul = re.sub(r'\s+', ' ', napraw_kodowanie(tytul)).strip()[:200]
         prac = it.get('pracodawca') or d.get('pracodawca') or ''
         if d.get('filtr') == 'jadrowy' or (d.get('filtr') == 'kprm' and 'Atomistyki' not in prac):
