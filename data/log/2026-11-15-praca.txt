@@ -1,0 +1,13 @@
+ofert na stronie: 1261 | kraje: {'FR': 393, 'US': 265, 'GB': 241, 'PL': 121, 'SE': 93, 'RO': 49, 'CH': 20, 'AT': 15, 'ES': 14, 'IT': 14, 'DE': 13, 'BG': 8, 'CZ': 6, 'CA': 3, 'SK': 2, 'FI': 2, 'BE': 1, 'CN': 1} | sektory: {'bud': 394, 'dos': 589, 'odp': 49, 'eks': 160, 'nau': 41, 'doz': 28} | pracodawcy: 29 | pominięte: {'tylko_analiza': 0, 'po_terminie': 102, 'duplikat': 7}
+praca pl: strona 7194, zapisano 1261 ofert, status draft, zgodne po odczycie: True
+praca en: strona 7238, zapisano 1261 ofert, status draft, zgodne po odczycie: True
+panel: ofert w historii 1796 | otwartych 1362 | z wynagrodzeniem 623
+statystyki: 1370 otwartych, 0 tylko do analizy, 23 okresów
+statystyki: strona 7240 status private bajtów 224268
+czas do statystyk: 1361 s
+kursy: 2026-11-13 walut 49 | PPP krajów 206
+/home/runner/work/nuclear-jobs/nuclear-jobs/kod/zarobki.py:125: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  json.dump({'wygenerowano': dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'), 'rekordy': rek, 'zawody': zaw, 'poziomy': POZIOMY, 'jawnosc': J,
+zarobki: odrzucone (kwota poza 6-400 tys. EUR/rok): 2
+zarobki: rekordów 753 | status {'c': 114, 'o': 516, 'a': 123} | kraje {'PL': 269, 'US': 227, 'GB': 170, 'FR': 58, 'IT': 14, 'AT': 9, 'SE': 4, 'DE': 2}
+zarobki: strona 7265 status private link https://keura.eu/kp-zarobki/ bajtów 334014
