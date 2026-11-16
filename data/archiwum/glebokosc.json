@@ -696,8 +696,8 @@
   "url": "www.arabellesolutions.com/en/join-the-team-shaping-the-future-of-low-carbon-energy"
  },
  "areva_flamanville": {
-  "blad": "HTTP 504",
-  "bledow": 3,
+  "blad": "nie-JSON",
+  "bledow": 4,
   "firma": "Areva (Flamanville 3, Olkiluoto 3)",
   "gleboko_do": "2021",
   "jadrowych_razem": 9,
@@ -743,13 +743,13 @@
   "najstarszy": "19981206",
   "nastepny_rok": 2020,
   "ofert_razem": 9,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "areva.com"
  },
  "asnr_autorit_de_s_ret_nucl_aire_et_de_ra": {
   "blad": "HTTP 504",
-  "bledow": 3,
+  "bledow": 4,
   "firma": "ASNR (Autorité de sûreté nucléaire et de radioprotection)",
   "gleboko_do": "2025",
   "jadrowych_razem": 13,
@@ -771,7 +771,7 @@
   "najstarszy": "20200514",
   "nastepny_rok": 2024,
   "ofert_razem": 13,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "asnr.fr"
  },
@@ -1155,7 +1155,7 @@
   "najstarszy": "20000229",
   "nastepny_rok": 2016,
   "ofert_razem": 8,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "awe.co.uk"
  },
@@ -1686,8 +1686,8 @@
   "url": "www.boccard.com/join-us/career-page-2"
  },
  "bruce_power": {
-  "blad": "HTTP 504",
-  "bledow": 1,
+  "blad": "nie-JSON",
+  "bledow": 2,
   "firma": "Bruce Power",
   "gleboko_do": "2011",
   "jadrowych_razem": 13,
@@ -1793,7 +1793,7 @@
   "najstarszy": "20000823",
   "nastepny_rok": 2010,
   "ofert_razem": 13,
-  "ostatnio": "2026-11-15",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "brucepower.com"
  },
@@ -1855,19 +1855,19 @@
   "bledow": 0,
   "firma": "BWX Technologies",
   "gleboko_do": null,
-  "jadrowych_razem": 387,
+  "jadrowych_razem": 813,
   "kraj": "US",
   "lata": {
    "2026": {
-    "adresow": 6307,
-    "jadrowe": 387,
-    "pobrane": 387,
+    "adresow": 6393,
+    "jadrowe": 813,
+    "pobrane": 813,
     "szczegolow": 1212
    }
   },
   "najstarszy": "19981203",
-  "ofert_razem": 387,
-  "ostatnio": "2026-11-14",
+  "ofert_razem": 813,
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "bwxt.com"
  },
@@ -2151,8 +2151,8 @@
   "url": "cbi.com"
  },
  "cea": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "blad": "HTTP 504",
+  "bledow": 2,
   "firma": "CEA",
   "gleboko_do": "2025",
   "jadrowych_razem": 4,
@@ -2560,43 +2560,49 @@
   "url": "cfs.energy"
  },
  "consejo_de_seguridad_nuclear_csn": {
-  "blad": "HTTP 504",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Consejo de Seguridad Nuclear (CSN)",
   "gleboko_do": null,
   "jadrowych_razem": 45,
   "kraj": "ES",
   "lata": {
    "2026": {
-    "adresow": 16989,
+    "adresow": 17633,
     "jadrowe": 45,
     "pobrane": 45,
-    "szczegolow": 50
+    "szczegolow": 56
    }
   },
   "najstarszy": "19980525",
   "ofert_razem": 45,
   "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "status": "w toku",
   "url": "csn.es"
  },
  "constellation_energy": {
   "bledow": 0,
   "firma": "Constellation Energy",
-  "gleboko_do": null,
-  "jadrowych_razem": 40,
+  "gleboko_do": "2026",
+  "jadrowych_razem": 58,
   "kraj": "US",
   "lata": {
+   "2025": {
+    "adresow": 2378,
+    "jadrowe": 5,
+    "pobrane": 38,
+    "szczegolow": 1587
+   },
    "2026": {
-    "adresow": 1204,
-    "jadrowe": 40,
-    "pobrane": 422,
-    "szczegolow": 709
+    "adresow": 1261,
+    "jadrowe": 53,
+    "pobrane": 767,
+    "szczegolow": 767
    }
   },
   "najstarszy": "20220305",
-  "ofert_razem": 422,
-  "ostatnio": "2026-11-14",
+  "nastepny_rok": 2025,
+  "ofert_razem": 805,
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "jobs.constellationenergy.com"
  },
@@ -2743,14 +2749,48 @@
   "url": "curiumpharma.com"
  },
  "curtiss_wright_nuclear": {
-  "blad": "HTTP 503",
-  "bledow": 3,
+  "bledow": 0,
   "firma": "Curtiss-Wright Nuclear",
-  "jadrowych_razem": 0,
+  "gleboko_do": "2023",
+  "jadrowych_razem": 3,
   "kraj": "US",
-  "lata": {},
-  "ostatnio": "2026-11-14",
-  "status": "błąd archiwum",
+  "lata": {
+   "2022": {
+    "adresow": 20000,
+    "jadrowe": 2,
+    "pobrane": 22,
+    "szczegolow": 137
+   },
+   "2023": {
+    "adresow": 1102,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2024": {
+    "adresow": 2554,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2025": {
+    "adresow": 20000,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2026": {
+    "adresow": 15771,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
+  "najstarszy": "19981212",
+  "nastepny_rok": 2022,
+  "ofert_razem": 23,
+  "ostatnio": "2026-11-16",
+  "status": "w toku",
   "url": "curtisswright.com"
  },
  "department_of_energy_doe": {
@@ -2800,7 +2840,8 @@
   "url": "www.energy.gov/careers/jobs-doe"
  },
  "dominion_energy": {
-  "bledow": 0,
+  "blad": "nie-JSON",
+  "bledow": 1,
   "firma": "Dominion Energy",
   "gleboko_do": null,
   "jadrowych_razem": 146,
@@ -2815,8 +2856,8 @@
   },
   "najstarszy": "20170703",
   "ofert_razem": 423,
-  "ostatnio": "2026-11-14",
-  "status": "w toku",
+  "ostatnio": "2026-11-16",
+  "status": "błąd archiwum",
   "url": "careers.dominionenergy.com"
  },
  "doraco": {
@@ -3254,8 +3295,8 @@
   "url": "www.eletronuclear.gov.br/Seguranca/Paginas/default.aspx"
  },
  "enbw_kernkraft": {
-  "blad": "nie-JSON",
-  "bledow": 2,
+  "blad": "ChunkedEncodingError",
+  "bledow": 3,
   "firma": "EnBW Kernkraft",
   "gleboko_do": null,
   "jadrowych_razem": 4,
@@ -3710,15 +3751,14 @@
   "url": "www.eni.com/en-IT/careers.html"
  },
  "enresa": {
-  "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Enresa",
   "gleboko_do": null,
   "jadrowych_razem": 0,
   "kraj": "ES",
   "lata": {
    "2026": {
-    "adresow": 2495,
+    "adresow": 2949,
     "jadrowe": 0,
     "pobrane": 0,
     "szczegolow": 1
@@ -3727,17 +3767,34 @@
   "najstarszy": "19990421",
   "ofert_razem": 0,
   "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "status": "w toku",
   "url": "enresa.es"
  },
  "ensa_equipos_nucleares": {
-  "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "ENSA Equipos Nucleares",
-  "gleboko_do": "2003",
+  "gleboko_do": "2000",
   "jadrowych_razem": 0,
   "kraj": "ES",
   "lata": {
+   "2000": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2001": {
+    "adresow": 5,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2002": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2003": {
     "adresow": 8,
     "jadrowe": 0,
@@ -3884,20 +3941,33 @@
    }
   },
   "najstarszy": "20001206",
-  "nastepny_rok": 2002,
+  "nastepny_rok": 1999,
   "ofert_razem": 3,
   "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "ensa.es"
  },
  "enusa": {
-  "blad": "HTTP 503",
+  "blad": "nie-JSON",
   "bledow": 1,
   "firma": "ENUSA",
-  "gleboko_do": "2009",
+  "gleboko_do": "2007",
   "jadrowych_razem": 0,
   "kraj": "ES",
   "lata": {
+   "2007": {
+    "adresow": 529,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 158,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2009": {
     "adresow": 891,
     "jadrowe": 0,
@@ -4008,7 +4078,7 @@
    }
   },
   "najstarszy": "20000310",
-  "nastepny_rok": 2008,
+  "nastepny_rok": 2006,
   "ofert_razem": 0,
   "ostatnio": "2026-11-15",
   "status": "błąd archiwum",
@@ -4093,10 +4163,88 @@
   "blad": "nie-JSON",
   "bledow": 1,
   "firma": "EPZ",
-  "gleboko_do": "2016",
+  "gleboko_do": "2003",
   "jadrowych_razem": 9,
   "kraj": "NL",
   "lata": {
+   "2003": {
+    "adresow": 352,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2004": {
+    "adresow": 553,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2005": {
+    "adresow": 583,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 648,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 4,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 42,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 18,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 53,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 554,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 468,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 229,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2016": {
     "adresow": 554,
     "jadrowe": 0,
@@ -4165,7 +4313,7 @@
    }
   },
   "najstarszy": "20001018",
-  "nastepny_rok": 2015,
+  "nastepny_rok": 2002,
   "ofert_razem": 9,
   "ostatnio": "2026-11-15",
   "status": "błąd archiwum",
@@ -4458,7 +4606,7 @@
  },
  "fusion_for_energy_f4e": {
   "blad": "HTTP 504",
-  "bledow": 1,
+  "bledow": 2,
   "firma": "Fusion for Energy (F4E)",
   "gleboko_do": null,
   "jadrowych_razem": 0,
@@ -4501,19 +4649,19 @@
   "bledow": 0,
   "firma": "GE Vernova Hitachi Nuclear Energy",
   "gleboko_do": null,
-  "jadrowych_razem": 278,
+  "jadrowych_razem": 680,
   "kraj": "US",
   "lata": {
    "2026": {
-    "adresow": 10139,
-    "jadrowe": 278,
-    "pobrane": 278,
-    "szczegolow": 9730
+    "adresow": 10568,
+    "jadrowe": 680,
+    "pobrane": 680,
+    "szczegolow": 10159
    }
   },
   "najstarszy": "20251206",
-  "ofert_razem": 278,
-  "ostatnio": "2026-11-14",
+  "ofert_razem": 680,
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "careers.gevernova.com"
  },
@@ -5039,15 +5187,15 @@
   "kraj": "US",
   "lata": {
    "2026": {
-    "adresow": 222,
+    "adresow": 148,
     "jadrowe": 61,
     "pobrane": 61,
-    "szczegolow": 70
+    "szczegolow": 18
    }
   },
   "najstarszy": "20250625",
   "ofert_razem": 61,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "holtec.jobs.hr.cloud.sap"
  },
@@ -5163,7 +5311,7 @@
  },
  "ifin_hh_eli_np": {
   "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 2,
   "firma": "IFIN-HH (ELI-NP)",
   "gleboko_do": "2023",
   "jadrowych_razem": 10,
@@ -5786,8 +5934,8 @@
   "url": "www.iter.org/public/jobs"
  },
  "jacobs": {
-  "blad": "HTTP 504",
-  "bledow": 3,
+  "blad": "nie-JSON",
+  "bledow": 4,
   "firma": "Jacobs",
   "gleboko_do": "2025",
   "jadrowych_razem": 0,
@@ -5809,7 +5957,7 @@
   "najstarszy": "20010220",
   "nastepny_rok": 2024,
   "ofert_razem": 44,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "jacobs.com"
  },
@@ -6620,29 +6768,28 @@
   "url": "jobs.mammoet.com"
  },
  "mangiarotti": {
-  "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Mangiarotti",
   "gleboko_do": null,
-  "jadrowych_razem": 223,
+  "jadrowych_razem": 409,
   "kraj": "IT",
   "lata": {
    "2026": {
-    "adresow": 8742,
-    "jadrowe": 223,
-    "pobrane": 324,
-    "szczegolow": 3098
+    "adresow": 9402,
+    "jadrowe": 409,
+    "pobrane": 711,
+    "szczegolow": 3430
    }
   },
   "najstarszy": "20040215",
-  "ofert_razem": 324,
-  "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "ofert_razem": 711,
+  "ostatnio": "2026-11-16",
+  "status": "w toku",
   "url": "westinghousenuclear.com"
  },
  "max_planck_institut_f_r_plasmaphysik_ipp": {
-  "blad": "HTTP 503",
-  "bledow": 3,
+  "blad": "nie-JSON",
+  "bledow": 4,
   "firma": "Max-Planck-Institut für Plasmaphysik (IPP)",
   "gleboko_do": "2026",
   "jadrowych_razem": 0,
@@ -6658,7 +6805,7 @@
   "najstarszy": "19970706",
   "nastepny_rok": 2025,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "ipp.mpg.de"
  },
@@ -6727,17 +6874,30 @@
   "url": "www.gov.pl/web/energia/pracuj-z-nami"
  },
  "mission_support_and_test_services_nnss": {
-  "blad": "nie-JSON",
-  "bledow": 2,
+  "bledow": 0,
   "firma": "Mission Support and Test Services (NNSS)",
-  "gleboko_do": null,
+  "gleboko_do": "2026",
   "jadrowych_razem": 0,
   "kraj": "US",
-  "lata": {},
+  "lata": {
+   "2025": {
+    "adresow": 9585,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 1
+   },
+   "2026": {
+    "adresow": 3799,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   }
+  },
   "najstarszy": "20161010",
+  "nastepny_rok": 2025,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "ostatnio": "2026-11-16",
+  "status": "w toku",
   "url": "nnss.gov"
  },
  "mostostal_warszawa": {
@@ -6793,7 +6953,7 @@
  },
  "nagra": {
   "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 2,
   "firma": "Nagra",
   "gleboko_do": "2025",
   "jadrowych_razem": 0,
@@ -6821,7 +6981,7 @@
   "najstarszy": "19961221",
   "nastepny_rok": 2024,
   "ofert_razem": 3,
-  "ostatnio": "2026-11-15",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "nagra.ch"
  },
@@ -7600,8 +7760,7 @@
   "url": "www.nwmo.ca/en/Careers"
  },
  "office_for_nuclear_regulation_onr": {
-  "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Office for Nuclear Regulation (ONR)",
   "gleboko_do": "2025",
   "jadrowych_razem": 17,
@@ -7630,17 +7789,82 @@
   "nastepny_rok": 2024,
   "ofert_razem": 18,
   "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "status": "w toku",
   "url": "onr.org.uk"
  },
  "oglethorpe_power": {
-  "blad": "HTTP 503",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Oglethorpe Power",
-  "gleboko_do": "2008",
-  "jadrowych_razem": 16,
+  "gleboko_do": "1997",
+  "jadrowych_razem": 17,
   "kraj": "US",
   "lata": {
+   "1997": {
+    "adresow": 278,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "1998": {
+    "adresow": 2795,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "1999": {
+    "adresow": 683,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2000": {
+    "adresow": 240,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2001": {
+    "adresow": 362,
+    "jadrowe": 0,
+    "pobrane": 6,
+    "szczegolow": 6
+   },
+   "2002": {
+    "adresow": 675,
+    "jadrowe": 0,
+    "pobrane": 20,
+    "szczegolow": 20
+   },
+   "2003": {
+    "adresow": 617,
+    "jadrowe": 1,
+    "pobrane": 13,
+    "szczegolow": 13
+   },
+   "2004": {
+    "adresow": 374,
+    "jadrowe": 0,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2005": {
+    "adresow": 120,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 181,
+    "jadrowe": 0,
+    "pobrane": 2,
+    "szczegolow": 2
+   },
+   "2007": {
+    "adresow": 144,
+    "jadrowe": 0,
+    "pobrane": 4,
+    "szczegolow": 4
+   },
    "2008": {
     "adresow": 154,
     "jadrowe": 1,
@@ -7757,10 +7981,11 @@
    }
   },
   "najstarszy": "19971211",
-  "nastepny_rok": 2007,
-  "ofert_razem": 26,
-  "ostatnio": "2026-11-15",
-  "status": "błąd archiwum",
+  "nastepny_rok": 1996,
+  "ofert_razem": 73,
+  "ostatnio": "2026-11-16",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "opc.com"
  },
  "okg": {
@@ -8459,13 +8684,37 @@
   "url": "careers.ponticelli.com"
  },
  "posiva": {
-  "blad": "HTTP 503",
-  "bledow": 3,
+  "blad": "HTTP 504",
+  "bledow": 1,
   "firma": "Posiva",
-  "gleboko_do": "2011",
+  "gleboko_do": "2007",
   "jadrowych_razem": 32,
   "kraj": "FI",
   "lata": {
+   "2007": {
+    "adresow": 282,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 152,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 269,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 281,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2011": {
     "adresow": 558,
     "jadrowe": 0,
@@ -8564,9 +8813,9 @@
    }
   },
   "najstarszy": "19980114",
-  "nastepny_rok": 2010,
+  "nastepny_rok": 2006,
   "ofert_razem": 32,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "posiva.fi"
  },
@@ -9332,7 +9581,7 @@
  },
  "seibersdorf_laboratories": {
   "blad": "nie-JSON",
-  "bledow": 1,
+  "bledow": 2,
   "firma": "Seibersdorf Laboratories",
   "gleboko_do": "2024",
   "jadrowych_razem": 0,
@@ -9366,7 +9615,7 @@
   "najstarszy": "20090621",
   "nastepny_rok": 2023,
   "ofert_razem": 6,
-  "ostatnio": "2026-11-15",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "seibersdorf-laboratories.at"
  },
@@ -10461,13 +10710,25 @@
   "url": "tvo.fi"
  },
  "teollisuuden_voima_tvo": {
-  "blad": "HTTP 504",
-  "bledow": 3,
+  "blad": "HTTP 503",
+  "bledow": 1,
   "firma": "Teollisuuden Voima (TVO)",
-  "gleboko_do": "2015",
+  "gleboko_do": "2013",
   "jadrowych_razem": 0,
   "kraj": "FI",
   "lata": {
+   "2013": {
+    "adresow": 439,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 834,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2015": {
     "adresow": 1082,
     "jadrowe": 0,
@@ -10542,19 +10803,109 @@
    }
   },
   "najstarszy": "19980523",
-  "nastepny_rok": 2014,
+  "nastepny_rok": 2012,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "tvo.fi"
  },
  "terrapower": {
   "bledow": 0,
   "firma": "TerraPower",
-  "gleboko_do": "2019",
+  "gleboko_do": "2004",
   "jadrowych_razem": 2,
   "kraj": "US",
   "lata": {
+   "2004": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2005": {
+    "adresow": 3,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 51,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 120,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 200,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 116,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 748,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 1017,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 2654,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2017": {
+    "adresow": 3324,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 238,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2019": {
     "adresow": 264,
     "jadrowe": 0,
@@ -10605,10 +10956,11 @@
    }
   },
   "najstarszy": "20040324",
-  "nastepny_rok": 2018,
+  "nastepny_rok": 2003,
   "ofert_razem": 2,
-  "ostatnio": "2026-11-14",
-  "status": "w toku",
+  "ostatnio": "2026-11-16",
+  "sprawdzone_do_roku": 2026,
+  "status": "dno",
   "url": "terrapower.com"
  },
  "the_nuclear_company": {
@@ -10819,10 +11171,58 @@
  "urenco": {
   "bledow": 0,
   "firma": "Urenco",
-  "gleboko_do": "2011",
+  "gleboko_do": "2003",
   "jadrowych_razem": 271,
   "kraj": "GB",
   "lata": {
+   "2003": {
+    "adresow": 78,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2004": {
+    "adresow": 128,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2005": {
+    "adresow": 176,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2006": {
+    "adresow": 767,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2007": {
+    "adresow": 347,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2008": {
+    "adresow": 135,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 206,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 203,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2011": {
     "adresow": 446,
     "jadrowe": 0,
@@ -10921,7 +11321,7 @@
    }
   },
   "najstarszy": "19981212",
-  "nastepny_rok": 2010,
+  "nastepny_rok": 2002,
   "ofert_razem": 271,
   "ostatnio": "2026-11-15",
   "status": "błąd archiwum",
@@ -11015,13 +11415,43 @@
   "url": "urenco.com"
  },
  "urenco_nederland": {
-  "blad": "nie-JSON",
+  "blad": "HTTP 503",
   "bledow": 1,
   "firma": "Urenco Nederland",
-  "gleboko_do": "2022",
-  "jadrowych_razem": 255,
+  "gleboko_do": "2017",
+  "jadrowych_razem": 261,
   "kraj": "NL",
   "lata": {
+   "2017": {
+    "adresow": 299,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2018": {
+    "adresow": 195,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2019": {
+    "adresow": 637,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2020": {
+    "adresow": 494,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2021": {
+    "adresow": 835,
+    "jadrowe": 5,
+    "pobrane": 5,
+    "szczegolow": 5
+   },
    "2022": {
     "adresow": 1369,
     "jadrowe": 16,
@@ -11054,8 +11484,8 @@
    }
   },
   "najstarszy": "19981212",
-  "nastepny_rok": 2021,
-  "ofert_razem": 255,
+  "nastepny_rok": 2016,
+  "ofert_razem": 261,
   "ostatnio": "2026-11-15",
   "status": "błąd archiwum",
   "url": "urenco.com"
@@ -11100,8 +11530,8 @@
   "url": "udt.gov.pl"
  },
  "v_tkovice": {
-  "blad": "nie-JSON",
-  "bledow": 3,
+  "blad": "HTTP 504",
+  "bledow": 4,
   "firma": "Vítkovice",
   "gleboko_do": "2014",
   "jadrowych_razem": 0,
@@ -11189,7 +11619,7 @@
   "najstarszy": "19970425",
   "nastepny_rok": 2013,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-14",
+  "ostatnio": "2026-11-16",
   "status": "błąd archiwum",
   "url": "vitkovice.cz"
  },
@@ -11349,10 +11779,70 @@
  "x_energy": {
   "bledow": 0,
   "firma": "X-energy",
-  "gleboko_do": "2018",
-  "jadrowych_razem": 1,
+  "gleboko_do": "2008",
+  "jadrowych_razem": 2,
   "kraj": "US",
   "lata": {
+   "2008": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 2,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2012": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 0,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2014": {
+    "adresow": 69,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2015": {
+    "adresow": 31,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2016": {
+    "adresow": 25,
+    "jadrowe": 1,
+    "pobrane": 1,
+    "szczegolow": 1
+   },
+   "2017": {
+    "adresow": 8,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
    "2018": {
     "adresow": 27,
     "jadrowe": 0,
@@ -11409,9 +11899,9 @@
    }
   },
   "najstarszy": "19991128",
-  "nastepny_rok": 2017,
-  "ofert_razem": 1,
-  "ostatnio": "2026-11-14",
+  "nastepny_rok": 2007,
+  "ofert_razem": 2,
+  "ostatnio": "2026-11-16",
   "status": "w toku",
   "url": "x-energy.com"
  },
