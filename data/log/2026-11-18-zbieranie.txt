@@ -1,0 +1,44 @@
+pominięte - zakaz właściciela strony: ['cez', 'pr_nagra']
+pej {'ok': True, 'n': (3, 3), 's': 17, 'od_startu': 17}
+pracuj {'ok': True, 'n': 10, 's': 33, 'od_startu': 50}
+ncbj {'ok': True, 'n': 5, 's': 10, 'od_startu': 60}
+kprm: 293 na liście, 14 w terminie
+kprm {'ok': True, 'n': (14, 0), 's': 117, 'od_startu': 177}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 178}
+lista kznpp: 6 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 2, 'od_startu': 180}
+lista snn: 0 ofert, stron 1, 1 s, pełna: True
+snn {'ok': False, 'err': 'Nuclearelectrica: pusta lista', 's': 1, 'od_startu': 180}
+szc {'ok': True, 'n': (33, 6), 's': 12, 'od_startu': 192}
+hpc {'ok': True, 'n': (169, 24), 's': 49, 'od_startu': 241}
+iter {'ok': True, 'n': (26, 21), 's': 35, 'od_startu': 277}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1381081", "contestNo": "2026/0497 (020252)", "column": ["Medical Physicist (Nuclear Medicine)(P4)", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-12-08, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 17}
+iaea {'ok': True, 'n': (16, 1), 's': 2, 'od_startu': 279}
+lista edfuk: 25 ofert, stron 4, 6 s, pełna: True
+edfuk {'ok': True, 'n': (25, 3), 's': 10, 'od_startu': 289}
+fortum {'ok': True, 'n': (28, 0), 's': 5, 'od_startu': 294}
+lista cea: 810 ofert, stron 82, 129 s, pełna: True
+cea {'ok': True, 'n': (810, 106), 's': 310, 'od_startu': 604}
+lista vattenfall: 226 ofert, stron 20, 31 s, pełna: True
+vattenfall {'ok': True, 'n': (226, 28), 's': 74, 'od_startu': 678}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 681}
+lista pr_gns: 8 ofert, stron 1, 1 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 0), 's': 1, 'od_startu': 681}
+lista pr_blykalla: 20 ofert, stron 1, 1 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 1, 'od_startu': 682}
+lista pr_endel: 193 ofert, stron 11, 23 s, pełna: True
+pr_endel {'ok': True, 'n': (193, 3), 's': 30, 'od_startu': 711}
+lista pr_axpo: 83 ofert, stron 13, 29 s, pełna: True
+pr_axpo {'ok': True, 'n': (83, 1), 's': 31, 'od_startu': 743}
+lista pr_psi: 17 ofert, stron 1, 1 s, pełna: True
+pr_psi {'ok': True, 'n': (17, 0), 's': 1, 'od_startu': 744}
+lista pr_egis: 300 ofert, stron 26, 46 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 38), 's': 107, 'od_startu': 851}
+lista pr_nda: 1 ofert, stron 2, 3 s, pełna: True
+pr_nda {'ok': True, 'n': (1, 0), 's': 3, 'od_startu': 854}
+lista pr_ukaea: 0 ofert, stron 1, 1 s, pełna: True
+pr_ukaea {'ok': False, 'err': 'UK Atomic Energy Authority (UKAEA): pusta lista', 's': 1, 'od_startu': 854}
+bechtel {'ok': True, 'n': (1191, 125, 4), 's': 193, 'od_startu': 1047}
+wec {'ok': True, 'n': (1100, 0), 's': 61, 'od_startu': 1108}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 1, 'od_startu': 1109}
