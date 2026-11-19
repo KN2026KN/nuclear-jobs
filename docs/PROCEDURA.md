@@ -66,3 +66,8 @@ Nieudane strony ofert - do 3 prób w kolejne noce. Liczba ofert jądrowych przel
 - Diagnostyka z treściami ofert tylko w prywatnym repo keura: workflow „diag_zarobki.yml” (parametr źródło -> trafienia filtra jądrowego `KP_DEBUG_JADRO`).
 - Wynagrodzenia: kraj oferty z waluty i znaczników w tytule/lokalizacji (nie kraj pracodawcy; wyjątek organizacje międzynarodowe); stawki dzienne (HPC „PAYE/Umbrella”) jako okres „dzien”; dodatki (allowance, per diem) to nie pensja; kwota roczna poza 6 - 400 tys. EUR odrzucana.
 - Filtr jądrowy: linie powtarzające się w ofertach o ≥ 4 różnych tytułach (stopka o firmie) i karty innych ofert („Salary Location … Expiry Date”) nie liczą się; grupy energetyczne klasy B potrzebują słowa jądrowego w tytule/lokalizacji albo 2 razy w treści.
+
+## 19.11.2026
+- Decyzja właściciela (wariant 2): /praca - oferty z Polski na górze, potem Europa, potem świat; w każdej grupie wybrane sortowanie (wynagrodzenie / najnowsze / kończące się). `strona/praca/skrypt.js`, funkcja `grupa`.
+- Źródła: OPG - lista z kanału RSS (wyszukiwarka ładowana JavaScriptem, pusta od 13.11); NDA - stronicowanie `?pg=` i linki do stron spółek (NRS, Dounreay, NTS, Tribepad); SNN - do 15 stron listy.
+- Druga próba po 90 s dla źródeł z pustą listą albo HTTP 403 (pracuj.pl, SNN, UKAEA - nocne blokady przejściowe; w dzień te same strony działały). Test 19.11 wieczorem: OPG 18, NDA 25, UKAEA 10, SNN 60, pracuj 12 ofert.

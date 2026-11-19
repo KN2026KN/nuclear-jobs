@@ -79,8 +79,11 @@ function karta(j){var src=j.u.replace(/^https?:\/\/(www\.)?/,'').split('/')[0];
  +'<div class="meta"><span>'+flag(j.k)+esc((j.c?j.c+', ':'')+kraj(j.k))+'</span>'+(j.l?'<span class="lng" title="'+T.f.l+'">'+esc(j.l)+'</span>':'')+'<span class="mode '+j.m+'">'+T.mode[j.m]+'</span><span>'+svg('brief')+esc(tr(FN_EN,j.fn))+'</span><span class="muted">'+svg('lvl')+esc(tr(LV_EN,j.lv))+'</span></div>'
  +'<div class="tags"><span class="tag">'+esc(T.sect[j.s])+'</span>'+(j.p?'<span class="tag st">'+esc(j.p)+'</span>':'')+'</div>'
  +'<div class="foot"><span>'+svg('cal')+(j.pub?T.added+' '+dd(j.pub):'')+(j.dl?(j.pub?' · ':'')+T.valid+' '+dd(j.dl):'')+'</span><span>'+T.src+': <a href="'+esc(j.u)+'" target="_blank" rel="noopener">'+esc(src)+'</a></span></div></article>'}
+var EUR_K={AT:1,BE:1,BG:1,CH:1,CY:1,CZ:1,DE:1,DK:1,EE:1,ES:1,FI:1,FR:1,GB:1,GR:1,HR:1,HU:1,IE:1,IT:1,LT:1,LU:1,LV:1,MT:1,NL:1,NO:1,PT:1,RO:1,SE:1,SI:1,SK:1,UA:1,RS:1,AL:1,MK:1,BA:1,ME:1,MD:1,IS:1};
+function grupa(j){return j.k==='PL'?0:EUR_K[j.k]?1:2}   /* 19.11.2026 (właściciel, wariant 2): Polska na górze, potem Europa, potem świat; w grupie wybrane sortowanie */
 function render(){var L=J.filter(function(j){return pasuje(j)});
- L.sort(sort==='sal'?function(a,b){return pln(b.sal)-pln(a.sal)}:sort==='new'?function(a,b){return (b.pub||'').localeCompare(a.pub||'')}:function(a,b){return (a.dl||'9').localeCompare(b.dl||'9')});
+ var por=sort==='sal'?function(a,b){return pln(b.sal)-pln(a.sal)}:sort==='new'?function(a,b){return (b.pub||'').localeCompare(a.pub||'')}:function(a,b){return (a.dl||'9').localeCompare(b.dl||'9')};
+ L.sort(function(a,b){return grupa(a)-grupa(b)||por(a,b)});
  $('count').innerHTML=L.length+' '+T.n(L.length)+' <small>· '+T.stan+' '+dd(D.stan)+'</small>';
  $('list').innerHTML=L.length?L.map(karta).join(''):'<div class="empty">'+T.empty+'</div>';
  var a=[];FACETS.concat(TOP).forEach(function(f){sel[f.id].forEach(function(v){a.push('<button class="pill" data-f="'+f.id+'" data-v="'+esc(v)+'">'+(f.id==='k'?esc(kraj(v)):esc(f.lab && f.id!=='l'?String(f.lab(v)).replace(/<[^>]+>/g,''):v))+' ×</button>')})});
