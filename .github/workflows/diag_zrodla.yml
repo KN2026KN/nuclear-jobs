@@ -1,0 +1,17 @@
+name: Diagnostyka źródeł z pustą listą
+on: { workflow_dispatch: {} }
+permissions:
+  contents: write
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 1 }
+      - run: pip install -q requests beautifulsoup4
+      - run: python3 narzedzia/diag_zrodla.py data/log/sonda/diag_zrodla
+      - run: |
+          git config user.name "keura-robot"; git config user.email "keura-robot@users.noreply.github.com"
+          git add data/log/sonda/diag_zrodla; git commit -qm "Diagnostyka źródeł $(date +%F)" || true
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
