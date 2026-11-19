@@ -1,0 +1,51 @@
+{
+ "_rotacja": {
+  "noc": 1,
+  "pominiete": [
+   "cea",
+   "vattenfall"
+  ]
+ },
+ "opg": {
+  "ok": true,
+  "n": [
+   18,
+   18
+  ],
+  "s": 27,
+  "od_startu": 27
+ },
+ "pr_nda": {
+  "ok": true,
+  "n": [
+   25,
+   25
+  ],
+  "s": 29,
+  "od_startu": 57
+ },
+ "pr_ukaea": {
+  "ok": true,
+  "n": [
+   10,
+   7
+  ],
+  "s": 15,
+  "od_startu": 71
+ },
+ "snn": {
+  "ok": true,
+  "n": [
+   60,
+   7
+  ],
+  "s": 25,
+  "od_startu": 96
+ },
+ "pracuj": {
+  "ok": true,
+  "n": 12,
+  "s": 50,
+  "od_startu": 146
+ }
+}
