@@ -201,7 +201,7 @@ def kznpp(out, day):
     return len(lista), len(T)
 
 def snn(out, day):
-    lista = stronicuj('https://nuclearelectrica.ro/snn/category/joburi/page/{p}/', r'nuclearelectrica\.ro/snn/\d{4}/\d{2}/\d{2}/[^/]+/?$', r'/snn/(\d{4}/\d{2}/\d{2}/[^/]+)', 6, zrodlo='snn')
+    lista = stronicuj('https://nuclearelectrica.ro/snn/category/joburi/page/{p}/', r'nuclearelectrica\.ro/snn/\d{4}/\d{2}/\d{2}/[^/]+/?$', r'/snn/(\d{4}/\d{2}/\d{2}/[^/]+)', 15, zrodlo='snn')   # 19.11.2026: 6 stron nie starczało (lista niepełna)
     if not lista: raise RuntimeError('Nuclearelectrica: pusta lista')
     T = tresci_nowych('snn', lista, day, 90, out=out)
     zapisz(out, day, 'snn', {'pracodawca': 'Nuclearelectrica (SNN)', 'kraj': 'RO', 'filtr': None}, lista, T)
