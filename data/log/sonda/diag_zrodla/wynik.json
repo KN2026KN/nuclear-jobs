@@ -1,0 +1,280 @@
+{
+ "pracuj_jadrowa": {
+  "status": 200,
+  "final": "https://www.pracuj.pl/praca/j%C4%85drowa;kw",
+  "bajty": 241498,
+  "title": "Praca jądrowa – Pracuj.pl",
+  "next_data": true,
+  "linki_n": 81,
+  "linki_job": [
+   "https://jobicon.pracuj.pl/",
+   "https://www.pracuj.pl/praca/ekspert-ekspertka-ds-ochrony-srodowiska-gdansk-jana-z-kolna-11,oferta,1005213528",
+   "https://www.pracuj.pl/praca/kierowniczka-kierownik-projektu-ds-infrastruktury-drogowej-warszawa,oferta,1005225175",
+   "https://www.pracuj.pl/praca/mlodszy-specjalista-mlodsza-specjalistka-ds-rozwoju-biznesu-energetyka-jadrowa-ostrowiec-swietokrzyski-eugeniusza-kwiatkowskiego-14,oferta,1005202094",
+   "https://www.pracuj.pl/praca/radca-prawny-radczyni-prawna-gdansk-aleja-grunwaldzka-409,oferta,1005181753",
+   "https://www.pracuj.pl/praca/referent-referentka-ds-kadr-i-plac-warszawa-dorodna-16,oferta,1005225159",
+   "https://www.pracuj.pl/praca/specjalistka-specjalista-ds-administracji-i-zaopatrzenia-biura-budowy-choczewo-pow-wejherowski,oferta,1005229886",
+   "https://www.pracuj.pl/praca/starsza-administratorka-starszy-administrator-ds-infrastruktury-cyberbezpieczens-warszawa,oferta,1005180512",
+   "https://www.pracuj.pl/praca/starszy-inzynier-starsza-inzynierka-ds-uzyskiwania-zezwolen-jadrowych-warszawa-aleje-jerozolimskie-100,oferta,1005171614",
+   "https://www.pracuj.pl/praca/zglos-sie-do-projektu-grant-warszawa,oferta,1004855013?utm_source=pracuj&amp;utm_medium=cpc&amp;utm_campaign=projekt_grant&amp;utm_content=web"
+  ],
+  "skrypty_api": [
+   "https://babel-api.pracuj.pl",
+   "https://play.google.com/store/apps/details?id=pl.pracuj.android.jobsearcher\\u0026referrer=utm_source%3Dpracuj%26utm_medium%3Dbutton%26utm_campaign%3Dstopka",
+   "https://vermont-api.pracuj.pl",
+   "https://www.pracuj.pl/konto/zapisane",
+   "https://www.pracuj.pl/konto/zapisane/wyszukiwania"
+  ]
+ },
+ "pracuj_nuclear": {
+  "status": 200,
+  "final": "https://www.pracuj.pl/praca/nuclear;kw",
+  "bajty": 167120,
+  "title": "Praca nuclear – Pracuj.pl",
+  "next_data": true,
+  "linki_n": 67,
+  "linki_job": [
+   "https://jobicon.pracuj.pl/",
+   "https://www.pracuj.pl/praca/senior-electrical-engineer-warszawa-aleje-jerozolimskie-100,oferta,1005172140",
+   "https://www.pracuj.pl/praca/zglos-sie-do-projektu-grant-warszawa,oferta,1004855013?utm_source=pracuj&amp;utm_medium=cpc&amp;utm_campaign=projekt_grant&amp;utm_content=web"
+  ],
+  "skrypty_api": [
+   "https://babel-api.pracuj.pl",
+   "https://play.google.com/store/apps/details?id=pl.pracuj.android.jobsearcher\\u0026referrer=utm_source%3Dpracuj%26utm_medium%3Dbutton%26utm_campaign%3Dstopka",
+   "https://vermont-api.pracuj.pl",
+   "https://www.pracuj.pl/konto/zapisane",
+   "https://www.pracuj.pl/konto/zapisane/wyszukiwania"
+  ]
+ },
+ "opg_search": {
+  "status": 200,
+  "final": "https://jobs.opg.com/search/?q=nuclear&locationsearch=&startrow=0",
+  "bajty": 55832,
+  "title": "Nuclear - Ontario Power Generation Jobs",
+  "next_data": false,
+  "linki_n": 21,
+  "linki_job": [
+   "https://jobs.opg.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css",
+   "https://jobs.opg.com/search/",
+   "https://jobs.opg.com/services/rss/job/?locale=en_GB&amp;keywords=(nuclear)"
+  ],
+  "skrypty_api": [
+   "https://jobs.opg.com/services/rss/job/?locale=en_GB&amp;keywords=(nuclear)"
+  ]
+ },
+ "opg_home": {
+  "status": 200,
+  "final": "https://jobs.opg.com/",
+  "bajty": 36375,
+  "title": "",
+  "next_data": false,
+  "linki_n": 21,
+  "linki_job": [
+   "https://jobs.opg.com/platform/bootstrap/3.4.8_NES/css/bootstrap.min.css"
+  ],
+  "skrypty_api": []
+ },
+ "snn_p1": {
+  "status": 200,
+  "final": "https://nuclearelectrica.ro/snn/category/joburi/",
+  "bajty": 137686,
+  "title": "Joburi &#8211; SNN",
+  "next_data": false,
+  "linki_n": 71,
+  "linki_job": [
+   "https://nuclearelectrica.ro/snn/2026/11/16/inginer-in-pregatire-fizician-in-pregatire-inginer-operare-cne-in-pregatire-fizician-inginer-operare-cne-in-cadrul-serviciului-analize-de-securitate-nucleara-sucursala-cne-cernav/",
+   "https://nuclearelectrica.ro/snn/2026/11/16/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-biroului-performante-umane-serviciul-suport-intretinere-si-reparatii-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/16/specialist-resurse-umane-specialist-resurse-umane-principal-in-cadrul-directiei-retehnologizare-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/coordonator-program-special-in-cadrul-serviciului-proceduri-conservare-si-punere-in-functiune-rt-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-serviciului-tehnic-radioprotectie-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-departamentului-asigurarea-si-supravegherea-calitatii-si-protectia-mediului-rt-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-operare-cne-inginer-operare-cne-principal-inginer-operare-cne-specialist-economist-economist-principal-economist-specialist-informatician-cu-responsabilitati-in-planificare-si-urmarire/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-specialist-bucuresti/",
+   "https://nuclearelectrica.ro/snn/2026/11/18/inginer-operare-cne-principal-inginer-operare-cne-specialist-economist-principal-economist-specialist-expert-cu-responsabilitati-in-controlul-costurilor-in-cadrul-serviciului-management-de/",
+   "https://nuclearelectrica.ro/snn/2026/11/19/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-serviciului-pregatire-generala-teoretica-si-practica-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/snn/category/joburi/feed/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/2/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/3/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/6/",
+   "https://nuclearelectrica.ro/snn/category/media/anunturi-ro/",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-180x180.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-192x192.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-32x32.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/09/Organigrama-01-09-2025_fs.pdf",
+   "https://nuclearelectrica.ro/wp-content/uploads/2024/10/GHID-Furnizor-ro2.pdf"
+  ],
+  "skrypty_api": [
+   "https://fonts.googleapis.com",
+   "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&#038;display=swap&#038;display=swap",
+   "https://fonts.googleapis.com/css?family=Open%20Sans&#038;subset=latin&#038;display=swap&#038;ver=1732639703",
+   "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%",
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/snn/category/joburi/feed/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/2/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/3/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/6/",
+   "https://nuclearelectrica.ro/snn/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=1.0.8"
+  ]
+ },
+ "snn_cat": {
+  "status": 200,
+  "final": "https://nuclearelectrica.ro/snn/category/joburi/",
+  "bajty": 137686,
+  "title": "Joburi &#8211; SNN",
+  "next_data": false,
+  "linki_n": 71,
+  "linki_job": [
+   "https://nuclearelectrica.ro/snn/2026/11/16/inginer-in-pregatire-fizician-in-pregatire-inginer-operare-cne-in-pregatire-fizician-inginer-operare-cne-in-cadrul-serviciului-analize-de-securitate-nucleara-sucursala-cne-cernav/",
+   "https://nuclearelectrica.ro/snn/2026/11/16/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-biroului-performante-umane-serviciul-suport-intretinere-si-reparatii-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/16/specialist-resurse-umane-specialist-resurse-umane-principal-in-cadrul-directiei-retehnologizare-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/coordonator-program-special-in-cadrul-serviciului-proceduri-conservare-si-punere-in-functiune-rt-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-serviciului-tehnic-radioprotectie-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-departamentului-asigurarea-si-supravegherea-calitatii-si-protectia-mediului-rt-u1-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-operare-cne-inginer-operare-cne-principal-inginer-operare-cne-specialist-economist-economist-principal-economist-specialist-informatician-cu-responsabilitati-in-planificare-si-urmarire/",
+   "https://nuclearelectrica.ro/snn/2026/11/17/inginer-specialist-bucuresti/",
+   "https://nuclearelectrica.ro/snn/2026/11/18/inginer-operare-cne-principal-inginer-operare-cne-specialist-economist-principal-economist-specialist-expert-cu-responsabilitati-in-controlul-costurilor-in-cadrul-serviciului-management-de/",
+   "https://nuclearelectrica.ro/snn/2026/11/19/inginer-in-pregatire-inginer-operare-cne-in-pregatire-inginer-operare-cne-in-cadrul-serviciului-pregatire-generala-teoretica-si-practica-sucursala-cne-cernavoda/",
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/snn/category/joburi/feed/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/2/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/3/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/6/",
+   "https://nuclearelectrica.ro/snn/category/media/anunturi-ro/",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-180x180.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-192x192.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/02/cropped-SNN_pt-mobile_logo-32x32.png",
+   "https://nuclearelectrica.ro/snn/wp-content/uploads/sites/2/2025/09/Organigrama-01-09-2025_fs.pdf",
+   "https://nuclearelectrica.ro/wp-content/uploads/2024/10/GHID-Furnizor-ro2.pdf"
+  ],
+  "skrypty_api": [
+   "https://fonts.googleapis.com",
+   "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&#038;display=swap&#038;display=swap",
+   "https://fonts.googleapis.com/css?family=Open%20Sans&#038;subset=latin&#038;display=swap&#038;ver=1732639703",
+   "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%",
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/snn/category/joburi/feed/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/2/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/3/",
+   "https://nuclearelectrica.ro/snn/category/joburi/page/6/",
+   "https://nuclearelectrica.ro/snn/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=1.0.8"
+  ]
+ },
+ "snn_cariere": {
+  "status": 404,
+  "final": "https://nuclearelectrica.ro/cariere/",
+  "bajty": 122729,
+  "title": "Nu am găsit pagina &#8211; Homepage",
+  "next_data": false,
+  "linki_n": 32,
+  "linki_job": [
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/wp-content/uploads/2024/10/GHID-Furnizor-ro2.pdf",
+   "https://nuclearelectrica.ro/wp-content/uploads/2025/02/cropped-SNN_pt-mobile_logo-1-180x180.png",
+   "https://nuclearelectrica.ro/wp-content/uploads/2025/02/cropped-SNN_pt-mobile_logo-1-192x192.png",
+   "https://nuclearelectrica.ro/wp-content/uploads/2025/02/cropped-SNN_pt-mobile_logo-1-32x32.png"
+  ],
+  "skrypty_api": [
+   "https://fonts.googleapis.com",
+   "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&#038;display=swap&#038;display=swap",
+   "https://fonts.googleapis.com/css?family=Open%20Sans&#038;display=swap&#038;ver=1739478354",
+   "https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%",
+   "https://nuclearelectrica.ro/snn/category/joburi/",
+   "https://nuclearelectrica.ro/wp-content/plugins/wp-consent-api/assets/js/wp-consent-api.min.js?ver=1.0.8",
+   "https://www.google.com/recaptcha/api.js?render=6LfS-UkrAAAAAGbBtdrGRwIVHnaey34HSQXL1dHE&amp;ver=3.0"
+  ]
+ },
+ "nda_p1": {
+  "status": 200,
+  "final": "https://ndagroup.careers/current-opportunities/",
+  "bajty": 191537,
+  "title": "Current opportunities - The NDA group",
+  "next_data": false,
+  "linki_n": 42,
+  "linki_job": [
+   "/current-opportunities/?order_by=-job_title",
+   "/current-opportunities/?order_by=job_title",
+   "https://ndagroup.careers/wp-content/uploads/2023/12/NDA_logo_135px.webp",
+   "https://ndajobs.tribepad-gro.com/members/modules/job/detail.php?record=476",
+   "https://nucleartransportsolutions.current-vacancies.com/Jobs/Advert/4379856?cid=3204&t=Payroll-And-Expenses-Accounts-Assistant",
+   "https://vacancies.dounreaycareers.com/vacancy/assistant-project-manager-621450.html",
+   "https://vacancies.dounreaycareers.com/vacancy/project-supervisor-620847.html",
+   "https://vacancies.dounreaycareers.com/vacancy/strategy-programme-support-618255.html",
+   "https://vacancies.dounreaycareers.com/vacancy/technical-specialist-621757.html",
+   "https://www.nrs.careers/vacancy/maintenance-technician-electrical-622944.html",
+   "https://www.nrs.careers/vacancy/project-engineer-mechanical-623287.html",
+   "https://www.nrs.careers/vacancy/senior-project-engineer-623111.html",
+   "https://www.nrs.careers/vacancy/trainee-radiological-monitoring-persons-621946.html"
+  ],
+  "skrypty_api": [
+   "https://ndajobs-uploads-eu-west-2.s3.eu-west-2.amazonaws.com/rte/image/paqP6d2pCmotzvXGp2MRi4jNUhgWp7BGBSlWcy2d.png",
+   "https://ndajobs.tribepad-gro.com/members/modules/job/detail.php?record=476"
+  ]
+ },
+ "nda_home": {
+  "status": 200,
+  "final": "https://ndagroup.careers/current-opportunities/",
+  "bajty": 191537,
+  "title": "Current opportunities - The NDA group",
+  "next_data": false,
+  "linki_n": 42,
+  "linki_job": [
+   "/current-opportunities/?order_by=-job_title",
+   "/current-opportunities/?order_by=job_title",
+   "https://ndagroup.careers/wp-content/uploads/2023/12/NDA_logo_135px.webp",
+   "https://ndajobs.tribepad-gro.com/members/modules/job/detail.php?record=476",
+   "https://nucleartransportsolutions.current-vacancies.com/Jobs/Advert/4379856?cid=3204&t=Payroll-And-Expenses-Accounts-Assistant",
+   "https://vacancies.dounreaycareers.com/vacancy/assistant-project-manager-621450.html",
+   "https://vacancies.dounreaycareers.com/vacancy/project-supervisor-620847.html",
+   "https://vacancies.dounreaycareers.com/vacancy/strategy-programme-support-618255.html",
+   "https://vacancies.dounreaycareers.com/vacancy/technical-specialist-621757.html",
+   "https://www.nrs.careers/vacancy/maintenance-technician-electrical-622944.html",
+   "https://www.nrs.careers/vacancy/project-engineer-mechanical-623287.html",
+   "https://www.nrs.careers/vacancy/senior-project-engineer-623111.html",
+   "https://www.nrs.careers/vacancy/trainee-radiological-monitoring-persons-621946.html"
+  ],
+  "skrypty_api": [
+   "https://ndajobs-uploads-eu-west-2.s3.eu-west-2.amazonaws.com/rte/image/paqP6d2pCmotzvXGp2MRi4jNUhgWp7BGBSlWcy2d.png",
+   "https://ndajobs.tribepad-gro.com/members/modules/job/detail.php?record=476"
+  ]
+ },
+ "ukaea": {
+  "status": 200,
+  "final": "https://careers.ukaea.uk/current-vacancies/",
+  "bajty": 260539,
+  "title": "Current vacancies | UKAEA Careers",
+  "next_data": false,
+  "linki_n": 63,
+  "linki_job": [
+   "https://careers.ukaea.uk/current-vacancies/",
+   "https://careers.ukaea.uk/early-careers/postgraduate-opportunities/",
+   "https://careers.ukaea.uk/job/commercial-assistant/",
+   "https://careers.ukaea.uk/job/commercial-officer/",
+   "https://careers.ukaea.uk/job/commercial-procurement-manager/",
+   "https://careers.ukaea.uk/job/configuration-lead/",
+   "https://careers.ukaea.uk/job/electrical-capability-lead/",
+   "https://careers.ukaea.uk/job/finance-efficiency-manager/",
+   "https://careers.ukaea.uk/job/process-engineer-ii/",
+   "https://careers.ukaea.uk/job/senior-process-engineer/",
+   "https://careers.ukaea.uk/job/spatial-design-lead/",
+   "https://careers.ukaea.uk/job/technical-communications-specialist-18-month-ftc/",
+   "https://careers.ukaea.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcareers.ukaea.uk%2Fcurrent-vacancies%2F",
+   "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/careers.ukaea.uk/wp-content/uploads/2022/06/cropped-UK-AEA_294_FAVICON_512x512-180x180.jpg",
+   "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/careers.ukaea.uk/wp-content/uploads/2022/06/cropped-UK-AEA_294_FAVICON_512x512-192x192.jpg",
+   "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/careers.ukaea.uk/wp-content/uploads/2022/06/cropped-UK-AEA_294_FAVICON_512x512-32x32.jpg"
+  ],
+  "skrypty_api": [
+   "https://careers.ukaea.uk/job/commercial-assistant/",
+   "https://careers.ukaea.uk/job/commercial-officer/",
+   "https://careers.ukaea.uk/job/commercial-procurement-manager/",
+   "https://careers.ukaea.uk/job/configuration-lead/",
+   "https://careers.ukaea.uk/job/electrical-capability-lead/",
+   "https://careers.ukaea.uk/job/finance-efficiency-manager/",
+   "https://careers.ukaea.uk/job/process-engineer-ii/",
+   "https://careers.ukaea.uk/job/senior-process-engineer/",
+   "https://careers.ukaea.uk/job/spatial-design-lead/",
+   "https://careers.ukaea.uk/job/technical-communications-specialist-18-month-ftc/",
+   "https://careers.ukaea.uk/wp-content/themes/careers-child/js/sr-job-alerts.js?ver=7.1.5"
+  ]
+ }
+}
