@@ -1,0 +1,57 @@
+pominięte - zakaz właściciela strony: ['cez', 'pr_nagra']
+pej {'ok': True, 'n': (3, 3), 's': 17, 'od_startu': 17}
+pracuj szukanie jądrowa 1 https://www.pracuj.pl/praca/j%C4%85drowa;kw: HTTP 403
+pracuj szukanie atomistyka 1 https://www.pracuj.pl/praca/atomistyka;kw: HTTP 403
+pracuj szukanie nuclear 1 https://www.pracuj.pl/praca/nuclear;kw: HTTP 403
+pracuj szukanie AP1000 1 https://www.pracuj.pl/praca/AP1000;kw: HTTP 403
+pracuj szukanie BWRX-300 1 https://www.pracuj.pl/praca/BWRX-300;kw: HTTP 403
+pracuj szukanie reaktor SMR 1 https://www.pracuj.pl/praca/reaktor%20SMR;kw: HTTP 403
+pracuj szukanie Lubiatowo 1 https://www.pracuj.pl/praca/Lubiatowo;kw: HTTP 403
+pracuj szukanie Choczewo 1 https://www.pracuj.pl/praca/Choczewo;kw: HTTP 403
+pracuj szukanie Świerk 1 https://www.pracuj.pl/praca/%C5%9Awierk;kw: HTTP 403
+pracuj szukanie ISO 19443 1 https://www.pracuj.pl/praca/ISO%2019443;kw: HTTP 403
+pracuj szukanie NQA-1 1 https://www.pracuj.pl/praca/NQA-1;kw: HTTP 403
+pracuj szukanie CFSI 1 https://www.pracuj.pl/praca/CFSI;kw: HTTP 403
+pracuj szukanie ITNS 1 https://www.pracuj.pl/praca/ITNS;kw: HTTP 403
+pracuj szukanie odpady promieniotwórcze 1 https://www.pracuj.pl/praca/odpady%20promieniotw%C3%B3rcze;kw: HTTP 403
+pracuj szukanie radiochemia 1 https://www.pracuj.pl/praca/radiochemia;kw: HTTP 403
+pracuj {'ok': False, 'err': 'pracuj.pl: 0 ofert - plik nie zapisany', 's': 19, 'od_startu': 36}
+ncbj {'ok': True, 'n': 6, 's': 11, 'od_startu': 47}
+kprm: 293 na liście, 8 w terminie
+kprm {'ok': True, 'n': (8, 0), 's': 117, 'od_startu': 164}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 165}
+lista kznpp: 6 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (6, 0), 's': 2, 'od_startu': 167}
+lista snn: 0 ofert, stron 1, 0 s, pełna: True
+snn {'ok': False, 'err': 'Nuclearelectrica: pusta lista', 's': 0, 'od_startu': 168}
+szc {'ok': True, 'n': (18, 1), 's': 4, 'od_startu': 171}
+hpc {'ok': True, 'n': (173, 6), 's': 21, 'od_startu': 192}
+iter {'ok': True, 'n': (26, 0), 's': 3, 'od_startu': 196}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1383628", "contestNo": "2026/0505 (203049)", "column": ["Associate Programme Officer(P1)", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-12-08, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 17}
+iaea {'ok': True, 'n': (16, 2), 's': 3, 'od_startu': 199}
+lista edfuk: 24 ofert, stron 3, 4 s, pełna: True
+edfuk {'ok': True, 'n': (24, 0), 's': 4, 'od_startu': 202}
+fortum {'ok': True, 'n': (28, 1), 's': 6, 'od_startu': 208}
+lista orano: 390 ofert, stron 66, 168 s, pełna: True
+orano {'ok': True, 'n': (390, 73), 's': 348, 'od_startu': 556}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 558}
+lista pr_gns: 8 ofert, stron 1, 0 s, pełna: True
+pr_gns {'ok': True, 'n': (8, 0), 's': 0, 'od_startu': 558}
+lista pr_blykalla: 20 ofert, stron 1, 0 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 0, 'od_startu': 558}
+lista pr_endel: 193 ofert, stron 11, 19 s, pełna: True
+pr_endel {'ok': True, 'n': (193, 2), 's': 22, 'od_startu': 581}
+lista pr_axpo: 84 ofert, stron 13, 28 s, pełna: True
+pr_axpo {'ok': True, 'n': (84, 2), 's': 30, 'od_startu': 611}
+lista pr_psi: 17 ofert, stron 1, 0 s, pełna: True
+pr_psi {'ok': True, 'n': (17, 0), 's': 0, 'od_startu': 611}
+lista pr_egis: 300 ofert, stron 26, 43 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 40), 's': 104, 'od_startu': 715}
+lista pr_nda: 0 ofert, stron 1, 1 s, pełna: True
+pr_nda {'ok': False, 'err': 'NDA group (Sellafield, NRS, NWS, NTS): pusta lista', 's': 1, 'od_startu': 716}
+lista pr_ukaea: 0 ofert, stron 1, 0 s, pełna: True
+pr_ukaea {'ok': False, 'err': 'UK Atomic Energy Authority (UKAEA): pusta lista', 's': 0, 'od_startu': 717}
+bechtel {'ok': True, 'n': (1224, 128, 6), 's': 194, 'od_startu': 911}
+wec {'ok': True, 'n': (1111, 82), 's': 170, 'od_startu': 1081}
+opg {'ok': False, 'err': 'opg: pusta lista', 's': 1, 'od_startu': 1081}

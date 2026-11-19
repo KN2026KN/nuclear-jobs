@@ -1,0 +1,35 @@
+ofert na stronie: 1353 | kraje: {'FR': 366, 'US': 335, 'GB': 247, 'PL': 130, 'SE': 115, 'RO': 53, 'CH': 20, 'ES': 16, 'AT': 16, 'IT': 15, 'DE': 13, 'BG': 8, 'CZ': 6, 'CA': 4, 'CN': 3, 'FI': 2, 'BE': 2, 'SK': 1, 'JP': 1} | sektory: {'bud': 418, 'dos': 624, 'odp': 34, 'eks': 183, 'nau': 71, 'doz': 23} | pracodawcy: 30 | pominięte: {'tylko_analiza': 0, 'po_terminie': 107, 'duplikat': 5}
+praca pl: strona 7194, zapisano 1353 ofert, status draft, zgodne po odczycie: True
+praca en: strona 7238, zapisano 1353 ofert, status draft, zgodne po odczycie: True
+panel: ofert w historii 2121 | otwartych 1459 | z wynagrodzeniem 742
+statystyki: 1465 otwartych, 0 tylko do analizy, 27 okresów
+statystyki: strona 7240 status private bajtów 280145
+czas do statystyk: 1415 s
+kursy: 2026-11-18 walut 49 | PPP krajów 206
+/home/runner/work/nuclear-jobs/nuclear-jobs/kod/zarobki.py:125: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  json.dump({'wygenerowano': dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC'), 'rekordy': rek, 'zawody': zaw, 'poziomy': POZIOMY, 'jawnosc': J,
+zarobki: odrzucone (kwota poza 6-400 tys. EUR/rok): 4
+zarobki: rekordów 1274 | status {'c': 149, 'o': 601, 'a': 524} | kraje {'US': 438, 'GB': 318, 'PL': 279, 'FR': 202, 'IT': 16, 'AT': 12, 'SE': 5, 'DE': 2, 'CH': 2}
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1116, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/json/decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/nuclear-jobs/nuclear-jobs/strona/zarobki_publikuj.py", line 19, in <module>
+    r.raise_for_status(); s = r.json()
+                              ^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/requests/models.py", line 1120, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
