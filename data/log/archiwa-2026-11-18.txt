@@ -1,1 +1,1 @@
-archiwum: celów 220 | przerobionych lat 21 | statusy {'dno': 157, 'w toku': 60, 'błąd archiwum': 2, 'brak w archiwum': 1} | czas 20016 s
+archiwum: celów 220 | przerobionych lat 16 | statusy {'dno': 157, 'w toku': 57, 'błąd archiwum': 5, 'brak w archiwum': 1} | czas 20264 s
