@@ -142,7 +142,27 @@ def fortum(out, day):
 
 def opg(out, day):
     # Ontario Power Generation (Darlington, Pickering, Darlington SMR) - poziom 2 (świat), filtr jądrowy
-    return _sf(out, day, 'opg', 'https://jobs.opg.com', 'q=nuclear&locationsearch=', 'Ontario Power Generation', 90, kraj='CA', filtr='jadrowy')
+    # 19.11.2026: wyniki wyszukiwania ładuje JavaScript (tabela pusta od 13.11) - lista z oficjalnego kanału RSS strony kariery
+    base = 'https://jobs.opg.com'
+    try: return _sf(out, day, 'opg', base, 'q=nuclear&locationsearch=', 'Ontario Power Generation', 90, kraj='CA', filtr='jadrowy')
+    except RuntimeError as e:
+        if 'pusta lista' not in str(e): raise
+    from collect import sf_szczegoly
+    x = BeautifulSoup(get(f'{base}/services/rss/job/?locale=en_GB&keywords=(nuclear)').text, 'html.parser')
+    WL = []
+    for it in x.find_all('item'):
+        link = (it.find('link').next_sibling if it.find('link') and not it.find('link').get_text(strip=True) else it.find('link').get_text(strip=True)) if it.find('link') else ''
+        link = str(link or (it.find('guid').get_text(strip=True) if it.find('guid') else '')).strip()
+        if not link.startswith(base): continue
+        WL.append({'path': link[len(base):], 'title': it.find('title').get_text(strip=True) if it.find('title') else '', 'loc': '',
+                   'date': it.find('pubdate').get_text(strip=True) if it.find('pubdate') else ''})
+    if not WL: raise RuntimeError('opg: pusta lista (wyszukiwarka i RSS)')
+    stare = poprzedni_dzien(os.path.join(out, f'kp_sw_opg_{day}.json')).get('tresci') or {}
+    J = sf_szczegoly(base, WL, 'opg', day, 90, {k: {'descHtml': v.get('html'), 'meta': v.get('meta')} for k, v in stare.items()})
+    lista = [{'id': w['path'], 'url': base + w['path'], 'tytul': w['title'], 'lokalizacja': w['loc'], 'data': w['date']} for w in WL]
+    zapisz(out, day, 'opg', {'pracodawca': 'Ontario Power Generation', 'kraj': 'CA', 'filtr': 'jadrowy'}, lista,
+           {k: {'html': v.get('descHtml'), 'meta': v.get('meta')} for k, v in J.items()})
+    return len(lista), len(J)
 
 def hpc(out, day):
     return _sf(out, day, 'hpc', 'https://hpcjobsservice.edfenergy.com', 'q=&locationsearch=', 'Hinkley Point C / Sizewell C Jobs Service (EDF i wykonawcy)', 180)

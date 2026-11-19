@@ -216,4 +216,15 @@ if __name__ == '__main__':
             report[w] = {'ok': False, 'err': str(e)[:300]}
         report[w]['s'] = round(time.time() - t); report[w]['od_startu'] = round(time.time() - swiat.START)
         print(w, report[w], flush=True)
+    # 19.11.2026: druga próba dla źródeł z pustą listą albo HTTP 403 (pracuj.pl, SNN, UKAEA, NDA - nocne blokady przejściowe; w dzień te same strony działały)
+    zle = [w for w in which if not report[w]['ok'] and re.search(r'pusta lista|0 ofert|HTTP 403|HTTP 5\d\d|timed out', report[w].get('err', ''))]
+    if zle and time.time() - swiat.START < 1200:
+        print('druga próba po 90 s:', zle, flush=True); time.sleep(90)
+        for w in zle:
+            if time.time() - swiat.START > 1350: print('druga próba: limit czasu', w); break
+            t = time.time()
+            try: report[w] = {'ok': True, 'n': globals()[w](out, day), 'druga_proba': True}
+            except Exception as e: report[w] = {'ok': False, 'err': str(e)[:300], 'druga_proba': True}
+            report[w]['s'] = round(time.time() - t); report[w]['od_startu'] = round(time.time() - swiat.START)
+            print(w, report[w], flush=True)
     json.dump(report, open(os.path.join(out, 'raport_zbierania.json'), 'w'), ensure_ascii=False, indent=1)
