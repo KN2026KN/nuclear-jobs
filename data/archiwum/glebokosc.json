@@ -374,7 +374,7 @@
   },
   "najstarszy": "20200805",
   "ofert_razem": 3557,
-  "ostatnio": "2026-11-20",
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "amentumcareers.com"
  },
@@ -864,13 +864,13 @@
   "bledow": 0,
   "firma": "Areva (Flamanville 3, Olkiluoto 3)",
   "gleboko_do": "2015",
-  "jadrowych_razem": 2293,
+  "jadrowych_razem": 2646,
   "kraj": "FR",
   "lata": {
    "2014": {
     "adresow": 20000,
-    "jadrowe": 0,
-    "pobrane": 0,
+    "jadrowe": 353,
+    "pobrane": 353,
     "szczegolow": 354
    },
    "2015": {
@@ -948,7 +948,7 @@
   },
   "najstarszy": "19981206",
   "nastepny_rok": 2014,
-  "ofert_razem": 2293,
+  "ofert_razem": 2646,
   "ostatnio": "2026-11-20",
   "status": "w toku",
   "url": "areva.com"
@@ -1106,13 +1106,13 @@
   "bledow": 0,
   "firma": "AtkinsRéalis",
   "gleboko_do": "2026",
-  "jadrowych_razem": 2532,
+  "jadrowych_razem": 2740,
   "kraj": "GB",
   "lata": {
    "2025": {
     "adresow": 19427,
-    "jadrowe": 259,
-    "pobrane": 260,
+    "jadrowe": 467,
+    "pobrane": 468,
     "szczegolow": 15791
    },
    "2026": {
@@ -1124,8 +1124,8 @@
   },
   "najstarszy": "20231001",
   "nastepny_rok": 2025,
-  "ofert_razem": 2822,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 3030,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "careers.atkinsrealis.com"
  },
@@ -1549,13 +1549,13 @@
   "bledow": 0,
   "firma": "Babcock International",
   "gleboko_do": "2026",
-  "jadrowych_razem": 4233,
+  "jadrowych_razem": 4639,
   "kraj": "GB",
   "lata": {
    "2025": {
     "adresow": 5189,
-    "jadrowe": 2279,
-    "pobrane": 2280,
+    "jadrowe": 2685,
+    "pobrane": 2686,
     "szczegolow": 3762
    },
    "2026": {
@@ -1567,8 +1567,8 @@
   },
   "najstarszy": "20161128",
   "nastepny_rok": 2025,
-  "ofert_razem": 4234,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 4640,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "jobs.babcockinternational.com"
  },
@@ -1610,13 +1610,13 @@
   "bledow": 0,
   "firma": "Bechtel",
   "gleboko_do": "2026",
-  "jadrowych_razem": 6658,
+  "jadrowych_razem": 7129,
   "kraj": "US",
   "lata": {
    "2025": {
     "adresow": 20000,
-    "jadrowe": 2613,
-    "pobrane": 2613,
+    "jadrowe": 3084,
+    "pobrane": 3084,
     "szczegolow": 14143
    },
    "2026": {
@@ -1628,7 +1628,7 @@
   },
   "najstarszy": "20121113",
   "nastepny_rok": 2025,
-  "ofert_razem": 6658,
+  "ofert_razem": 7129,
   "ostatnio": "2026-11-20",
   "status": "w toku",
   "url": "jobs.bechtel.com"
@@ -3488,10 +3488,16 @@
  "consejo_de_seguridad_nuclear_csn": {
   "bledow": 0,
   "firma": "Consejo de Seguridad Nuclear (CSN)",
-  "gleboko_do": "2023",
-  "jadrowych_razem": 211,
+  "gleboko_do": "2022",
+  "jadrowych_razem": 224,
   "kraj": "ES",
   "lata": {
+   "2021": {
+    "adresow": 20000,
+    "jadrowe": 13,
+    "pobrane": 13,
+    "szczegolow": 14
+   },
    "2022": {
     "adresow": 20000,
     "jadrowe": 25,
@@ -3524,9 +3530,9 @@
    }
   },
   "najstarszy": "19980525",
-  "nastepny_rok": 2022,
-  "ofert_razem": 215,
-  "ostatnio": "2026-11-20",
+  "nastepny_rok": 2021,
+  "ofert_razem": 228,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "csn.es"
  },
@@ -3534,13 +3540,13 @@
   "bledow": 0,
   "firma": "Constellation Energy",
   "gleboko_do": "2024",
-  "jadrowych_razem": 337,
+  "jadrowych_razem": 670,
   "kraj": "US",
   "lata": {
    "2023": {
     "adresow": 2516,
-    "jadrowe": 24,
-    "pobrane": 26,
+    "jadrowe": 357,
+    "pobrane": 490,
     "szczegolow": 798
    },
    "2024": {
@@ -3564,8 +3570,8 @@
   },
   "najstarszy": "20220305",
   "nastepny_rok": 2023,
-  "ofert_razem": 3416,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 3880,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "jobs.constellationenergy.com"
  },
@@ -3880,13 +3886,13 @@
   "bledow": 0,
   "firma": "Dominion Energy",
   "gleboko_do": "2026",
-  "jadrowych_razem": 763,
+  "jadrowych_razem": 879,
   "kraj": "US",
   "lata": {
    "2025": {
     "adresow": 6803,
-    "jadrowe": 271,
-    "pobrane": 784,
+    "jadrowe": 387,
+    "pobrane": 1226,
     "szczegolow": 4719
    },
    "2026": {
@@ -3898,8 +3904,8 @@
   },
   "najstarszy": "20170703",
   "nastepny_rok": 2025,
-  "ofert_razem": 2867,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 3309,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "careers.dominionenergy.com"
  },
@@ -4270,19 +4276,19 @@
   "bledow": 0,
   "firma": "Egis",
   "gleboko_do": null,
-  "jadrowych_razem": 317,
+  "jadrowych_razem": 376,
   "kraj": "FR",
   "lata": {
    "2026": {
     "adresow": 6512,
-    "jadrowe": 317,
-    "pobrane": 4234,
+    "jadrowe": 376,
+    "pobrane": 4713,
     "szczegolow": 6294
    }
   },
   "najstarszy": "20241112",
-  "ofert_razem": 4234,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 4713,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "jobs.egis-group.com"
  },
@@ -4360,13 +4366,13 @@
   "bledow": 0,
   "firma": "EnBW Kernkraft",
   "gleboko_do": "2026",
-  "jadrowych_razem": 33,
+  "jadrowych_razem": 52,
   "kraj": "DE",
   "lata": {
    "2025": {
     "adresow": 17110,
-    "jadrowe": 11,
-    "pobrane": 618,
+    "jadrowe": 30,
+    "pobrane": 983,
     "szczegolow": 4762
    },
    "2026": {
@@ -4378,8 +4384,8 @@
   },
   "najstarszy": "19981202",
   "nastepny_rok": 2025,
-  "ofert_razem": 2166,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 2531,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "enbw.com"
  },
@@ -6237,10 +6243,46 @@
  "fusion_for_energy_f4e": {
   "bledow": 0,
   "firma": "Fusion for Energy (F4E)",
-  "gleboko_do": "2015",
-  "jadrowych_razem": 205,
+  "gleboko_do": "2008",
+  "jadrowych_razem": 243,
   "kraj": "ES",
   "lata": {
+   "2008": {
+    "adresow": 58,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2009": {
+    "adresow": 1064,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2010": {
+    "adresow": 1650,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2011": {
+    "adresow": 1748,
+    "jadrowe": 7,
+    "pobrane": 7,
+    "szczegolow": 7
+   },
+   "2012": {
+    "adresow": 1264,
+    "jadrowe": 0,
+    "pobrane": 0,
+    "szczegolow": 0
+   },
+   "2013": {
+    "adresow": 1542,
+    "jadrowe": 31,
+    "pobrane": 31,
+    "szczegolow": 31
+   },
    "2014": {
     "adresow": 4122,
     "jadrowe": 34,
@@ -6321,9 +6363,9 @@
    }
   },
   "najstarszy": "20070708",
-  "nastepny_rok": 2014,
-  "ofert_razem": 205,
-  "ostatnio": "2026-11-20",
+  "nastepny_rok": 2007,
+  "ofert_razem": 243,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "fusionforenergy.europa.eu"
  },
@@ -6364,19 +6406,19 @@
   "bledow": 0,
   "firma": "GE Vernova Hitachi Nuclear Energy",
   "gleboko_do": null,
-  "jadrowych_razem": 2760,
+  "jadrowych_razem": 3023,
   "kraj": "US",
   "lata": {
    "2026": {
     "adresow": 10726,
-    "jadrowe": 2760,
-    "pobrane": 2760,
+    "jadrowe": 3023,
+    "pobrane": 3023,
     "szczegolow": 10316
    }
   },
   "najstarszy": "20251206",
-  "ofert_razem": 2760,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 3023,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "careers.gevernova.com"
  },
@@ -8034,8 +8076,7 @@
   "url": "www.iter.org/public/jobs"
  },
  "jacobs": {
-  "blad": "HTTP 504",
-  "bledow": 1,
+  "bledow": 0,
   "firma": "Jacobs",
   "gleboko_do": "2024",
   "jadrowych_razem": 20,
@@ -8044,7 +8085,7 @@
    "2023": {
     "adresow": 16260,
     "jadrowe": 0,
-    "pobrane": 287,
+    "pobrane": 426,
     "szczegolow": 3006
    },
    "2024": {
@@ -8068,22 +8109,22 @@
   },
   "najstarszy": "20010220",
   "nastepny_rok": 2023,
-  "ofert_razem": 628,
+  "ofert_razem": 767,
   "ostatnio": "2026-11-20",
-  "status": "błąd archiwum",
+  "status": "w toku",
   "url": "jacobs.com"
  },
  "jacobs_polska_atkinsr_alis_polska": {
   "bledow": 0,
   "firma": "Jacobs Polska / AtkinsRéalis Polska",
   "gleboko_do": "2026",
-  "jadrowych_razem": 3492,
+  "jadrowych_razem": 3854,
   "kraj": "PL",
   "lata": {
    "2025": {
     "adresow": 19427,
-    "jadrowe": 1219,
-    "pobrane": 1223,
+    "jadrowe": 1581,
+    "pobrane": 1613,
     "szczegolow": 15791
    },
    "2026": {
@@ -8095,7 +8136,7 @@
   },
   "najstarszy": "20231001",
   "nastepny_rok": 2025,
-  "ofert_razem": 3784,
+  "ofert_razem": 4174,
   "ostatnio": "2026-11-20",
   "status": "w toku",
   "url": "careers.atkinsrealis.com"
@@ -9098,13 +9139,13 @@
   "bledow": 0,
   "firma": "Mangiarotti",
   "gleboko_do": "2026",
-  "jadrowych_razem": 1812,
+  "jadrowych_razem": 2033,
   "kraj": "IT",
   "lata": {
    "2025": {
     "adresow": 11989,
-    "jadrowe": 171,
-    "pobrane": 373,
+    "jadrowe": 392,
+    "pobrane": 821,
     "szczegolow": 4495
    },
    "2026": {
@@ -9116,14 +9157,14 @@
   },
   "najstarszy": "20040215",
   "nastepny_rok": 2025,
-  "ofert_razem": 3754,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 4202,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "westinghousenuclear.com"
  },
  "max_planck_institut_f_r_plasmaphysik_ipp": {
-  "blad": "HTTP 504",
-  "bledow": 12,
+  "blad": "HTTP 503",
+  "bledow": 13,
   "firma": "Max-Planck-Institut für Plasmaphysik (IPP)",
   "gleboko_do": "2026",
   "jadrowych_razem": 0,
@@ -9139,7 +9180,7 @@
   "najstarszy": "19970706",
   "nastepny_rok": 2025,
   "ofert_razem": 0,
-  "ostatnio": "2026-11-20",
+  "ostatnio": "2026-11-21",
   "status": "błąd archiwum",
   "url": "ipp.mpg.de"
  },
@@ -12770,7 +12811,7 @@
   "najstarszy": "20131103",
   "nastepny_rok": 2022,
   "ofert_razem": 218,
-  "ostatnio": "2026-11-20",
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "careers.sellafieldsite.co.uk"
  },
@@ -13256,13 +13297,13 @@
   "bledow": 0,
   "firma": "Southern Nuclear",
   "gleboko_do": "2026",
-  "jadrowych_razem": 119,
+  "jadrowych_razem": 128,
   "kraj": "US",
   "lata": {
    "2025": {
     "adresow": 5097,
-    "jadrowe": 36,
-    "pobrane": 1174,
+    "jadrowe": 45,
+    "pobrane": 1525,
     "szczegolow": 3269
    },
    "2026": {
@@ -13274,8 +13315,8 @@
   },
   "najstarszy": "20170723",
   "nastepny_rok": 2025,
-  "ofert_razem": 3548,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 3899,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "southerncompany.jobs"
  },
@@ -13283,13 +13324,13 @@
   "bledow": 0,
   "firma": "Southern Company (Vogtle 3-4)",
   "gleboko_do": "2025",
-  "jadrowych_razem": 294,
+  "jadrowych_razem": 328,
   "kraj": "US",
   "lata": {
    "2024": {
     "adresow": 3775,
-    "jadrowe": 60,
-    "pobrane": 708,
+    "jadrowe": 94,
+    "pobrane": 1117,
     "szczegolow": 2249
    },
    "2025": {
@@ -13307,7 +13348,7 @@
   },
   "najstarszy": "20170723",
   "nastepny_rok": 2024,
-  "ofert_razem": 6351,
+  "ofert_razem": 6760,
   "ostatnio": "2026-11-20",
   "status": "w toku",
   "url": "southerncompany.jobs"
@@ -15818,19 +15859,19 @@
   "bledow": 0,
   "firma": "Vattenfall",
   "gleboko_do": null,
-  "jadrowych_razem": 2098,
+  "jadrowych_razem": 2252,
   "kraj": "SE",
   "lata": {
    "2026": {
     "adresow": 5356,
-    "jadrowe": 2098,
-    "pobrane": 3918,
+    "jadrowe": 2252,
+    "pobrane": 4337,
     "szczegolow": 4930
    }
   },
   "najstarszy": "20190720",
-  "ofert_razem": 3918,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 4337,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "careers.vattenfall.com"
  },
@@ -15944,13 +15985,13 @@
   "bledow": 0,
   "firma": "Westinghouse Electric Company",
   "gleboko_do": "2026",
-  "jadrowych_razem": 6381,
+  "jadrowych_razem": 6836,
   "kraj": "US",
   "lata": {
    "2025": {
     "adresow": 5026,
-    "jadrowe": 3002,
-    "pobrane": 3002,
+    "jadrowe": 3457,
+    "pobrane": 3457,
     "szczegolow": 4494
    },
    "2026": {
@@ -15962,7 +16003,7 @@
   },
   "najstarszy": "20201001",
   "nastepny_rok": 2025,
-  "ofert_razem": 6381,
+  "ofert_razem": 6836,
   "ostatnio": "2026-11-20",
   "status": "w toku",
   "url": "careers.westinghousenuclear.com"
@@ -15971,13 +16012,13 @@
   "bledow": 0,
   "firma": "Westinghouse Electric Sweden",
   "gleboko_do": "2026",
-  "jadrowych_razem": 4094,
+  "jadrowych_razem": 4491,
   "kraj": "SE",
   "lata": {
    "2025": {
     "adresow": 11989,
-    "jadrowe": 713,
-    "pobrane": 713,
+    "jadrowe": 1110,
+    "pobrane": 1110,
     "szczegolow": 4495
    },
    "2026": {
@@ -15989,8 +16030,8 @@
   },
   "najstarszy": "20040215",
   "nastepny_rok": 2025,
-  "ofert_razem": 4094,
-  "ostatnio": "2026-11-20",
+  "ofert_razem": 4491,
+  "ostatnio": "2026-11-21",
   "status": "w toku",
   "url": "westinghousenuclear.com"
  },
