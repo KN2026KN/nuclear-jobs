@@ -1,0 +1,60 @@
+pominięte - zakaz właściciela strony: ['cez', 'pr_nagra']
+pej {'ok': True, 'n': (4, 4), 's': 20, 'od_startu': 20}
+pracuj {'ok': True, 'n': 11, 's': 27, 'od_startu': 48}
+ncbj {'ok': True, 'n': 6, 's': 11, 'od_startu': 59}
+kprm: 293 na liście, 0 w terminie
+kprm {'ok': False, 'err': 'KPRM: pusta lista', 's': 118, 'od_startu': 177}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 178}
+lista kznpp: 8 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (8, 2), 's': 5, 'od_startu': 183}
+lista https://nuclearelectrica.ro/snn/category/joburi/page/8/ https://nuclearelectrica.ro/snn/category/joburi/page/8/: HTTP 404
+lista snn: 65 ofert, stron 8, 15 s, pełna: True
+snn {'ok': True, 'n': (65, 1), 's': 17, 'od_startu': 200}
+szc {'ok': True, 'n': (19, 1), 's': 4, 'od_startu': 204}
+hpc {'ok': True, 'n': (183, 3), 's': 30, 'od_startu': 234}
+iter {'ok': True, 'n': (27, 1), 's': 6, 'od_startu': 240}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1368983", "contestNo": "2026/0458 (004208)", "column": ["Section Head (IT Client Services)(P5)", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-12-14, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 22}
+iaea {'ok': True, 'n': (21, 3), 's': 5, 'od_startu': 244}
+lista edfuk: 26 ofert, stron 4, 5 s, pełna: True
+edfuk {'ok': True, 'n': (26, 6), 's': 14, 'od_startu': 258}
+fortum {'ok': True, 'n': (18, 1), 's': 5, 'od_startu': 264}
+lista cea: 780 ofert, stron 79, 122 s, pełna: True
+cea {'ok': True, 'n': (780, 107), 's': 303, 'od_startu': 567}
+lista vattenfall: 186 ofert, stron 17, 25 s, pełna: True
+vattenfall {'ok': True, 'n': (186, 6), 's': 34, 'od_startu': 601}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 603}
+lista pr_gns: 7 ofert, stron 1, 1 s, pełna: True
+pr_gns {'ok': True, 'n': (7, 0), 's': 1, 'od_startu': 603}
+lista pr_blykalla: 20 ofert, stron 1, 0 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 0, 'od_startu': 603}
+lista pr_endel: 191 ofert, stron 11, 20 s, pełna: True
+pr_endel {'ok': True, 'n': (191, 0), 's': 20, 'od_startu': 623}
+lista pr_axpo: 89 ofert, stron 13, 27 s, pełna: True
+pr_axpo {'ok': True, 'n': (89, 2), 's': 30, 'od_startu': 653}
+lista pr_psi: 14 ofert, stron 1, 1 s, pełna: True
+pr_psi {'ok': True, 'n': (14, 0), 's': 1, 'od_startu': 653}
+lista pr_egis: 300 ofert, stron 26, 43 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 40), 's': 104, 'od_startu': 757}
+lista pr_nda: 30 ofert, stron 5, 13 s, pełna: True
+pr_nda {'ok': True, 'n': (30, 5), 's': 19, 'od_startu': 776}
+lista pr_ukaea: 10 ofert, stron 1, 2 s, pełna: True
+pr_ukaea {'ok': True, 'n': (10, 3), 's': 7, 'od_startu': 783}
+bechtel {'ok': True, 'n': (1271, 131, 8), 's': 212, 'od_startu': 995}
+wec {'ok': True, 'n': (1105, 18), 's': 87, 'od_startu': 1082}
+/home/runner/work/nuclear-jobs/nuclear-jobs/collect/swiat.py:151: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  x = BeautifulSoup(get(f'{base}/services/rss/job/?locale=en_GB&keywords=(nuclear)').text, 'html.parser')
+opg {'ok': True, 'n': (20, 0), 's': 2, 'od_startu': 1084}
+druga próba po 90 s: ['kprm']
+kprm: 293 na liście, 0 w terminie
+kprm {'ok': False, 'err': 'KPRM: pusta lista', 'druga_proba': True, 's': 114, 'od_startu': 1288}
