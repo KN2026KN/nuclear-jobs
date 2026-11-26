@@ -1,0 +1,8 @@
+ofert na stronie: 1468 | kraje: {'FR': 416, 'US': 319, 'GB': 315, 'SE': 127, 'PL': 122, 'RO': 61, 'AT': 23, 'CH': 19, 'IT': 14, 'DE': 12, 'ES': 11, 'BG': 10, 'CZ': 6, 'CA': 5, 'FI': 2, 'BE': 2, 'CN': 2, 'SK': 1, 'JP': 1} | sektory: {'bud': 450, 'dos': 640, 'odp': 69, 'eks': 202, 'nau': 84, 'doz': 23} | pracodawcy: 29 | pominięte: {'tylko_analiza': 0, 'po_terminie': 116, 'duplikat': 5}
+praca pl: strona 7194, zapisano 1468 ofert, status draft, zgodne po odczycie: True
+praca en: strona 7238, zapisano 1468 ofert, status draft, zgodne po odczycie: True
+panel: ofert w historii 2467 | otwartych 1584 | z wynagrodzeniem 863
+statystyki: 1589 otwartych, 0 tylko do analizy, 34 okresów
+statystyki: strona 7240 status private bajtów 309776
+czas do statystyk: 2191 s
+kursy: 2026-11-25 walut 49 | PPP krajów 206
