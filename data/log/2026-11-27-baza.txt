@@ -1,0 +1,127 @@
+UWAGA 2026-11-10 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 cea: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 cea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 snn: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-10 snn: 42 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-10 vattenfall: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 kprm: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_egis: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_nda: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-11 pr_ukaea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 kprm: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 pr_nda: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-12 pr_ukaea: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-13 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-13 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-14 pr_ukaea: 5 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-15 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-15 pej: 2 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-15 pracuj: 8 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-15 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-15 orano: 119 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-16 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-16 pej: 2 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-16 pracuj: 8 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-16 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-17 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-17 pej: 2 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-17 pracuj: 8 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-17 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-17 snn: lista niepełna - bez zamykania ofert
+UWAGA 2026-11-17 snn: 53 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-18 ncbj: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-18 pej: 3 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-18 kprm: 13 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-18 pr_nda: 1 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-19 pej: 3 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-19 kprm: 7 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-19 szc: 18 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-20 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-20 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-20 pr_egis: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-20 szc: 14 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-21 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-21 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-21 szc: 19 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-22 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-22 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-22 szc: 19 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-23 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-23 fortum: 7 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-23 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-23 szc: 18 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-24 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-24 fortum: 6 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-24 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-24 szc: 19 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-24 vattenfall: 54 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-25 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-25 fortum: 6 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-25 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-25 szc: 17 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-26 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-26 fortum: 5 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-26 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-26 szc: 17 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-26 vattenfall: 51 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-27 pej: 4 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-27 fortum: 6 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-27 opg: 0 ofert - wczytane bez zamykania ofert
+UWAGA 2026-11-27 szc: 17 ofert - wczytane bez zamykania ofert
+('bechtel', 'closed', 47)
+('bechtel', 'open', 131)
+('cea', 'closed', 7)
+('cea', 'open', 41)
+('cez', 'closed', 1)
+('cez', 'open', 6)
+('clor', 'open', 3)
+('edfuk', 'closed', 22)
+('edfuk', 'open', 9)
+('fortum', 'closed', 2)
+('fortum', 'open', 13)
+('hpc', 'closed', 73)
+('hpc', 'open', 207)
+('iaea', 'closed', 9)
+('iaea', 'open', 23)
+('iter', 'closed', 1)
+('iter', 'open', 27)
+('kprm', 'open', 110)
+('kznpp', 'closed', 2)
+('kznpp', 'open', 8)
+('ncbj', 'open', 1)
+('orano', 'closed', 253)
+('orano', 'open', 188)
+('pej', 'closed', 96)
+('pej', 'open', 9)
+('pr_anav', 'open', 2)
+('pr_axpo', 'closed', 6)
+('pr_axpo', 'open', 14)
+('pr_blykalla', 'closed', 1)
+('pr_blykalla', 'open', 20)
+('pr_egis', 'closed', 35)
+('pr_egis', 'open', 35)
+('pr_endel', 'closed', 4)
+('pr_endel', 'open', 92)
+('pr_gns', 'closed', 3)
+('pr_gns', 'open', 5)
+('pr_nagra', 'open', 2)
+('pr_nda', 'closed', 13)
+('pr_nda', 'open', 35)
+('pr_psi', 'open', 2)
+('pr_ukaea', 'closed', 28)
+('pr_ukaea', 'open', 10)
+('pracuj', 'closed', 9)
+('pracuj', 'open', 11)
+('snn', 'closed', 7)
+('snn', 'open', 61)
+('szc', 'closed', 11)
+('szc', 'open', 43)
+('vattenfall', 'closed', 6)
+('vattenfall', 'open', 90)
+('westinghouse', 'closed', 387)
+('westinghouse', 'open', 394)
+migawki listy PEJ: (18, 3)
