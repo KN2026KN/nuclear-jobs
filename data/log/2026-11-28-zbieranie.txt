@@ -1,0 +1,96 @@
+pominięte - zakaz właściciela strony: ['cez', 'pr_nagra']
+pej {'ok': True, 'n': (4, 4), 's': 20, 'od_startu': 20}
+pracuj szukanie jądrowa 1 https://www.pracuj.pl/praca/j%C4%85drowa;kw: HTTP 403
+pracuj szukanie atomistyka 1 https://www.pracuj.pl/praca/atomistyka;kw: HTTP 403
+pracuj szukanie nuclear 1 https://www.pracuj.pl/praca/nuclear;kw: HTTP 403
+pracuj szukanie AP1000 1 https://www.pracuj.pl/praca/AP1000;kw: HTTP 403
+pracuj szukanie BWRX-300 1 https://www.pracuj.pl/praca/BWRX-300;kw: HTTP 403
+pracuj szukanie reaktor SMR 1 https://www.pracuj.pl/praca/reaktor%20SMR;kw: HTTP 403
+pracuj szukanie Lubiatowo 1 https://www.pracuj.pl/praca/Lubiatowo;kw: HTTP 403
+pracuj szukanie Choczewo 1 https://www.pracuj.pl/praca/Choczewo;kw: HTTP 403
+pracuj szukanie Świerk 1 https://www.pracuj.pl/praca/%C5%9Awierk;kw: HTTP 403
+pracuj szukanie ISO 19443 1 https://www.pracuj.pl/praca/ISO%2019443;kw: HTTP 403
+pracuj szukanie NQA-1 1 https://www.pracuj.pl/praca/NQA-1;kw: HTTP 403
+pracuj szukanie CFSI 1 https://www.pracuj.pl/praca/CFSI;kw: HTTP 403
+pracuj szukanie ITNS 1 https://www.pracuj.pl/praca/ITNS;kw: HTTP 403
+pracuj szukanie odpady promieniotwórcze 1 https://www.pracuj.pl/praca/odpady%20promieniotw%C3%B3rcze;kw: HTTP 403
+pracuj szukanie radiochemia 1 https://www.pracuj.pl/praca/radiochemia;kw: HTTP 403
+pracuj {'ok': False, 'err': 'pracuj.pl: 0 ofert - plik nie zapisany', 's': 19, 'od_startu': 39}
+ncbj {'ok': True, 'n': 6, 's': 11, 'od_startu': 50}
+kprm: 293 na liście, 0 w terminie
+kprm {'ok': False, 'err': 'KPRM: pusta lista', 's': 117, 'od_startu': 167}
+clor {'ok': True, 'n': 3, 's': 1, 'od_startu': 168}
+lista kznpp: 11 ofert, stron 2, 2 s, pełna: True
+kznpp {'ok': True, 'n': (11, 3), 's': 7, 'od_startu': 174}
+lista snn: 0 ofert, stron 1, 0 s, pełna: True
+snn {'ok': False, 'err': 'Nuclearelectrica: pusta lista', 's': 0, 'od_startu': 175}
+szc {'ok': True, 'n': (17, 1), 's': 4, 'od_startu': 179}
+hpc {'ok': True, 'n': (216, 15), 's': 40, 'od_startu': 218}
+iter {'ok': True, 'n': (27, 0), 's': 4, 'od_startu': 222}
+iaea diag ['requisitionList', 'facetResults', 'pagingData', 'queryString', 'careerSectionUnAvailable', 'supportedLanguages'] [{"hotJob": false, "addedToJobCart": false, "draft": false, "alreadyAppliedOn": false, "toReApply": false, "jobId": "1383517", "contestNo": "TAL-NENP20261117-001", "column": ["Consultant - Country Nuclear Power Profiles (CNPP)", "[\"Austria-Vienna-Vienna-IAEA Headquarters\"]", "2026-12-11, 11:59:00 PM"], "linkedColumn": 0, "locationsColumns": [1]}] {"currentPageNo": 1, "pageSize": 25, "totalCount": 23}
+iaea {'ok': True, 'n': (22, 1), 's': 2, 'od_startu': 224}
+lista edfuk: 26 ofert, stron 4, 5 s, pełna: True
+edfuk {'ok': True, 'n': (26, 3), 's': 10, 'od_startu': 233}
+fortum {'ok': True, 'n': (10, 1), 's': 5, 'od_startu': 239}
+lista cea: 727 ofert, stron 74, 117 s, pełna: True
+cea {'ok': True, 'n': (727, 57), 's': 214, 'od_startu': 453}
+lista vattenfall: 206 ofert, stron 19, 28 s, pełna: True
+vattenfall {'ok': True, 'n': (206, 28), 's': 69, 'od_startu': 521}
+lista pr_anav: 2 ofert, stron 1, 2 s, pełna: True
+pr_anav {'ok': True, 'n': (2, 0), 's': 2, 'od_startu': 523}
+lista pr_gns: 5 ofert, stron 1, 1 s, pełna: True
+pr_gns {'ok': True, 'n': (5, 0), 's': 1, 'od_startu': 524}
+lista pr_blykalla: 20 ofert, stron 1, 0 s, pełna: True
+pr_blykalla {'ok': True, 'n': (20, 0), 's': 0, 'od_startu': 524}
+lista pr_endel: 188 ofert, stron 11, 20 s, pełna: True
+pr_endel {'ok': True, 'n': (188, 1), 's': 21, 'od_startu': 545}
+lista pr_axpo: 77 ofert, stron 10, 19 s, pełna: True
+pr_axpo {'ok': True, 'n': (77, 4), 's': 24, 'od_startu': 569}
+lista pr_psi: 15 ofert, stron 1, 0 s, pełna: True
+pr_psi {'ok': True, 'n': (15, 2), 's': 3, 'od_startu': 572}
+lista pr_egis: 300 ofert, stron 26, 43 s, pełna: True
+pr_egis {'ok': True, 'n': (300, 38), 's': 100, 'od_startu': 672}
+lista pr_nda: 36 ofert, stron 6, 15 s, pełna: True
+pr_nda {'ok': True, 'n': (36, 3), 's': 17, 'od_startu': 689}
+lista pr_ukaea: 0 ofert, stron 1, 1 s, pełna: True
+pr_ukaea {'ok': False, 'err': 'UK Atomic Energy Authority (UKAEA): pusta lista', 's': 1, 'od_startu': 690}
+bechtel {'ok': True, 'n': (1289, 129, 2), 's': 196, 'od_startu': 886}
+wec {'ok': True, 'n': (1094, 104), 's': 195, 'od_startu': 1081}
+/home/runner/work/nuclear-jobs/nuclear-jobs/collect/swiat.py:151: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  x = BeautifulSoup(get(f'{base}/services/rss/job/?locale=en_GB&keywords=(nuclear)').text, 'html.parser')
+opg {'ok': True, 'n': (20, 0), 's': 2, 'od_startu': 1083}
+druga próba po 90 s: ['pracuj', 'kprm', 'snn', 'pr_ukaea']
+pracuj szukanie jądrowa 1 https://www.pracuj.pl/praca/j%C4%85drowa;kw: HTTP 403
+pracuj szukanie atomistyka 1 https://www.pracuj.pl/praca/atomistyka;kw: HTTP 403
+pracuj szukanie nuclear 1 https://www.pracuj.pl/praca/nuclear;kw: HTTP 403
+pracuj szukanie AP1000 1 https://www.pracuj.pl/praca/AP1000;kw: HTTP 403
+pracuj szukanie BWRX-300 1 https://www.pracuj.pl/praca/BWRX-300;kw: HTTP 403
+pracuj szukanie reaktor SMR 1 https://www.pracuj.pl/praca/reaktor%20SMR;kw: HTTP 403
+pracuj szukanie Lubiatowo 1 https://www.pracuj.pl/praca/Lubiatowo;kw: HTTP 403
+pracuj szukanie Choczewo 1 https://www.pracuj.pl/praca/Choczewo;kw: HTTP 403
+pracuj szukanie Świerk 1 https://www.pracuj.pl/praca/%C5%9Awierk;kw: HTTP 403
+pracuj szukanie ISO 19443 1 https://www.pracuj.pl/praca/ISO%2019443;kw: HTTP 403
+pracuj szukanie NQA-1 1 https://www.pracuj.pl/praca/NQA-1;kw: HTTP 403
+pracuj szukanie CFSI 1 https://www.pracuj.pl/praca/CFSI;kw: HTTP 403
+pracuj szukanie ITNS 1 https://www.pracuj.pl/praca/ITNS;kw: HTTP 403
+pracuj szukanie odpady promieniotwórcze 1 https://www.pracuj.pl/praca/odpady%20promieniotw%C3%B3rcze;kw: HTTP 403
+pracuj szukanie radiochemia 1 https://www.pracuj.pl/praca/radiochemia;kw: HTTP 403
+pracuj {'ok': False, 'err': 'pracuj.pl: 0 ofert - plik nie zapisany', 'druga_proba': True, 's': 19, 'od_startu': 1192}
+kprm: 293 na liście, 0 w terminie
+kprm {'ok': False, 'err': 'KPRM: pusta lista', 'druga_proba': True, 's': 114, 'od_startu': 1306}
+lista: limit czasu snn
+lista snn: 0 ofert, stron 1, 0 s, pełna: False
+snn {'ok': False, 'err': 'Nuclearelectrica: pusta lista', 'druga_proba': True, 's': 0, 'od_startu': 1306}
+lista: limit czasu pr_ukaea
+lista pr_ukaea: 0 ofert, stron 1, 0 s, pełna: False
+pr_ukaea {'ok': False, 'err': 'UK Atomic Energy Authority (UKAEA): pusta lista', 'druga_proba': True, 's': 0, 'od_startu': 1306}
